@@ -1,19 +1,38 @@
-//******************
-// Project: 10_TIMER2
-//
-// DESCRIPTION:
-//  Timer applications - PWM
-//
-// CREATED: 04.02.2025, by Fatih Kaptan
-//
-// FILE: main.c
-// EWDIR: C:\iar\ewarm-8.50.9
-//
-//******************
+/**
+ * @file main.c
+ * @brief Timer2 PWM Application for STM32F411CE
+ * @author Fatih Kaptan
+ * @date 04.02.2025
+ * @version 1.0
+ * 
+ * @details This application demonstrates Timer2 PWM generation and interrupt handling
+ *          on STM32F411CE BlackPill board. Features include:
+ *          - PWM signal generation
+ *          - Timer interrupt handling  
+ *          - Real-time performance monitoring
+ *          - LED control with timer events
+ * 
+ * @note Compiled with IAR EWARM 8.50.9
+ * @warning Ensure proper clock configuration before use
+ */
 
 #include "main.h"
 
-
+/**
+ * @brief Main application entry point
+ * @return int Return status (never reached in embedded application)
+ * 
+ * @details Initializes the system and enters the main application loop.
+ *          The main loop handles:
+ *          - LED task execution
+ *          - Button state monitoring  
+ *          - PWM duty cycle adjustment
+ *          - System timing coordination
+ * 
+ * @see init() for system initialization details
+ * @see Task_LED() for LED control implementation
+ * @see Task_Button() for button handling
+ */
 int main()
 {
     
