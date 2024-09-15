@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\iar8509\common\bin\cspybat" -f "D:\kod\Project_ARM\05_UART_LCD\settings\05_UART_LCD.Debug.general.xcl" --backend -f "D:\kod\Project_ARM\05_UART_LCD\settings\05_UART_LCD.Debug.driver.xcl" 
+"C:\iar8509\common\bin\cspybat" -f "D:\05_UART_LCD\settings\05_UART_LCD.Debug.general.xcl" --backend -f "D:\05_UART_LCD\settings\05_UART_LCD.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\iar8509\common\bin\cspybat" -f "D:\kod\Project_ARM\05_UART_LCD\settings\05_UART_LCD.Debug.general.xcl" "--debug_file=%~1" --backend -f "D:\kod\Project_ARM\05_UART_LCD\settings\05_UART_LCD.Debug.driver.xcl" 
+"C:\iar8509\common\bin\cspybat" -f "D:\05_UART_LCD\settings\05_UART_LCD.Debug.general.xcl" "--debug_file=%~1" --backend -f "D:\05_UART_LCD\settings\05_UART_LCD.Debug.driver.xcl" 
 
 @echo off 
 :end
