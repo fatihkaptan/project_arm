@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\iar8509\common\bin\cspybat" -f "D:\kod\Project_ARM\05_UART_LCD\settings\05_UART_LCD.Debug.general.xcl" --backend -f "D:\kod\Project_ARM\05_UART_LCD\settings\05_UART_LCD.Debug.driver.xcl" 
+& "C:\iar8509\common\bin\cspybat" -f "D:\kod\git\project_arm\CortexM4\BlackPill_STM32F411CE\05_UART_LCD\settings\05_UART_LCD.Debug.general.xcl" --backend -f "D:\kod\git\project_arm\CortexM4\BlackPill_STM32F411CE\05_UART_LCD\settings\05_UART_LCD.Debug.driver.xcl" 
 }
 else
 {
-& "C:\iar8509\common\bin\cspybat" -f "D:\kod\Project_ARM\05_UART_LCD\settings\05_UART_LCD.Debug.general.xcl" --debug_file=$debugfile --backend -f "D:\kod\Project_ARM\05_UART_LCD\settings\05_UART_LCD.Debug.driver.xcl" 
+& "C:\iar8509\common\bin\cspybat" -f "D:\kod\git\project_arm\CortexM4\BlackPill_STM32F411CE\05_UART_LCD\settings\05_UART_LCD.Debug.general.xcl" --debug_file=$debugfile --backend -f "D:\kod\git\project_arm\CortexM4\BlackPill_STM32F411CE\05_UART_LCD\settings\05_UART_LCD.Debug.driver.xcl" 
 }

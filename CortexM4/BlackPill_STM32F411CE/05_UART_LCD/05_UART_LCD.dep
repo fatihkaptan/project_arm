@@ -5,123 +5,148 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\lcd.h</file>
-            <file>$PROJ_DIR$\system.c</file>
-            <file>$PROJ_DIR$\lcd.c</file>
-            <file>$PROJ_DIR$\system.h</file>
-            <file>$PROJ_DIR$\Periph_BlackPill\inc\stm32f4xx_flash.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_rcc.xcl</file>
-            <file>$PROJ_DIR$\Core_BlackPill\system_stm32f4xx.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_rcc.o</file>
-            <file>$PROJ_DIR$\Core_BlackPill\delay.s</file>
-            <file>$PROJ_DIR$\io.c</file>
-            <file>$PROJ_DIR$\main.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_rcc.__cstat.et</file>
-            <file>$PROJ_DIR$\io.h</file>
-            <file>$PROJ_DIR$\Periph_BlackPill\inc\stm32f4xx_iwdg.h</file>
-            <file>$PROJ_DIR$\Periph_BlackPill\inc\stm32f4xx_syscfg.h</file>
             <file>$PROJ_DIR$\Periph_BlackPill\inc\stm32f4xx_pwr.h</file>
-            <file>$PROJ_DIR$\Core_BlackPill\stm32f4xx_it.h</file>
-            <file>$PROJ_DIR$\Periph_BlackPill\src\stm32f4xx_gpio.c</file>
-            <file>$PROJ_DIR$\Core_BlackPill\system_stm32f4xx.c</file>
-            <file>$PROJ_DIR$\Core_BlackPill\startup_stm32f411xe.s</file>
-            <file>$PROJ_DIR$\Periph_BlackPill\inc\stm32f4xx_gpio.h</file>
-            <file>$PROJ_DIR$\Core_BlackPill\stm32f4xx.h</file>
-            <file>$PROJ_DIR$\Core_BlackPill\stm32f4xx_conf.h</file>
-            <file>$PROJ_DIR$\Core_BlackPill\stm32f4xx_it.c</file>
-            <file>$PROJ_DIR$\Periph_BlackPill\src\stm32f4xx_rcc.c</file>
-            <file>$PROJ_DIR$\Periph_BlackPill\inc\stm32f4xx_rcc.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\lcd.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
-            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
-            <file>$PROJ_DIR$\Periph_BlackPill\inc\stm32f4xx_wwdg.h</file>
-            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_iccarm.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\lcd.xcl</file>
-            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\mpu_armv7.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-            <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
-            <file>$PROJ_DIR$\Periph_BlackPill\inc\stm32f4xx_exti.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\lcd.__cstat.et</file>
+            <file>$PROJ_DIR$\Periph_BlackPill\inc\stm32f4xx_flash.h</file>
+            <file>$PROJ_DIR$\Periph_BlackPill\inc\stm32f4xx_rtc.h</file>
             <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\system_stm32f4xx.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\system.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_it.xcl</file>
-            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_it.__cstat.et</file>
-            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\core_cm4.h</file>
-            <file>$PROJ_DIR$\Periph_BlackPill\inc\misc.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_it.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\delay.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\startup_stm32f411xe.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
-            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_version.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\system.__cstat.et</file>
-            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_compiler.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_usart.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\UART.__cstat.et</file>
-            <file>$PROJ_DIR$\UART.h</file>
-            <file>$PROJ_DIR$\Debug\List\05_UART_LCD.map</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
-            <file>$PROJ_DIR$\Periph_BlackPill\inc\stm32f4xx_dma.h</file>
-            <file>$PROJ_DIR$\Periph_BlackPill\inc\stm32f4xx_usart.h</file>
-            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_stm32f4xx.o</file>
             <file>$PROJ_DIR$\Periph_BlackPill\inc\stm32f4xx_tim.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\io.__cstat.et</file>
-            <file>$PROJ_DIR$\Periph_BlackPill\inc\stm32f4xx_dbgmcu.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
-            <file>$PROJ_DIR$\Periph_BlackPill\inc\stm32f4xx_adc.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\io.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\io.xcl</file>
-            <file>$PROJ_DIR$\Periph_BlackPill\inc\stm32f4xx_crc.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_gpio.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\system_stm32f4xx.xcl</file>
-            <file>$PROJ_DIR$\Periph_BlackPill\inc\stm32f4xx_sdio.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\UART.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_it.o</file>
+            <file>$PROJ_DIR$\Periph_BlackPill\inc\stm32f4xx_flash_ramfunc.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\core_cm4.h</file>
             <file>$PROJ_DIR$\Periph_BlackPill\inc\stm32f4xx_spi.h</file>
             <file>$PROJ_DIR$\Debug\Obj\main.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_gpio.xcl</file>
             <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_gpio.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\system_stm32f4xx.o</file>
-            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
-            <file>$PROJ_DIR$\Periph_BlackPill\inc\stm32f4xx_rtc.h</file>
-            <file>$PROJ_DIR$\Periph_BlackPill\inc\stm32f4xx_flash_ramfunc.h</file>
-            <file>$PROJ_DIR$\Periph_BlackPill\inc\stm32f4xx_i2c.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\05_UART_LCD.pbd</file>
-            <file>$PROJ_DIR$\Debug\Obj\UART.xcl</file>
-            <file>$PROJ_DIR$\Debug\Exe\05_UART_LCD.out</file>
-            <file>$PROJ_DIR$\Debug\Obj\UART.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-            <file>$TOOLKIT_DIR$\config\linker\ST\stm32f411xE.icf</file>
-            <file>$PROJ_DIR$\Debug\Obj\system.xcl</file>
-            <file>$PROJ_DIR$\Periph_BlackPill\src\stm32f4xx_usart.c</file>
-            <file>$PROJ_DIR$\UART.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_usart.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_rcc.__cstat.et</file>
             <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_usart.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\UART.xcl</file>
+            <file>$TOOLKIT_DIR$\config\linker\ST\stm32f411xE.icf</file>
+            <file>$PROJ_DIR$\Debug\Obj\05_UART_LCD.pbd</file>
+            <file>$PROJ_DIR$\Debug\Obj\system.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_it.xcl</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\lcd.o</file>
+            <file>$PROJ_DIR$\Debug\Exe\05_UART_LCD.out</file>
+            <file>$PROJ_DIR$\Periph_BlackPill\inc\stm32f4xx_i2c.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\UART.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\Periph_BlackPill\inc\misc.h</file>
+            <file>$PROJ_DIR$\Periph_BlackPill\inc\stm32f4xx_wwdg.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_compiler.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\Periph_BlackPill\inc\stm32f4xx_crc.h</file>
+            <file>$PROJ_DIR$\Periph_BlackPill\inc\stm32f4xx_dma.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_stm32f411xe.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_stm32f4xx.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\io.__cstat.et</file>
+            <file>$PROJ_DIR$\Periph_BlackPill\inc\stm32f4xx_adc.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\system.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_version.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\io.xcl</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\Periph_BlackPill\inc\stm32f4xx_dbgmcu.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_gpio.__cstat.et</file>
+            <file>$PROJ_DIR$\Periph_BlackPill\inc\stm32f4xx_sdio.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_gpio.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\delay.o</file>
+            <file>$PROJ_DIR$\system.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_it.__cstat.et</file>
+            <file>$PROJ_DIR$\lcd.h</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\lcd.c</file>
+            <file>$PROJ_DIR$\system.c</file>
+            <file>$PROJ_DIR$\Periph_BlackPill\inc\stm32f4xx_syscfg.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\lcd.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_stm32f4xx.__cstat.et</file>
+            <file>$PROJ_DIR$\UART.c</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$PROJ_DIR$\io.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_rcc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_usart.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\io.o</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\system.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\lcd.__cstat.et</file>
+            <file>$PROJ_DIR$\UART.h</file>
+            <file>$PROJ_DIR$\Periph_BlackPill\inc\stm32f4xx_exti.h</file>
+            <file>$PROJ_DIR$\Periph_BlackPill\inc\stm32f4xx_iwdg.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_usart.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\Debug\List\05_UART_LCD.map</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_iccarm.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_rcc.xcl</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\mpu_armv7.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
+            <file>$PROJ_DIR$\Periph_BlackPill\inc\stm32f4xx_rcc.h</file>
+            <file>$PROJ_DIR$\Periph_BlackPill\src\stm32f4xx_usart.c</file>
+            <file>$PROJ_DIR$\Core_BlackPill\stm32f4xx_it.h</file>
+            <file>$PROJ_DIR$\Periph_BlackPill\inc\stm32f4xx_usart.h</file>
+            <file>$PROJ_DIR$\io.c</file>
+            <file>$PROJ_DIR$\Core_BlackPill\startup_stm32f411xe.s</file>
+            <file>$PROJ_DIR$\Periph_BlackPill\src\stm32f4xx_gpio.c</file>
+            <file>$PROJ_DIR$\Core_BlackPill\delay.s</file>
+            <file>$PROJ_DIR$\Core_BlackPill\stm32f4xx_conf.h</file>
+            <file>$PROJ_DIR$\Periph_BlackPill\inc\stm32f4xx_gpio.h</file>
+            <file>$PROJ_DIR$\Core_BlackPill\stm32f4xx.h</file>
+            <file>$PROJ_DIR$\Core_BlackPill\system_stm32f4xx.c</file>
+            <file>$PROJ_DIR$\Core_BlackPill\stm32f4xx_it.c</file>
+            <file>$PROJ_DIR$\Core_BlackPill\system_stm32f4xx.h</file>
+            <file>$PROJ_DIR$\Periph_BlackPill\src\stm32f4xx_rcc.c</file>
         </outputs>
         <file>
-            <name>$PROJ_DIR$\system.c</name>
+            <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
+                    <name>ILINK</name>
+                    <file> 24 77</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\05_UART_LCD.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 77</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 18 49 66 23 12 36 13 8 64 65 20 4 26 61 22 67 43</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 81</file>
+                </tool>
+                <tool>
                     <name>ICCARM</name>
-                    <file> 41</file>
+                    <file> 12</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 53</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 91</file>
+                    <file> 3</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 59 89 43 35 67 48 34 12 21 45 75 52 54 31 51 33 6 22 68 71 65 60 37 4 20 84 13 15 25 82 74 76 14 63 61 30 46 83 3 0 57</file>
+                    <file> 33 29 58 63 68 7 76 27 69 14 50 62 92 10 41 32 78 44 80 95 90 39 34 45 35 73 1 91 25 74 0 82 2 47 11 56 5 85 31 30 9 72</file>
                 </tool>
             </inputs>
         </file>
@@ -129,22 +154,146 @@
             <name>$PROJ_DIR$\lcd.c</name>
             <outputs>
                 <tool>
+                    <name>BICOMP</name>
+                    <file> 57</file>
+                </tool>
+                <tool>
                     <name>ICCARM</name>
-                    <file> 26</file>
+                    <file> 23</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 38</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 32</file>
+                    <file> 71</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 12 21 45 75 89 43 35 67 48 52 54 31 51 33 6 22 68 71 65 60 37 4 20 84 13 15 25 82 74 76 14 63 61 30 46 83 3 0</file>
+                    <file> 62 92 10 27 29 58 63 68 7 41 32 78 44 80 95 90 39 34 45 35 73 1 91 25 74 0 82 2 47 11 56 5 85 31 30 9 50 52</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\system.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 70</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 20</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 40</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 33 29 58 63 68 7 76 62 92 10 27 41 32 78 44 80 95 90 39 34 45 35 73 1 91 25 74 0 82 2 47 11 56 5 85 31 30 9 50 52 72</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\UART.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 17</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 26</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 6</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 33 29 58 63 68 7 76 27 69 14 28 50 62 92 10 41 32 78 44 80 95 90 39 34 45 35 73 1 91 25 74 0 82 2 47 11 56 5 85 31 30 9 72</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Periph_BlackPill\src\stm32f4xx_usart.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 16</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 65</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 75</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 85 92 10 27 29 58 63 68 7 41 32 78 44 80 95 90 39 34 45 35 73 1 91 25 74 0 82 2 47 11 56 5 31 30 9</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\io.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 42</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 66</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 38</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 62 92 10 27 29 58 63 68 7 41 32 78 44 80 95 90 39 34 45 35 73 1 91 25 74 0 82 2 47 11 56 5 85 31 30 9</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Core_BlackPill\startup_stm32f411xe.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 36</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Periph_BlackPill\src\stm32f4xx_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 48</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 13</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 46</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 91 92 10 27 29 58 63 68 7 41 32 78 44 80 95 90 39 34 45 35 73 1 25 74 0 82 2 47 11 56 5 85 31 30 9</file>
                 </tool>
             </inputs>
         </file>
@@ -158,126 +307,48 @@
             </outputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\io.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 69</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 64</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 70</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 12 21 45 75 89 43 35 67 48 52 54 31 51 33 6 22 68 71 65 60 37 4 20 84 13 15 25 82 74 76 14 63 61 30 46 83</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\main.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 77</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 39</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 28</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 59 89 43 35 67 48 34 75 27 66 3 12 21 45 52 54 31 51 33 6 22 68 71 65 60 37 4 20 84 13 15 25 82 74 76 14 63 61 30 46 83</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Periph_BlackPill\src\stm32f4xx_gpio.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 79</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 72</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 78</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 20 21 45 75 89 43 35 67 48 52 54 31 51 33 6 22 68 71 65 60 37 4 84 13 15 25 82 74 76 14 63 61 30 46 83</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
             <name>$PROJ_DIR$\Core_BlackPill\system_stm32f4xx.c</name>
             <outputs>
                 <tool>
+                    <name>BICOMP</name>
+                    <file> 37</file>
+                </tool>
+                <tool>
                     <name>ICCARM</name>
-                    <file> 80</file>
+                    <file> 4</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 40</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 73</file>
+                    <file> 59</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 21 45 75 89 43 35 67 48 52 54 31 51 33 6 22 68 71 65 60 37 4 20 84 13 15 25 82 74 76 14 63 61 30 46 83</file>
+                    <file> 92 10 27 29 58 63 68 7 41 32 78 44 80 95 90 39 34 45 35 73 1 91 25 74 0 82 2 47 11 56 5 85 31 30 9</file>
                 </tool>
             </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Core_BlackPill\startup_stm32f411xe.s</name>
-            <outputs>
-                <tool>
-                    <name>AARM</name>
-                    <file> 50</file>
-                </tool>
-            </outputs>
         </file>
         <file>
             <name>$PROJ_DIR$\Core_BlackPill\stm32f4xx_it.c</name>
             <outputs>
                 <tool>
+                    <name>BICOMP</name>
+                    <file> 21</file>
+                </tool>
+                <tool>
                     <name>ICCARM</name>
-                    <file> 47</file>
+                    <file> 8</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 44</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 42</file>
+                    <file> 51</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 16 21 45 75 89 43 35 67 48 52 54 31 51 33 6 22 68 71 65 60 37 4 20 84 13 15 25 82 74 76 14 63 61 30 46 83</file>
+                    <file> 84 92 10 27 29 58 63 68 7 41 32 78 44 80 95 90 39 34 45 35 73 1 91 25 74 0 82 2 47 11 56 5 85 31 30 9</file>
                 </tool>
             </inputs>
         </file>
@@ -285,92 +356,22 @@
             <name>$PROJ_DIR$\Periph_BlackPill\src\stm32f4xx_rcc.c</name>
             <outputs>
                 <tool>
+                    <name>BICOMP</name>
+                    <file> 79</file>
+                </tool>
+                <tool>
                     <name>ICCARM</name>
-                    <file> 7</file>
+                    <file> 64</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 11</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 5</file>
+                    <file> 15</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 25 21 45 75 89 43 35 67 48 52 54 31 51 33 6 22 68 71 65 60 37 4 20 84 13 15 82 74 76 14 63 61 30 46 83</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>[ROOT_NODE]</name>
-            <outputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 87 58</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Debug\Exe\05_UART_LCD.out</name>
-            <outputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 58</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 90 49 69 26 77 50 79 47 7 94 41 80 88 29 81 36 62</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Periph_BlackPill\src\stm32f4xx_usart.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 94</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 55</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 95</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 61 21 45 75 89 43 35 67 48 52 54 31 51 33 6 22 68 71 65 60 37 4 20 84 13 15 25 82 74 76 14 63 30 46 83</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\UART.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 88</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 56</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 86</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 59 89 43 35 67 48 34 75 27 66 3 12 21 45 52 54 31 51 33 6 22 68 71 65 60 37 4 20 84 13 15 25 82 74 76 14 63 61 30 46 83 57</file>
+                    <file> 82 92 10 27 29 58 63 68 7 41 32 78 44 80 95 90 39 34 45 35 73 1 91 25 74 0 2 47 11 56 5 85 31 30 9</file>
                 </tool>
             </inputs>
         </file>

@@ -2,7 +2,7 @@
 
 "C:\iar8509\arm\bin\armjlink2.dll" 
 
-"D:\kod\Project_ARM\05_UART_LCD\Debug\Exe\05_UART_LCD.out" 
+"D:\kod\git\project_arm\CortexM4\BlackPill_STM32F411CE\05_UART_LCD\Debug\Exe\05_UART_LCD.out" 
 
 --plugin="C:\iar8509\arm\bin\armbat.dll" 
 
