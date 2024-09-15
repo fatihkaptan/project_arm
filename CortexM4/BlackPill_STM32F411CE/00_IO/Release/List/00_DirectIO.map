@@ -1,0 +1,176 @@
+###############################################################################
+#
+# IAR ELF Linker V8.50.9.278/W32 for ARM                  28/Jul/2024  19:32:57
+# Copyright 2007-2020 IAR Systems AB.
+#
+#    Output file  =
+#        D:\yeni_seyler\egitim\arsiv\ARM_KURSU_Code\en.stsw-stm32065_v1-9-0\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Project\00_DirectIO\Release\Exe\00_DirectIO.elf
+#    Map file     =
+#        D:\yeni_seyler\egitim\arsiv\ARM_KURSU_Code\en.stsw-stm32065_v1-9-0\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Project\00_DirectIO\Release\List\00_DirectIO.map
+#    Command line =
+#        -f C:\Users\90553\AppData\Local\Temp\EWCEBF.tmp
+#        (D:\yeni_seyler\egitim\arsiv\ARM_KURSU_Code\en.stsw-stm32065_v1-9-0\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Project\00_DirectIO\Release\Obj\main.o
+#        --no_out_extension -o
+#        D:\yeni_seyler\egitim\arsiv\ARM_KURSU_Code\en.stsw-stm32065_v1-9-0\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Project\00_DirectIO\Release\Exe\00_DirectIO.elf
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
+#        --map
+#        D:\yeni_seyler\egitim\arsiv\ARM_KURSU_Code\en.stsw-stm32065_v1-9-0\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Project\00_DirectIO\Release\List\00_DirectIO.map
+#        --config C:\iar8509\arm\config\linker\ST\stm32f411xE.icf --entry
+#        __iar_program_start --inline --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x807'ffff] { ro };
+define block CSTACK with size = 8K, alignment = 8 { };
+define block HEAP with size = 8K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2001'ffff] {
+          rw, block CSTACK, block HEAP };
+
+  Section          Kind         Address    Size  Object
+  -------          ----         -------    ----  ------
+"A0":                                      0x40
+  .intvec          ro code   0x800'0000    0x40  vector_table_M.o [3]
+                           - 0x800'0040    0x40
+
+"P1":                                     0x16c
+  .text            ro code   0x800'0040    0xa0  main.o [1]
+  .text            ro code   0x800'00e0    0x3a  zero_init3.o [3]
+  .text            ro code   0x800'011a     0x2  vector_table_M.o [3]
+  .text            ro code   0x800'011c    0x28  data_init.o [3]
+  .iar.init_table  const     0x800'0144    0x10  - Linker created -
+  .text            ro code   0x800'0154    0x1e  cmain.o [3]
+  .text            ro code   0x800'0172     0x4  exit.o [2]
+  .text            ro code   0x800'0178     0xa  cexit.o [3]
+  .text            ro code   0x800'0184     0xc  XXexit.o [3]
+  .text            ro code   0x800'0190    0x1c  cstartup_M.o [3]
+  .rodata          const     0x800'01ac     0x0  zero_init3.o [3]
+                           - 0x800'01ac   0x16c
+
+"P2", part 1 of 2:                          0x4
+  .bss             zero     0x2000'0000     0x4  main.o [1]
+                          - 0x2000'0004     0x4
+
+"P2", part 2 of 2:                       0x2000
+  CSTACK                    0x2000'0008  0x2000  <Block>
+    CSTACK         uninit   0x2000'0008  0x2000  <Block tail>
+                          - 0x2000'2008  0x2000
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+   0x800'01ac   0x807'ffff  0x7'fe54
+  0x2000'0004  0x2000'0007       0x4
+  0x2000'2008  0x2001'ffff  0x1'dff8
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x4:
+          0x2000'0000   0x4
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module            ro code  ro data  rw data
+    ------            -------  -------  -------
+command line/config:
+    -------------------------------------------
+    Total:
+
+D:\yeni_seyler\egitim\arsiv\ARM_KURSU_Code\en.stsw-stm32065_v1-9-0\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Project\00_DirectIO\Release\Obj: [1]
+    main.o                160                 4
+    -------------------------------------------
+    Total:                160                 4
+
+dl7M_tln.a: [2]
+    exit.o                  4
+    -------------------------------------------
+    Total:                  4
+
+rt7M_tl.a: [3]
+    XXexit.o               12
+    cexit.o                10
+    cmain.o                30
+    cstartup_M.o           28
+    data_init.o            40
+    vector_table_M.o       66
+    zero_init3.o           58
+    -------------------------------------------
+    Total:                244
+
+    Gaps                    4
+    Linker created                  16    8'192
+-----------------------------------------------
+    Grand Total:          412       16    8'196
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address  Size  Type      Object
+-----                       -------  ----  ----      ------
+.iar.init_table$$Base    0x800'0144         --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'0154         --   Gb  - Linker created -
+?main                    0x800'0155        Code  Gb  cmain.o [3]
+CSTACK$$Base            0x2000'0008         --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'2008         --   Gb  - Linker created -
+Region$$Table$$Base      0x800'0144         --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'0154         --   Gb  - Linker created -
+__cmain                  0x800'0155        Code  Gb  cmain.o [3]
+__exit                   0x800'0185        Code  Gb  XXexit.o [3]
+__iar_data_init3         0x800'011d  0x28  Code  Gb  data_init.o [3]
+__iar_program_start      0x800'0191        Code  Gb  cstartup_M.o [3]
+__iar_zero_init3         0x800'00e1  0x3a  Code  Gb  zero_init3.o [3]
+__vector_table           0x800'0000        Data  Gb  vector_table_M.o [3]
+_call_main               0x800'0161        Code  Gb  cmain.o [3]
+_exit                    0x800'0179        Code  Gb  cexit.o [3]
+_main                    0x800'016b        Code  Gb  cmain.o [3]
+exit                     0x800'0173   0x4  Code  Gb  exit.o [2]
+fatih                   0x2000'0000   0x4  Data  Gb  main.o [1]
+main                     0x800'0041  0x90  Code  Gb  main.o [1]
+
+
+[1] = D:\yeni_seyler\egitim\arsiv\ARM_KURSU_Code\en.stsw-stm32065_v1-9-0\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Project\00_DirectIO\Release\Obj
+[2] = dl7M_tln.a
+[3] = rt7M_tl.a
+
+    412 bytes of readonly  code memory
+     16 bytes of readonly  data memory
+  8'196 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
