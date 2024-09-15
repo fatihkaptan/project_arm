@@ -20,7 +20,6 @@ static const int GPIO_Clocks[] = {
 };
 
 #define N_PORTS (sizeof(GPIO_Clocks) / sizeof(int))
-UART_PERIPH _conUART = UART_1;
 
 
 volatile clock_t _TmTick = 0;
@@ -56,7 +55,7 @@ clock_t clock(void)
 void Sys_ConsoleInit(void)
 {
   LCD_Init();
-  UART_Init(_conUART,9600);
+
   
 #ifndef __IAR_SYSTEMS_ICC__
   setvbuf(stdout, NULL, _IONBF, 0);
@@ -67,7 +66,7 @@ void Sys_ConsoleInit(void)
 void _putch(unsigned char c)
 {
   LCD_putch(c);
-  UART_putch(c);
+  //UART_putch(c);
 }
 
 #ifdef __IAR_SYSTEMS_ICC__

@@ -3,15 +3,20 @@
 #include <stdlib.h>
 #include "system.h"
 #include "io.h"
+#include "UART.h"
 
+UART_PERIPH curr_UART = UART_1;
 void init(void)
 {
-  Sys_IoInit();
-  Sys_TickInit();
-  Sys_ConsoleInit();
-  IO_Write(IOP_LED, 1);
-  IO_Init(IOP_LED, IO_MODE_OUTPUT);
-  LCD_Clear();DelayMs(4);
+    Sys_IoInit();
+    Sys_TickInit();
+    Sys_ConsoleInit();
+    
+    UART_Init(curr_UART, 115200);
+    
+    IO_Write(IOP_LED, 1);
+    IO_Init(IOP_LED, IO_MODE_OUTPUT);
+    //LCD_Clear();DelayMs(4);
 }
 
 void Task_LED(void)
@@ -56,15 +61,17 @@ void Task_LED(void)
 }
 extern clock_t _TmTick;
 static unsigned long sys_sec =0;
+
 void Task_Print(void)
 {
   static unsigned long count;
   sys_sec = _TmTick/1000;
-  //printf("\nSaniye: %d", sys_sec);
   if(sys_sec==1)
     LCD_Clear();
   if(sys_sec>1)
     printf("Saniye: %d\r", sys_sec);
+
+UART_printf(curr_UART, "_TmTick: %10lu\r", _TmTick);
 }  
 
 int main()
@@ -72,6 +79,11 @@ int main()
   // Çalýþma zamaný yapýlandýrmalarý
   init();
   printf("Hello, world!");
+  
+  UART_puts(curr_UART, "\n\nMerhaba dunya!\n");
+  
+  printf("\fsayi=%d, ch=%c", 159, curr_UART);
+  UART_printf(curr_UART, "Hello, val=%d\n", 2983);
   
   while (1) {
         Task_LED(); 

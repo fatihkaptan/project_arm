@@ -47,15 +47,20 @@ typedef enum {
   IOP_LCD_DB5,
   IOP_LCD_DB6,
   IOP_LCD_DB7,
-  //UART1 RX TX
-  IOP_U1RX,
+  //UART1-6 TX RX
   IOP_U1TX,
-  //UART2 RX TX
-  IOP_U2RX,
+  IOP_U1RX,
   IOP_U2TX,
-  //UART6 RX TX
-  IOP_U6RX,
+  IOP_U2RX,
+  IOP_U3TX,
+  IOP_U3RX,
+  IOP_U4TX,
+  IOP_U4RX,
+  IOP_U5TX,
+  IOP_U5RX,
   IOP_U6TX,
+  IOP_U6RX,
+  
 } IO_IDX;
 
 // UYGULAMA I/O PIN LÝSTESÝ
@@ -69,12 +74,19 @@ IO_PIN _ios[] = {
   { IO_PORT_B,  0 },    /*LCD_DB5*/
   { IO_PORT_B,  1 },    /*LCD_DB6*/
   { IO_PORT_B,  2 },    /*LCD_DB7*/
-  { IO_PORT_A,  9 },    /*UART1_RX*/ 
-  { IO_PORT_A, 10 },    /*UART1_TX*/
-  { IO_PORT_A,  3 },    /*UART2_RX*/
-  { IO_PORT_B,  2 },    /*UART2_TX*/
-  { IO_PORT_C,  7 },    /*UART6_RX*/
-  { IO_PORT_C,  6 },    /*UART6_TX*/
+  // UART 1-6 TX/RX port tanimlamalari
+  { IO_PORT_A,  9 },
+  { IO_PORT_A, 10 },
+  { IO_PORT_A,  2 },
+  { IO_PORT_A,  3 },
+  { IO_PORT_B, 10 },
+  { IO_PORT_B, 11 },
+  { IO_PORT_A,  0 },
+  { IO_PORT_A,  1 },
+  { IO_PORT_C, 12 },
+  { IO_PORT_D,  2 },
+  { IO_PORT_C,  6 },
+  { IO_PORT_C,  7 },
   
   
 };
