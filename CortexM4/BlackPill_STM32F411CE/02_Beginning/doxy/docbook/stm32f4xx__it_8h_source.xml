@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_stm32f4xx__it_8h_source" xml:lang="tr">
+<title>stm32f4xx_it.h</title>
+<indexterm><primary>Core_BlackPill/stm32f4xx_it.h</primary></indexterm>
+Bu dosyanın dokümantasyonuna git.<programlisting linenumbering="unnumbered">1 
+21 <emphasis role="comment">/*&#32;Define&#32;to&#32;prevent&#32;recursive&#32;inclusion&#32;-------------------------------------*/</emphasis>
+22 <emphasis role="preprocessor">#ifndef&#32;__STM32F4xx_IT_H</emphasis>
+23 <emphasis role="preprocessor">#define&#32;__STM32F4xx_IT_H</emphasis>
+24 
+25 <emphasis role="preprocessor">#ifdef&#32;__cplusplus</emphasis>
+26 &#32;<emphasis role="keyword">extern</emphasis>&#32;<emphasis role="stringliteral">&quot;C&quot;</emphasis>&#32;{
+27 <emphasis role="preprocessor">#endif&#32;</emphasis>
+28 
+29 <emphasis role="comment">/*&#32;Includes&#32;------------------------------------------------------------------*/</emphasis>
+30 <emphasis role="preprocessor">#include&#32;&quot;<link linkend="_stm32f4xx_8h">stm32f4xx.h</link>&quot;</emphasis>
+31 
+32 <emphasis role="comment">/*&#32;Exported&#32;types&#32;------------------------------------------------------------*/</emphasis>
+33 <emphasis role="comment">/*&#32;Exported&#32;constants&#32;--------------------------------------------------------*/</emphasis>
+34 <emphasis role="comment">/*&#32;Exported&#32;macro&#32;------------------------------------------------------------*/</emphasis>
+35 <emphasis role="comment">/*&#32;Exported&#32;functions&#32;-------------------------------------------------------&#32;*/</emphasis>
+36 
+37 <emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_group___template___project_1ga6ad7a5e3ee69cb6db6a6b9111ba898bc">NMI_Handler</link>(<emphasis role="keywordtype">void</emphasis>);
+38 <emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_group___template___project_1ga2bffc10d5bd4106753b7c30e86903bea">HardFault_Handler</link>(<emphasis role="keywordtype">void</emphasis>);
+39 <emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_group___template___project_1ga3150f74512510287a942624aa9b44cc5">MemManage_Handler</link>(<emphasis role="keywordtype">void</emphasis>);
+40 <emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_group___template___project_1ga850cefb17a977292ae5eb4cafa9976c3">BusFault_Handler</link>(<emphasis role="keywordtype">void</emphasis>);
+41 <emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_group___template___project_1ga1d98923de2ed6b7309b66f9ba2971647">UsageFault_Handler</link>(<emphasis role="keywordtype">void</emphasis>);
+42 <emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_group___template___project_1ga3e5ddb3df0d62f2dc357e64a3f04a6ce">SVC_Handler</link>(<emphasis role="keywordtype">void</emphasis>);
+43 <emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_group___template___project_1gadbdfb05858cc36fc520974df37ec3cb0">DebugMon_Handler</link>(<emphasis role="keywordtype">void</emphasis>);
+44 <emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_group___template___project_1ga6303e1f258cbdc1f970ce579cc015623">PendSV_Handler</link>(<emphasis role="keywordtype">void</emphasis>);
+45 <emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_group___template___project_1gab5e09814056d617c521549e542639b7e">SysTick_Handler</link>(<emphasis role="keywordtype">void</emphasis>);
+46 
+47 <emphasis role="preprocessor">#ifdef&#32;__cplusplus</emphasis>
+48 }
+49 <emphasis role="preprocessor">#endif</emphasis>
+50 
+51 <emphasis role="preprocessor">#endif&#32;</emphasis><emphasis role="comment">/*&#32;__STM32F4xx_IT_H&#32;*/</emphasis><emphasis role="preprocessor"></emphasis>
+52 
+</programlisting></section>

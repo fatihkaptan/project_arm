@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="tr">
+  <compounddef id="struct_h_a_s_h___d_i_g_e_s_t___type_def" kind="struct" language="C++" prot="public">
+    <compoundname>HASH_DIGEST_TypeDef</compoundname>
+    <includes refid="stm32f4xx_8h" local="no">stm32f4xx.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group___c_m_s_i_s_1gab041708966b192f819ac50b3cb369577" kind="variable"><name>HR</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>HASH_DIGEST. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Core_BlackPill/stm32f4xx.h" line="1989" column="1" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="1990" bodyend="1992"/>
+    <listofallmembers>
+      <member refid="group___c_m_s_i_s_1gab041708966b192f819ac50b3cb369577" prot="public" virt="non-virtual"><scope>HASH_DIGEST_TypeDef</scope><name>HR</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

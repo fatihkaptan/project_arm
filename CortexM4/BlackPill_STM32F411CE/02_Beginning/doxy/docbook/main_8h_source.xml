@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_main_8h_source" xml:lang="tr">
+<title>main.h</title>
+Bu dosyanın dokümantasyonuna git.<programlisting linenumbering="unnumbered">1 <emphasis role="preprocessor">#include&#32;&quot;<link linkend="_stm32f4xx_8h">stm32f4xx.h</link>&quot;</emphasis>
+2 
+3 
+4 <emphasis role="comment">/*&#32;Exported&#32;functions&#32;-------------------------------------------------------&#32;*/</emphasis>
+5 <emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_main_8h_1aeb4c4307d28035637f0280cce42553fe">TimingDelay_Decrement</link>(<emphasis role="keywordtype">void</emphasis>);
+6 <emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_main_8h_1a81248fec65b118150a94d8cdaf2a2b8c">initClock</link>();
+7 <emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_main_8h_1a1778435697ce5e88277225a1ea85c2d9">initIO</link>();
+8 <emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_main_8h_1ab7cce8122024d7ba47bf10f434956de4">delay_ms</link>(uint32_t&#32;ms);
+9 
+10 <emphasis role="comment">/*bunlari&#32;simdilik&#32;elle&#32;kullaniyom*/</emphasis>
+11 <emphasis role="preprocessor">#define&#32;_IO&#32;volatile&#32;</emphasis><emphasis role="comment">//&#32;defines&#32;rw&#32;permissions</emphasis>
+12 <emphasis role="preprocessor">#define&#32;RCC_BASE&#32;0x40023800</emphasis>
+13 <emphasis role="preprocessor">#define&#32;RCC_AHB1ENR&#32;&#32;&#32;(*((_IO&#32;uint32_t&#32;*)(RCC_BASE&#32;+&#32;0x30)))</emphasis>
+14 <emphasis role="preprocessor">#define&#32;GPIOC_BASE&#32;0x40020800</emphasis>
+15 <emphasis role="preprocessor">#define&#32;GPIOC_MODER&#32;&#32;&#32;(*((_IO&#32;uint32_t&#32;*)(GPIOC_BASE&#32;+&#32;0x00)))</emphasis>
+16 <emphasis role="preprocessor">#define&#32;GPIOC_OTYPER&#32;&#32;(*((_IO&#32;uint32_t&#32;*)(GPIOC_BASE&#32;+&#32;0x04)))</emphasis>
+17 <emphasis role="preprocessor">#define&#32;GPIOC_OSPEEDR&#32;(*((_IO&#32;uint32_t&#32;*)(GPIOC_BASE&#32;+&#32;0x08)))</emphasis>
+18 <emphasis role="preprocessor">#define&#32;GPIOC_PUPDR&#32;&#32;&#32;(*((_IO&#32;uint32_t&#32;*)(GPIOC_BASE&#32;+&#32;0x0C)))</emphasis>
+19 <emphasis role="preprocessor">#define&#32;GPIOC_BSRR&#32;&#32;&#32;&#32;(*((_IO&#32;uint32_t&#32;*)(GPIOC_BASE&#32;+&#32;0x18)))</emphasis>
+20 
+21 <emphasis role="comment">/*systick&#32;egitim*/</emphasis>
+22 <emphasis role="preprocessor">#define&#32;SYSTICK_BASE&#32;&#32;0xE000E010</emphasis>
+23 <emphasis role="preprocessor">#define&#32;SYSTICK_CTRL&#32;&#32;(*((_IO&#32;uint32_t&#32;*)(SYSTICK_BASE&#32;+&#32;0x00)))</emphasis>
+24 <emphasis role="preprocessor">#define&#32;SYSTICK_LOAD&#32;&#32;(*((_IO&#32;uint32_t&#32;*)(SYSTICK_BASE&#32;+&#32;0x04)))</emphasis>
+25 <emphasis role="preprocessor">#define&#32;SYSTICK_VAL&#32;&#32;&#32;(*((_IO&#32;uint32_t&#32;*)(SYSTICK_BASE&#32;+&#32;0x08)))</emphasis>
+26 
+27 
+28 <emphasis role="preprocessor">#define&#32;LED_PIN&#32;13</emphasis>
+</programlisting></section>

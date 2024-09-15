@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="tr">
+  <compounddef id="delay_8c" kind="file" language="C++">
+    <compoundname>delay.c</compoundname>
+    <includes refid="main_8h" local="yes">main.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>Core_BlackPill/delay.c</label>
+        <link refid="delay_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>stm32f4xx.h</label>
+        <link refid="stm32f4xx_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>system_stm32f4xx.h</label>
+        <link refid="system__stm32f4xx_8h"/>
+      </node>
+      <node id="2">
+        <label>main.h</label>
+        <link refid="main_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>core_cm4.h</label>
+      </node>
+      <node id="6">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="delay_8c_1ab4553be4db9860d940f81d7447173b2f" prot="public" static="no">
+        <name>LED_PIN</name>
+        <initializer>13</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core_BlackPill/delay.c" line="1" column="9"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="delay_8c_1a58d8a7f3700f34e7226b33e61f5ed960" prot="public" static="no" mutable="no">
+        <type>GPIO_InitTypeDef</type>
+        <definition>GPIO_InitTypeDef GPIO_InitStructure</definition>
+        <argsstring></argsstring>
+        <name>GPIO_InitStructure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core_BlackPill/delay.c" line="4" column="18" bodyfile="Core_BlackPill/delay.c" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="delay_8c_1af484abe0ca156dc40cf0fb5e79d4d6db" prot="public" static="yes" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t TimingDelay</definition>
+        <argsstring></argsstring>
+        <name>TimingDelay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core_BlackPill/delay.c" line="5" column="22" bodyfile="Core_BlackPill/delay.c" bodystart="5" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="delay_8c_1adf6ebc82af142bc201d3eb70e107f52e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Delay</definition>
+        <argsstring>(__IO uint32_t nTime)</argsstring>
+        <name>Delay</name>
+        <param>
+          <type>__IO uint32_t</type>
+          <declname>nTime</declname>
+        </param>
+        <briefdescription>
+<para>Inserts a delay time. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>specifies the delay time length, in milliseconds. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>None</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core_BlackPill/delay.c" line="15" column="6" bodyfile="Core_BlackPill/delay.c" bodystart="15" bodyend="20" declfile="Core_BlackPill/delay.c" declline="8" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="delay_8c_1aeb4c4307d28035637f0280cce42553fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimingDelay_Decrement</definition>
+        <argsstring>(void)</argsstring>
+        <name>TimingDelay_Decrement</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Decrements the TimingDelay variable. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>None</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>None</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core_BlackPill/delay.c" line="27" column="6" bodyfile="Core_BlackPill/delay.c" bodystart="27" bodyend="33"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="main_8h" kindref="compound">main.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Private<sp/>variables<sp/>---------------------------------------------------------*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">GPIO_InitTypeDef<sp/><ref refid="delay_8c_1a58d8a7f3700f34e7226b33e61f5ed960" kindref="member">GPIO_InitStructure</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>__IO<sp/>uint32_t<sp/>TimingDelay;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Private<sp/>function<sp/>prototypes<sp/>-----------------------------------------------*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Delay(__IO<sp/>uint32_t<sp/>nTime);<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Delay(__IO<sp/>uint32_t<sp/>nTime)</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{<sp/></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/>TimingDelay<sp/>=<sp/>nTime;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(TimingDelay<sp/>!=<sp/>0);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="delay_8c_1aeb4c4307d28035637f0280cce42553fe" kindref="member">TimingDelay_Decrement</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(TimingDelay<sp/>!=<sp/>0)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/>{<sp/></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>TimingDelay--;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Core_BlackPill/delay.c"/>
+  </compounddef>
+</doxygen>

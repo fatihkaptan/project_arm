@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_struct_c_a_n___tx_mail_box___type_def" xml:lang="tr">
+<title>CAN_TxMailBox_TypeDef Yapı(Struct) Referans</title>
+<indexterm><primary>CAN_TxMailBox_TypeDef</primary></indexterm>
+<para>
+
+<para>Controller Area Network TxMailBox. </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;stm32f4xx.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Veri Alanları    </title>
+        <itemizedlist>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga6921aa1c578a7d17c6e0eb33a73b6630">TIR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gaed87bed042dd9523ce086119a3bab0ea">TDTR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gaded1359e1a32512910bff534d57ade68">TDLR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga90f7c1cf22683459c632d6040366eddf">TDHR</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Ayrıntılı tanımlama</title>
+
+<para>Controller Area Network TxMailBox. </para>
+<para>
+Bu yapı(struct) için dokümantasyon aşağıdaki dosyadan üretilmiştir:</para>
+Core_BlackPill/<link linkend="_stm32f4xx_8h">stm32f4xx.h</link></section>
+</section>

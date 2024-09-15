@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_group___configuration__section__for___c_m_s_i_s" xml:lang="tr">
+<title>Configuration_section_for_CMSIS</title>
+<indexterm><primary>Configuration_section_for_CMSIS</primary></indexterm>
+<simplesect>
+    <title>Makrolar    </title>
+        <itemizedlist>
+            <listitem><para>#define <link linkend="_group___configuration__section__for___c_m_s_i_s_1ga45a97e4bb8b6ce7c334acc5f45ace3ba">__CM4_REV</link>&#160;&#160;&#160;0x0001</para>
+
+<para>Configuration of the Cortex-M4 Processor and Core Peripherals. </para>
+</listitem>
+            <listitem><para>#define <link linkend="_group___configuration__section__for___c_m_s_i_s_1ga4127d1b31aaf336fab3d7329d117f448">__MPU_PRESENT</link>&#160;&#160;&#160;1</para>
+</listitem>
+            <listitem><para>#define <link linkend="_group___configuration__section__for___c_m_s_i_s_1gae3fe3587d5100c787e02102ce3944460">__NVIC_PRIO_BITS</link>&#160;&#160;&#160;4</para>
+</listitem>
+            <listitem><para>#define <link linkend="_group___configuration__section__for___c_m_s_i_s_1gab58771b4ec03f9bdddc84770f7c95c68">__Vendor_SysTickConfig</link>&#160;&#160;&#160;0</para>
+</listitem>
+            <listitem><para>#define <link linkend="_group___configuration__section__for___c_m_s_i_s_1gac1ba8a48ca926bddc88be9bfd7d42641">__FPU_PRESENT</link>&#160;&#160;&#160;1</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Typedef&apos;ler    </title>
+        <itemizedlist>
+            <listitem><para>typedef enum <link linkend="_group___configuration__section__for___c_m_s_i_s_1ga666eb0caeb12ec0e281415592ae89083">IRQn</link> <link linkend="_group___configuration__section__for___c_m_s_i_s_1ga4a0206df9604302e0741c1aa4ca1ded3">IRQn_Type</link></para>
+
+<para>STM32F4XX Interrupt Number Definition, according to the selected device in <link linkend="_group___library__configuration__section">Library_configuration_section</link>. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Enümerasyonlar    </title>
+        <itemizedlist>
+            <listitem><para>enum <link linkend="_group___configuration__section__for___c_m_s_i_s_1ga666eb0caeb12ec0e281415592ae89083">IRQn</link> { <?linebreak?><link linkend="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083ade177d9c70c89e084093024b932a4e30">NonMaskableInt_IRQn</link> = -14
+, <link linkend="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083a33ff1cf7098de65d61b6354fee6cd5aa">MemoryManagement_IRQn</link> = -12
+, <link linkend="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083a8693500eff174f16119e96234fee73af">BusFault_IRQn</link> = -11
+, <link linkend="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083a6895237c9443601ac832efa635dd8bbf">UsageFault_IRQn</link> = -10
+, <?linebreak?><link linkend="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083a4ce820b3cc6cf3a796b41aadc0cf1237">SVCall_IRQn</link> = -5
+, <link linkend="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083a8e033fcef7aed98a31c60a7de206722c">DebugMonitor_IRQn</link> = -4
+, <link linkend="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083a03c3cc89984928816d81793fc7bce4a2">PendSV_IRQn</link> = -2
+, <link linkend="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083a6dbff8f8543325f3474cbae2446776e7">SysTick_IRQn</link> = -1
+, <?linebreak?><link linkend="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083a971089d7566ef902dfa0c80ac3a8fd52">WWDG_IRQn</link> = 0
+, <link linkend="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083ab0b51ffcc4dcf5661141b79c8e5bd924">PVD_IRQn</link> = 1
+, <link linkend="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083ac127cca7ae48bcf93924209f04e5e5a1">TAMP_STAMP_IRQn</link> = 2
+, <link linkend="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083a173ccc3f31df1f7e43de2ddeab3d1777">RTC_WKUP_IRQn</link> = 3
+, <?linebreak?><link linkend="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083a91b73963ce243a1d031576d49e137fab">FLASH_IRQn</link> = 4
+, <link linkend="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083a5710b22392997bac63daa5c999730f77">RCC_IRQn</link> = 5
+, <link linkend="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083ab6aa6f87d26bbc6cf99b067b8d75c2f7">EXTI0_IRQn</link> = 6
+, <link linkend="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083ae4badcdecdb94eb10129c4c0577c5e19">EXTI1_IRQn</link> = 7
+, <?linebreak?><link linkend="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083a082cb3f7839069a0715fd76c7eacbbc9">EXTI2_IRQn</link> = 8
+, <link linkend="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083add889c84ba5de466ced209069e05d602">EXTI3_IRQn</link> = 9
+, <link linkend="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083ab70a40106ca4486770df5d2072d9ac0e">EXTI4_IRQn</link> = 10
+, <link linkend="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083a9ee33e72512c4cfb301b216f4fb9d68c">DMA1_Stream0_IRQn</link> = 11
+, <?linebreak?><link linkend="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083aa45ca2c955060e2c2a7cbbe1d6753285">DMA1_Stream1_IRQn</link> = 12
+, <link linkend="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083a0d9ec75e4478e70235b705d5a6b3efd8">DMA1_Stream2_IRQn</link> = 13
+, <link linkend="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083af77770e080206a7558decf09344fb2e2">DMA1_Stream3_IRQn</link> = 14
+, <link linkend="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083aee2aaf365c6c297a63cee41ecae2301a">DMA1_Stream4_IRQn</link> = 15
+, <?linebreak?><link linkend="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083ac92efa72399fe58fa615d8bf8fd64a4e">DMA1_Stream5_IRQn</link> = 16
+, <link linkend="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083aef5e2b68f62f6f1781fab894f0b8f486">DMA1_Stream6_IRQn</link> = 17
+, <link linkend="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083a4d69175258ae261dd545001e810421b3">ADC_IRQn</link> = 18
+ }</para>
+
+<para>STM32F4XX Interrupt Number Definition, according to the selected device in <link linkend="_group___library__configuration__section">Library_configuration_section</link>. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Ayrıntılı tanımlama</title>
+</section>
+<section>
+<title>Makro Dokümantasyonu</title>
+<anchor xml:id="_group___configuration__section__for___c_m_s_i_s_1ga45a97e4bb8b6ce7c334acc5f45ace3ba"/><section>
+    <title>__CM4_REV</title>
+<indexterm><primary>__CM4_REV</primary><secondary>Configuration_section_for_CMSIS</secondary></indexterm>
+<indexterm><primary>Configuration_section_for_CMSIS</primary><secondary>__CM4_REV</secondary></indexterm>
+<para><computeroutput>#define __CM4_REV&#160;&#160;&#160;0x0001</computeroutput></para><para>
+
+<para>Configuration of the Cortex-M4 Processor and Core Peripherals. </para>
+</para>
+
+<para>Core revision r0p1 <?linebreak?> </para>
+</section>
+<anchor xml:id="_group___configuration__section__for___c_m_s_i_s_1gac1ba8a48ca926bddc88be9bfd7d42641"/><section>
+    <title>__FPU_PRESENT</title>
+<indexterm><primary>__FPU_PRESENT</primary><secondary>Configuration_section_for_CMSIS</secondary></indexterm>
+<indexterm><primary>Configuration_section_for_CMSIS</primary><secondary>__FPU_PRESENT</secondary></indexterm>
+<para><computeroutput>#define __FPU_PRESENT&#160;&#160;&#160;1</computeroutput></para>
+<para>FPU present <?linebreak?> </para>
+</section>
+<anchor xml:id="_group___configuration__section__for___c_m_s_i_s_1ga4127d1b31aaf336fab3d7329d117f448"/><section>
+    <title>__MPU_PRESENT</title>
+<indexterm><primary>__MPU_PRESENT</primary><secondary>Configuration_section_for_CMSIS</secondary></indexterm>
+<indexterm><primary>Configuration_section_for_CMSIS</primary><secondary>__MPU_PRESENT</secondary></indexterm>
+<para><computeroutput>#define __MPU_PRESENT&#160;&#160;&#160;1</computeroutput></para>
+<para>STM32F4XX provides an MPU <?linebreak?> </para>
+</section>
+<anchor xml:id="_group___configuration__section__for___c_m_s_i_s_1gae3fe3587d5100c787e02102ce3944460"/><section>
+    <title>__NVIC_PRIO_BITS</title>
+<indexterm><primary>__NVIC_PRIO_BITS</primary><secondary>Configuration_section_for_CMSIS</secondary></indexterm>
+<indexterm><primary>Configuration_section_for_CMSIS</primary><secondary>__NVIC_PRIO_BITS</secondary></indexterm>
+<para><computeroutput>#define __NVIC_PRIO_BITS&#160;&#160;&#160;4</computeroutput></para>
+<para>STM32F4XX uses 4 Bits for the Priority Levels </para>
+</section>
+<anchor xml:id="_group___configuration__section__for___c_m_s_i_s_1gab58771b4ec03f9bdddc84770f7c95c68"/><section>
+    <title>__Vendor_SysTickConfig</title>
+<indexterm><primary>__Vendor_SysTickConfig</primary><secondary>Configuration_section_for_CMSIS</secondary></indexterm>
+<indexterm><primary>Configuration_section_for_CMSIS</primary><secondary>__Vendor_SysTickConfig</secondary></indexterm>
+<para><computeroutput>#define __Vendor_SysTickConfig&#160;&#160;&#160;0</computeroutput></para>
+<para>Set to 1 if different SysTick Config is used <?linebreak?> </para>
+</section>
+</section>
+<section>
+<title>Typedef Dokümantasyonu</title>
+<anchor xml:id="_group___configuration__section__for___c_m_s_i_s_1ga4a0206df9604302e0741c1aa4ca1ded3"/><section>
+    <title>IRQn_Type</title>
+<indexterm><primary>IRQn_Type</primary><secondary>Configuration_section_for_CMSIS</secondary></indexterm>
+<indexterm><primary>Configuration_section_for_CMSIS</primary><secondary>IRQn_Type</secondary></indexterm>
+<para><computeroutput>typedef enum <link linkend="_group___configuration__section__for___c_m_s_i_s_1ga666eb0caeb12ec0e281415592ae89083">IRQn</link> <link linkend="_group___configuration__section__for___c_m_s_i_s_1ga4a0206df9604302e0741c1aa4ca1ded3">IRQn_Type</link></computeroutput></para><para>
+
+<para>STM32F4XX Interrupt Number Definition, according to the selected device in <link linkend="_group___library__configuration__section">Library_configuration_section</link>. </para>
+</para>
+</section>
+</section>
+<section>
+<title>Enümerasyon Tipi Dokümantasyonu</title>
+<anchor xml:id="_group___configuration__section__for___c_m_s_i_s_1ga666eb0caeb12ec0e281415592ae89083"/><section>
+    <title>IRQn</title>
+<indexterm><primary>IRQn</primary><secondary>Configuration_section_for_CMSIS</secondary></indexterm>
+<indexterm><primary>Configuration_section_for_CMSIS</primary><secondary>IRQn</secondary></indexterm>
+<para><computeroutput>enum <link linkend="_group___configuration__section__for___c_m_s_i_s_1ga666eb0caeb12ec0e281415592ae89083">IRQn</link></computeroutput></para><para>
+
+<para>STM32F4XX Interrupt Number Definition, according to the selected device in <link linkend="_group___library__configuration__section">Library_configuration_section</link>. </para>
+</para>
+<informaltable frame="all">
+<title>Enümeratör</title>
+    <tgroup cols="2" align="left" colsep="1" rowsep="1">
+      <colspec colname='c1'/>
+      <colspec colname='c2'/>
+<tbody>
+<row><entry><indexterm><primary>NonMaskableInt_IRQn</primary><secondary>Configuration_section_for_CMSIS</secondary></indexterm>
+<indexterm><primary>Configuration_section_for_CMSIS</primary><secondary>NonMaskableInt_IRQn</secondary></indexterm>
+<anchor xml:id="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083ade177d9c70c89e084093024b932a4e30"/>NonMaskableInt_IRQn</entry><entry>
+<para>2 Non Maskable Interrupt <?linebreak?> </para>
+</entry></row><row><entry><indexterm><primary>MemoryManagement_IRQn</primary><secondary>Configuration_section_for_CMSIS</secondary></indexterm>
+<indexterm><primary>Configuration_section_for_CMSIS</primary><secondary>MemoryManagement_IRQn</secondary></indexterm>
+<anchor xml:id="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083a33ff1cf7098de65d61b6354fee6cd5aa"/>MemoryManagement_IRQn</entry><entry>
+<para>4 Cortex-M4 Memory Management Interrupt <?linebreak?> </para>
+</entry></row><row><entry><indexterm><primary>BusFault_IRQn</primary><secondary>Configuration_section_for_CMSIS</secondary></indexterm>
+<indexterm><primary>Configuration_section_for_CMSIS</primary><secondary>BusFault_IRQn</secondary></indexterm>
+<anchor xml:id="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083a8693500eff174f16119e96234fee73af"/>BusFault_IRQn</entry><entry>
+<para>5 Cortex-M4 Bus Fault Interrupt <?linebreak?> </para>
+</entry></row><row><entry><indexterm><primary>UsageFault_IRQn</primary><secondary>Configuration_section_for_CMSIS</secondary></indexterm>
+<indexterm><primary>Configuration_section_for_CMSIS</primary><secondary>UsageFault_IRQn</secondary></indexterm>
+<anchor xml:id="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083a6895237c9443601ac832efa635dd8bbf"/>UsageFault_IRQn</entry><entry>
+<para>6 Cortex-M4 Usage Fault Interrupt <?linebreak?> </para>
+</entry></row><row><entry><indexterm><primary>SVCall_IRQn</primary><secondary>Configuration_section_for_CMSIS</secondary></indexterm>
+<indexterm><primary>Configuration_section_for_CMSIS</primary><secondary>SVCall_IRQn</secondary></indexterm>
+<anchor xml:id="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083a4ce820b3cc6cf3a796b41aadc0cf1237"/>SVCall_IRQn</entry><entry>
+<para>11 Cortex-M4 SV Call Interrupt <?linebreak?> </para>
+</entry></row><row><entry><indexterm><primary>DebugMonitor_IRQn</primary><secondary>Configuration_section_for_CMSIS</secondary></indexterm>
+<indexterm><primary>Configuration_section_for_CMSIS</primary><secondary>DebugMonitor_IRQn</secondary></indexterm>
+<anchor xml:id="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083a8e033fcef7aed98a31c60a7de206722c"/>DebugMonitor_IRQn</entry><entry>
+<para>12 Cortex-M4 Debug Monitor Interrupt <?linebreak?> </para>
+</entry></row><row><entry><indexterm><primary>PendSV_IRQn</primary><secondary>Configuration_section_for_CMSIS</secondary></indexterm>
+<indexterm><primary>Configuration_section_for_CMSIS</primary><secondary>PendSV_IRQn</secondary></indexterm>
+<anchor xml:id="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083a03c3cc89984928816d81793fc7bce4a2"/>PendSV_IRQn</entry><entry>
+<para>14 Cortex-M4 Pend SV Interrupt <?linebreak?> </para>
+</entry></row><row><entry><indexterm><primary>SysTick_IRQn</primary><secondary>Configuration_section_for_CMSIS</secondary></indexterm>
+<indexterm><primary>Configuration_section_for_CMSIS</primary><secondary>SysTick_IRQn</secondary></indexterm>
+<anchor xml:id="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083a6dbff8f8543325f3474cbae2446776e7"/>SysTick_IRQn</entry><entry>
+<para>15 Cortex-M4 System Tick Interrupt <?linebreak?> </para>
+</entry></row><row><entry><indexterm><primary>WWDG_IRQn</primary><secondary>Configuration_section_for_CMSIS</secondary></indexterm>
+<indexterm><primary>Configuration_section_for_CMSIS</primary><secondary>WWDG_IRQn</secondary></indexterm>
+<anchor xml:id="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083a971089d7566ef902dfa0c80ac3a8fd52"/>WWDG_IRQn</entry><entry>
+<para>Window WatchDog Interrupt <?linebreak?> </para>
+</entry></row><row><entry><indexterm><primary>PVD_IRQn</primary><secondary>Configuration_section_for_CMSIS</secondary></indexterm>
+<indexterm><primary>Configuration_section_for_CMSIS</primary><secondary>PVD_IRQn</secondary></indexterm>
+<anchor xml:id="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083ab0b51ffcc4dcf5661141b79c8e5bd924"/>PVD_IRQn</entry><entry>
+<para>PVD through EXTI Line detection Interrupt <?linebreak?> </para>
+</entry></row><row><entry><indexterm><primary>TAMP_STAMP_IRQn</primary><secondary>Configuration_section_for_CMSIS</secondary></indexterm>
+<indexterm><primary>Configuration_section_for_CMSIS</primary><secondary>TAMP_STAMP_IRQn</secondary></indexterm>
+<anchor xml:id="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083ac127cca7ae48bcf93924209f04e5e5a1"/>TAMP_STAMP_IRQn</entry><entry>
+<para>Tamper and TimeStamp interrupts through the EXTI line <?linebreak?> </para>
+</entry></row><row><entry><indexterm><primary>RTC_WKUP_IRQn</primary><secondary>Configuration_section_for_CMSIS</secondary></indexterm>
+<indexterm><primary>Configuration_section_for_CMSIS</primary><secondary>RTC_WKUP_IRQn</secondary></indexterm>
+<anchor xml:id="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083a173ccc3f31df1f7e43de2ddeab3d1777"/>RTC_WKUP_IRQn</entry><entry>
+<para>RTC Wakeup interrupt through the EXTI line <?linebreak?> </para>
+</entry></row><row><entry><indexterm><primary>FLASH_IRQn</primary><secondary>Configuration_section_for_CMSIS</secondary></indexterm>
+<indexterm><primary>Configuration_section_for_CMSIS</primary><secondary>FLASH_IRQn</secondary></indexterm>
+<anchor xml:id="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083a91b73963ce243a1d031576d49e137fab"/>FLASH_IRQn</entry><entry>
+<para>FLASH global Interrupt <?linebreak?> </para>
+</entry></row><row><entry><indexterm><primary>RCC_IRQn</primary><secondary>Configuration_section_for_CMSIS</secondary></indexterm>
+<indexterm><primary>Configuration_section_for_CMSIS</primary><secondary>RCC_IRQn</secondary></indexterm>
+<anchor xml:id="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083a5710b22392997bac63daa5c999730f77"/>RCC_IRQn</entry><entry>
+<para>RCC global Interrupt <?linebreak?> </para>
+</entry></row><row><entry><indexterm><primary>EXTI0_IRQn</primary><secondary>Configuration_section_for_CMSIS</secondary></indexterm>
+<indexterm><primary>Configuration_section_for_CMSIS</primary><secondary>EXTI0_IRQn</secondary></indexterm>
+<anchor xml:id="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083ab6aa6f87d26bbc6cf99b067b8d75c2f7"/>EXTI0_IRQn</entry><entry>
+<para>EXTI Line0 Interrupt <?linebreak?> </para>
+</entry></row><row><entry><indexterm><primary>EXTI1_IRQn</primary><secondary>Configuration_section_for_CMSIS</secondary></indexterm>
+<indexterm><primary>Configuration_section_for_CMSIS</primary><secondary>EXTI1_IRQn</secondary></indexterm>
+<anchor xml:id="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083ae4badcdecdb94eb10129c4c0577c5e19"/>EXTI1_IRQn</entry><entry>
+<para>EXTI Line1 Interrupt <?linebreak?> </para>
+</entry></row><row><entry><indexterm><primary>EXTI2_IRQn</primary><secondary>Configuration_section_for_CMSIS</secondary></indexterm>
+<indexterm><primary>Configuration_section_for_CMSIS</primary><secondary>EXTI2_IRQn</secondary></indexterm>
+<anchor xml:id="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083a082cb3f7839069a0715fd76c7eacbbc9"/>EXTI2_IRQn</entry><entry>
+<para>EXTI Line2 Interrupt <?linebreak?> </para>
+</entry></row><row><entry><indexterm><primary>EXTI3_IRQn</primary><secondary>Configuration_section_for_CMSIS</secondary></indexterm>
+<indexterm><primary>Configuration_section_for_CMSIS</primary><secondary>EXTI3_IRQn</secondary></indexterm>
+<anchor xml:id="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083add889c84ba5de466ced209069e05d602"/>EXTI3_IRQn</entry><entry>
+<para>EXTI Line3 Interrupt <?linebreak?> </para>
+</entry></row><row><entry><indexterm><primary>EXTI4_IRQn</primary><secondary>Configuration_section_for_CMSIS</secondary></indexterm>
+<indexterm><primary>Configuration_section_for_CMSIS</primary><secondary>EXTI4_IRQn</secondary></indexterm>
+<anchor xml:id="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083ab70a40106ca4486770df5d2072d9ac0e"/>EXTI4_IRQn</entry><entry>
+<para>EXTI Line4 Interrupt <?linebreak?> </para>
+</entry></row><row><entry><indexterm><primary>DMA1_Stream0_IRQn</primary><secondary>Configuration_section_for_CMSIS</secondary></indexterm>
+<indexterm><primary>Configuration_section_for_CMSIS</primary><secondary>DMA1_Stream0_IRQn</secondary></indexterm>
+<anchor xml:id="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083a9ee33e72512c4cfb301b216f4fb9d68c"/>DMA1_Stream0_IRQn</entry><entry>
+<para>DMA1 Stream 0 global Interrupt <?linebreak?> </para>
+</entry></row><row><entry><indexterm><primary>DMA1_Stream1_IRQn</primary><secondary>Configuration_section_for_CMSIS</secondary></indexterm>
+<indexterm><primary>Configuration_section_for_CMSIS</primary><secondary>DMA1_Stream1_IRQn</secondary></indexterm>
+<anchor xml:id="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083aa45ca2c955060e2c2a7cbbe1d6753285"/>DMA1_Stream1_IRQn</entry><entry>
+<para>DMA1 Stream 1 global Interrupt <?linebreak?> </para>
+</entry></row><row><entry><indexterm><primary>DMA1_Stream2_IRQn</primary><secondary>Configuration_section_for_CMSIS</secondary></indexterm>
+<indexterm><primary>Configuration_section_for_CMSIS</primary><secondary>DMA1_Stream2_IRQn</secondary></indexterm>
+<anchor xml:id="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083a0d9ec75e4478e70235b705d5a6b3efd8"/>DMA1_Stream2_IRQn</entry><entry>
+<para>DMA1 Stream 2 global Interrupt <?linebreak?> </para>
+</entry></row><row><entry><indexterm><primary>DMA1_Stream3_IRQn</primary><secondary>Configuration_section_for_CMSIS</secondary></indexterm>
+<indexterm><primary>Configuration_section_for_CMSIS</primary><secondary>DMA1_Stream3_IRQn</secondary></indexterm>
+<anchor xml:id="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083af77770e080206a7558decf09344fb2e2"/>DMA1_Stream3_IRQn</entry><entry>
+<para>DMA1 Stream 3 global Interrupt <?linebreak?> </para>
+</entry></row><row><entry><indexterm><primary>DMA1_Stream4_IRQn</primary><secondary>Configuration_section_for_CMSIS</secondary></indexterm>
+<indexterm><primary>Configuration_section_for_CMSIS</primary><secondary>DMA1_Stream4_IRQn</secondary></indexterm>
+<anchor xml:id="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083aee2aaf365c6c297a63cee41ecae2301a"/>DMA1_Stream4_IRQn</entry><entry>
+<para>DMA1 Stream 4 global Interrupt <?linebreak?> </para>
+</entry></row><row><entry><indexterm><primary>DMA1_Stream5_IRQn</primary><secondary>Configuration_section_for_CMSIS</secondary></indexterm>
+<indexterm><primary>Configuration_section_for_CMSIS</primary><secondary>DMA1_Stream5_IRQn</secondary></indexterm>
+<anchor xml:id="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083ac92efa72399fe58fa615d8bf8fd64a4e"/>DMA1_Stream5_IRQn</entry><entry>
+<para>DMA1 Stream 5 global Interrupt <?linebreak?> </para>
+</entry></row><row><entry><indexterm><primary>DMA1_Stream6_IRQn</primary><secondary>Configuration_section_for_CMSIS</secondary></indexterm>
+<indexterm><primary>Configuration_section_for_CMSIS</primary><secondary>DMA1_Stream6_IRQn</secondary></indexterm>
+<anchor xml:id="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083aef5e2b68f62f6f1781fab894f0b8f486"/>DMA1_Stream6_IRQn</entry><entry>
+<para>DMA1 Stream 6 global Interrupt <?linebreak?> </para>
+</entry></row><row><entry><indexterm><primary>ADC_IRQn</primary><secondary>Configuration_section_for_CMSIS</secondary></indexterm>
+<indexterm><primary>Configuration_section_for_CMSIS</primary><secondary>ADC_IRQn</secondary></indexterm>
+<anchor xml:id="_group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083a4d69175258ae261dd545001e810421b3"/>ADC_IRQn</entry><entry>
+<para>ADC1, ADC2 and ADC3 global Interrupts <?linebreak?> </para>
+</entry></row>    </tbody>
+    </tgroup>
+</informaltable>
+</section>
+</section>
+</section>

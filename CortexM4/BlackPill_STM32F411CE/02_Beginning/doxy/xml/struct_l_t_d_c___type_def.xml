@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="tr">
+  <compounddef id="struct_l_t_d_c___type_def" kind="struct" language="C++" prot="public">
+    <compoundname>LTDC_TypeDef</compoundname>
+    <includes refid="stm32f4xx_8h" local="no">stm32f4xx.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group___c_m_s_i_s_1ga8be676577db129a84a9a2689519a8502" kind="variable"><name>RESERVED0</name></member>
+      <member refid="group___c_m_s_i_s_1ga3aa8cb3b286c630b9fa126616a1f6498" kind="variable"><name>SSCR</name></member>
+      <member refid="group___c_m_s_i_s_1gab954c16d70935a24b62aad461a664878" kind="variable"><name>BPCR</name></member>
+      <member refid="group___c_m_s_i_s_1ga2277d6936f88a3bbb0b7fd1481b2c2c5" kind="variable"><name>AWCR</name></member>
+      <member refid="group___c_m_s_i_s_1gace97ea64f6db802fc5488601bb8558ab" kind="variable"><name>TWCR</name></member>
+      <member refid="group___c_m_s_i_s_1gaae092d9d07574afe1fbc79c8bf7f7c19" kind="variable"><name>GCR</name></member>
+      <member refid="group___c_m_s_i_s_1ga28d88d9a08aab1adbebea61c42ef901e" kind="variable"><name>RESERVED1</name></member>
+      <member refid="group___c_m_s_i_s_1ga92af0fef30467bfce8d1408f81cfda6d" kind="variable"><name>SRCR</name></member>
+      <member refid="group___c_m_s_i_s_1ga032c71ff46a97d2398e5c15a1b4fa50d" kind="variable"><name>RESERVED2</name></member>
+      <member refid="group___c_m_s_i_s_1ga7a7c554d0c2d78d8b044a699602e37e1" kind="variable"><name>BCCR</name></member>
+      <member refid="group___c_m_s_i_s_1gad4a213d23b6c7413d93b180984c5542c" kind="variable"><name>RESERVED3</name></member>
+      <member refid="group___c_m_s_i_s_1ga6566f8cfbd1d8aa7e8db046aa35e77db" kind="variable"><name>IER</name></member>
+      <member refid="group___c_m_s_i_s_1gab3c49a96815fcbee63d95e1e74f20e75" kind="variable"><name>ISR</name></member>
+      <member refid="group___c_m_s_i_s_1ga0a8c8230846fd8ff154b9fde8dfa0399" kind="variable"><name>ICR</name></member>
+      <member refid="group___c_m_s_i_s_1ga7d311d182e9cb4a5acd25f6bb3e1422d" kind="variable"><name>LIPCR</name></member>
+      <member refid="group___c_m_s_i_s_1ga140588a82bafbf0bf0c983111aadb351" kind="variable"><name>CPSR</name></member>
+      <member refid="group___c_m_s_i_s_1ga5e235993884b3f8d42db5f51d9bd1942" kind="variable"><name>CDSR</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>LCD-TFT Display Controller. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Core_BlackPill/stm32f4xx.h" line="1567" column="1" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="1568" bodyend="1586"/>
+    <listofallmembers>
+      <member refid="group___c_m_s_i_s_1ga2277d6936f88a3bbb0b7fd1481b2c2c5" prot="public" virt="non-virtual"><scope>LTDC_TypeDef</scope><name>AWCR</name></member>
+      <member refid="group___c_m_s_i_s_1ga7a7c554d0c2d78d8b044a699602e37e1" prot="public" virt="non-virtual"><scope>LTDC_TypeDef</scope><name>BCCR</name></member>
+      <member refid="group___c_m_s_i_s_1gab954c16d70935a24b62aad461a664878" prot="public" virt="non-virtual"><scope>LTDC_TypeDef</scope><name>BPCR</name></member>
+      <member refid="group___c_m_s_i_s_1ga5e235993884b3f8d42db5f51d9bd1942" prot="public" virt="non-virtual"><scope>LTDC_TypeDef</scope><name>CDSR</name></member>
+      <member refid="group___c_m_s_i_s_1ga140588a82bafbf0bf0c983111aadb351" prot="public" virt="non-virtual"><scope>LTDC_TypeDef</scope><name>CPSR</name></member>
+      <member refid="group___c_m_s_i_s_1gaae092d9d07574afe1fbc79c8bf7f7c19" prot="public" virt="non-virtual"><scope>LTDC_TypeDef</scope><name>GCR</name></member>
+      <member refid="group___c_m_s_i_s_1ga0a8c8230846fd8ff154b9fde8dfa0399" prot="public" virt="non-virtual"><scope>LTDC_TypeDef</scope><name>ICR</name></member>
+      <member refid="group___c_m_s_i_s_1ga6566f8cfbd1d8aa7e8db046aa35e77db" prot="public" virt="non-virtual"><scope>LTDC_TypeDef</scope><name>IER</name></member>
+      <member refid="group___c_m_s_i_s_1gab3c49a96815fcbee63d95e1e74f20e75" prot="public" virt="non-virtual"><scope>LTDC_TypeDef</scope><name>ISR</name></member>
+      <member refid="group___c_m_s_i_s_1ga7d311d182e9cb4a5acd25f6bb3e1422d" prot="public" virt="non-virtual"><scope>LTDC_TypeDef</scope><name>LIPCR</name></member>
+      <member refid="group___c_m_s_i_s_1ga8be676577db129a84a9a2689519a8502" prot="public" virt="non-virtual"><scope>LTDC_TypeDef</scope><name>RESERVED0</name></member>
+      <member refid="group___c_m_s_i_s_1ga28d88d9a08aab1adbebea61c42ef901e" prot="public" virt="non-virtual"><scope>LTDC_TypeDef</scope><name>RESERVED1</name></member>
+      <member refid="group___c_m_s_i_s_1ga032c71ff46a97d2398e5c15a1b4fa50d" prot="public" virt="non-virtual"><scope>LTDC_TypeDef</scope><name>RESERVED2</name></member>
+      <member refid="group___c_m_s_i_s_1gad4a213d23b6c7413d93b180984c5542c" prot="public" virt="non-virtual"><scope>LTDC_TypeDef</scope><name>RESERVED3</name></member>
+      <member refid="group___c_m_s_i_s_1ga92af0fef30467bfce8d1408f81cfda6d" prot="public" virt="non-virtual"><scope>LTDC_TypeDef</scope><name>SRCR</name></member>
+      <member refid="group___c_m_s_i_s_1ga3aa8cb3b286c630b9fa126616a1f6498" prot="public" virt="non-virtual"><scope>LTDC_TypeDef</scope><name>SSCR</name></member>
+      <member refid="group___c_m_s_i_s_1gace97ea64f6db802fc5488601bb8558ab" prot="public" virt="non-virtual"><scope>LTDC_TypeDef</scope><name>TWCR</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

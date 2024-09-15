@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_main_8c" xml:lang="tr">
+<title>main.c Dosya Referansı</title>
+<indexterm><primary>main.c</primary></indexterm>
+<programlisting linenumbering="unnumbered">#include &lt;stdio.h&gt;<?linebreak?>#include &lt;stdint.h&gt;<?linebreak?>#include &quot;main.h&quot;<?linebreak?></programlisting><simplesect>
+    <title>Fonksiyonlar    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_main_8c_1a02fd73d861ef2e4aabb38c0c9ff82947">init</link> ()</para>
+</listitem>
+            <listitem><para>int <link linkend="_main_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4">main</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_main_8c_1a81248fec65b118150a94d8cdaf2a2b8c">initClock</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_main_8c_1a1778435697ce5e88277225a1ea85c2d9">initIO</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_main_8c_1ab7cce8122024d7ba47bf10f434956de4">delay_ms</link> (uint32_t ms)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Değişkenler    </title>
+        <itemizedlist>
+            <listitem><para>volatile int <link linkend="_main_8c_1a0fdb33b6110ff218c2163783c1cd4365">_Cnt</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_main_8c_1ab58c95988380de559a0dd93663d6a055">fatih</link> =0</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Fonksiyon Dokümantasyonu</title>
+<anchor xml:id="_main_8c_1ab7cce8122024d7ba47bf10f434956de4"/><section>
+    <title>delay_ms()</title>
+<indexterm><primary>delay_ms</primary><secondary>main.c</secondary></indexterm>
+<indexterm><primary>main.c</primary><secondary>delay_ms</secondary></indexterm>
+<para><computeroutput>void delay_ms (uint32_t ms)</computeroutput></para></section>
+<anchor xml:id="_main_8c_1a02fd73d861ef2e4aabb38c0c9ff82947"/><section>
+    <title>init()</title>
+<indexterm><primary>init</primary><secondary>main.c</secondary></indexterm>
+<indexterm><primary>main.c</primary><secondary>init</secondary></indexterm>
+<para><computeroutput>void init ( )</computeroutput></para></section>
+<anchor xml:id="_main_8c_1a81248fec65b118150a94d8cdaf2a2b8c"/><section>
+    <title>initClock()</title>
+<indexterm><primary>initClock</primary><secondary>main.c</secondary></indexterm>
+<indexterm><primary>main.c</primary><secondary>initClock</secondary></indexterm>
+<para><computeroutput>void initClock ( )</computeroutput></para></section>
+<anchor xml:id="_main_8c_1a1778435697ce5e88277225a1ea85c2d9"/><section>
+    <title>initIO()</title>
+<indexterm><primary>initIO</primary><secondary>main.c</secondary></indexterm>
+<indexterm><primary>main.c</primary><secondary>initIO</secondary></indexterm>
+<para><computeroutput>void initIO ( )</computeroutput></para></section>
+<anchor xml:id="_main_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4"/><section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>main.c</secondary></indexterm>
+<indexterm><primary>main.c</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>int main ( )</computeroutput></para></section>
+</section>
+<section>
+<title>Değişken Dokümantasyonu</title>
+<anchor xml:id="_main_8c_1a0fdb33b6110ff218c2163783c1cd4365"/><section>
+    <title>_Cnt</title>
+<indexterm><primary>_Cnt</primary><secondary>main.c</secondary></indexterm>
+<indexterm><primary>main.c</primary><secondary>_Cnt</secondary></indexterm>
+<para><computeroutput>volatile int _Cnt</computeroutput></para></section>
+<anchor xml:id="_main_8c_1ab58c95988380de559a0dd93663d6a055"/><section>
+    <title>fatih</title>
+<indexterm><primary>fatih</primary><secondary>main.c</secondary></indexterm>
+<indexterm><primary>main.c</primary><secondary>fatih</secondary></indexterm>
+<para><computeroutput>int fatih =0</computeroutput></para></section>
+</section>
+</section>

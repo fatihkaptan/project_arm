@@ -1,0 +1,271 @@
+###############################################################################
+#
+# IAR ELF Linker V8.50.9.278/W32 for ARM                  18/Aug/2024  21:41:49
+# Copyright 2007-2020 IAR Systems AB.
+#
+#    Output file  =
+#        D:\yeni_seyler\egitim\arsiv\ARM_KURSU_Code\en.stsw-stm32065_v1-9-0\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Project\02_Beginning\Debug\Exe\002_Beginning.out
+#    Map file     =
+#        D:\yeni_seyler\egitim\arsiv\ARM_KURSU_Code\en.stsw-stm32065_v1-9-0\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Project\02_Beginning\Debug\List\002_Beginning.map
+#    Command line =
+#        -f C:\Users\90553\AppData\Local\Temp\EW4BAF.tmp
+#        (D:\yeni_seyler\egitim\arsiv\ARM_KURSU_Code\en.stsw-stm32065_v1-9-0\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Project\02_Beginning\Debug\Obj\delay.o
+#        D:\yeni_seyler\egitim\arsiv\ARM_KURSU_Code\en.stsw-stm32065_v1-9-0\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Project\02_Beginning\Debug\Obj\main.o
+#        D:\yeni_seyler\egitim\arsiv\ARM_KURSU_Code\en.stsw-stm32065_v1-9-0\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Project\02_Beginning\Debug\Obj\startup_stm32f411xe.o
+#        D:\yeni_seyler\egitim\arsiv\ARM_KURSU_Code\en.stsw-stm32065_v1-9-0\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Project\02_Beginning\Debug\Obj\stm32f4xx_it.o
+#        D:\yeni_seyler\egitim\arsiv\ARM_KURSU_Code\en.stsw-stm32065_v1-9-0\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Project\02_Beginning\Debug\Obj\system_stm32f4xx.o
+#        --no_out_extension -o
+#        D:\yeni_seyler\egitim\arsiv\ARM_KURSU_Code\en.stsw-stm32065_v1-9-0\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Project\02_Beginning\Debug\Exe\002_Beginning.out
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
+#        --map
+#        D:\yeni_seyler\egitim\arsiv\ARM_KURSU_Code\en.stsw-stm32065_v1-9-0\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Project\02_Beginning\Debug\List\002_Beginning.map
+#        --config C:\iar8509\arm\config\linker\ST\stm32f411xE.icf --semihosting
+#        --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x807'ffff] { ro };
+define block CSTACK with size = 8K, alignment = 8 { };
+define block HEAP with size = 8K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2001'ffff] {
+          rw, block CSTACK, block HEAP };
+
+  Section          Kind         Address    Size  Object
+  -------          ----         -------    ----  ------
+"A0":                                     0x198
+  .intvec          ro code   0x800'0000   0x198  startup_stm32f411xe.o [1]
+                           - 0x800'0198   0x198
+
+"P1":                                     0x3a4
+  .text            ro code   0x800'0198    0xe0  main.o [1]
+  .text            ro code   0x800'0278    0xcc  system_stm32f4xx.o [1]
+  .text            ro code   0x800'0344    0x3a  zero_init3.o [3]
+  .text            ro code   0x800'0380    0x28  data_init.o [3]
+  .iar.init_table  const     0x800'03a8    0x10  - Linker created -
+  .text            ro code   0x800'03b8    0x1e  cmain.o [3]
+  .text            ro code   0x800'03d6     0x4  low_level_init.o [2]
+  .text            ro code   0x800'03da     0x4  exit.o [2]
+  .text            ro code   0x800'03e0     0xa  cexit.o [3]
+  .text            ro code   0x800'03ec    0x14  exit.o [4]
+  .text            ro code   0x800'0400    0x1c  cstartup_M.o [3]
+  .text            ro code   0x800'041c    0x18  stm32f4xx_it.o [1]
+  .text            ro code   0x800'0434    0x14  delay.o [1]
+  .text            ro code   0x800'0448    0x10  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'0458     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'045c     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'0460     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'0464     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'0468     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'046c     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'0470     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'0474     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'0478     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'047c     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'0480     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'0484     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'0488     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'048c     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'0490     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'0494     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'0498     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'049c     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'04a0     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'04a4     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'04a8     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'04ac     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'04b0     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'04b4     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'04b8     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'04bc     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'04c0     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'04c4     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'04c8     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'04cc     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'04d0     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'04d4     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'04d8     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'04dc     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'04e0     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'04e4     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'04e8     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'04ec     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'04f0     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'04f4     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'04f8     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'04fc     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'0500     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'0504     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'0508     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'050c     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'0510     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'0514     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'0518     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'051c     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'0520     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'0524     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'0528     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'052c     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'0530     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'0534     0x4  startup_stm32f411xe.o [1]
+  .text            ro code   0x800'0538     0x4  startup_stm32f411xe.o [1]
+  .rodata          const     0x800'053c     0x0  zero_init3.o [3]
+                           - 0x800'053c   0x3a4
+
+"P2", part 1 of 2:                          0xc
+  .bss             zero     0x2000'0000     0x4  delay.o [1]
+  .bss             zero     0x2000'0004     0x4  main.o [1]
+  .bss             zero     0x2000'0008     0x4  main.o [1]
+                          - 0x2000'000c     0xc
+
+"P2", part 2 of 2:                       0x2000
+  CSTACK                    0x2000'0010  0x2000  <Block>
+    CSTACK         uninit   0x2000'0010  0x2000  <Block tail>
+                          - 0x2000'2010  0x2000
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+   0x800'053c   0x807'ffff  0x7'fac4
+  0x2000'000c  0x2000'000f       0x4
+  0x2000'2010  0x2001'ffff  0x1'dff0
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0xc:
+          0x2000'0000   0xc
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                 ro code  ro data  rw data
+    ------                 -------  -------  -------
+command line/config:
+    ------------------------------------------------
+    Total:
+
+D:\yeni_seyler\egitim\arsiv\ARM_KURSU_Code\en.stsw-stm32065_v1-9-0\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Project\02_Beginning\Debug\Obj: [1]
+    delay.o                     20                 4
+    main.o                     224                 8
+    startup_stm32f411xe.o      652
+    stm32f4xx_it.o              24
+    system_stm32f4xx.o         204
+    ------------------------------------------------
+    Total:                   1'124                12
+
+dl7M_tln.a: [2]
+    exit.o                       4
+    low_level_init.o             4
+    ------------------------------------------------
+    Total:                       8
+
+rt7M_tl.a: [3]
+    cexit.o                     10
+    cmain.o                     30
+    cstartup_M.o                28
+    data_init.o                 40
+    zero_init3.o                58
+    ------------------------------------------------
+    Total:                     166
+
+shb_l.a: [4]
+    exit.o                      20
+    ------------------------------------------------
+    Total:                      20
+
+    Gaps                         6
+    Linker created                       16    8'192
+----------------------------------------------------
+    Grand Total:             1'324       16    8'204
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address  Size  Type      Object
+-----                       -------  ----  ----      ------
+.iar.init_table$$Base    0x800'03a8         --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'03b8         --   Gb  - Linker created -
+?main                    0x800'03b9        Code  Gb  cmain.o [3]
+BusFault_Handler         0x800'0423   0x2  Code  Gb  stm32f4xx_it.o [1]
+CSTACK$$Base            0x2000'0010         --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'2010         --   Gb  - Linker created -
+DebugMon_Handler         0x800'0429   0x2  Code  Gb  stm32f4xx_it.o [1]
+HardFault_Handler        0x800'041f   0x2  Code  Gb  stm32f4xx_it.o [1]
+MemManage_Handler        0x800'0421   0x2  Code  Gb  stm32f4xx_it.o [1]
+NMI_Handler              0x800'041d   0x2  Code  Gb  stm32f4xx_it.o [1]
+PendSV_Handler           0x800'042b   0x2  Code  Gb  stm32f4xx_it.o [1]
+Region$$Table$$Base      0x800'03a8         --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'03b8         --   Gb  - Linker created -
+SVC_Handler              0x800'0427   0x2  Code  Gb  stm32f4xx_it.o [1]
+SetSysClock              0x800'02b5  0x60  Code  Lc  system_stm32f4xx.o [1]
+SysTick_Handler          0x800'042d   0x8  Code  Gb  stm32f4xx_it.o [1]
+SystemInit               0x800'0279  0x3c  Code  Gb  system_stm32f4xx.o [1]
+TimingDelay             0x2000'0000   0x4  Data  Lc  delay.o [1]
+TimingDelay_Decrement    0x800'0435  0x14  Code  Gb  delay.o [1]
+UsageFault_Handler       0x800'0425   0x2  Code  Gb  stm32f4xx_it.o [1]
+_Cnt                    0x2000'0004   0x4  Data  Gb  main.o [1]
+__cmain                  0x800'03b9        Code  Gb  cmain.o [3]
+__exit                   0x800'03ed  0x14  Code  Gb  exit.o [4]
+__iar_data_init3         0x800'0381  0x28  Code  Gb  data_init.o [3]
+__iar_program_start      0x800'0401        Code  Gb  cstartup_M.o [3]
+__iar_zero_init3         0x800'0345  0x3a  Code  Gb  zero_init3.o [3]
+__low_level_init         0x800'03d7   0x4  Code  Gb  low_level_init.o [2]
+__vector_table           0x800'0000        Data  Gb  startup_stm32f411xe.o [1]
+_call_main               0x800'03c5        Code  Gb  cmain.o [3]
+_exit                    0x800'03e1        Code  Gb  cexit.o [3]
+_main                    0x800'03cf        Code  Gb  cmain.o [3]
+delay_ms                 0x800'0221  0x2a  Code  Gb  main.o [1]
+exit                     0x800'03db   0x4  Code  Gb  exit.o [2]
+fatih                   0x2000'0008   0x4  Data  Gb  main.o [1]
+init                     0x800'0199   0xc  Code  Gb  main.o [1]
+initClock                0x800'01db   0x2  Code  Gb  main.o [1]
+initIO                   0x800'01dd  0x44  Code  Gb  main.o [1]
+main                     0x800'01a5  0x36  Code  Gb  main.o [1]
+
+
+[1] = D:\yeni_seyler\egitim\arsiv\ARM_KURSU_Code\en.stsw-stm32065_v1-9-0\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Project\02_Beginning\Debug\Obj
+[2] = dl7M_tln.a
+[3] = rt7M_tl.a
+[4] = shb_l.a
+
+  1'324 bytes of readonly  code memory
+     16 bytes of readonly  data memory
+  8'204 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

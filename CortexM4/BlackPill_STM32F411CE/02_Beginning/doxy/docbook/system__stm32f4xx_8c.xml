@@ -1,0 +1,336 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_system__stm32f4xx_8c" xml:lang="tr">
+<title>Core_BlackPill/system_stm32f4xx.c Dosya Referansı</title>
+<indexterm><primary>Core_BlackPill/system_stm32f4xx.c</primary></indexterm>
+<para>
+
+<para>CMSIS Cortex-M4 Device Peripheral Access Layer System Source File. This file contains the system clock configuration for STM32F4xx devices. </para>
+ 
+</para>
+<programlisting linenumbering="unnumbered">#include &quot;stm32f4xx.h&quot;<?linebreak?></programlisting><simplesect>
+    <title>Makrolar    </title>
+        <itemizedlist>
+            <listitem><para>#define <link linkend="_group___s_t_m32_f4xx___system___private___defines_1ga40e1495541cbb4acbe3f1819bd87a9fe">VECT_TAB_OFFSET</link>&#160;&#160;&#160;0x00</para>
+</listitem>
+            <listitem><para>#define <link linkend="_group___s_t_m32_f4xx___system___private___defines_1gac958257ddb2537c539cffdb3a4543067">PLL_Q</link>&#160;&#160;&#160;7</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Fonksiyonlar    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_group___s_t_m32_f4xx___system___private___functions_1ga93f514700ccf00d08dbdcff7f1224eb2">SystemInit</link> (void)</para>
+
+<para>Setup the microcontroller system Initialize the Embedded Flash Interface, the PLL and update the SystemFrequency variable. </para>
+</listitem>
+            <listitem><para>void <link linkend="_group___s_t_m32_f4xx___system___private___functions_1gae0c36a9591fe6e9c45ecb21a794f0f0f">SystemCoreClockUpdate</link> (void)</para>
+
+<para>Update SystemCoreClock variable according to Clock Register Values. The SystemCoreClock variable contains the core clock (HCLK), it can be used by the user application to setup the SysTick timer or configure other parameters. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Değişkenler    </title>
+        <itemizedlist>
+            <listitem><para>__I uint8_t <link linkend="_group___s_t_m32_f4xx___system___private___variables_1gacdc3ef54c0704c90e69a8a84fb2d970d">AHBPrescTable</link> [16] = {0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 6, 7, 8, 9}</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Ayrıntılı tanımlama</title>
+
+<para>CMSIS Cortex-M4 Device Peripheral Access Layer System Source File. This file contains the system clock configuration for STM32F4xx devices. </para>
+
+<para><formalpara><title>Yazar</title>
+
+<para>MCD Application Team </para>
+</formalpara>
+<formalpara><title>Sürüm</title>
+
+<para>V1.8.1 </para>
+</formalpara>
+<formalpara><title>Tarih</title>
+
+<para>27-January-2022 </para>
+</formalpara>
+<orderedlist>
+<listitem>
+<para>This file provides two functions and one global variable to be called from user application:<itemizedlist>
+<listitem>
+<para><link linkend="_group___s_t_m32_f4xx___system___private___functions_1ga93f514700ccf00d08dbdcff7f1224eb2">SystemInit()</link>: Setups the system clock (System clock source, PLL Multiplier and Divider factors, AHB/APBx prescalers and Flash settings), depending on the configuration made in the clock xls tool. This function is called at startup just after reset and before branch to main program. This call is made inside the &quot;startup_stm32f4xx.s&quot; file.</para>
+</listitem><listitem>
+<para>SystemCoreClock variable: Contains the core clock (HCLK), it can be used by the user application to setup the SysTick timer or configure other parameters.</para>
+</listitem><listitem>
+<para><link linkend="_group___s_t_m32_f4xx___system___private___functions_1gae0c36a9591fe6e9c45ecb21a794f0f0f">SystemCoreClockUpdate()</link>: Updates the variable SystemCoreClock and must be called whenever the core clock is changed during program execution.</para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem>
+<para>After each device reset the HSI (16 MHz) is used as system clock source. Then <link linkend="_group___s_t_m32_f4xx___system___private___functions_1ga93f514700ccf00d08dbdcff7f1224eb2">SystemInit()</link> function is called, in &quot;startup_stm32f4xx.s&quot; file, to configure the system clock before to branch to main program.</para>
+</listitem><listitem>
+<para>If the system clock source selected by user fails to startup, the <link linkend="_group___s_t_m32_f4xx___system___private___functions_1ga93f514700ccf00d08dbdcff7f1224eb2">SystemInit()</link> function will do nothing and HSI still used as system clock source. User can add some code to deal with this issue inside the SetSysClock() function.</para>
+</listitem><listitem>
+<para>The default value of HSE crystal is set to 25MHz, refer to &quot;HSE_VALUE&quot; define in &quot;stm32f4xx.h&quot; file. When HSE is used as system clock source, directly or through PLL, and you are using different crystal you have to adapt the HSE value to your own configuration.</para>
+</listitem></orderedlist>
+</para>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md0">
+<title>5. This file configures the system clock as follows:</title>
+<para>============================================================================= </para>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md1">
+<title>Supported STM32F40xxx/41xxx devices</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md2">
+<title>System Clock source | PLL (HSE)</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md3">
+<title>SYSCLK(Hz) | 168000000</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md4">
+<title>HCLK(Hz) | 168000000</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md5">
+<title>AHB Prescaler | 1</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md6">
+<title>APB1 Prescaler | 4</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md7">
+<title>APB2 Prescaler | 2</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md8">
+<title>HSE Frequency(Hz) | 25000000</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md9">
+<title>PLL_M | 25</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md10">
+<title>PLL_N | 336</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md11">
+<title>PLL_P | 2</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md12">
+<title>PLL_Q | 7</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md13">
+<title>PLLI2S_N | NA</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md14">
+<title>PLLI2S_R | NA</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md15">
+<title>I2S input clock | NA</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md16">
+<title>VDD(V) | 3.3</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md17">
+<title>Main regulator output voltage | Scale1 mode</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md18">
+<title>Flash Latency(WS) | 5</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md19">
+<title>Prefetch Buffer | ON</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md20">
+<title>Instruction cache | ON</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md21">
+<title>Data cache | ON</title>
+<para>Require 48MHz for USB OTG FS, | Disabled </para>
+</section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md22">
+<title>SDIO and RNG clock |</title></section>
+</section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md23">
+<title>=============================================================================</title><section xml:id="_system__stm32f4xx_8c_1autotoc_md24">
+<title>Supported STM32F42xxx/43xxx devices</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md25">
+<title>System Clock source | PLL (HSE)</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md26">
+<title>SYSCLK(Hz) | 180000000</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md27">
+<title>HCLK(Hz) | 180000000</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md28">
+<title>AHB Prescaler | 1</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md29">
+<title>APB1 Prescaler | 4</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md30">
+<title>APB2 Prescaler | 2</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md31">
+<title>HSE Frequency(Hz) | 25000000</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md32">
+<title>PLL_M | 25</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md33">
+<title>PLL_N | 360</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md34">
+<title>PLL_P | 2</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md35">
+<title>PLL_Q | 7</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md36">
+<title>PLLI2S_N | NA</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md37">
+<title>PLLI2S_R | NA</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md38">
+<title>I2S input clock | NA</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md39">
+<title>VDD(V) | 3.3</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md40">
+<title>Main regulator output voltage | Scale1 mode</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md41">
+<title>Flash Latency(WS) | 5</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md42">
+<title>Prefetch Buffer | ON</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md43">
+<title>Instruction cache | ON</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md44">
+<title>Data cache | ON</title>
+<para>Require 48MHz for USB OTG FS, | Disabled </para>
+</section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md45">
+<title>SDIO and RNG clock |</title></section>
+</section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md46">
+<title>=============================================================================</title><section xml:id="_system__stm32f4xx_8c_1autotoc_md47">
+<title>Supported STM32F401xx devices</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md48">
+<title>System Clock source | PLL (HSE)</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md49">
+<title>SYSCLK(Hz) | 84000000</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md50">
+<title>HCLK(Hz) | 84000000</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md51">
+<title>AHB Prescaler | 1</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md52">
+<title>APB1 Prescaler | 2</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md53">
+<title>APB2 Prescaler | 1</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md54">
+<title>HSE Frequency(Hz) | 25000000</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md55">
+<title>PLL_M | 25</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md56">
+<title>PLL_N | 336</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md57">
+<title>PLL_P | 4</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md58">
+<title>PLL_Q | 7</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md59">
+<title>PLLI2S_N | NA</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md60">
+<title>PLLI2S_R | NA</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md61">
+<title>I2S input clock | NA</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md62">
+<title>VDD(V) | 3.3</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md63">
+<title>Main regulator output voltage | Scale1 mode</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md64">
+<title>Flash Latency(WS) | 2</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md65">
+<title>Prefetch Buffer | ON</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md66">
+<title>Instruction cache | ON</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md67">
+<title>Data cache | ON</title>
+<para>Require 48MHz for USB OTG FS, | Disabled </para>
+</section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md68">
+<title>SDIO and RNG clock |</title></section>
+</section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md69">
+<title>=============================================================================</title><section xml:id="_system__stm32f4xx_8c_1autotoc_md70">
+<title>Supported STM32F411xx/STM32F410xx devices</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md71">
+<title>System Clock source | PLL (HSI)</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md72">
+<title>SYSCLK(Hz) | 100000000</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md73">
+<title>HCLK(Hz) | 100000000</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md74">
+<title>AHB Prescaler | 1</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md75">
+<title>APB1 Prescaler | 2</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md76">
+<title>APB2 Prescaler | 1</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md77">
+<title>HSI Frequency(Hz) | 16000000</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md78">
+<title>PLL_M | 16</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md79">
+<title>PLL_N | 400</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md80">
+<title>PLL_P | 4</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md81">
+<title>PLL_Q | 7</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md82">
+<title>PLLI2S_N | NA</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md83">
+<title>PLLI2S_R | NA</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md84">
+<title>I2S input clock | NA</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md85">
+<title>VDD(V) | 3.3</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md86">
+<title>Main regulator output voltage | Scale1 mode</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md87">
+<title>Flash Latency(WS) | 3</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md88">
+<title>Prefetch Buffer | ON</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md89">
+<title>Instruction cache | ON</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md90">
+<title>Data cache | ON</title>
+<para>Require 48MHz for USB OTG FS, | Disabled </para>
+</section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md91">
+<title>SDIO and RNG clock |</title></section>
+</section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md92">
+<title>=============================================================================</title><section xml:id="_system__stm32f4xx_8c_1autotoc_md93">
+<title>Supported STM32F446xx devices</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md94">
+<title>System Clock source | PLL (HSE)</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md95">
+<title>SYSCLK(Hz) | 180000000</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md96">
+<title>HCLK(Hz) | 180000000</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md97">
+<title>AHB Prescaler | 1</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md98">
+<title>APB1 Prescaler | 4</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md99">
+<title>APB2 Prescaler | 2</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md100">
+<title>HSE Frequency(Hz) | 8000000</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md101">
+<title>PLL_M | 8</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md102">
+<title>PLL_N | 360</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md103">
+<title>PLL_P | 2</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md104">
+<title>PLL_Q | 7</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md105">
+<title>PLL_R | NA</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md106">
+<title>PLLI2S_M | NA</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md107">
+<title>PLLI2S_N | NA</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md108">
+<title>PLLI2S_P | NA</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md109">
+<title>PLLI2S_Q | NA</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md110">
+<title>PLLI2S_R | NA</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md111">
+<title>I2S input clock | NA</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md112">
+<title>VDD(V) | 3.3</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md113">
+<title>Main regulator output voltage | Scale1 mode</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md114">
+<title>Flash Latency(WS) | 5</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md115">
+<title>Prefetch Buffer | ON</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md116">
+<title>Instruction cache | ON</title></section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md117">
+<title>Data cache | ON</title>
+<para>Require 48MHz for USB OTG FS, | Disabled </para>
+</section>
+<section xml:id="_system__stm32f4xx_8c_1autotoc_md118">
+<title>SDIO and RNG clock |</title>
+<para>=============================================================================</para>
+
+<para><caution><title>Dikkat</title>
+
+<para></para>
+</caution>
+Copyright (c) 2016 STMicroelectronics. All rights reserved.</para>
+
+<para>This software is licensed under terms that can be found in the LICENSE file in the root directory of this software component. If no LICENSE file comes with this software, it is provided AS-IS. </para>
+</section>
+</section>
+</section>
+</section>

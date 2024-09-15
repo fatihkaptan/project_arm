@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="tr">
+  <compounddef id="struct_i2_c___type_def" kind="struct" language="C++" prot="public">
+    <compoundname>I2C_TypeDef</compoundname>
+    <includes refid="stm32f4xx_8h" local="no">stm32f4xx.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group___c_m_s_i_s_1ga61400ce239355b62aa25c95fcc18a5e1" kind="variable"><name>CR1</name></member>
+      <member refid="group___c_m_s_i_s_1ga149feba01f9c4a49570c6d88619f504f" kind="variable"><name>RESERVED0</name></member>
+      <member refid="group___c_m_s_i_s_1ga2a3e81bd118d1bc52d24a0b0772e6a0c" kind="variable"><name>CR2</name></member>
+      <member refid="group___c_m_s_i_s_1ga8249a3955aace28d92109b391311eb30" kind="variable"><name>RESERVED1</name></member>
+      <member refid="group___c_m_s_i_s_1gaaab934113da0a8bcacd1ffa148046569" kind="variable"><name>OAR1</name></member>
+      <member refid="group___c_m_s_i_s_1ga5573848497a716a9947fd87487709feb" kind="variable"><name>RESERVED2</name></member>
+      <member refid="group___c_m_s_i_s_1ga692c0f6e38cde9ec1c3c50c36aa79817" kind="variable"><name>OAR2</name></member>
+      <member refid="group___c_m_s_i_s_1ga6c3b31022e6f59b800e9f5cc2a89d54c" kind="variable"><name>RESERVED3</name></member>
+      <member refid="group___c_m_s_i_s_1ga0a1acc0425516ff7969709d118b96a3b" kind="variable"><name>DR</name></member>
+      <member refid="group___c_m_s_i_s_1gaa0223808025f5bf9c056185038c9d545" kind="variable"><name>RESERVED4</name></member>
+      <member refid="group___c_m_s_i_s_1ga1e79a16729e8d1032d9fe552d50dce41" kind="variable"><name>SR1</name></member>
+      <member refid="group___c_m_s_i_s_1gabd36010ac282682d1f3c641b183b1b6f" kind="variable"><name>RESERVED5</name></member>
+      <member refid="group___c_m_s_i_s_1ga682809d3f8187cdefb9d615e89b67e65" kind="variable"><name>SR2</name></member>
+      <member refid="group___c_m_s_i_s_1gaab502dde158ab7da8e7823d1f8a06edb" kind="variable"><name>RESERVED6</name></member>
+      <member refid="group___c_m_s_i_s_1ga7ac198788f460fa6379bceecab79c5f7" kind="variable"><name>CCR</name></member>
+      <member refid="group___c_m_s_i_s_1gab1820c97e368d349f5f4121f015d9fab" kind="variable"><name>RESERVED7</name></member>
+      <member refid="group___c_m_s_i_s_1ga7fbb70132ee565bb179078b6ee20cc2b" kind="variable"><name>TRISE</name></member>
+      <member refid="group___c_m_s_i_s_1gafc22764fbf9ee7ce28174d65d0260f18" kind="variable"><name>RESERVED8</name></member>
+      <member refid="group___c_m_s_i_s_1gaad6b61703dc65b8d1bf798a42108bec2" kind="variable"><name>FLTR</name></member>
+      <member refid="group___c_m_s_i_s_1gad8b1fadb520f7a200ee0046e110edc79" kind="variable"><name>RESERVED9</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Inter-integrated Circuit Interface. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Core_BlackPill/stm32f4xx.h" line="1506" column="1" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="1507" bodyend="1528"/>
+    <listofallmembers>
+      <member refid="group___c_m_s_i_s_1ga7ac198788f460fa6379bceecab79c5f7" prot="public" virt="non-virtual"><scope>I2C_TypeDef</scope><name>CCR</name></member>
+      <member refid="group___c_m_s_i_s_1ga61400ce239355b62aa25c95fcc18a5e1" prot="public" virt="non-virtual"><scope>I2C_TypeDef</scope><name>CR1</name></member>
+      <member refid="group___c_m_s_i_s_1ga2a3e81bd118d1bc52d24a0b0772e6a0c" prot="public" virt="non-virtual"><scope>I2C_TypeDef</scope><name>CR2</name></member>
+      <member refid="group___c_m_s_i_s_1ga0a1acc0425516ff7969709d118b96a3b" prot="public" virt="non-virtual"><scope>I2C_TypeDef</scope><name>DR</name></member>
+      <member refid="group___c_m_s_i_s_1gaad6b61703dc65b8d1bf798a42108bec2" prot="public" virt="non-virtual"><scope>I2C_TypeDef</scope><name>FLTR</name></member>
+      <member refid="group___c_m_s_i_s_1gaaab934113da0a8bcacd1ffa148046569" prot="public" virt="non-virtual"><scope>I2C_TypeDef</scope><name>OAR1</name></member>
+      <member refid="group___c_m_s_i_s_1ga692c0f6e38cde9ec1c3c50c36aa79817" prot="public" virt="non-virtual"><scope>I2C_TypeDef</scope><name>OAR2</name></member>
+      <member refid="group___c_m_s_i_s_1ga149feba01f9c4a49570c6d88619f504f" prot="public" virt="non-virtual"><scope>I2C_TypeDef</scope><name>RESERVED0</name></member>
+      <member refid="group___c_m_s_i_s_1ga8249a3955aace28d92109b391311eb30" prot="public" virt="non-virtual"><scope>I2C_TypeDef</scope><name>RESERVED1</name></member>
+      <member refid="group___c_m_s_i_s_1ga5573848497a716a9947fd87487709feb" prot="public" virt="non-virtual"><scope>I2C_TypeDef</scope><name>RESERVED2</name></member>
+      <member refid="group___c_m_s_i_s_1ga6c3b31022e6f59b800e9f5cc2a89d54c" prot="public" virt="non-virtual"><scope>I2C_TypeDef</scope><name>RESERVED3</name></member>
+      <member refid="group___c_m_s_i_s_1gaa0223808025f5bf9c056185038c9d545" prot="public" virt="non-virtual"><scope>I2C_TypeDef</scope><name>RESERVED4</name></member>
+      <member refid="group___c_m_s_i_s_1gabd36010ac282682d1f3c641b183b1b6f" prot="public" virt="non-virtual"><scope>I2C_TypeDef</scope><name>RESERVED5</name></member>
+      <member refid="group___c_m_s_i_s_1gaab502dde158ab7da8e7823d1f8a06edb" prot="public" virt="non-virtual"><scope>I2C_TypeDef</scope><name>RESERVED6</name></member>
+      <member refid="group___c_m_s_i_s_1gab1820c97e368d349f5f4121f015d9fab" prot="public" virt="non-virtual"><scope>I2C_TypeDef</scope><name>RESERVED7</name></member>
+      <member refid="group___c_m_s_i_s_1gafc22764fbf9ee7ce28174d65d0260f18" prot="public" virt="non-virtual"><scope>I2C_TypeDef</scope><name>RESERVED8</name></member>
+      <member refid="group___c_m_s_i_s_1gad8b1fadb520f7a200ee0046e110edc79" prot="public" virt="non-virtual"><scope>I2C_TypeDef</scope><name>RESERVED9</name></member>
+      <member refid="group___c_m_s_i_s_1ga1e79a16729e8d1032d9fe552d50dce41" prot="public" virt="non-virtual"><scope>I2C_TypeDef</scope><name>SR1</name></member>
+      <member refid="group___c_m_s_i_s_1ga682809d3f8187cdefb9d615e89b67e65" prot="public" virt="non-virtual"><scope>I2C_TypeDef</scope><name>SR2</name></member>
+      <member refid="group___c_m_s_i_s_1ga7fbb70132ee565bb179078b6ee20cc2b" prot="public" virt="non-virtual"><scope>I2C_TypeDef</scope><name>TRISE</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

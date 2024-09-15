@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="tr">
+  <compounddef id="struct_h_a_s_h___type_def" kind="struct" language="C++" prot="public">
+    <compoundname>HASH_TypeDef</compoundname>
+    <includes refid="stm32f4xx_8h" local="no">stm32f4xx.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group___c_m_s_i_s_1gab40c89c59391aaa9d9a8ec011dd0907a" kind="variable"><name>CR</name></member>
+      <member refid="group___c_m_s_i_s_1ga445dd5529e7dc6a4fa2fec4f78da2692" kind="variable"><name>DIN</name></member>
+      <member refid="group___c_m_s_i_s_1ga7060ac1ed928ee931d7664650f2dcf75" kind="variable"><name>STR</name></member>
+      <member refid="group___c_m_s_i_s_1ga02cdb629fbb2bfa63db818ac846847a1" kind="variable"><name>HR</name></member>
+      <member refid="group___c_m_s_i_s_1gae845b86e973b4bf8a33c447c261633f6" kind="variable"><name>IMR</name></member>
+      <member refid="group___c_m_s_i_s_1gaf6aca2bbd40c0fb6df7c3aebe224a360" kind="variable"><name>SR</name></member>
+      <member refid="group___c_m_s_i_s_1ga31675cbea6dc1b5f7de162884a4bb6eb" kind="variable"><name>RESERVED</name></member>
+      <member refid="group___c_m_s_i_s_1gaab1e7a35aa0ff9b6fa6ef2853ff995b1" kind="variable"><name>CSR</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>HASH. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Core_BlackPill/stm32f4xx.h" line="1973" column="1" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="1974" bodyend="1983"/>
+    <listofallmembers>
+      <member refid="group___c_m_s_i_s_1gab40c89c59391aaa9d9a8ec011dd0907a" prot="public" virt="non-virtual"><scope>HASH_TypeDef</scope><name>CR</name></member>
+      <member refid="group___c_m_s_i_s_1gaab1e7a35aa0ff9b6fa6ef2853ff995b1" prot="public" virt="non-virtual"><scope>HASH_TypeDef</scope><name>CSR</name></member>
+      <member refid="group___c_m_s_i_s_1ga445dd5529e7dc6a4fa2fec4f78da2692" prot="public" virt="non-virtual"><scope>HASH_TypeDef</scope><name>DIN</name></member>
+      <member refid="group___c_m_s_i_s_1ga02cdb629fbb2bfa63db818ac846847a1" prot="public" virt="non-virtual"><scope>HASH_TypeDef</scope><name>HR</name></member>
+      <member refid="group___c_m_s_i_s_1gae845b86e973b4bf8a33c447c261633f6" prot="public" virt="non-virtual"><scope>HASH_TypeDef</scope><name>IMR</name></member>
+      <member refid="group___c_m_s_i_s_1ga31675cbea6dc1b5f7de162884a4bb6eb" prot="public" virt="non-virtual"><scope>HASH_TypeDef</scope><name>RESERVED</name></member>
+      <member refid="group___c_m_s_i_s_1gaf6aca2bbd40c0fb6df7c3aebe224a360" prot="public" virt="non-virtual"><scope>HASH_TypeDef</scope><name>SR</name></member>
+      <member refid="group___c_m_s_i_s_1ga7060ac1ed928ee931d7664650f2dcf75" prot="public" virt="non-virtual"><scope>HASH_TypeDef</scope><name>STR</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

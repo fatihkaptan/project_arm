@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_c37226f724170c0679b2b53c547891b5" xml:lang="tr">
+<title>Core_BlackPill Dizin Referansı</title>
+<indexterm><primary>Core_BlackPill Dizin Referansı</primary></indexterm>
+<simplesect>
+    <title>Dosyalar    </title>
+        <itemizedlist>
+            <listitem><para>dosya <link linkend="_delay_8c">delay.c</link></para>
+</listitem>
+            <listitem><para>dosya <link linkend="_stm32f4xx_8h">stm32f4xx.h</link></para>
+
+<para>CMSIS Cortex-M4 Device Peripheral Access Layer Header File. This file contains all the peripheral register&apos;s definitions, bits definitions and memory mapping for STM32F4xx devices. <?linebreak?> </para>
+</listitem>
+            <listitem><para>dosya <link linkend="_stm32f4xx__conf_8h">stm32f4xx_conf.h</link></para>
+</listitem>
+            <listitem><para>dosya <link linkend="_stm32f4xx__it_8c">stm32f4xx_it.c</link></para>
+</listitem>
+            <listitem><para>dosya <link linkend="_stm32f4xx__it_8h">stm32f4xx_it.h</link></para>
+</listitem>
+            <listitem><para>dosya <link linkend="_system__stm32f4xx_8c">system_stm32f4xx.c</link></para>
+
+<para>CMSIS Cortex-M4 Device Peripheral Access Layer System Source File. This file contains the system clock configuration for STM32F4xx devices. </para>
+</listitem>
+            <listitem><para>dosya <link linkend="_system__stm32f4xx_8h">system_stm32f4xx.h</link></para>
+
+<para>CMSIS Cortex-M4 Device System Source File for STM32F4xx devices. <?linebreak?> </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

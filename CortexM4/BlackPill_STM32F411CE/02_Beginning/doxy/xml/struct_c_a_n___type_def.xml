@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="tr">
+  <compounddef id="struct_c_a_n___type_def" kind="struct" language="C++" prot="public">
+    <compoundname>CAN_TypeDef</compoundname>
+    <includes refid="stm32f4xx_8h" local="no">stm32f4xx.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group___c_m_s_i_s_1ga27af4e9f888f0b7b1e8da7e002d98798" kind="variable"><name>MCR</name></member>
+      <member refid="group___c_m_s_i_s_1gacdd4c1b5466be103fb2bb2a225b1d3a9" kind="variable"><name>MSR</name></member>
+      <member refid="group___c_m_s_i_s_1ga87e3001757a0cd493785f1f3337dd0e8" kind="variable"><name>TSR</name></member>
+      <member refid="group___c_m_s_i_s_1gaccf4141cee239380d0ad4634ee21dbf6" kind="variable"><name>RF0R</name></member>
+      <member refid="group___c_m_s_i_s_1ga02b589bb589df4f39e549dca4d5abb08" kind="variable"><name>RF1R</name></member>
+      <member refid="group___c_m_s_i_s_1ga6566f8cfbd1d8aa7e8db046aa35e77db" kind="variable"><name>IER</name></member>
+      <member refid="group___c_m_s_i_s_1ga2b39f943954e0e7d177b511d9074a0b7" kind="variable"><name>ESR</name></member>
+      <member refid="group___c_m_s_i_s_1ga5c0fcd3e7b4c59ab1dd68f6bd8f74e07" kind="variable"><name>BTR</name></member>
+      <member refid="group___c_m_s_i_s_1gaae28ab86a4ae57ed057ed1ea89a6d34b" kind="variable"><name>RESERVED0</name></member>
+      <member refid="group___c_m_s_i_s_1gae37503ab1a7bbd29846f94cdadf0a9ef" kind="variable"><name>sTxMailBox</name></member>
+      <member refid="group___c_m_s_i_s_1ga21b030b34e131f7ef6ea273416449fe4" kind="variable"><name>sFIFOMailBox</name></member>
+      <member refid="group___c_m_s_i_s_1ga4bb07a7828fbd5fe86f6a5a3545c177d" kind="variable"><name>RESERVED1</name></member>
+      <member refid="group___c_m_s_i_s_1ga1cb734df34f6520a7204c4c70634ebba" kind="variable"><name>FMR</name></member>
+      <member refid="group___c_m_s_i_s_1gaaa6f4cf1f16aaa6d17ec6c410db76acf" kind="variable"><name>FM1R</name></member>
+      <member refid="group___c_m_s_i_s_1ga4c9b972a304c0e08ca27cbe57627c496" kind="variable"><name>RESERVED2</name></member>
+      <member refid="group___c_m_s_i_s_1gaae0256ae42106ee7f87fc7e5bdb779d4" kind="variable"><name>FS1R</name></member>
+      <member refid="group___c_m_s_i_s_1gaf2b40c5e36a5e861490988275499e158" kind="variable"><name>RESERVED3</name></member>
+      <member refid="group___c_m_s_i_s_1gaf1405e594e39e5b34f9499f680157a25" kind="variable"><name>FFA1R</name></member>
+      <member refid="group___c_m_s_i_s_1gac0018930ee9f18afda25b695b9a4ec16" kind="variable"><name>RESERVED4</name></member>
+      <member refid="group___c_m_s_i_s_1gaaf76271f4ab0b3deb3ceb6e2ac0d62d0" kind="variable"><name>FA1R</name></member>
+      <member refid="group___c_m_s_i_s_1ga269f31b91d0f38a48061b76ecc346f55" kind="variable"><name>RESERVED5</name></member>
+      <member refid="group___c_m_s_i_s_1ga31bd74513e6e599319702ad34113bf59" kind="variable"><name>sFilterRegister</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Controller Area Network. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>CAN_FIFOMailBox_TypeDef</label>
+        <link refid="struct_c_a_n___f_i_f_o_mail_box___type_def"/>
+      </node>
+      <node id="4">
+        <label>CAN_FilterRegister_TypeDef</label>
+        <link refid="struct_c_a_n___filter_register___type_def"/>
+      </node>
+      <node id="2">
+        <label>CAN_TxMailBox_TypeDef</label>
+        <link refid="struct_c_a_n___tx_mail_box___type_def"/>
+      </node>
+      <node id="1">
+        <label>CAN_TypeDef</label>
+        <link refid="struct_c_a_n___type_def"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>sTxMailBox</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>sFIFOMailBox</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>sFilterRegister</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Core_BlackPill/stm32f4xx.h" line="941" column="1" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="942" bodyend="965"/>
+    <listofallmembers>
+      <member refid="group___c_m_s_i_s_1ga5c0fcd3e7b4c59ab1dd68f6bd8f74e07" prot="public" virt="non-virtual"><scope>CAN_TypeDef</scope><name>BTR</name></member>
+      <member refid="group___c_m_s_i_s_1ga2b39f943954e0e7d177b511d9074a0b7" prot="public" virt="non-virtual"><scope>CAN_TypeDef</scope><name>ESR</name></member>
+      <member refid="group___c_m_s_i_s_1gaaf76271f4ab0b3deb3ceb6e2ac0d62d0" prot="public" virt="non-virtual"><scope>CAN_TypeDef</scope><name>FA1R</name></member>
+      <member refid="group___c_m_s_i_s_1gaf1405e594e39e5b34f9499f680157a25" prot="public" virt="non-virtual"><scope>CAN_TypeDef</scope><name>FFA1R</name></member>
+      <member refid="group___c_m_s_i_s_1gaaa6f4cf1f16aaa6d17ec6c410db76acf" prot="public" virt="non-virtual"><scope>CAN_TypeDef</scope><name>FM1R</name></member>
+      <member refid="group___c_m_s_i_s_1ga1cb734df34f6520a7204c4c70634ebba" prot="public" virt="non-virtual"><scope>CAN_TypeDef</scope><name>FMR</name></member>
+      <member refid="group___c_m_s_i_s_1gaae0256ae42106ee7f87fc7e5bdb779d4" prot="public" virt="non-virtual"><scope>CAN_TypeDef</scope><name>FS1R</name></member>
+      <member refid="group___c_m_s_i_s_1ga6566f8cfbd1d8aa7e8db046aa35e77db" prot="public" virt="non-virtual"><scope>CAN_TypeDef</scope><name>IER</name></member>
+      <member refid="group___c_m_s_i_s_1ga27af4e9f888f0b7b1e8da7e002d98798" prot="public" virt="non-virtual"><scope>CAN_TypeDef</scope><name>MCR</name></member>
+      <member refid="group___c_m_s_i_s_1gacdd4c1b5466be103fb2bb2a225b1d3a9" prot="public" virt="non-virtual"><scope>CAN_TypeDef</scope><name>MSR</name></member>
+      <member refid="group___c_m_s_i_s_1gaae28ab86a4ae57ed057ed1ea89a6d34b" prot="public" virt="non-virtual"><scope>CAN_TypeDef</scope><name>RESERVED0</name></member>
+      <member refid="group___c_m_s_i_s_1ga4bb07a7828fbd5fe86f6a5a3545c177d" prot="public" virt="non-virtual"><scope>CAN_TypeDef</scope><name>RESERVED1</name></member>
+      <member refid="group___c_m_s_i_s_1ga4c9b972a304c0e08ca27cbe57627c496" prot="public" virt="non-virtual"><scope>CAN_TypeDef</scope><name>RESERVED2</name></member>
+      <member refid="group___c_m_s_i_s_1gaf2b40c5e36a5e861490988275499e158" prot="public" virt="non-virtual"><scope>CAN_TypeDef</scope><name>RESERVED3</name></member>
+      <member refid="group___c_m_s_i_s_1gac0018930ee9f18afda25b695b9a4ec16" prot="public" virt="non-virtual"><scope>CAN_TypeDef</scope><name>RESERVED4</name></member>
+      <member refid="group___c_m_s_i_s_1ga269f31b91d0f38a48061b76ecc346f55" prot="public" virt="non-virtual"><scope>CAN_TypeDef</scope><name>RESERVED5</name></member>
+      <member refid="group___c_m_s_i_s_1gaccf4141cee239380d0ad4634ee21dbf6" prot="public" virt="non-virtual"><scope>CAN_TypeDef</scope><name>RF0R</name></member>
+      <member refid="group___c_m_s_i_s_1ga02b589bb589df4f39e549dca4d5abb08" prot="public" virt="non-virtual"><scope>CAN_TypeDef</scope><name>RF1R</name></member>
+      <member refid="group___c_m_s_i_s_1ga21b030b34e131f7ef6ea273416449fe4" prot="public" virt="non-virtual"><scope>CAN_TypeDef</scope><name>sFIFOMailBox</name></member>
+      <member refid="group___c_m_s_i_s_1ga31bd74513e6e599319702ad34113bf59" prot="public" virt="non-virtual"><scope>CAN_TypeDef</scope><name>sFilterRegister</name></member>
+      <member refid="group___c_m_s_i_s_1gae37503ab1a7bbd29846f94cdadf0a9ef" prot="public" virt="non-virtual"><scope>CAN_TypeDef</scope><name>sTxMailBox</name></member>
+      <member refid="group___c_m_s_i_s_1ga87e3001757a0cd493785f1f3337dd0e8" prot="public" virt="non-virtual"><scope>CAN_TypeDef</scope><name>TSR</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

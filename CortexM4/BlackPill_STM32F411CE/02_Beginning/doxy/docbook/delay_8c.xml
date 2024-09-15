@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_delay_8c" xml:lang="tr">
+<title>Core_BlackPill/delay.c Dosya Referansı</title>
+<indexterm><primary>Core_BlackPill/delay.c</primary></indexterm>
+<programlisting linenumbering="unnumbered">#include &quot;main.h&quot;<?linebreak?></programlisting><simplesect>
+    <title>Makrolar    </title>
+        <itemizedlist>
+            <listitem><para>#define <link linkend="_delay_8c_1ab4553be4db9860d940f81d7447173b2f">LED_PIN</link>&#160;&#160;&#160;13</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Fonksiyonlar    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_delay_8c_1aeb4c4307d28035637f0280cce42553fe">TimingDelay_Decrement</link> (void)</para>
+
+<para>Decrements the TimingDelay variable. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Değişkenler    </title>
+        <itemizedlist>
+            <listitem><para>GPIO_InitTypeDef <link linkend="_delay_8c_1a58d8a7f3700f34e7226b33e61f5ed960">GPIO_InitStructure</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Makro Dokümantasyonu</title>
+<anchor xml:id="_delay_8c_1ab4553be4db9860d940f81d7447173b2f"/><section>
+    <title>LED_PIN</title>
+<indexterm><primary>LED_PIN</primary><secondary>delay.c</secondary></indexterm>
+<indexterm><primary>delay.c</primary><secondary>LED_PIN</secondary></indexterm>
+<para><computeroutput>#define LED_PIN&#160;&#160;&#160;13</computeroutput></para></section>
+</section>
+<section>
+<title>Fonksiyon Dokümantasyonu</title>
+<anchor xml:id="_delay_8c_1aeb4c4307d28035637f0280cce42553fe"/><section>
+    <title>TimingDelay_Decrement()</title>
+<indexterm><primary>TimingDelay_Decrement</primary><secondary>delay.c</secondary></indexterm>
+<indexterm><primary>delay.c</primary><secondary>TimingDelay_Decrement</secondary></indexterm>
+<para><computeroutput>void TimingDelay_Decrement (void )</computeroutput></para><para>
+
+<para>Decrements the TimingDelay variable. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parametreler</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>None</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                
+                <formalpara>
+                    <title>
+Döndürdüğü değerler</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>None</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+</section>
+<section>
+<title>Değişken Dokümantasyonu</title>
+<anchor xml:id="_delay_8c_1a58d8a7f3700f34e7226b33e61f5ed960"/><section>
+    <title>GPIO_InitStructure</title>
+<indexterm><primary>GPIO_InitStructure</primary><secondary>delay.c</secondary></indexterm>
+<indexterm><primary>delay.c</primary><secondary>GPIO_InitStructure</secondary></indexterm>
+<para><computeroutput>GPIO_InitTypeDef GPIO_InitStructure</computeroutput></para></section>
+</section>
+</section>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="tr">
+  <compounddef id="group___s_t_m32_f4xx___system___private___variables" kind="group">
+    <compoundname>STM32F4xx_System_Private_Variables</compoundname>
+    <title>STM32F4xx_System_Private_Variables</title>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="group___s_t_m32_f4xx___system___private___variables_1gacdc3ef54c0704c90e69a8a84fb2d970d" prot="public" static="no" mutable="no">
+        <type>__I uint8_t</type>
+        <definition>__I uint8_t AHBPrescTable[16]</definition>
+        <argsstring>[16]</argsstring>
+        <name>AHBPrescTable</name>
+        <initializer>= {0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 6, 7, 8, 9}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core_BlackPill/system_stm32f4xx.c" line="445" column="13" bodyfile="Core_BlackPill/system_stm32f4xx.c" bodystart="445" bodyend="445"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

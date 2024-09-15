@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_struct_h_a_s_h___type_def" xml:lang="tr">
+<title>HASH_TypeDef Yapı(Struct) Referans</title>
+<indexterm><primary>HASH_TypeDef</primary></indexterm>
+<para>
+
+<para>HASH. </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;stm32f4xx.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Veri Alanları    </title>
+        <itemizedlist>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gab40c89c59391aaa9d9a8ec011dd0907a">CR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga445dd5529e7dc6a4fa2fec4f78da2692">DIN</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga7060ac1ed928ee931d7664650f2dcf75">STR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga02cdb629fbb2bfa63db818ac846847a1">HR</link> [5]</para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gae845b86e973b4bf8a33c447c261633f6">IMR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gaf6aca2bbd40c0fb6df7c3aebe224a360">SR</link></para>
+</listitem>
+            <listitem><para>uint32_t <link linkend="_group___c_m_s_i_s_1ga31675cbea6dc1b5f7de162884a4bb6eb">RESERVED</link> [52]</para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gaab1e7a35aa0ff9b6fa6ef2853ff995b1">CSR</link> [54]</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Ayrıntılı tanımlama</title>
+
+<para>HASH. </para>
+<para>
+Bu yapı(struct) için dokümantasyon aşağıdaki dosyadan üretilmiştir:</para>
+Core_BlackPill/<link linkend="_stm32f4xx_8h">stm32f4xx.h</link></section>
+</section>

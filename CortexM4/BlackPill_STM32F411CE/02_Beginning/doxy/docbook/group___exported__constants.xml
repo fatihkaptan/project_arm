@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_group___exported__constants" xml:lang="tr">
+<title>Exported_constants</title>
+<indexterm><primary>Exported_constants</primary></indexterm>
+<simplesect>
+    <title>Topics    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_group___peripheral___registers___bits___definition">Peripheral_Registers_Bits_Definition</link></para>
+</listitem>
+            <listitem><para><link linkend="_group___exported__macro">Exported_macro</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Ayrıntılı tanımlama</title>
+</section>
+    <xi:include href="group___peripheral___registers___bits___definition.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="group___exported__macro.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</section>

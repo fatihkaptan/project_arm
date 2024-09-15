@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_main_8h" xml:lang="tr">
+<title>main.h Dosya Referansı</title>
+<indexterm><primary>main.h</primary></indexterm>
+<programlisting linenumbering="unnumbered">#include &quot;stm32f4xx.h&quot;<?linebreak?></programlisting><simplesect>
+    <title>Makrolar    </title>
+        <itemizedlist>
+            <listitem><para>#define <link linkend="_main_8h_1a481f1b6501d20c1a3d4b6f209953960f">_IO</link>&#160;&#160;&#160;volatile</para>
+</listitem>
+            <listitem><para>#define <link linkend="_main_8h_1a0e681b03f364532055d88f63fec0d99d">RCC_BASE</link>&#160;&#160;&#160;0x40023800</para>
+</listitem>
+            <listitem><para>#define <link linkend="_main_8h_1a305184464592fe039a4e47e9d88bdcc4">RCC_AHB1ENR</link>&#160;&#160;&#160;(*((<link linkend="_main_8h_1a481f1b6501d20c1a3d4b6f209953960f">_IO</link> uint32_t *)(<link linkend="_group___peripheral__memory__map_1ga0e681b03f364532055d88f63fec0d99d">RCC_BASE</link> + 0x30)))</para>
+</listitem>
+            <listitem><para>#define <link linkend="_main_8h_1a26f267dc35338eef219544c51f1e6b3f">GPIOC_BASE</link>&#160;&#160;&#160;0x40020800</para>
+</listitem>
+            <listitem><para>#define <link linkend="_main_8h_1a358ff7fc1e547fed6740a6075bc45084">GPIOC_MODER</link>&#160;&#160;&#160;(*((<link linkend="_main_8h_1a481f1b6501d20c1a3d4b6f209953960f">_IO</link> uint32_t *)(<link linkend="_group___peripheral__memory__map_1ga26f267dc35338eef219544c51f1e6b3f">GPIOC_BASE</link> + 0x00)))</para>
+</listitem>
+            <listitem><para>#define <link linkend="_main_8h_1a38d3fcef1b5894aecbf6b5dada26f6e8">GPIOC_OTYPER</link>&#160;&#160;&#160;(*((<link linkend="_main_8h_1a481f1b6501d20c1a3d4b6f209953960f">_IO</link> uint32_t *)(<link linkend="_group___peripheral__memory__map_1ga26f267dc35338eef219544c51f1e6b3f">GPIOC_BASE</link> + 0x04)))</para>
+</listitem>
+            <listitem><para>#define <link linkend="_main_8h_1ad3fe45a8267fad498bf589285cfc9474">GPIOC_OSPEEDR</link>&#160;&#160;&#160;(*((<link linkend="_main_8h_1a481f1b6501d20c1a3d4b6f209953960f">_IO</link> uint32_t *)(<link linkend="_group___peripheral__memory__map_1ga26f267dc35338eef219544c51f1e6b3f">GPIOC_BASE</link> + 0x08)))</para>
+</listitem>
+            <listitem><para>#define <link linkend="_main_8h_1abfbeaa765be118f55fdb52b72a319b08">GPIOC_PUPDR</link>&#160;&#160;&#160;(*((<link linkend="_main_8h_1a481f1b6501d20c1a3d4b6f209953960f">_IO</link> uint32_t *)(<link linkend="_group___peripheral__memory__map_1ga26f267dc35338eef219544c51f1e6b3f">GPIOC_BASE</link> + 0x0C)))</para>
+</listitem>
+            <listitem><para>#define <link linkend="_main_8h_1a88dcc56c201f13d73e5073857af6aeb5">GPIOC_BSRR</link>&#160;&#160;&#160;(*((<link linkend="_main_8h_1a481f1b6501d20c1a3d4b6f209953960f">_IO</link> uint32_t *)(<link linkend="_group___peripheral__memory__map_1ga26f267dc35338eef219544c51f1e6b3f">GPIOC_BASE</link> + 0x18)))</para>
+</listitem>
+            <listitem><para>#define <link linkend="_main_8h_1a5f6ac8b4c581ebfa1f6a2013dec2396d">SYSTICK_BASE</link>&#160;&#160;&#160;0xE000E010</para>
+</listitem>
+            <listitem><para>#define <link linkend="_main_8h_1a7051a258beea05555621a7fa2a06701f">SYSTICK_CTRL</link>&#160;&#160;&#160;(*((<link linkend="_main_8h_1a481f1b6501d20c1a3d4b6f209953960f">_IO</link> uint32_t *)(<link linkend="_main_8h_1a5f6ac8b4c581ebfa1f6a2013dec2396d">SYSTICK_BASE</link> + 0x00)))</para>
+</listitem>
+            <listitem><para>#define <link linkend="_main_8h_1a40c03741132f793b632dfa5266f9fc48">SYSTICK_LOAD</link>&#160;&#160;&#160;(*((<link linkend="_main_8h_1a481f1b6501d20c1a3d4b6f209953960f">_IO</link> uint32_t *)(<link linkend="_main_8h_1a5f6ac8b4c581ebfa1f6a2013dec2396d">SYSTICK_BASE</link> + 0x04)))</para>
+</listitem>
+            <listitem><para>#define <link linkend="_main_8h_1a99fb4c496590d7d9f9759ff556b97bb5">SYSTICK_VAL</link>&#160;&#160;&#160;(*((<link linkend="_main_8h_1a481f1b6501d20c1a3d4b6f209953960f">_IO</link> uint32_t *)(<link linkend="_main_8h_1a5f6ac8b4c581ebfa1f6a2013dec2396d">SYSTICK_BASE</link> + 0x08)))</para>
+</listitem>
+            <listitem><para>#define <link linkend="_main_8h_1ab4553be4db9860d940f81d7447173b2f">LED_PIN</link>&#160;&#160;&#160;13</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Fonksiyonlar    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_main_8h_1aeb4c4307d28035637f0280cce42553fe">TimingDelay_Decrement</link> (void)</para>
+
+<para>Decrements the TimingDelay variable. </para>
+</listitem>
+            <listitem><para>void <link linkend="_main_8h_1a81248fec65b118150a94d8cdaf2a2b8c">initClock</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_main_8h_1a1778435697ce5e88277225a1ea85c2d9">initIO</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_main_8h_1ab7cce8122024d7ba47bf10f434956de4">delay_ms</link> (uint32_t ms)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Makro Dokümantasyonu</title>
+<anchor xml:id="_main_8h_1a481f1b6501d20c1a3d4b6f209953960f"/><section>
+    <title>_IO</title>
+<indexterm><primary>_IO</primary><secondary>main.h</secondary></indexterm>
+<indexterm><primary>main.h</primary><secondary>_IO</secondary></indexterm>
+<para><computeroutput>#define _IO&#160;&#160;&#160;volatile</computeroutput></para></section>
+<anchor xml:id="_main_8h_1a26f267dc35338eef219544c51f1e6b3f"/><section>
+    <title>GPIOC_BASE</title>
+<indexterm><primary>GPIOC_BASE</primary><secondary>main.h</secondary></indexterm>
+<indexterm><primary>main.h</primary><secondary>GPIOC_BASE</secondary></indexterm>
+<para><computeroutput>#define GPIOC_BASE&#160;&#160;&#160;0x40020800</computeroutput></para></section>
+<anchor xml:id="_main_8h_1a88dcc56c201f13d73e5073857af6aeb5"/><section>
+    <title>GPIOC_BSRR</title>
+<indexterm><primary>GPIOC_BSRR</primary><secondary>main.h</secondary></indexterm>
+<indexterm><primary>main.h</primary><secondary>GPIOC_BSRR</secondary></indexterm>
+<para><computeroutput>#define GPIOC_BSRR&#160;&#160;&#160;(*((<link linkend="_main_8h_1a481f1b6501d20c1a3d4b6f209953960f">_IO</link> uint32_t *)(<link linkend="_group___peripheral__memory__map_1ga26f267dc35338eef219544c51f1e6b3f">GPIOC_BASE</link> + 0x18)))</computeroutput></para></section>
+<anchor xml:id="_main_8h_1a358ff7fc1e547fed6740a6075bc45084"/><section>
+    <title>GPIOC_MODER</title>
+<indexterm><primary>GPIOC_MODER</primary><secondary>main.h</secondary></indexterm>
+<indexterm><primary>main.h</primary><secondary>GPIOC_MODER</secondary></indexterm>
+<para><computeroutput>#define GPIOC_MODER&#160;&#160;&#160;(*((<link linkend="_main_8h_1a481f1b6501d20c1a3d4b6f209953960f">_IO</link> uint32_t *)(<link linkend="_group___peripheral__memory__map_1ga26f267dc35338eef219544c51f1e6b3f">GPIOC_BASE</link> + 0x00)))</computeroutput></para></section>
+<anchor xml:id="_main_8h_1ad3fe45a8267fad498bf589285cfc9474"/><section>
+    <title>GPIOC_OSPEEDR</title>
+<indexterm><primary>GPIOC_OSPEEDR</primary><secondary>main.h</secondary></indexterm>
+<indexterm><primary>main.h</primary><secondary>GPIOC_OSPEEDR</secondary></indexterm>
+<para><computeroutput>#define GPIOC_OSPEEDR&#160;&#160;&#160;(*((<link linkend="_main_8h_1a481f1b6501d20c1a3d4b6f209953960f">_IO</link> uint32_t *)(<link linkend="_group___peripheral__memory__map_1ga26f267dc35338eef219544c51f1e6b3f">GPIOC_BASE</link> + 0x08)))</computeroutput></para></section>
+<anchor xml:id="_main_8h_1a38d3fcef1b5894aecbf6b5dada26f6e8"/><section>
+    <title>GPIOC_OTYPER</title>
+<indexterm><primary>GPIOC_OTYPER</primary><secondary>main.h</secondary></indexterm>
+<indexterm><primary>main.h</primary><secondary>GPIOC_OTYPER</secondary></indexterm>
+<para><computeroutput>#define GPIOC_OTYPER&#160;&#160;&#160;(*((<link linkend="_main_8h_1a481f1b6501d20c1a3d4b6f209953960f">_IO</link> uint32_t *)(<link linkend="_group___peripheral__memory__map_1ga26f267dc35338eef219544c51f1e6b3f">GPIOC_BASE</link> + 0x04)))</computeroutput></para></section>
+<anchor xml:id="_main_8h_1abfbeaa765be118f55fdb52b72a319b08"/><section>
+    <title>GPIOC_PUPDR</title>
+<indexterm><primary>GPIOC_PUPDR</primary><secondary>main.h</secondary></indexterm>
+<indexterm><primary>main.h</primary><secondary>GPIOC_PUPDR</secondary></indexterm>
+<para><computeroutput>#define GPIOC_PUPDR&#160;&#160;&#160;(*((<link linkend="_main_8h_1a481f1b6501d20c1a3d4b6f209953960f">_IO</link> uint32_t *)(<link linkend="_group___peripheral__memory__map_1ga26f267dc35338eef219544c51f1e6b3f">GPIOC_BASE</link> + 0x0C)))</computeroutput></para></section>
+<anchor xml:id="_main_8h_1ab4553be4db9860d940f81d7447173b2f"/><section>
+    <title>LED_PIN</title>
+<indexterm><primary>LED_PIN</primary><secondary>main.h</secondary></indexterm>
+<indexterm><primary>main.h</primary><secondary>LED_PIN</secondary></indexterm>
+<para><computeroutput>#define LED_PIN&#160;&#160;&#160;13</computeroutput></para></section>
+<anchor xml:id="_main_8h_1a305184464592fe039a4e47e9d88bdcc4"/><section>
+    <title>RCC_AHB1ENR</title>
+<indexterm><primary>RCC_AHB1ENR</primary><secondary>main.h</secondary></indexterm>
+<indexterm><primary>main.h</primary><secondary>RCC_AHB1ENR</secondary></indexterm>
+<para><computeroutput>#define RCC_AHB1ENR&#160;&#160;&#160;(*((<link linkend="_main_8h_1a481f1b6501d20c1a3d4b6f209953960f">_IO</link> uint32_t *)(<link linkend="_group___peripheral__memory__map_1ga0e681b03f364532055d88f63fec0d99d">RCC_BASE</link> + 0x30)))</computeroutput></para></section>
+<anchor xml:id="_main_8h_1a0e681b03f364532055d88f63fec0d99d"/><section>
+    <title>RCC_BASE</title>
+<indexterm><primary>RCC_BASE</primary><secondary>main.h</secondary></indexterm>
+<indexterm><primary>main.h</primary><secondary>RCC_BASE</secondary></indexterm>
+<para><computeroutput>#define RCC_BASE&#160;&#160;&#160;0x40023800</computeroutput></para></section>
+<anchor xml:id="_main_8h_1a5f6ac8b4c581ebfa1f6a2013dec2396d"/><section>
+    <title>SYSTICK_BASE</title>
+<indexterm><primary>SYSTICK_BASE</primary><secondary>main.h</secondary></indexterm>
+<indexterm><primary>main.h</primary><secondary>SYSTICK_BASE</secondary></indexterm>
+<para><computeroutput>#define SYSTICK_BASE&#160;&#160;&#160;0xE000E010</computeroutput></para></section>
+<anchor xml:id="_main_8h_1a7051a258beea05555621a7fa2a06701f"/><section>
+    <title>SYSTICK_CTRL</title>
+<indexterm><primary>SYSTICK_CTRL</primary><secondary>main.h</secondary></indexterm>
+<indexterm><primary>main.h</primary><secondary>SYSTICK_CTRL</secondary></indexterm>
+<para><computeroutput>#define SYSTICK_CTRL&#160;&#160;&#160;(*((<link linkend="_main_8h_1a481f1b6501d20c1a3d4b6f209953960f">_IO</link> uint32_t *)(<link linkend="_main_8h_1a5f6ac8b4c581ebfa1f6a2013dec2396d">SYSTICK_BASE</link> + 0x00)))</computeroutput></para></section>
+<anchor xml:id="_main_8h_1a40c03741132f793b632dfa5266f9fc48"/><section>
+    <title>SYSTICK_LOAD</title>
+<indexterm><primary>SYSTICK_LOAD</primary><secondary>main.h</secondary></indexterm>
+<indexterm><primary>main.h</primary><secondary>SYSTICK_LOAD</secondary></indexterm>
+<para><computeroutput>#define SYSTICK_LOAD&#160;&#160;&#160;(*((<link linkend="_main_8h_1a481f1b6501d20c1a3d4b6f209953960f">_IO</link> uint32_t *)(<link linkend="_main_8h_1a5f6ac8b4c581ebfa1f6a2013dec2396d">SYSTICK_BASE</link> + 0x04)))</computeroutput></para></section>
+<anchor xml:id="_main_8h_1a99fb4c496590d7d9f9759ff556b97bb5"/><section>
+    <title>SYSTICK_VAL</title>
+<indexterm><primary>SYSTICK_VAL</primary><secondary>main.h</secondary></indexterm>
+<indexterm><primary>main.h</primary><secondary>SYSTICK_VAL</secondary></indexterm>
+<para><computeroutput>#define SYSTICK_VAL&#160;&#160;&#160;(*((<link linkend="_main_8h_1a481f1b6501d20c1a3d4b6f209953960f">_IO</link> uint32_t *)(<link linkend="_main_8h_1a5f6ac8b4c581ebfa1f6a2013dec2396d">SYSTICK_BASE</link> + 0x08)))</computeroutput></para></section>
+</section>
+<section>
+<title>Fonksiyon Dokümantasyonu</title>
+<anchor xml:id="_main_8h_1ab7cce8122024d7ba47bf10f434956de4"/><section>
+    <title>delay_ms()</title>
+<indexterm><primary>delay_ms</primary><secondary>main.h</secondary></indexterm>
+<indexterm><primary>main.h</primary><secondary>delay_ms</secondary></indexterm>
+<para><computeroutput>void delay_ms (uint32_t ms)</computeroutput></para></section>
+<anchor xml:id="_main_8h_1a81248fec65b118150a94d8cdaf2a2b8c"/><section>
+    <title>initClock()</title>
+<indexterm><primary>initClock</primary><secondary>main.h</secondary></indexterm>
+<indexterm><primary>main.h</primary><secondary>initClock</secondary></indexterm>
+<para><computeroutput>void initClock ( )</computeroutput></para></section>
+<anchor xml:id="_main_8h_1a1778435697ce5e88277225a1ea85c2d9"/><section>
+    <title>initIO()</title>
+<indexterm><primary>initIO</primary><secondary>main.h</secondary></indexterm>
+<indexterm><primary>main.h</primary><secondary>initIO</secondary></indexterm>
+<para><computeroutput>void initIO ( )</computeroutput></para></section>
+<anchor xml:id="_main_8h_1aeb4c4307d28035637f0280cce42553fe"/><section>
+    <title>TimingDelay_Decrement()</title>
+<indexterm><primary>TimingDelay_Decrement</primary><secondary>main.h</secondary></indexterm>
+<indexterm><primary>main.h</primary><secondary>TimingDelay_Decrement</secondary></indexterm>
+<para><computeroutput>void TimingDelay_Decrement (void )</computeroutput></para><para>
+
+<para>Decrements the TimingDelay variable. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parametreler</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>None</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                
+                <formalpara>
+                    <title>
+Döndürdüğü değerler</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>None</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+</section>
+</section>

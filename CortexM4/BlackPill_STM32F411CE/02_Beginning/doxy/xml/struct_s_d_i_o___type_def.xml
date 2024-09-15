@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="tr">
+  <compounddef id="struct_s_d_i_o___type_def" kind="struct" language="C++" prot="public">
+    <compoundname>SDIO_TypeDef</compoundname>
+    <includes refid="stm32f4xx_8h" local="no">stm32f4xx.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group___c_m_s_i_s_1ga65bff76f3af24c37708a1006d54720c7" kind="variable"><name>POWER</name></member>
+      <member refid="group___c_m_s_i_s_1gaa94197378e20fc739d269be49d9c5d40" kind="variable"><name>CLKCR</name></member>
+      <member refid="group___c_m_s_i_s_1ga07d4e63efcbde252c667e64a8d818aa9" kind="variable"><name>ARG</name></member>
+      <member refid="group___c_m_s_i_s_1gadcf812cbe5147d300507d59d4a55935d" kind="variable"><name>CMD</name></member>
+      <member refid="group___c_m_s_i_s_1gaad371db807e2db4a2edf05b3f2f4b6cd" kind="variable"><name>RESPCMD</name></member>
+      <member refid="group___c_m_s_i_s_1ga7b0ee0dc541683266dfab6335abca891" kind="variable"><name>RESP1</name></member>
+      <member refid="group___c_m_s_i_s_1ga4d99c78dffdb6e81e8f6b7abec263419" kind="variable"><name>RESP2</name></member>
+      <member refid="group___c_m_s_i_s_1ga3da04fbdd44f48a1840e5e0a6295f3cf" kind="variable"><name>RESP3</name></member>
+      <member refid="group___c_m_s_i_s_1gac760383de212de696f504e744c6fca7e" kind="variable"><name>RESP4</name></member>
+      <member refid="group___c_m_s_i_s_1ga1dd219eaeee8d9def822da843028bd02" kind="variable"><name>DTIMER</name></member>
+      <member refid="group___c_m_s_i_s_1ga612edc78d2fa6288392f8ea32c36f7fb" kind="variable"><name>DLEN</name></member>
+      <member refid="group___c_m_s_i_s_1ga96a3d1a050982fccc23c2e6dbe0de068" kind="variable"><name>DCTRL</name></member>
+      <member refid="group___c_m_s_i_s_1ga4273e2b5aeb7bdf1006909b1a2b59bc8" kind="variable"><name>DCOUNT</name></member>
+      <member refid="group___c_m_s_i_s_1ga7520cdf6f3df68c2f147bdd87fb8a96f" kind="variable"><name>STA</name></member>
+      <member refid="group___c_m_s_i_s_1ga0a8c8230846fd8ff154b9fde8dfa0399" kind="variable"><name>ICR</name></member>
+      <member refid="group___c_m_s_i_s_1ga5c955643593b4aedbe9f84f054d26522" kind="variable"><name>MASK</name></member>
+      <member refid="group___c_m_s_i_s_1ga8be676577db129a84a9a2689519a8502" kind="variable"><name>RESERVED0</name></member>
+      <member refid="group___c_m_s_i_s_1gab27b78e19f487c845437c29812eecca7" kind="variable"><name>FIFOCNT</name></member>
+      <member refid="group___c_m_s_i_s_1ga2d531df35272b1f3d787e5726ed5c52c" kind="variable"><name>RESERVED1</name></member>
+      <member refid="group___c_m_s_i_s_1ga68bef1da5fd164cf0f884b4209670dc8" kind="variable"><name>FIFO</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>SD host Interface. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Core_BlackPill/stm32f4xx.h" line="1738" column="1" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="1739" bodyend="1760"/>
+    <listofallmembers>
+      <member refid="group___c_m_s_i_s_1ga07d4e63efcbde252c667e64a8d818aa9" prot="public" virt="non-virtual"><scope>SDIO_TypeDef</scope><name>ARG</name></member>
+      <member refid="group___c_m_s_i_s_1gaa94197378e20fc739d269be49d9c5d40" prot="public" virt="non-virtual"><scope>SDIO_TypeDef</scope><name>CLKCR</name></member>
+      <member refid="group___c_m_s_i_s_1gadcf812cbe5147d300507d59d4a55935d" prot="public" virt="non-virtual"><scope>SDIO_TypeDef</scope><name>CMD</name></member>
+      <member refid="group___c_m_s_i_s_1ga4273e2b5aeb7bdf1006909b1a2b59bc8" prot="public" virt="non-virtual"><scope>SDIO_TypeDef</scope><name>DCOUNT</name></member>
+      <member refid="group___c_m_s_i_s_1ga96a3d1a050982fccc23c2e6dbe0de068" prot="public" virt="non-virtual"><scope>SDIO_TypeDef</scope><name>DCTRL</name></member>
+      <member refid="group___c_m_s_i_s_1ga612edc78d2fa6288392f8ea32c36f7fb" prot="public" virt="non-virtual"><scope>SDIO_TypeDef</scope><name>DLEN</name></member>
+      <member refid="group___c_m_s_i_s_1ga1dd219eaeee8d9def822da843028bd02" prot="public" virt="non-virtual"><scope>SDIO_TypeDef</scope><name>DTIMER</name></member>
+      <member refid="group___c_m_s_i_s_1ga68bef1da5fd164cf0f884b4209670dc8" prot="public" virt="non-virtual"><scope>SDIO_TypeDef</scope><name>FIFO</name></member>
+      <member refid="group___c_m_s_i_s_1gab27b78e19f487c845437c29812eecca7" prot="public" virt="non-virtual"><scope>SDIO_TypeDef</scope><name>FIFOCNT</name></member>
+      <member refid="group___c_m_s_i_s_1ga0a8c8230846fd8ff154b9fde8dfa0399" prot="public" virt="non-virtual"><scope>SDIO_TypeDef</scope><name>ICR</name></member>
+      <member refid="group___c_m_s_i_s_1ga5c955643593b4aedbe9f84f054d26522" prot="public" virt="non-virtual"><scope>SDIO_TypeDef</scope><name>MASK</name></member>
+      <member refid="group___c_m_s_i_s_1ga65bff76f3af24c37708a1006d54720c7" prot="public" virt="non-virtual"><scope>SDIO_TypeDef</scope><name>POWER</name></member>
+      <member refid="group___c_m_s_i_s_1ga8be676577db129a84a9a2689519a8502" prot="public" virt="non-virtual"><scope>SDIO_TypeDef</scope><name>RESERVED0</name></member>
+      <member refid="group___c_m_s_i_s_1ga2d531df35272b1f3d787e5726ed5c52c" prot="public" virt="non-virtual"><scope>SDIO_TypeDef</scope><name>RESERVED1</name></member>
+      <member refid="group___c_m_s_i_s_1ga7b0ee0dc541683266dfab6335abca891" prot="public" virt="non-virtual"><scope>SDIO_TypeDef</scope><name>RESP1</name></member>
+      <member refid="group___c_m_s_i_s_1ga4d99c78dffdb6e81e8f6b7abec263419" prot="public" virt="non-virtual"><scope>SDIO_TypeDef</scope><name>RESP2</name></member>
+      <member refid="group___c_m_s_i_s_1ga3da04fbdd44f48a1840e5e0a6295f3cf" prot="public" virt="non-virtual"><scope>SDIO_TypeDef</scope><name>RESP3</name></member>
+      <member refid="group___c_m_s_i_s_1gac760383de212de696f504e744c6fca7e" prot="public" virt="non-virtual"><scope>SDIO_TypeDef</scope><name>RESP4</name></member>
+      <member refid="group___c_m_s_i_s_1gaad371db807e2db4a2edf05b3f2f4b6cd" prot="public" virt="non-virtual"><scope>SDIO_TypeDef</scope><name>RESPCMD</name></member>
+      <member refid="group___c_m_s_i_s_1ga7520cdf6f3df68c2f147bdd87fb8a96f" prot="public" virt="non-virtual"><scope>SDIO_TypeDef</scope><name>STA</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

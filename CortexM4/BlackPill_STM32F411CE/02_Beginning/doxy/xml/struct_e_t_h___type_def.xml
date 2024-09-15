@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="tr">
+  <compounddef id="struct_e_t_h___type_def" kind="struct" language="C++" prot="public">
+    <compoundname>ETH_TypeDef</compoundname>
+    <includes refid="stm32f4xx_8h" local="no">stm32f4xx.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group___c_m_s_i_s_1ga20acbcac1c35f66de94c9ff0e2ddc7b0" kind="variable"><name>MACCR</name></member>
+      <member refid="group___c_m_s_i_s_1ga8ad4e3dbde1518ecde5d979c2a89a76a" kind="variable"><name>MACFFR</name></member>
+      <member refid="group___c_m_s_i_s_1ga121212bdb227106df681d24e5d896a4e" kind="variable"><name>MACHTHR</name></member>
+      <member refid="group___c_m_s_i_s_1ga1d34ab8e5c2041c00ba9526b3958099d" kind="variable"><name>MACHTLR</name></member>
+      <member refid="group___c_m_s_i_s_1ga9ea1e1c6615eb3bd70eb328dba65fc87" kind="variable"><name>MACMIIAR</name></member>
+      <member refid="group___c_m_s_i_s_1ga87c7687c35332bf5ee86473043652146" kind="variable"><name>MACMIIDR</name></member>
+      <member refid="group___c_m_s_i_s_1ga12f62d3d3b9ee30c20c324b146e72795" kind="variable"><name>MACFCR</name></member>
+      <member refid="group___c_m_s_i_s_1ga92ff1fe799bb33d13efbaa1195867781" kind="variable"><name>MACVLANTR</name></member>
+      <member refid="group___c_m_s_i_s_1ga8be676577db129a84a9a2689519a8502" kind="variable"><name>RESERVED0</name></member>
+      <member refid="group___c_m_s_i_s_1ga129dcc23d48588d5af7dd218b617933d" kind="variable"><name>MACRWUFFR</name></member>
+      <member refid="group___c_m_s_i_s_1gabbb2f4f89e7d8c3242365b4506e43217" kind="variable"><name>MACPMTCSR</name></member>
+      <member refid="group___c_m_s_i_s_1ga28d88d9a08aab1adbebea61c42ef901e" kind="variable"><name>RESERVED1</name></member>
+      <member refid="group___c_m_s_i_s_1ga1173127526cca9128e409bc83c7729dc" kind="variable"><name>MACSR</name></member>
+      <member refid="group___c_m_s_i_s_1gac42b829c02429cb9363563f7eb9d58ed" kind="variable"><name>MACIMR</name></member>
+      <member refid="group___c_m_s_i_s_1gab8b4520c137846f0a128146144514419" kind="variable"><name>MACA0HR</name></member>
+      <member refid="group___c_m_s_i_s_1ga45e8169adb601f00e411b840f9fbb5af" kind="variable"><name>MACA0LR</name></member>
+      <member refid="group___c_m_s_i_s_1ga3a6cc81e1024f9a93ec7653d32f12dcb" kind="variable"><name>MACA1HR</name></member>
+      <member refid="group___c_m_s_i_s_1gaadfb486dd07e2fd02fb491733deffd9b" kind="variable"><name>MACA1LR</name></member>
+      <member refid="group___c_m_s_i_s_1ga38f1ce04678d5141e115cfd6f7b803d1" kind="variable"><name>MACA2HR</name></member>
+      <member refid="group___c_m_s_i_s_1ga423b12ab536a1c4fdb1ce63f645822a7" kind="variable"><name>MACA2LR</name></member>
+      <member refid="group___c_m_s_i_s_1gad02ff09f7ce33f093ad04b84fee2bdec" kind="variable"><name>MACA3HR</name></member>
+      <member refid="group___c_m_s_i_s_1ga2ba9f73c7fa756305d54a8f80872c6df" kind="variable"><name>MACA3LR</name></member>
+      <member refid="group___c_m_s_i_s_1ga1cf0d9299ef58b327f4e3d03da1c1aaf" kind="variable"><name>RESERVED2</name></member>
+      <member refid="group___c_m_s_i_s_1gad57490cb3a07132702f96d8b5d547c89" kind="variable"><name>MMCCR</name></member>
+      <member refid="group___c_m_s_i_s_1gaea29ac183c979d0cb95ad3781fe9ed91" kind="variable"><name>MMCRIR</name></member>
+      <member refid="group___c_m_s_i_s_1ga614e0b81fce7cf218a357f8a0a3de7b8" kind="variable"><name>MMCTIR</name></member>
+      <member refid="group___c_m_s_i_s_1ga63872a3017c14a869c647123573dd002" kind="variable"><name>MMCRIMR</name></member>
+      <member refid="group___c_m_s_i_s_1ga18e294dd2625a93ebf2aab9f2b3c4911" kind="variable"><name>MMCTIMR</name></member>
+      <member refid="group___c_m_s_i_s_1gaf6446adf612691721c62fc68aff4fe39" kind="variable"><name>RESERVED3</name></member>
+      <member refid="group___c_m_s_i_s_1ga23970354d69354ab78165e76afd6c2f7" kind="variable"><name>MMCTGFSCCR</name></member>
+      <member refid="group___c_m_s_i_s_1ga50c8425cf8d27268b3272ace0a224a94" kind="variable"><name>MMCTGFMSCCR</name></member>
+      <member refid="group___c_m_s_i_s_1gabca175d3acfbc2a0806452fd57ea5fc4" kind="variable"><name>RESERVED4</name></member>
+      <member refid="group___c_m_s_i_s_1ga71d932b554a5548e5d85ed81e58c1ed0" kind="variable"><name>MMCTGFCR</name></member>
+      <member refid="group___c_m_s_i_s_1ga3c1a316c73bb5f0eae7fbe66177cbca6" kind="variable"><name>RESERVED5</name></member>
+      <member refid="group___c_m_s_i_s_1gaff6eeec1afa983f153ff0786c8902d43" kind="variable"><name>MMCRFCECR</name></member>
+      <member refid="group___c_m_s_i_s_1ga65bb525a3f4d3ee131f9a7ed899d5eef" kind="variable"><name>MMCRFAECR</name></member>
+      <member refid="group___c_m_s_i_s_1ga7e9a9bba62d1d98e3058b29a892b3877" kind="variable"><name>RESERVED6</name></member>
+      <member refid="group___c_m_s_i_s_1ga6ff264b60a3b40f40d136288e5ec5ba8" kind="variable"><name>MMCRGUFCR</name></member>
+      <member refid="group___c_m_s_i_s_1gab1b7eacec3f164ed04001e9c806f73f9" kind="variable"><name>RESERVED7</name></member>
+      <member refid="group___c_m_s_i_s_1gaa657aa42398bc8294976632d778b6db4" kind="variable"><name>PTPTSCR</name></member>
+      <member refid="group___c_m_s_i_s_1gaf34b7e8815984e272daa3f089014af4e" kind="variable"><name>PTPSSIR</name></member>
+      <member refid="group___c_m_s_i_s_1ga1ebbda0d742e80ca3d53edfa3a95f627" kind="variable"><name>PTPTSHR</name></member>
+      <member refid="group___c_m_s_i_s_1ga55c1058cd74dba0ed0cb8963684b9199" kind="variable"><name>PTPTSLR</name></member>
+      <member refid="group___c_m_s_i_s_1gae8e4ef158db1de28bfd759e40677ba4c" kind="variable"><name>PTPTSHUR</name></member>
+      <member refid="group___c_m_s_i_s_1ga646bf44e807d10a09f980ace333d33ab" kind="variable"><name>PTPTSLUR</name></member>
+      <member refid="group___c_m_s_i_s_1ga8f47c0f21e22b98bbc2c9f3b6342fbb8" kind="variable"><name>PTPTSAR</name></member>
+      <member refid="group___c_m_s_i_s_1gaf90723c7aee9c32113a2667b0a5c69f1" kind="variable"><name>PTPTTHR</name></member>
+      <member refid="group___c_m_s_i_s_1ga28e7b0195ce457d20f585f6587fc1cb8" kind="variable"><name>PTPTTLR</name></member>
+      <member refid="group___c_m_s_i_s_1ga2e60bc2eefc18398fb2459d1b44453e5" kind="variable"><name>RESERVED8</name></member>
+      <member refid="group___c_m_s_i_s_1gadca0624d09f2c72eee9807cea80a4d0c" kind="variable"><name>PTPTSSR</name></member>
+      <member refid="group___c_m_s_i_s_1gae62fffd7d8f9f69b15edacdea4ba27f2" kind="variable"><name>RESERVED9</name></member>
+      <member refid="group___c_m_s_i_s_1gad1e11eb1200e64e0563e3576bf258194" kind="variable"><name>DMABMR</name></member>
+      <member refid="group___c_m_s_i_s_1gacf0114902a52b7ffcc343e06484b3623" kind="variable"><name>DMATPDR</name></member>
+      <member refid="group___c_m_s_i_s_1gaad6309afe126da26921191697d7e5c43" kind="variable"><name>DMARPDR</name></member>
+      <member refid="group___c_m_s_i_s_1ga581ce491c035ce46db723260377c2032" kind="variable"><name>DMARDLAR</name></member>
+      <member refid="group___c_m_s_i_s_1ga7dba9527df73350f35683140d73a5f8d" kind="variable"><name>DMATDLAR</name></member>
+      <member refid="group___c_m_s_i_s_1ga9e7c3d04e4dcf975939eeaac246b25d0" kind="variable"><name>DMASR</name></member>
+      <member refid="group___c_m_s_i_s_1gaa15b972f30ee47f5df0d3ebc8866509d" kind="variable"><name>DMAOMR</name></member>
+      <member refid="group___c_m_s_i_s_1gadd56f3652fd065c6797411e80477a064" kind="variable"><name>DMAIER</name></member>
+      <member refid="group___c_m_s_i_s_1ga12eba1fc5d54aa50fdda201f7f9a84a3" kind="variable"><name>DMAMFBOCR</name></member>
+      <member refid="group___c_m_s_i_s_1gac6fe9e194ed9d08bf6bd28ceb80ac4b0" kind="variable"><name>DMARSWTR</name></member>
+      <member refid="group___c_m_s_i_s_1ga57d552323802fb4dd0bac95a02e814f0" kind="variable"><name>RESERVED10</name></member>
+      <member refid="group___c_m_s_i_s_1gab5bb348210fdd9a5538eb57abc5a5673" kind="variable"><name>DMACHTDR</name></member>
+      <member refid="group___c_m_s_i_s_1ga9c49de2e699886d6604fd2b3d376a0e9" kind="variable"><name>DMACHRDR</name></member>
+      <member refid="group___c_m_s_i_s_1ga900f9f888342fbdd8ee07e3ee1d4b73c" kind="variable"><name>DMACHTBAR</name></member>
+      <member refid="group___c_m_s_i_s_1gacf3f7ecbf774d8d505655ac7f24761fc" kind="variable"><name>DMACHRBAR</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Ethernet MAC. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Core_BlackPill/stm32f4xx.h" line="1227" column="1" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="1228" bodyend="1295"/>
+    <listofallmembers>
+      <member refid="group___c_m_s_i_s_1gad1e11eb1200e64e0563e3576bf258194" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>DMABMR</name></member>
+      <member refid="group___c_m_s_i_s_1gacf3f7ecbf774d8d505655ac7f24761fc" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>DMACHRBAR</name></member>
+      <member refid="group___c_m_s_i_s_1ga9c49de2e699886d6604fd2b3d376a0e9" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>DMACHRDR</name></member>
+      <member refid="group___c_m_s_i_s_1ga900f9f888342fbdd8ee07e3ee1d4b73c" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>DMACHTBAR</name></member>
+      <member refid="group___c_m_s_i_s_1gab5bb348210fdd9a5538eb57abc5a5673" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>DMACHTDR</name></member>
+      <member refid="group___c_m_s_i_s_1gadd56f3652fd065c6797411e80477a064" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>DMAIER</name></member>
+      <member refid="group___c_m_s_i_s_1ga12eba1fc5d54aa50fdda201f7f9a84a3" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>DMAMFBOCR</name></member>
+      <member refid="group___c_m_s_i_s_1gaa15b972f30ee47f5df0d3ebc8866509d" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>DMAOMR</name></member>
+      <member refid="group___c_m_s_i_s_1ga581ce491c035ce46db723260377c2032" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>DMARDLAR</name></member>
+      <member refid="group___c_m_s_i_s_1gaad6309afe126da26921191697d7e5c43" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>DMARPDR</name></member>
+      <member refid="group___c_m_s_i_s_1gac6fe9e194ed9d08bf6bd28ceb80ac4b0" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>DMARSWTR</name></member>
+      <member refid="group___c_m_s_i_s_1ga9e7c3d04e4dcf975939eeaac246b25d0" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>DMASR</name></member>
+      <member refid="group___c_m_s_i_s_1ga7dba9527df73350f35683140d73a5f8d" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>DMATDLAR</name></member>
+      <member refid="group___c_m_s_i_s_1gacf0114902a52b7ffcc343e06484b3623" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>DMATPDR</name></member>
+      <member refid="group___c_m_s_i_s_1gab8b4520c137846f0a128146144514419" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MACA0HR</name></member>
+      <member refid="group___c_m_s_i_s_1ga45e8169adb601f00e411b840f9fbb5af" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MACA0LR</name></member>
+      <member refid="group___c_m_s_i_s_1ga3a6cc81e1024f9a93ec7653d32f12dcb" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MACA1HR</name></member>
+      <member refid="group___c_m_s_i_s_1gaadfb486dd07e2fd02fb491733deffd9b" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MACA1LR</name></member>
+      <member refid="group___c_m_s_i_s_1ga38f1ce04678d5141e115cfd6f7b803d1" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MACA2HR</name></member>
+      <member refid="group___c_m_s_i_s_1ga423b12ab536a1c4fdb1ce63f645822a7" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MACA2LR</name></member>
+      <member refid="group___c_m_s_i_s_1gad02ff09f7ce33f093ad04b84fee2bdec" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MACA3HR</name></member>
+      <member refid="group___c_m_s_i_s_1ga2ba9f73c7fa756305d54a8f80872c6df" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MACA3LR</name></member>
+      <member refid="group___c_m_s_i_s_1ga20acbcac1c35f66de94c9ff0e2ddc7b0" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MACCR</name></member>
+      <member refid="group___c_m_s_i_s_1ga12f62d3d3b9ee30c20c324b146e72795" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MACFCR</name></member>
+      <member refid="group___c_m_s_i_s_1ga8ad4e3dbde1518ecde5d979c2a89a76a" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MACFFR</name></member>
+      <member refid="group___c_m_s_i_s_1ga121212bdb227106df681d24e5d896a4e" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MACHTHR</name></member>
+      <member refid="group___c_m_s_i_s_1ga1d34ab8e5c2041c00ba9526b3958099d" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MACHTLR</name></member>
+      <member refid="group___c_m_s_i_s_1gac42b829c02429cb9363563f7eb9d58ed" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MACIMR</name></member>
+      <member refid="group___c_m_s_i_s_1ga9ea1e1c6615eb3bd70eb328dba65fc87" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MACMIIAR</name></member>
+      <member refid="group___c_m_s_i_s_1ga87c7687c35332bf5ee86473043652146" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MACMIIDR</name></member>
+      <member refid="group___c_m_s_i_s_1gabbb2f4f89e7d8c3242365b4506e43217" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MACPMTCSR</name></member>
+      <member refid="group___c_m_s_i_s_1ga129dcc23d48588d5af7dd218b617933d" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MACRWUFFR</name></member>
+      <member refid="group___c_m_s_i_s_1ga1173127526cca9128e409bc83c7729dc" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MACSR</name></member>
+      <member refid="group___c_m_s_i_s_1ga92ff1fe799bb33d13efbaa1195867781" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MACVLANTR</name></member>
+      <member refid="group___c_m_s_i_s_1gad57490cb3a07132702f96d8b5d547c89" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MMCCR</name></member>
+      <member refid="group___c_m_s_i_s_1ga65bb525a3f4d3ee131f9a7ed899d5eef" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MMCRFAECR</name></member>
+      <member refid="group___c_m_s_i_s_1gaff6eeec1afa983f153ff0786c8902d43" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MMCRFCECR</name></member>
+      <member refid="group___c_m_s_i_s_1ga6ff264b60a3b40f40d136288e5ec5ba8" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MMCRGUFCR</name></member>
+      <member refid="group___c_m_s_i_s_1ga63872a3017c14a869c647123573dd002" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MMCRIMR</name></member>
+      <member refid="group___c_m_s_i_s_1gaea29ac183c979d0cb95ad3781fe9ed91" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MMCRIR</name></member>
+      <member refid="group___c_m_s_i_s_1ga71d932b554a5548e5d85ed81e58c1ed0" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MMCTGFCR</name></member>
+      <member refid="group___c_m_s_i_s_1ga50c8425cf8d27268b3272ace0a224a94" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MMCTGFMSCCR</name></member>
+      <member refid="group___c_m_s_i_s_1ga23970354d69354ab78165e76afd6c2f7" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MMCTGFSCCR</name></member>
+      <member refid="group___c_m_s_i_s_1ga18e294dd2625a93ebf2aab9f2b3c4911" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MMCTIMR</name></member>
+      <member refid="group___c_m_s_i_s_1ga614e0b81fce7cf218a357f8a0a3de7b8" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MMCTIR</name></member>
+      <member refid="group___c_m_s_i_s_1gaf34b7e8815984e272daa3f089014af4e" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>PTPSSIR</name></member>
+      <member refid="group___c_m_s_i_s_1ga8f47c0f21e22b98bbc2c9f3b6342fbb8" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>PTPTSAR</name></member>
+      <member refid="group___c_m_s_i_s_1gaa657aa42398bc8294976632d778b6db4" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>PTPTSCR</name></member>
+      <member refid="group___c_m_s_i_s_1ga1ebbda0d742e80ca3d53edfa3a95f627" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>PTPTSHR</name></member>
+      <member refid="group___c_m_s_i_s_1gae8e4ef158db1de28bfd759e40677ba4c" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>PTPTSHUR</name></member>
+      <member refid="group___c_m_s_i_s_1ga55c1058cd74dba0ed0cb8963684b9199" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>PTPTSLR</name></member>
+      <member refid="group___c_m_s_i_s_1ga646bf44e807d10a09f980ace333d33ab" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>PTPTSLUR</name></member>
+      <member refid="group___c_m_s_i_s_1gadca0624d09f2c72eee9807cea80a4d0c" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>PTPTSSR</name></member>
+      <member refid="group___c_m_s_i_s_1gaf90723c7aee9c32113a2667b0a5c69f1" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>PTPTTHR</name></member>
+      <member refid="group___c_m_s_i_s_1ga28e7b0195ce457d20f585f6587fc1cb8" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>PTPTTLR</name></member>
+      <member refid="group___c_m_s_i_s_1ga8be676577db129a84a9a2689519a8502" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>RESERVED0</name></member>
+      <member refid="group___c_m_s_i_s_1ga28d88d9a08aab1adbebea61c42ef901e" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>RESERVED1</name></member>
+      <member refid="group___c_m_s_i_s_1ga57d552323802fb4dd0bac95a02e814f0" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>RESERVED10</name></member>
+      <member refid="group___c_m_s_i_s_1ga1cf0d9299ef58b327f4e3d03da1c1aaf" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>RESERVED2</name></member>
+      <member refid="group___c_m_s_i_s_1gaf6446adf612691721c62fc68aff4fe39" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>RESERVED3</name></member>
+      <member refid="group___c_m_s_i_s_1gabca175d3acfbc2a0806452fd57ea5fc4" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>RESERVED4</name></member>
+      <member refid="group___c_m_s_i_s_1ga3c1a316c73bb5f0eae7fbe66177cbca6" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>RESERVED5</name></member>
+      <member refid="group___c_m_s_i_s_1ga7e9a9bba62d1d98e3058b29a892b3877" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>RESERVED6</name></member>
+      <member refid="group___c_m_s_i_s_1gab1b7eacec3f164ed04001e9c806f73f9" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>RESERVED7</name></member>
+      <member refid="group___c_m_s_i_s_1ga2e60bc2eefc18398fb2459d1b44453e5" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>RESERVED8</name></member>
+      <member refid="group___c_m_s_i_s_1gae62fffd7d8f9f69b15edacdea4ba27f2" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>RESERVED9</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

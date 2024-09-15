@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="tr">
+  <compounddef id="struct_r_c_c___type_def" kind="struct" language="C++" prot="public">
+    <compoundname>RCC_TypeDef</compoundname>
+    <includes refid="stm32f4xx_8h" local="no">stm32f4xx.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group___c_m_s_i_s_1gab40c89c59391aaa9d9a8ec011dd0907a" kind="variable"><name>CR</name></member>
+      <member refid="group___c_m_s_i_s_1gae6ff257862eba6b4b367feea786bf1fd" kind="variable"><name>PLLCFGR</name></member>
+      <member refid="group___c_m_s_i_s_1ga26f1e746ccbf9c9f67e7c60e61085ec1" kind="variable"><name>CFGR</name></member>
+      <member refid="group___c_m_s_i_s_1ga907d8154c80b7e385478943f90b17a3b" kind="variable"><name>CIR</name></member>
+      <member refid="group___c_m_s_i_s_1ga46c20c598e9e12f919f0ea47ebcbc90f" kind="variable"><name>AHB1RSTR</name></member>
+      <member refid="group___c_m_s_i_s_1ga78a5aa9dd5694c48a7d8e66888a46450" kind="variable"><name>AHB2RSTR</name></member>
+      <member refid="group___c_m_s_i_s_1ga28560c5bfeb45326ea7f2019dba57bea" kind="variable"><name>AHB3RSTR</name></member>
+      <member refid="group___c_m_s_i_s_1gaf86c61a5d38a4fc9cef942a12744486b" kind="variable"><name>RESERVED0</name></member>
+      <member refid="group___c_m_s_i_s_1ga7da5d372374bc59e9b9af750b01d6a78" kind="variable"><name>APB1RSTR</name></member>
+      <member refid="group___c_m_s_i_s_1gab2c5389c9ff4ac188cd498b8f7170968" kind="variable"><name>APB2RSTR</name></member>
+      <member refid="group___c_m_s_i_s_1ga28d88d9a08aab1adbebea61c42ef901e" kind="variable"><name>RESERVED1</name></member>
+      <member refid="group___c_m_s_i_s_1ga1e9c75b06c99d0611535f38c7b4aa845" kind="variable"><name>AHB1ENR</name></member>
+      <member refid="group___c_m_s_i_s_1ga5e92ed32c33c92e7ebf6919400ad535b" kind="variable"><name>AHB2ENR</name></member>
+      <member refid="group___c_m_s_i_s_1gacdaa650fcd63730825479f6e8f70d4c0" kind="variable"><name>AHB3ENR</name></member>
+      <member refid="group___c_m_s_i_s_1ga4c9b972a304c0e08ca27cbe57627c496" kind="variable"><name>RESERVED2</name></member>
+      <member refid="group___c_m_s_i_s_1gac88901e2eb35079b7b58a185e6bf554c" kind="variable"><name>APB1ENR</name></member>
+      <member refid="group___c_m_s_i_s_1gacc7bb47dddd2d94de124f74886d919be" kind="variable"><name>APB2ENR</name></member>
+      <member refid="group___c_m_s_i_s_1gab6f0f833dbe064708de75d95c68c32fd" kind="variable"><name>RESERVED3</name></member>
+      <member refid="group___c_m_s_i_s_1gaae70b1922167eb58d564cb82d39fd10b" kind="variable"><name>AHB1LPENR</name></member>
+      <member refid="group___c_m_s_i_s_1ga2b30982547fae7d545d260312771b5c9" kind="variable"><name>AHB2LPENR</name></member>
+      <member refid="group___c_m_s_i_s_1ga2ff82b9bf0231645108965aa0febd766" kind="variable"><name>AHB3LPENR</name></member>
+      <member refid="group___c_m_s_i_s_1gac0018930ee9f18afda25b695b9a4ec16" kind="variable"><name>RESERVED4</name></member>
+      <member refid="group___c_m_s_i_s_1gad85a9951a7be79fe08ffc90f796f071b" kind="variable"><name>APB1LPENR</name></member>
+      <member refid="group___c_m_s_i_s_1gaba51c57f9506e14a6f5983526c78943b" kind="variable"><name>APB2LPENR</name></member>
+      <member refid="group___c_m_s_i_s_1gac0eb05794aeee3b4ed69c8fe54c9be3b" kind="variable"><name>RESERVED5</name></member>
+      <member refid="group___c_m_s_i_s_1ga0b9a3ced775287c8585a6a61af4b40e9" kind="variable"><name>BDCR</name></member>
+      <member refid="group___c_m_s_i_s_1ga876dd0a8546697065f406b7543e27af2" kind="variable"><name>CSR</name></member>
+      <member refid="group___c_m_s_i_s_1ga10da398d74a1f88d5b42bd40718d9447" kind="variable"><name>RESERVED6</name></member>
+      <member refid="group___c_m_s_i_s_1gaaef3da59eaf7c6dfdf9a12fd60ce58a8" kind="variable"><name>SSCGR</name></member>
+      <member refid="group___c_m_s_i_s_1ga2d08d5f995ed77228eb56741184a1bb6" kind="variable"><name>PLLI2SCFGR</name></member>
+      <member refid="group___c_m_s_i_s_1gac93962b2d41007abdda922a3f23d7ede" kind="variable"><name>PLLSAICFGR</name></member>
+      <member refid="group___c_m_s_i_s_1ga0a5d6d20b17d55b2e892a924b6e70296" kind="variable"><name>DCKCFGR</name></member>
+      <member refid="group___c_m_s_i_s_1ga968181c52f663e22dd22d2622deb2455" kind="variable"><name>CKGATENR</name></member>
+      <member refid="group___c_m_s_i_s_1gaf5c08405ec6124981a61e07985ef3bc9" kind="variable"><name>DCKCFGR2</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Reset and Clock Control. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Core_BlackPill/stm32f4xx.h" line="1625" column="1" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="1626" bodyend="1662"/>
+    <listofallmembers>
+      <member refid="group___c_m_s_i_s_1ga1e9c75b06c99d0611535f38c7b4aa845" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>AHB1ENR</name></member>
+      <member refid="group___c_m_s_i_s_1gaae70b1922167eb58d564cb82d39fd10b" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>AHB1LPENR</name></member>
+      <member refid="group___c_m_s_i_s_1ga46c20c598e9e12f919f0ea47ebcbc90f" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>AHB1RSTR</name></member>
+      <member refid="group___c_m_s_i_s_1ga5e92ed32c33c92e7ebf6919400ad535b" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>AHB2ENR</name></member>
+      <member refid="group___c_m_s_i_s_1ga2b30982547fae7d545d260312771b5c9" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>AHB2LPENR</name></member>
+      <member refid="group___c_m_s_i_s_1ga78a5aa9dd5694c48a7d8e66888a46450" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>AHB2RSTR</name></member>
+      <member refid="group___c_m_s_i_s_1gacdaa650fcd63730825479f6e8f70d4c0" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>AHB3ENR</name></member>
+      <member refid="group___c_m_s_i_s_1ga2ff82b9bf0231645108965aa0febd766" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>AHB3LPENR</name></member>
+      <member refid="group___c_m_s_i_s_1ga28560c5bfeb45326ea7f2019dba57bea" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>AHB3RSTR</name></member>
+      <member refid="group___c_m_s_i_s_1gac88901e2eb35079b7b58a185e6bf554c" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>APB1ENR</name></member>
+      <member refid="group___c_m_s_i_s_1gad85a9951a7be79fe08ffc90f796f071b" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>APB1LPENR</name></member>
+      <member refid="group___c_m_s_i_s_1ga7da5d372374bc59e9b9af750b01d6a78" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>APB1RSTR</name></member>
+      <member refid="group___c_m_s_i_s_1gacc7bb47dddd2d94de124f74886d919be" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>APB2ENR</name></member>
+      <member refid="group___c_m_s_i_s_1gaba51c57f9506e14a6f5983526c78943b" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>APB2LPENR</name></member>
+      <member refid="group___c_m_s_i_s_1gab2c5389c9ff4ac188cd498b8f7170968" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>APB2RSTR</name></member>
+      <member refid="group___c_m_s_i_s_1ga0b9a3ced775287c8585a6a61af4b40e9" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>BDCR</name></member>
+      <member refid="group___c_m_s_i_s_1ga26f1e746ccbf9c9f67e7c60e61085ec1" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>CFGR</name></member>
+      <member refid="group___c_m_s_i_s_1ga907d8154c80b7e385478943f90b17a3b" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>CIR</name></member>
+      <member refid="group___c_m_s_i_s_1ga968181c52f663e22dd22d2622deb2455" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>CKGATENR</name></member>
+      <member refid="group___c_m_s_i_s_1gab40c89c59391aaa9d9a8ec011dd0907a" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>CR</name></member>
+      <member refid="group___c_m_s_i_s_1ga876dd0a8546697065f406b7543e27af2" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>CSR</name></member>
+      <member refid="group___c_m_s_i_s_1ga0a5d6d20b17d55b2e892a924b6e70296" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>DCKCFGR</name></member>
+      <member refid="group___c_m_s_i_s_1gaf5c08405ec6124981a61e07985ef3bc9" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>DCKCFGR2</name></member>
+      <member refid="group___c_m_s_i_s_1gae6ff257862eba6b4b367feea786bf1fd" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>PLLCFGR</name></member>
+      <member refid="group___c_m_s_i_s_1ga2d08d5f995ed77228eb56741184a1bb6" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>PLLI2SCFGR</name></member>
+      <member refid="group___c_m_s_i_s_1gac93962b2d41007abdda922a3f23d7ede" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>PLLSAICFGR</name></member>
+      <member refid="group___c_m_s_i_s_1gaf86c61a5d38a4fc9cef942a12744486b" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>RESERVED0</name></member>
+      <member refid="group___c_m_s_i_s_1ga28d88d9a08aab1adbebea61c42ef901e" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>RESERVED1</name></member>
+      <member refid="group___c_m_s_i_s_1ga4c9b972a304c0e08ca27cbe57627c496" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>RESERVED2</name></member>
+      <member refid="group___c_m_s_i_s_1gab6f0f833dbe064708de75d95c68c32fd" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>RESERVED3</name></member>
+      <member refid="group___c_m_s_i_s_1gac0018930ee9f18afda25b695b9a4ec16" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>RESERVED4</name></member>
+      <member refid="group___c_m_s_i_s_1gac0eb05794aeee3b4ed69c8fe54c9be3b" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>RESERVED5</name></member>
+      <member refid="group___c_m_s_i_s_1ga10da398d74a1f88d5b42bd40718d9447" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>RESERVED6</name></member>
+      <member refid="group___c_m_s_i_s_1gaaef3da59eaf7c6dfdf9a12fd60ce58a8" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>SSCGR</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

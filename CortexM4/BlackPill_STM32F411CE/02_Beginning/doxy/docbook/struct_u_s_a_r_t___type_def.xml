@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_struct_u_s_a_r_t___type_def" xml:lang="tr">
+<title>USART_TypeDef Yapı(Struct) Referans</title>
+<indexterm><primary>USART_TypeDef</primary></indexterm>
+<para>
+
+<para>Universal Synchronous Asynchronous Receiver Transmitter. </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;stm32f4xx.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Veri Alanları    </title>
+        <itemizedlist>
+            <listitem><para>__IO uint16_t <link linkend="_group___c_m_s_i_s_1ga44962ea5442d203bf4954035d1bfeb9d">SR</link></para>
+</listitem>
+            <listitem><para>uint16_t <link linkend="_group___c_m_s_i_s_1ga149feba01f9c4a49570c6d88619f504f">RESERVED0</link></para>
+</listitem>
+            <listitem><para>__IO uint16_t <link linkend="_group___c_m_s_i_s_1ga0a1acc0425516ff7969709d118b96a3b">DR</link></para>
+</listitem>
+            <listitem><para>uint16_t <link linkend="_group___c_m_s_i_s_1ga8249a3955aace28d92109b391311eb30">RESERVED1</link></para>
+</listitem>
+            <listitem><para>__IO uint16_t <link linkend="_group___c_m_s_i_s_1gaf0ba3d82d524fddbe0fb3309788e2954">BRR</link></para>
+</listitem>
+            <listitem><para>uint16_t <link linkend="_group___c_m_s_i_s_1ga5573848497a716a9947fd87487709feb">RESERVED2</link></para>
+</listitem>
+            <listitem><para>__IO uint16_t <link linkend="_group___c_m_s_i_s_1ga61400ce239355b62aa25c95fcc18a5e1">CR1</link></para>
+</listitem>
+            <listitem><para>uint16_t <link linkend="_group___c_m_s_i_s_1ga6c3b31022e6f59b800e9f5cc2a89d54c">RESERVED3</link></para>
+</listitem>
+            <listitem><para>__IO uint16_t <link linkend="_group___c_m_s_i_s_1ga2a3e81bd118d1bc52d24a0b0772e6a0c">CR2</link></para>
+</listitem>
+            <listitem><para>uint16_t <link linkend="_group___c_m_s_i_s_1gaa0223808025f5bf9c056185038c9d545">RESERVED4</link></para>
+</listitem>
+            <listitem><para>__IO uint16_t <link linkend="_group___c_m_s_i_s_1ga9651ce2df8eec57b9cab2f27f6dbf3e1">CR3</link></para>
+</listitem>
+            <listitem><para>uint16_t <link linkend="_group___c_m_s_i_s_1gabd36010ac282682d1f3c641b183b1b6f">RESERVED5</link></para>
+</listitem>
+            <listitem><para>__IO uint16_t <link linkend="_group___c_m_s_i_s_1ga26f8b74978e03c8a4c99c9395a6a524d">GTPR</link></para>
+</listitem>
+            <listitem><para>uint16_t <link linkend="_group___c_m_s_i_s_1gaab502dde158ab7da8e7823d1f8a06edb">RESERVED6</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Ayrıntılı tanımlama</title>
+
+<para>Universal Synchronous Asynchronous Receiver Transmitter. </para>
+<para>
+Bu yapı(struct) için dokümantasyon aşağıdaki dosyadan üretilmiştir:</para>
+Core_BlackPill/<link linkend="_stm32f4xx_8h">stm32f4xx.h</link></section>
+</section>

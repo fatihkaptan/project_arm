@@ -1,0 +1,173 @@
+\doxysection{main.\+h Dosya Referansı}
+\hypertarget{main_8h}{}\label{main_8h}\index{main.h@{main.h}}
+{\ttfamily \#include "{}stm32f4xx.\+h"{}}\newline
+\doxysubsubsection*{Makrolar}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{main_8h_a481f1b6501d20c1a3d4b6f209953960f}{\+\_\+\+IO}}~volatile
+\item 
+\#define \mbox{\hyperlink{main_8h_a0e681b03f364532055d88f63fec0d99d}{RCC\+\_\+\+BASE}}~0x40023800
+\item 
+\#define \mbox{\hyperlink{main_8h_a305184464592fe039a4e47e9d88bdcc4}{RCC\+\_\+\+AHB1\+ENR}}~(\texorpdfstring{$\ast$}{*}((\mbox{\hyperlink{main_8h_a481f1b6501d20c1a3d4b6f209953960f}{\+\_\+\+IO}} uint32\+\_\+t \texorpdfstring{$\ast$}{*})(\mbox{\hyperlink{group___peripheral__memory__map_ga0e681b03f364532055d88f63fec0d99d}{RCC\+\_\+\+BASE}} + 0x30)))
+\item 
+\#define \mbox{\hyperlink{main_8h_a26f267dc35338eef219544c51f1e6b3f}{GPIOC\+\_\+\+BASE}}~0x40020800
+\item 
+\#define \mbox{\hyperlink{main_8h_a358ff7fc1e547fed6740a6075bc45084}{GPIOC\+\_\+\+MODER}}~(\texorpdfstring{$\ast$}{*}((\mbox{\hyperlink{main_8h_a481f1b6501d20c1a3d4b6f209953960f}{\+\_\+\+IO}} uint32\+\_\+t \texorpdfstring{$\ast$}{*})(\mbox{\hyperlink{group___peripheral__memory__map_ga26f267dc35338eef219544c51f1e6b3f}{GPIOC\+\_\+\+BASE}} + 0x00)))
+\item 
+\#define \mbox{\hyperlink{main_8h_a38d3fcef1b5894aecbf6b5dada26f6e8}{GPIOC\+\_\+\+OTYPER}}~(\texorpdfstring{$\ast$}{*}((\mbox{\hyperlink{main_8h_a481f1b6501d20c1a3d4b6f209953960f}{\+\_\+\+IO}} uint32\+\_\+t \texorpdfstring{$\ast$}{*})(\mbox{\hyperlink{group___peripheral__memory__map_ga26f267dc35338eef219544c51f1e6b3f}{GPIOC\+\_\+\+BASE}} + 0x04)))
+\item 
+\#define \mbox{\hyperlink{main_8h_ad3fe45a8267fad498bf589285cfc9474}{GPIOC\+\_\+\+OSPEEDR}}~(\texorpdfstring{$\ast$}{*}((\mbox{\hyperlink{main_8h_a481f1b6501d20c1a3d4b6f209953960f}{\+\_\+\+IO}} uint32\+\_\+t \texorpdfstring{$\ast$}{*})(\mbox{\hyperlink{group___peripheral__memory__map_ga26f267dc35338eef219544c51f1e6b3f}{GPIOC\+\_\+\+BASE}} + 0x08)))
+\item 
+\#define \mbox{\hyperlink{main_8h_abfbeaa765be118f55fdb52b72a319b08}{GPIOC\+\_\+\+PUPDR}}~(\texorpdfstring{$\ast$}{*}((\mbox{\hyperlink{main_8h_a481f1b6501d20c1a3d4b6f209953960f}{\+\_\+\+IO}} uint32\+\_\+t \texorpdfstring{$\ast$}{*})(\mbox{\hyperlink{group___peripheral__memory__map_ga26f267dc35338eef219544c51f1e6b3f}{GPIOC\+\_\+\+BASE}} + 0x0C)))
+\item 
+\#define \mbox{\hyperlink{main_8h_a88dcc56c201f13d73e5073857af6aeb5}{GPIOC\+\_\+\+BSRR}}~(\texorpdfstring{$\ast$}{*}((\mbox{\hyperlink{main_8h_a481f1b6501d20c1a3d4b6f209953960f}{\+\_\+\+IO}} uint32\+\_\+t \texorpdfstring{$\ast$}{*})(\mbox{\hyperlink{group___peripheral__memory__map_ga26f267dc35338eef219544c51f1e6b3f}{GPIOC\+\_\+\+BASE}} + 0x18)))
+\item 
+\#define \mbox{\hyperlink{main_8h_a5f6ac8b4c581ebfa1f6a2013dec2396d}{SYSTICK\+\_\+\+BASE}}~0x\+E000\+E010
+\item 
+\#define \mbox{\hyperlink{main_8h_a7051a258beea05555621a7fa2a06701f}{SYSTICK\+\_\+\+CTRL}}~(\texorpdfstring{$\ast$}{*}((\mbox{\hyperlink{main_8h_a481f1b6501d20c1a3d4b6f209953960f}{\+\_\+\+IO}} uint32\+\_\+t \texorpdfstring{$\ast$}{*})(\mbox{\hyperlink{main_8h_a5f6ac8b4c581ebfa1f6a2013dec2396d}{SYSTICK\+\_\+\+BASE}} + 0x00)))
+\item 
+\#define \mbox{\hyperlink{main_8h_a40c03741132f793b632dfa5266f9fc48}{SYSTICK\+\_\+\+LOAD}}~(\texorpdfstring{$\ast$}{*}((\mbox{\hyperlink{main_8h_a481f1b6501d20c1a3d4b6f209953960f}{\+\_\+\+IO}} uint32\+\_\+t \texorpdfstring{$\ast$}{*})(\mbox{\hyperlink{main_8h_a5f6ac8b4c581ebfa1f6a2013dec2396d}{SYSTICK\+\_\+\+BASE}} + 0x04)))
+\item 
+\#define \mbox{\hyperlink{main_8h_a99fb4c496590d7d9f9759ff556b97bb5}{SYSTICK\+\_\+\+VAL}}~(\texorpdfstring{$\ast$}{*}((\mbox{\hyperlink{main_8h_a481f1b6501d20c1a3d4b6f209953960f}{\+\_\+\+IO}} uint32\+\_\+t \texorpdfstring{$\ast$}{*})(\mbox{\hyperlink{main_8h_a5f6ac8b4c581ebfa1f6a2013dec2396d}{SYSTICK\+\_\+\+BASE}} + 0x08)))
+\item 
+\#define \mbox{\hyperlink{main_8h_ab4553be4db9860d940f81d7447173b2f}{LED\+\_\+\+PIN}}~13
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Fonksiyonlar}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{main_8h_aeb4c4307d28035637f0280cce42553fe}{Timing\+Delay\+\_\+\+Decrement}} (void)
+\begin{DoxyCompactList}\small\item\em Decrements the Timing\+Delay variable. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8h_a81248fec65b118150a94d8cdaf2a2b8c}{init\+Clock}} ()
+\item 
+void \mbox{\hyperlink{main_8h_a1778435697ce5e88277225a1ea85c2d9}{init\+IO}} ()
+\item 
+void \mbox{\hyperlink{main_8h_ab7cce8122024d7ba47bf10f434956de4}{delay\+\_\+ms}} (uint32\+\_\+t ms)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Makro Dokümantasyonu}
+\Hypertarget{main_8h_a481f1b6501d20c1a3d4b6f209953960f}\index{main.h@{main.h}!\_IO@{\_IO}}
+\index{\_IO@{\_IO}!main.h@{main.h}}
+\doxysubsubsection{\texorpdfstring{\_IO}{\_IO}}
+{\footnotesize\ttfamily \label{main_8h_a481f1b6501d20c1a3d4b6f209953960f} 
+\#define \+\_\+\+IO~volatile}
+
+\Hypertarget{main_8h_a26f267dc35338eef219544c51f1e6b3f}\index{main.h@{main.h}!GPIOC\_BASE@{GPIOC\_BASE}}
+\index{GPIOC\_BASE@{GPIOC\_BASE}!main.h@{main.h}}
+\doxysubsubsection{\texorpdfstring{GPIOC\_BASE}{GPIOC\_BASE}}
+{\footnotesize\ttfamily \label{main_8h_a26f267dc35338eef219544c51f1e6b3f} 
+\#define GPIOC\+\_\+\+BASE~0x40020800}
+
+\Hypertarget{main_8h_a88dcc56c201f13d73e5073857af6aeb5}\index{main.h@{main.h}!GPIOC\_BSRR@{GPIOC\_BSRR}}
+\index{GPIOC\_BSRR@{GPIOC\_BSRR}!main.h@{main.h}}
+\doxysubsubsection{\texorpdfstring{GPIOC\_BSRR}{GPIOC\_BSRR}}
+{\footnotesize\ttfamily \label{main_8h_a88dcc56c201f13d73e5073857af6aeb5} 
+\#define GPIOC\+\_\+\+BSRR~(\texorpdfstring{$\ast$}{*}((\mbox{\hyperlink{main_8h_a481f1b6501d20c1a3d4b6f209953960f}{\+\_\+\+IO}} uint32\+\_\+t \texorpdfstring{$\ast$}{*})(\mbox{\hyperlink{group___peripheral__memory__map_ga26f267dc35338eef219544c51f1e6b3f}{GPIOC\+\_\+\+BASE}} + 0x18)))}
+
+\Hypertarget{main_8h_a358ff7fc1e547fed6740a6075bc45084}\index{main.h@{main.h}!GPIOC\_MODER@{GPIOC\_MODER}}
+\index{GPIOC\_MODER@{GPIOC\_MODER}!main.h@{main.h}}
+\doxysubsubsection{\texorpdfstring{GPIOC\_MODER}{GPIOC\_MODER}}
+{\footnotesize\ttfamily \label{main_8h_a358ff7fc1e547fed6740a6075bc45084} 
+\#define GPIOC\+\_\+\+MODER~(\texorpdfstring{$\ast$}{*}((\mbox{\hyperlink{main_8h_a481f1b6501d20c1a3d4b6f209953960f}{\+\_\+\+IO}} uint32\+\_\+t \texorpdfstring{$\ast$}{*})(\mbox{\hyperlink{group___peripheral__memory__map_ga26f267dc35338eef219544c51f1e6b3f}{GPIOC\+\_\+\+BASE}} + 0x00)))}
+
+\Hypertarget{main_8h_ad3fe45a8267fad498bf589285cfc9474}\index{main.h@{main.h}!GPIOC\_OSPEEDR@{GPIOC\_OSPEEDR}}
+\index{GPIOC\_OSPEEDR@{GPIOC\_OSPEEDR}!main.h@{main.h}}
+\doxysubsubsection{\texorpdfstring{GPIOC\_OSPEEDR}{GPIOC\_OSPEEDR}}
+{\footnotesize\ttfamily \label{main_8h_ad3fe45a8267fad498bf589285cfc9474} 
+\#define GPIOC\+\_\+\+OSPEEDR~(\texorpdfstring{$\ast$}{*}((\mbox{\hyperlink{main_8h_a481f1b6501d20c1a3d4b6f209953960f}{\+\_\+\+IO}} uint32\+\_\+t \texorpdfstring{$\ast$}{*})(\mbox{\hyperlink{group___peripheral__memory__map_ga26f267dc35338eef219544c51f1e6b3f}{GPIOC\+\_\+\+BASE}} + 0x08)))}
+
+\Hypertarget{main_8h_a38d3fcef1b5894aecbf6b5dada26f6e8}\index{main.h@{main.h}!GPIOC\_OTYPER@{GPIOC\_OTYPER}}
+\index{GPIOC\_OTYPER@{GPIOC\_OTYPER}!main.h@{main.h}}
+\doxysubsubsection{\texorpdfstring{GPIOC\_OTYPER}{GPIOC\_OTYPER}}
+{\footnotesize\ttfamily \label{main_8h_a38d3fcef1b5894aecbf6b5dada26f6e8} 
+\#define GPIOC\+\_\+\+OTYPER~(\texorpdfstring{$\ast$}{*}((\mbox{\hyperlink{main_8h_a481f1b6501d20c1a3d4b6f209953960f}{\+\_\+\+IO}} uint32\+\_\+t \texorpdfstring{$\ast$}{*})(\mbox{\hyperlink{group___peripheral__memory__map_ga26f267dc35338eef219544c51f1e6b3f}{GPIOC\+\_\+\+BASE}} + 0x04)))}
+
+\Hypertarget{main_8h_abfbeaa765be118f55fdb52b72a319b08}\index{main.h@{main.h}!GPIOC\_PUPDR@{GPIOC\_PUPDR}}
+\index{GPIOC\_PUPDR@{GPIOC\_PUPDR}!main.h@{main.h}}
+\doxysubsubsection{\texorpdfstring{GPIOC\_PUPDR}{GPIOC\_PUPDR}}
+{\footnotesize\ttfamily \label{main_8h_abfbeaa765be118f55fdb52b72a319b08} 
+\#define GPIOC\+\_\+\+PUPDR~(\texorpdfstring{$\ast$}{*}((\mbox{\hyperlink{main_8h_a481f1b6501d20c1a3d4b6f209953960f}{\+\_\+\+IO}} uint32\+\_\+t \texorpdfstring{$\ast$}{*})(\mbox{\hyperlink{group___peripheral__memory__map_ga26f267dc35338eef219544c51f1e6b3f}{GPIOC\+\_\+\+BASE}} + 0x0C)))}
+
+\Hypertarget{main_8h_ab4553be4db9860d940f81d7447173b2f}\index{main.h@{main.h}!LED\_PIN@{LED\_PIN}}
+\index{LED\_PIN@{LED\_PIN}!main.h@{main.h}}
+\doxysubsubsection{\texorpdfstring{LED\_PIN}{LED\_PIN}}
+{\footnotesize\ttfamily \label{main_8h_ab4553be4db9860d940f81d7447173b2f} 
+\#define LED\+\_\+\+PIN~13}
+
+\Hypertarget{main_8h_a305184464592fe039a4e47e9d88bdcc4}\index{main.h@{main.h}!RCC\_AHB1ENR@{RCC\_AHB1ENR}}
+\index{RCC\_AHB1ENR@{RCC\_AHB1ENR}!main.h@{main.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_AHB1ENR}{RCC\_AHB1ENR}}
+{\footnotesize\ttfamily \label{main_8h_a305184464592fe039a4e47e9d88bdcc4} 
+\#define RCC\+\_\+\+AHB1\+ENR~(\texorpdfstring{$\ast$}{*}((\mbox{\hyperlink{main_8h_a481f1b6501d20c1a3d4b6f209953960f}{\+\_\+\+IO}} uint32\+\_\+t \texorpdfstring{$\ast$}{*})(\mbox{\hyperlink{group___peripheral__memory__map_ga0e681b03f364532055d88f63fec0d99d}{RCC\+\_\+\+BASE}} + 0x30)))}
+
+\Hypertarget{main_8h_a0e681b03f364532055d88f63fec0d99d}\index{main.h@{main.h}!RCC\_BASE@{RCC\_BASE}}
+\index{RCC\_BASE@{RCC\_BASE}!main.h@{main.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_BASE}{RCC\_BASE}}
+{\footnotesize\ttfamily \label{main_8h_a0e681b03f364532055d88f63fec0d99d} 
+\#define RCC\+\_\+\+BASE~0x40023800}
+
+\Hypertarget{main_8h_a5f6ac8b4c581ebfa1f6a2013dec2396d}\index{main.h@{main.h}!SYSTICK\_BASE@{SYSTICK\_BASE}}
+\index{SYSTICK\_BASE@{SYSTICK\_BASE}!main.h@{main.h}}
+\doxysubsubsection{\texorpdfstring{SYSTICK\_BASE}{SYSTICK\_BASE}}
+{\footnotesize\ttfamily \label{main_8h_a5f6ac8b4c581ebfa1f6a2013dec2396d} 
+\#define SYSTICK\+\_\+\+BASE~0x\+E000\+E010}
+
+\Hypertarget{main_8h_a7051a258beea05555621a7fa2a06701f}\index{main.h@{main.h}!SYSTICK\_CTRL@{SYSTICK\_CTRL}}
+\index{SYSTICK\_CTRL@{SYSTICK\_CTRL}!main.h@{main.h}}
+\doxysubsubsection{\texorpdfstring{SYSTICK\_CTRL}{SYSTICK\_CTRL}}
+{\footnotesize\ttfamily \label{main_8h_a7051a258beea05555621a7fa2a06701f} 
+\#define SYSTICK\+\_\+\+CTRL~(\texorpdfstring{$\ast$}{*}((\mbox{\hyperlink{main_8h_a481f1b6501d20c1a3d4b6f209953960f}{\+\_\+\+IO}} uint32\+\_\+t \texorpdfstring{$\ast$}{*})(\mbox{\hyperlink{main_8h_a5f6ac8b4c581ebfa1f6a2013dec2396d}{SYSTICK\+\_\+\+BASE}} + 0x00)))}
+
+\Hypertarget{main_8h_a40c03741132f793b632dfa5266f9fc48}\index{main.h@{main.h}!SYSTICK\_LOAD@{SYSTICK\_LOAD}}
+\index{SYSTICK\_LOAD@{SYSTICK\_LOAD}!main.h@{main.h}}
+\doxysubsubsection{\texorpdfstring{SYSTICK\_LOAD}{SYSTICK\_LOAD}}
+{\footnotesize\ttfamily \label{main_8h_a40c03741132f793b632dfa5266f9fc48} 
+\#define SYSTICK\+\_\+\+LOAD~(\texorpdfstring{$\ast$}{*}((\mbox{\hyperlink{main_8h_a481f1b6501d20c1a3d4b6f209953960f}{\+\_\+\+IO}} uint32\+\_\+t \texorpdfstring{$\ast$}{*})(\mbox{\hyperlink{main_8h_a5f6ac8b4c581ebfa1f6a2013dec2396d}{SYSTICK\+\_\+\+BASE}} + 0x04)))}
+
+\Hypertarget{main_8h_a99fb4c496590d7d9f9759ff556b97bb5}\index{main.h@{main.h}!SYSTICK\_VAL@{SYSTICK\_VAL}}
+\index{SYSTICK\_VAL@{SYSTICK\_VAL}!main.h@{main.h}}
+\doxysubsubsection{\texorpdfstring{SYSTICK\_VAL}{SYSTICK\_VAL}}
+{\footnotesize\ttfamily \label{main_8h_a99fb4c496590d7d9f9759ff556b97bb5} 
+\#define SYSTICK\+\_\+\+VAL~(\texorpdfstring{$\ast$}{*}((\mbox{\hyperlink{main_8h_a481f1b6501d20c1a3d4b6f209953960f}{\+\_\+\+IO}} uint32\+\_\+t \texorpdfstring{$\ast$}{*})(\mbox{\hyperlink{main_8h_a5f6ac8b4c581ebfa1f6a2013dec2396d}{SYSTICK\+\_\+\+BASE}} + 0x08)))}
+
+
+
+\doxysubsection{Fonksiyon Dokümantasyonu}
+\Hypertarget{main_8h_ab7cce8122024d7ba47bf10f434956de4}\index{main.h@{main.h}!delay\_ms@{delay\_ms}}
+\index{delay\_ms@{delay\_ms}!main.h@{main.h}}
+\doxysubsubsection{\texorpdfstring{delay\_ms()}{delay\_ms()}}
+{\footnotesize\ttfamily \label{main_8h_ab7cce8122024d7ba47bf10f434956de4} 
+void delay\+\_\+ms (\begin{DoxyParamCaption}\item[{uint32\+\_\+t}]{ms}{}\end{DoxyParamCaption})}
+
+\Hypertarget{main_8h_a81248fec65b118150a94d8cdaf2a2b8c}\index{main.h@{main.h}!initClock@{initClock}}
+\index{initClock@{initClock}!main.h@{main.h}}
+\doxysubsubsection{\texorpdfstring{initClock()}{initClock()}}
+{\footnotesize\ttfamily \label{main_8h_a81248fec65b118150a94d8cdaf2a2b8c} 
+void init\+Clock (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{main_8h_a1778435697ce5e88277225a1ea85c2d9}\index{main.h@{main.h}!initIO@{initIO}}
+\index{initIO@{initIO}!main.h@{main.h}}
+\doxysubsubsection{\texorpdfstring{initIO()}{initIO()}}
+{\footnotesize\ttfamily \label{main_8h_a1778435697ce5e88277225a1ea85c2d9} 
+void init\+IO (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{main_8h_aeb4c4307d28035637f0280cce42553fe}\index{main.h@{main.h}!TimingDelay\_Decrement@{TimingDelay\_Decrement}}
+\index{TimingDelay\_Decrement@{TimingDelay\_Decrement}!main.h@{main.h}}
+\doxysubsubsection{\texorpdfstring{TimingDelay\_Decrement()}{TimingDelay\_Decrement()}}
+{\footnotesize\ttfamily \label{main_8h_aeb4c4307d28035637f0280cce42553fe} 
+void Timing\+Delay\+\_\+\+Decrement (\begin{DoxyParamCaption}\item[{void}]{}{}\end{DoxyParamCaption})}
+
+
+
+Decrements the Timing\+Delay variable. 
+
+
+\begin{DoxyParams}{Parametreler}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Döndürdüğü değerler}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}

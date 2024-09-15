@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_struct_d_a_c___type_def" xml:lang="tr">
+<title>DAC_TypeDef Yapı(Struct) Referans</title>
+<indexterm><primary>DAC_TypeDef</primary></indexterm>
+<para>
+
+<para>Digital to Analog Converter. </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;stm32f4xx.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Veri Alanları    </title>
+        <itemizedlist>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gab40c89c59391aaa9d9a8ec011dd0907a">CR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga896bbb7153af0b67ad772360feaceeb4">SWTRIGR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gac2bb55b037b800a25852736afdd7a258">DHR12R1</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gae9028b8bcb5118b7073165fb50fcd559">DHR12L1</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gad0a200e12acad17a5c7d2059159ea7e1">DHR8R1</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga804c7e15dbb587c7ea25511f6a7809f7">DHR12R2</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga2e45f9c9d67e384187b25334ba0a3e3d">DHR12L2</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga4c435f0e34ace4421241cd5c3ae87fc2">DHR8R2</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga1590b77e57f17e75193da259da72095e">DHR12RD</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gacc269320aff0a6482730224a4b641a59">DHR12LD</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga9590269cba8412f1be96b0ddb846ef44">DHR8RD</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gaa710505be03a41981c35bacc7ce20746">DOR1</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gaba9fb810b0cf6cbc1280c5c63be2418b">DOR2</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gaf6aca2bbd40c0fb6df7c3aebe224a360">SR</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Ayrıntılı tanımlama</title>
+
+<para>Digital to Analog Converter. </para>
+<para>
+Bu yapı(struct) için dokümantasyon aşağıdaki dosyadan üretilmiştir:</para>
+Core_BlackPill/<link linkend="_stm32f4xx_8h">stm32f4xx.h</link></section>
+</section>

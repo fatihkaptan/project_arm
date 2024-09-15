@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="tr">
+  <compounddef id="struct_d_m_a___stream___type_def" kind="struct" language="C++" prot="public">
+    <compoundname>DMA_Stream_TypeDef</compoundname>
+    <includes refid="stm32f4xx_8h" local="no">stm32f4xx.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group___c_m_s_i_s_1gab40c89c59391aaa9d9a8ec011dd0907a" kind="variable"><name>CR</name></member>
+      <member refid="group___c_m_s_i_s_1gaf60258ad5a25addc1e8969665d0c1731" kind="variable"><name>NDTR</name></member>
+      <member refid="group___c_m_s_i_s_1gaef55be3d948c22dd32a97e8d4f8761fd" kind="variable"><name>PAR</name></member>
+      <member refid="group___c_m_s_i_s_1ga63b4d166f4ab5024db6b493a7ab7b640" kind="variable"><name>M0AR</name></member>
+      <member refid="group___c_m_s_i_s_1gaee7782244ceb4791d9a3891804ac47ac" kind="variable"><name>M1AR</name></member>
+      <member refid="group___c_m_s_i_s_1ga5d5cc7f32884945503dd29f8f6cbb415" kind="variable"><name>FCR</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>DMA Controller. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Core_BlackPill/stm32f4xx.h" line="1091" column="1" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="1092" bodyend="1099"/>
+    <listofallmembers>
+      <member refid="group___c_m_s_i_s_1gab40c89c59391aaa9d9a8ec011dd0907a" prot="public" virt="non-virtual"><scope>DMA_Stream_TypeDef</scope><name>CR</name></member>
+      <member refid="group___c_m_s_i_s_1ga5d5cc7f32884945503dd29f8f6cbb415" prot="public" virt="non-virtual"><scope>DMA_Stream_TypeDef</scope><name>FCR</name></member>
+      <member refid="group___c_m_s_i_s_1ga63b4d166f4ab5024db6b493a7ab7b640" prot="public" virt="non-virtual"><scope>DMA_Stream_TypeDef</scope><name>M0AR</name></member>
+      <member refid="group___c_m_s_i_s_1gaee7782244ceb4791d9a3891804ac47ac" prot="public" virt="non-virtual"><scope>DMA_Stream_TypeDef</scope><name>M1AR</name></member>
+      <member refid="group___c_m_s_i_s_1gaf60258ad5a25addc1e8969665d0c1731" prot="public" virt="non-virtual"><scope>DMA_Stream_TypeDef</scope><name>NDTR</name></member>
+      <member refid="group___c_m_s_i_s_1gaef55be3d948c22dd32a97e8d4f8761fd" prot="public" virt="non-virtual"><scope>DMA_Stream_TypeDef</scope><name>PAR</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

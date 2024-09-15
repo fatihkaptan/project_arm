@@ -1,0 +1,33 @@
+\doxysection{main.\+h}
+\hypertarget{main_8h_source}{}\label{main_8h_source}\mbox{\hyperlink{main_8h}{Bu dosyanın dokümantasyonuna git.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{stm32f4xx_8h}{stm32f4xx.h}}"{}}}
+\DoxyCodeLine{00002\ }
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{comment}{/*\ Exported\ functions\ -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/\ */}}
+\DoxyCodeLine{00005\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{main_8h_aeb4c4307d28035637f0280cce42553fe}{TimingDelay\_Decrement}}(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{00006\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{main_8h_a81248fec65b118150a94d8cdaf2a2b8c}{initClock}}();}
+\DoxyCodeLine{00007\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{main_8h_a1778435697ce5e88277225a1ea85c2d9}{initIO}}();}
+\DoxyCodeLine{00008\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{main_8h_ab7cce8122024d7ba47bf10f434956de4}{delay\_ms}}(uint32\_t\ ms);}
+\DoxyCodeLine{00009\ }
+\DoxyCodeLine{00010\ \textcolor{comment}{/*bunlari\ simdilik\ elle\ kullaniyom*/}}
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#define\ \_IO\ volatile\ }\textcolor{comment}{//\ defines\ rw\ permissions}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#define\ RCC\_BASE\ 0x40023800}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#define\ RCC\_AHB1ENR\ \ \ (*((\_IO\ uint32\_t\ *)(RCC\_BASE\ +\ 0x30)))}}
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\#define\ GPIOC\_BASE\ 0x40020800}}
+\DoxyCodeLine{00015\ \textcolor{preprocessor}{\#define\ GPIOC\_MODER\ \ \ (*((\_IO\ uint32\_t\ *)(GPIOC\_BASE\ +\ 0x00)))}}
+\DoxyCodeLine{00016\ \textcolor{preprocessor}{\#define\ GPIOC\_OTYPER\ \ (*((\_IO\ uint32\_t\ *)(GPIOC\_BASE\ +\ 0x04)))}}
+\DoxyCodeLine{00017\ \textcolor{preprocessor}{\#define\ GPIOC\_OSPEEDR\ (*((\_IO\ uint32\_t\ *)(GPIOC\_BASE\ +\ 0x08)))}}
+\DoxyCodeLine{00018\ \textcolor{preprocessor}{\#define\ GPIOC\_PUPDR\ \ \ (*((\_IO\ uint32\_t\ *)(GPIOC\_BASE\ +\ 0x0C)))}}
+\DoxyCodeLine{00019\ \textcolor{preprocessor}{\#define\ GPIOC\_BSRR\ \ \ \ (*((\_IO\ uint32\_t\ *)(GPIOC\_BASE\ +\ 0x18)))}}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00021\ \textcolor{comment}{/*systick\ egitim*/}}
+\DoxyCodeLine{00022\ \textcolor{preprocessor}{\#define\ SYSTICK\_BASE\ \ 0xE000E010}}
+\DoxyCodeLine{00023\ \textcolor{preprocessor}{\#define\ SYSTICK\_CTRL\ \ (*((\_IO\ uint32\_t\ *)(SYSTICK\_BASE\ +\ 0x00)))}}
+\DoxyCodeLine{00024\ \textcolor{preprocessor}{\#define\ SYSTICK\_LOAD\ \ (*((\_IO\ uint32\_t\ *)(SYSTICK\_BASE\ +\ 0x04)))}}
+\DoxyCodeLine{00025\ \textcolor{preprocessor}{\#define\ SYSTICK\_VAL\ \ \ (*((\_IO\ uint32\_t\ *)(SYSTICK\_BASE\ +\ 0x08)))}}
+\DoxyCodeLine{00026\ }
+\DoxyCodeLine{00027\ }
+\DoxyCodeLine{00028\ \textcolor{preprocessor}{\#define\ LED\_PIN\ 13}}
+
+\end{DoxyCode}

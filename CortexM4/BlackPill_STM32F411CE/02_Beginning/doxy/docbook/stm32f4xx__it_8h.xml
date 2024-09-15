@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_stm32f4xx__it_8h" xml:lang="tr">
+<title>Core_BlackPill/stm32f4xx_it.h Dosya Referansı</title>
+<indexterm><primary>Core_BlackPill/stm32f4xx_it.h</primary></indexterm>
+<programlisting linenumbering="unnumbered">#include &quot;stm32f4xx.h&quot;<?linebreak?></programlisting><simplesect>
+    <title>Fonksiyonlar    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_group___template___project_1ga6ad7a5e3ee69cb6db6a6b9111ba898bc">NMI_Handler</link> (void)</para>
+
+<para>This function handles NMI exception. </para>
+</listitem>
+            <listitem><para>void <link linkend="_group___template___project_1ga2bffc10d5bd4106753b7c30e86903bea">HardFault_Handler</link> (void)</para>
+
+<para>This function handles Hard Fault exception. </para>
+</listitem>
+            <listitem><para>void <link linkend="_group___template___project_1ga3150f74512510287a942624aa9b44cc5">MemManage_Handler</link> (void)</para>
+
+<para>This function handles Memory Manage exception. </para>
+</listitem>
+            <listitem><para>void <link linkend="_group___template___project_1ga850cefb17a977292ae5eb4cafa9976c3">BusFault_Handler</link> (void)</para>
+
+<para>This function handles Bus Fault exception. </para>
+</listitem>
+            <listitem><para>void <link linkend="_group___template___project_1ga1d98923de2ed6b7309b66f9ba2971647">UsageFault_Handler</link> (void)</para>
+
+<para>This function handles Usage Fault exception. </para>
+</listitem>
+            <listitem><para>void <link linkend="_group___template___project_1ga3e5ddb3df0d62f2dc357e64a3f04a6ce">SVC_Handler</link> (void)</para>
+
+<para>This function handles SVCall exception. </para>
+</listitem>
+            <listitem><para>void <link linkend="_group___template___project_1gadbdfb05858cc36fc520974df37ec3cb0">DebugMon_Handler</link> (void)</para>
+
+<para>This function handles Debug Monitor exception. </para>
+</listitem>
+            <listitem><para>void <link linkend="_group___template___project_1ga6303e1f258cbdc1f970ce579cc015623">PendSV_Handler</link> (void)</para>
+
+<para>This function handles PendSVC exception. </para>
+</listitem>
+            <listitem><para>void <link linkend="_group___template___project_1gab5e09814056d617c521549e542639b7e">SysTick_Handler</link> (void)</para>
+
+<para>This function handles SysTick Handler. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

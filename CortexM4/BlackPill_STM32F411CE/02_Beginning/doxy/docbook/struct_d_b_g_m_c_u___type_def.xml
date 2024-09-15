@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_struct_d_b_g_m_c_u___type_def" xml:lang="tr">
+<title>DBGMCU_TypeDef Yapı(Struct) Referans</title>
+<indexterm><primary>DBGMCU_TypeDef</primary></indexterm>
+<para>
+
+<para>Debug MCU. </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;stm32f4xx.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Veri Alanları    </title>
+        <itemizedlist>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga24df28d0e440321b21f6f07b3bb93dea">IDCODE</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gab40c89c59391aaa9d9a8ec011dd0907a">CR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga5eaefc557573ae7bdc632ef6b6d574b5">APB1FZ</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga4628a8c32f97ef93b15b2b503ef90c75">APB2FZ</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Ayrıntılı tanımlama</title>
+
+<para>Debug MCU. </para>
+<para>
+Bu yapı(struct) için dokümantasyon aşağıdaki dosyadan üretilmiştir:</para>
+Core_BlackPill/<link linkend="_stm32f4xx_8h">stm32f4xx.h</link></section>
+</section>

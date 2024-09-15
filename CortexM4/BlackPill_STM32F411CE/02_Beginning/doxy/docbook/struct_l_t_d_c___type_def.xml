@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_struct_l_t_d_c___type_def" xml:lang="tr">
+<title>LTDC_TypeDef Yapı(Struct) Referans</title>
+<indexterm><primary>LTDC_TypeDef</primary></indexterm>
+<para>
+
+<para>LCD-TFT Display Controller. </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;stm32f4xx.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Veri Alanları    </title>
+        <itemizedlist>
+            <listitem><para>uint32_t <link linkend="_group___c_m_s_i_s_1ga8be676577db129a84a9a2689519a8502">RESERVED0</link> [2]</para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga3aa8cb3b286c630b9fa126616a1f6498">SSCR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gab954c16d70935a24b62aad461a664878">BPCR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga2277d6936f88a3bbb0b7fd1481b2c2c5">AWCR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gace97ea64f6db802fc5488601bb8558ab">TWCR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gaae092d9d07574afe1fbc79c8bf7f7c19">GCR</link></para>
+</listitem>
+            <listitem><para>uint32_t <link linkend="_group___c_m_s_i_s_1ga28d88d9a08aab1adbebea61c42ef901e">RESERVED1</link> [2]</para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga92af0fef30467bfce8d1408f81cfda6d">SRCR</link></para>
+</listitem>
+            <listitem><para>uint32_t <link linkend="_group___c_m_s_i_s_1ga032c71ff46a97d2398e5c15a1b4fa50d">RESERVED2</link> [1]</para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga7a7c554d0c2d78d8b044a699602e37e1">BCCR</link></para>
+</listitem>
+            <listitem><para>uint32_t <link linkend="_group___c_m_s_i_s_1gad4a213d23b6c7413d93b180984c5542c">RESERVED3</link> [1]</para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga6566f8cfbd1d8aa7e8db046aa35e77db">IER</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gab3c49a96815fcbee63d95e1e74f20e75">ISR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga0a8c8230846fd8ff154b9fde8dfa0399">ICR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga7d311d182e9cb4a5acd25f6bb3e1422d">LIPCR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga140588a82bafbf0bf0c983111aadb351">CPSR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga5e235993884b3f8d42db5f51d9bd1942">CDSR</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Ayrıntılı tanımlama</title>
+
+<para>LCD-TFT Display Controller. </para>
+<para>
+Bu yapı(struct) için dokümantasyon aşağıdaki dosyadan üretilmiştir:</para>
+Core_BlackPill/<link linkend="_stm32f4xx_8h">stm32f4xx.h</link></section>
+</section>

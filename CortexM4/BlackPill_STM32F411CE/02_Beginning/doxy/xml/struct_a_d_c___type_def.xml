@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="tr">
+  <compounddef id="struct_a_d_c___type_def" kind="struct" language="C++" prot="public">
+    <compoundname>ADC_TypeDef</compoundname>
+    <includes refid="stm32f4xx_8h" local="no">stm32f4xx.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group___c_m_s_i_s_1gaf6aca2bbd40c0fb6df7c3aebe224a360" kind="variable"><name>SR</name></member>
+      <member refid="group___c_m_s_i_s_1gab0ec7102960640751d44e92ddac994f0" kind="variable"><name>CR1</name></member>
+      <member refid="group___c_m_s_i_s_1gafdfa307571967afb1d97943e982b6586" kind="variable"><name>CR2</name></member>
+      <member refid="group___c_m_s_i_s_1gaf9d6c604e365c7d9d7601bf4ef373498" kind="variable"><name>SMPR1</name></member>
+      <member refid="group___c_m_s_i_s_1ga6ac83fae8377c7b7fcae50fa4211b0e8" kind="variable"><name>SMPR2</name></member>
+      <member refid="group___c_m_s_i_s_1ga427dda1678f254bd98b1f321d7194a3b" kind="variable"><name>JOFR1</name></member>
+      <member refid="group___c_m_s_i_s_1ga11e65074b9f06b48c17cdfa5bea9f125" kind="variable"><name>JOFR2</name></member>
+      <member refid="group___c_m_s_i_s_1ga613f6b76d20c1a513976b920ecd7f4f8" kind="variable"><name>JOFR3</name></member>
+      <member refid="group___c_m_s_i_s_1ga2fd59854223e38158b4138ee8e913ab3" kind="variable"><name>JOFR4</name></member>
+      <member refid="group___c_m_s_i_s_1ga24c3512abcc90ef75cf3e9145e5dbe9b" kind="variable"><name>HTR</name></member>
+      <member refid="group___c_m_s_i_s_1ga9f8712dfef7125c0bb39db11f2b7416b" kind="variable"><name>LTR</name></member>
+      <member refid="group___c_m_s_i_s_1ga3302e1bcfdfbbfeb58779d0761fb377c" kind="variable"><name>SQR1</name></member>
+      <member refid="group___c_m_s_i_s_1gaab440b0ad8631f5666dd32768a89cf60" kind="variable"><name>SQR2</name></member>
+      <member refid="group___c_m_s_i_s_1ga97e40d9928fa25a5628d6442f0aa6c0f" kind="variable"><name>SQR3</name></member>
+      <member refid="group___c_m_s_i_s_1ga75e0cc079831adcc051df456737d3ae4" kind="variable"><name>JSQR</name></member>
+      <member refid="group___c_m_s_i_s_1ga22fa21352be442bd02f9c26a1013d598" kind="variable"><name>JDR1</name></member>
+      <member refid="group___c_m_s_i_s_1gae9156af81694b7a85923348be45a2167" kind="variable"><name>JDR2</name></member>
+      <member refid="group___c_m_s_i_s_1ga3a54028253a75a470fccf841178cba46" kind="variable"><name>JDR3</name></member>
+      <member refid="group___c_m_s_i_s_1ga9274ceea3b2c6d5c1903d0a7abad91a1" kind="variable"><name>JDR4</name></member>
+      <member refid="group___c_m_s_i_s_1ga3df0d8dfcd1ec958659ffe21eb64fa94" kind="variable"><name>DR</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Analog to Digital Converter <linebreak/>
+ </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Core_BlackPill/stm32f4xx.h" line="870" column="1" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="871" bodyend="892"/>
+    <listofallmembers>
+      <member refid="group___c_m_s_i_s_1gab0ec7102960640751d44e92ddac994f0" prot="public" virt="non-virtual"><scope>ADC_TypeDef</scope><name>CR1</name></member>
+      <member refid="group___c_m_s_i_s_1gafdfa307571967afb1d97943e982b6586" prot="public" virt="non-virtual"><scope>ADC_TypeDef</scope><name>CR2</name></member>
+      <member refid="group___c_m_s_i_s_1ga3df0d8dfcd1ec958659ffe21eb64fa94" prot="public" virt="non-virtual"><scope>ADC_TypeDef</scope><name>DR</name></member>
+      <member refid="group___c_m_s_i_s_1ga24c3512abcc90ef75cf3e9145e5dbe9b" prot="public" virt="non-virtual"><scope>ADC_TypeDef</scope><name>HTR</name></member>
+      <member refid="group___c_m_s_i_s_1ga22fa21352be442bd02f9c26a1013d598" prot="public" virt="non-virtual"><scope>ADC_TypeDef</scope><name>JDR1</name></member>
+      <member refid="group___c_m_s_i_s_1gae9156af81694b7a85923348be45a2167" prot="public" virt="non-virtual"><scope>ADC_TypeDef</scope><name>JDR2</name></member>
+      <member refid="group___c_m_s_i_s_1ga3a54028253a75a470fccf841178cba46" prot="public" virt="non-virtual"><scope>ADC_TypeDef</scope><name>JDR3</name></member>
+      <member refid="group___c_m_s_i_s_1ga9274ceea3b2c6d5c1903d0a7abad91a1" prot="public" virt="non-virtual"><scope>ADC_TypeDef</scope><name>JDR4</name></member>
+      <member refid="group___c_m_s_i_s_1ga427dda1678f254bd98b1f321d7194a3b" prot="public" virt="non-virtual"><scope>ADC_TypeDef</scope><name>JOFR1</name></member>
+      <member refid="group___c_m_s_i_s_1ga11e65074b9f06b48c17cdfa5bea9f125" prot="public" virt="non-virtual"><scope>ADC_TypeDef</scope><name>JOFR2</name></member>
+      <member refid="group___c_m_s_i_s_1ga613f6b76d20c1a513976b920ecd7f4f8" prot="public" virt="non-virtual"><scope>ADC_TypeDef</scope><name>JOFR3</name></member>
+      <member refid="group___c_m_s_i_s_1ga2fd59854223e38158b4138ee8e913ab3" prot="public" virt="non-virtual"><scope>ADC_TypeDef</scope><name>JOFR4</name></member>
+      <member refid="group___c_m_s_i_s_1ga75e0cc079831adcc051df456737d3ae4" prot="public" virt="non-virtual"><scope>ADC_TypeDef</scope><name>JSQR</name></member>
+      <member refid="group___c_m_s_i_s_1ga9f8712dfef7125c0bb39db11f2b7416b" prot="public" virt="non-virtual"><scope>ADC_TypeDef</scope><name>LTR</name></member>
+      <member refid="group___c_m_s_i_s_1gaf9d6c604e365c7d9d7601bf4ef373498" prot="public" virt="non-virtual"><scope>ADC_TypeDef</scope><name>SMPR1</name></member>
+      <member refid="group___c_m_s_i_s_1ga6ac83fae8377c7b7fcae50fa4211b0e8" prot="public" virt="non-virtual"><scope>ADC_TypeDef</scope><name>SMPR2</name></member>
+      <member refid="group___c_m_s_i_s_1ga3302e1bcfdfbbfeb58779d0761fb377c" prot="public" virt="non-virtual"><scope>ADC_TypeDef</scope><name>SQR1</name></member>
+      <member refid="group___c_m_s_i_s_1gaab440b0ad8631f5666dd32768a89cf60" prot="public" virt="non-virtual"><scope>ADC_TypeDef</scope><name>SQR2</name></member>
+      <member refid="group___c_m_s_i_s_1ga97e40d9928fa25a5628d6442f0aa6c0f" prot="public" virt="non-virtual"><scope>ADC_TypeDef</scope><name>SQR3</name></member>
+      <member refid="group___c_m_s_i_s_1gaf6aca2bbd40c0fb6df7c3aebe224a360" prot="public" virt="non-virtual"><scope>ADC_TypeDef</scope><name>SR</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

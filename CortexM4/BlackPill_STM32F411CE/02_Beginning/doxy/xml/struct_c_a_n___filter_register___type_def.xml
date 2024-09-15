@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="tr">
+  <compounddef id="struct_c_a_n___filter_register___type_def" kind="struct" language="C++" prot="public">
+    <compoundname>CAN_FilterRegister_TypeDef</compoundname>
+    <includes refid="stm32f4xx_8h" local="no">stm32f4xx.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group___c_m_s_i_s_1ga92036953ac673803fe001d843fea508b" kind="variable"><name>FR1</name></member>
+      <member refid="group___c_m_s_i_s_1ga7f7d80b45b7574463d7030fc8a464582" kind="variable"><name>FR2</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Controller Area Network FilterRegister. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Core_BlackPill/stm32f4xx.h" line="931" column="1" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="932" bodyend="935"/>
+    <listofallmembers>
+      <member refid="group___c_m_s_i_s_1ga92036953ac673803fe001d843fea508b" prot="public" virt="non-virtual"><scope>CAN_FilterRegister_TypeDef</scope><name>FR1</name></member>
+      <member refid="group___c_m_s_i_s_1ga7f7d80b45b7574463d7030fc8a464582" prot="public" virt="non-virtual"><scope>CAN_FilterRegister_TypeDef</scope><name>FR2</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

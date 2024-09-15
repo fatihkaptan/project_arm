@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="tr">
+  <compounddef id="struct_d_a_c___type_def" kind="struct" language="C++" prot="public">
+    <compoundname>DAC_TypeDef</compoundname>
+    <includes refid="stm32f4xx_8h" local="no">stm32f4xx.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group___c_m_s_i_s_1gab40c89c59391aaa9d9a8ec011dd0907a" kind="variable"><name>CR</name></member>
+      <member refid="group___c_m_s_i_s_1ga896bbb7153af0b67ad772360feaceeb4" kind="variable"><name>SWTRIGR</name></member>
+      <member refid="group___c_m_s_i_s_1gac2bb55b037b800a25852736afdd7a258" kind="variable"><name>DHR12R1</name></member>
+      <member refid="group___c_m_s_i_s_1gae9028b8bcb5118b7073165fb50fcd559" kind="variable"><name>DHR12L1</name></member>
+      <member refid="group___c_m_s_i_s_1gad0a200e12acad17a5c7d2059159ea7e1" kind="variable"><name>DHR8R1</name></member>
+      <member refid="group___c_m_s_i_s_1ga804c7e15dbb587c7ea25511f6a7809f7" kind="variable"><name>DHR12R2</name></member>
+      <member refid="group___c_m_s_i_s_1ga2e45f9c9d67e384187b25334ba0a3e3d" kind="variable"><name>DHR12L2</name></member>
+      <member refid="group___c_m_s_i_s_1ga4c435f0e34ace4421241cd5c3ae87fc2" kind="variable"><name>DHR8R2</name></member>
+      <member refid="group___c_m_s_i_s_1ga1590b77e57f17e75193da259da72095e" kind="variable"><name>DHR12RD</name></member>
+      <member refid="group___c_m_s_i_s_1gacc269320aff0a6482730224a4b641a59" kind="variable"><name>DHR12LD</name></member>
+      <member refid="group___c_m_s_i_s_1ga9590269cba8412f1be96b0ddb846ef44" kind="variable"><name>DHR8RD</name></member>
+      <member refid="group___c_m_s_i_s_1gaa710505be03a41981c35bacc7ce20746" kind="variable"><name>DOR1</name></member>
+      <member refid="group___c_m_s_i_s_1gaba9fb810b0cf6cbc1280c5c63be2418b" kind="variable"><name>DOR2</name></member>
+      <member refid="group___c_m_s_i_s_1gaf6aca2bbd40c0fb6df7c3aebe224a360" kind="variable"><name>SR</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Digital to Analog Converter. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Core_BlackPill/stm32f4xx.h" line="999" column="1" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="1000" bodyend="1015"/>
+    <listofallmembers>
+      <member refid="group___c_m_s_i_s_1gab40c89c59391aaa9d9a8ec011dd0907a" prot="public" virt="non-virtual"><scope>DAC_TypeDef</scope><name>CR</name></member>
+      <member refid="group___c_m_s_i_s_1gae9028b8bcb5118b7073165fb50fcd559" prot="public" virt="non-virtual"><scope>DAC_TypeDef</scope><name>DHR12L1</name></member>
+      <member refid="group___c_m_s_i_s_1ga2e45f9c9d67e384187b25334ba0a3e3d" prot="public" virt="non-virtual"><scope>DAC_TypeDef</scope><name>DHR12L2</name></member>
+      <member refid="group___c_m_s_i_s_1gacc269320aff0a6482730224a4b641a59" prot="public" virt="non-virtual"><scope>DAC_TypeDef</scope><name>DHR12LD</name></member>
+      <member refid="group___c_m_s_i_s_1gac2bb55b037b800a25852736afdd7a258" prot="public" virt="non-virtual"><scope>DAC_TypeDef</scope><name>DHR12R1</name></member>
+      <member refid="group___c_m_s_i_s_1ga804c7e15dbb587c7ea25511f6a7809f7" prot="public" virt="non-virtual"><scope>DAC_TypeDef</scope><name>DHR12R2</name></member>
+      <member refid="group___c_m_s_i_s_1ga1590b77e57f17e75193da259da72095e" prot="public" virt="non-virtual"><scope>DAC_TypeDef</scope><name>DHR12RD</name></member>
+      <member refid="group___c_m_s_i_s_1gad0a200e12acad17a5c7d2059159ea7e1" prot="public" virt="non-virtual"><scope>DAC_TypeDef</scope><name>DHR8R1</name></member>
+      <member refid="group___c_m_s_i_s_1ga4c435f0e34ace4421241cd5c3ae87fc2" prot="public" virt="non-virtual"><scope>DAC_TypeDef</scope><name>DHR8R2</name></member>
+      <member refid="group___c_m_s_i_s_1ga9590269cba8412f1be96b0ddb846ef44" prot="public" virt="non-virtual"><scope>DAC_TypeDef</scope><name>DHR8RD</name></member>
+      <member refid="group___c_m_s_i_s_1gaa710505be03a41981c35bacc7ce20746" prot="public" virt="non-virtual"><scope>DAC_TypeDef</scope><name>DOR1</name></member>
+      <member refid="group___c_m_s_i_s_1gaba9fb810b0cf6cbc1280c5c63be2418b" prot="public" virt="non-virtual"><scope>DAC_TypeDef</scope><name>DOR2</name></member>
+      <member refid="group___c_m_s_i_s_1gaf6aca2bbd40c0fb6df7c3aebe224a360" prot="public" virt="non-virtual"><scope>DAC_TypeDef</scope><name>SR</name></member>
+      <member refid="group___c_m_s_i_s_1ga896bbb7153af0b67ad772360feaceeb4" prot="public" virt="non-virtual"><scope>DAC_TypeDef</scope><name>SWTRIGR</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="tr">
+  <compounddef id="struct_r_t_c___type_def" kind="struct" language="C++" prot="public">
+    <compoundname>RTC_TypeDef</compoundname>
+    <includes refid="stm32f4xx_8h" local="no">stm32f4xx.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group___c_m_s_i_s_1ga63d179b7a36a715dce7203858d3be132" kind="variable"><name>TR</name></member>
+      <member refid="group___c_m_s_i_s_1ga3df0d8dfcd1ec958659ffe21eb64fa94" kind="variable"><name>DR</name></member>
+      <member refid="group___c_m_s_i_s_1gab40c89c59391aaa9d9a8ec011dd0907a" kind="variable"><name>CR</name></member>
+      <member refid="group___c_m_s_i_s_1gab3c49a96815fcbee63d95e1e74f20e75" kind="variable"><name>ISR</name></member>
+      <member refid="group___c_m_s_i_s_1gac9b4c6c5b29f3461ce3f875eea69f35b" kind="variable"><name>PRER</name></member>
+      <member refid="group___c_m_s_i_s_1gac5b3c8be61045a304d3076d4714d29f2" kind="variable"><name>WUTR</name></member>
+      <member refid="group___c_m_s_i_s_1gab97f3e9584dda705dc10a5f4c5f6e636" kind="variable"><name>CALIBR</name></member>
+      <member refid="group___c_m_s_i_s_1gac005b1a5bc52634d5a34578cc9d2c3f6" kind="variable"><name>ALRMAR</name></member>
+      <member refid="group___c_m_s_i_s_1ga4e513deb9f58a138ad9f317cc5a3555d" kind="variable"><name>ALRMBR</name></member>
+      <member refid="group___c_m_s_i_s_1ga6204786b050eb135fabb15784698e86e" kind="variable"><name>WPR</name></member>
+      <member refid="group___c_m_s_i_s_1ga8a868e5e76b52ced04c536be3dee08ec" kind="variable"><name>SSR</name></member>
+      <member refid="group___c_m_s_i_s_1ga2372c05a6c5508e0a9adada793f68b4f" kind="variable"><name>SHIFTR</name></member>
+      <member refid="group___c_m_s_i_s_1ga042059c8b4168681d6aecf30211dd7b8" kind="variable"><name>TSTR</name></member>
+      <member refid="group___c_m_s_i_s_1gabeb6fb580a8fd128182aa9ba2738ac2c" kind="variable"><name>TSDR</name></member>
+      <member refid="group___c_m_s_i_s_1ga1d6c2bc4c067d6a64ef30d16a5925796" kind="variable"><name>TSSSR</name></member>
+      <member refid="group___c_m_s_i_s_1ga2ce7c3842792c506635bb87a21588b58" kind="variable"><name>CALR</name></member>
+      <member refid="group___c_m_s_i_s_1ga14d03244a7fda1d94b51ae9ed144ca12" kind="variable"><name>TAFCR</name></member>
+      <member refid="group___c_m_s_i_s_1ga61282fa74cede526af85fd9d20513646" kind="variable"><name>ALRMASSR</name></member>
+      <member refid="group___c_m_s_i_s_1ga4ef7499da5d5beb1cfc81f7be057a7b2" kind="variable"><name>ALRMBSSR</name></member>
+      <member refid="group___c_m_s_i_s_1ga6be3d40baea405ecaf6b38462357dac0" kind="variable"><name>RESERVED7</name></member>
+      <member refid="group___c_m_s_i_s_1ga4808ec597e5a5fefd8a83a9127dd1aec" kind="variable"><name>BKP0R</name></member>
+      <member refid="group___c_m_s_i_s_1gaf85290529fb82acef7c9fcea3718346c" kind="variable"><name>BKP1R</name></member>
+      <member refid="group___c_m_s_i_s_1gaaa251a80daa57ad0bd7db75cb3b9cdec" kind="variable"><name>BKP2R</name></member>
+      <member refid="group___c_m_s_i_s_1ga0b1eeda834c3cfd4d2c67f242f7b2a1c" kind="variable"><name>BKP3R</name></member>
+      <member refid="group___c_m_s_i_s_1gab13e106cc2eca92d1f4022df3bfdbcd7" kind="variable"><name>BKP4R</name></member>
+      <member refid="group___c_m_s_i_s_1gab6bed862c0d0476ff4f89f7b9bf3e130" kind="variable"><name>BKP5R</name></member>
+      <member refid="group___c_m_s_i_s_1ga1d854d2d7f0452f4c90035952b92d2ba" kind="variable"><name>BKP6R</name></member>
+      <member refid="group___c_m_s_i_s_1ga2ca54ce1a8d2fa9d1ba6d5987ed5e2cf" kind="variable"><name>BKP7R</name></member>
+      <member refid="group___c_m_s_i_s_1gac1085f6aae54b353c30871fe90c59851" kind="variable"><name>BKP8R</name></member>
+      <member refid="group___c_m_s_i_s_1ga6c33564df6eaf97400e0457dde9b14ef" kind="variable"><name>BKP9R</name></member>
+      <member refid="group___c_m_s_i_s_1gaade2881a3e408bfd106b27f78bbbcfc9" kind="variable"><name>BKP10R</name></member>
+      <member refid="group___c_m_s_i_s_1gac66d5e2d3459cff89794c47dbc8f7228" kind="variable"><name>BKP11R</name></member>
+      <member refid="group___c_m_s_i_s_1ga6f7eee5ae8a32c07f9c8fe14281bdaf3" kind="variable"><name>BKP12R</name></member>
+      <member refid="group___c_m_s_i_s_1ga6ed4c3a0d4588a75078e9f8e376b4d06" kind="variable"><name>BKP13R</name></member>
+      <member refid="group___c_m_s_i_s_1gac60f13e6619724747e61cfbff55b9fab" kind="variable"><name>BKP14R</name></member>
+      <member refid="group___c_m_s_i_s_1gafafaddc3a983eb71332b7526d82191ad" kind="variable"><name>BKP15R</name></member>
+      <member refid="group___c_m_s_i_s_1gad2f2eb2fb4b93e21515b10e920e719b6" kind="variable"><name>BKP16R</name></member>
+      <member refid="group___c_m_s_i_s_1ga2842aa523df62f3508316eb3b2e08f4e" kind="variable"><name>BKP17R</name></member>
+      <member refid="group___c_m_s_i_s_1ga640ccb2ccfb6316b88c070362dc29339" kind="variable"><name>BKP18R</name></member>
+      <member refid="group___c_m_s_i_s_1ga4ec1dd54d976989b7c9e59fb14d974fb" kind="variable"><name>BKP19R</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Real-Time Clock. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Core_BlackPill/stm32f4xx.h" line="1668" column="1" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="1669" bodyend="1710"/>
+    <listofallmembers>
+      <member refid="group___c_m_s_i_s_1gac005b1a5bc52634d5a34578cc9d2c3f6" prot="public" virt="non-virtual"><scope>RTC_TypeDef</scope><name>ALRMAR</name></member>
+      <member refid="group___c_m_s_i_s_1ga61282fa74cede526af85fd9d20513646" prot="public" virt="non-virtual"><scope>RTC_TypeDef</scope><name>ALRMASSR</name></member>
+      <member refid="group___c_m_s_i_s_1ga4e513deb9f58a138ad9f317cc5a3555d" prot="public" virt="non-virtual"><scope>RTC_TypeDef</scope><name>ALRMBR</name></member>
+      <member refid="group___c_m_s_i_s_1ga4ef7499da5d5beb1cfc81f7be057a7b2" prot="public" virt="non-virtual"><scope>RTC_TypeDef</scope><name>ALRMBSSR</name></member>
+      <member refid="group___c_m_s_i_s_1ga4808ec597e5a5fefd8a83a9127dd1aec" prot="public" virt="non-virtual"><scope>RTC_TypeDef</scope><name>BKP0R</name></member>
+      <member refid="group___c_m_s_i_s_1gaade2881a3e408bfd106b27f78bbbcfc9" prot="public" virt="non-virtual"><scope>RTC_TypeDef</scope><name>BKP10R</name></member>
+      <member refid="group___c_m_s_i_s_1gac66d5e2d3459cff89794c47dbc8f7228" prot="public" virt="non-virtual"><scope>RTC_TypeDef</scope><name>BKP11R</name></member>
+      <member refid="group___c_m_s_i_s_1ga6f7eee5ae8a32c07f9c8fe14281bdaf3" prot="public" virt="non-virtual"><scope>RTC_TypeDef</scope><name>BKP12R</name></member>
+      <member refid="group___c_m_s_i_s_1ga6ed4c3a0d4588a75078e9f8e376b4d06" prot="public" virt="non-virtual"><scope>RTC_TypeDef</scope><name>BKP13R</name></member>
+      <member refid="group___c_m_s_i_s_1gac60f13e6619724747e61cfbff55b9fab" prot="public" virt="non-virtual"><scope>RTC_TypeDef</scope><name>BKP14R</name></member>
+      <member refid="group___c_m_s_i_s_1gafafaddc3a983eb71332b7526d82191ad" prot="public" virt="non-virtual"><scope>RTC_TypeDef</scope><name>BKP15R</name></member>
+      <member refid="group___c_m_s_i_s_1gad2f2eb2fb4b93e21515b10e920e719b6" prot="public" virt="non-virtual"><scope>RTC_TypeDef</scope><name>BKP16R</name></member>
+      <member refid="group___c_m_s_i_s_1ga2842aa523df62f3508316eb3b2e08f4e" prot="public" virt="non-virtual"><scope>RTC_TypeDef</scope><name>BKP17R</name></member>
+      <member refid="group___c_m_s_i_s_1ga640ccb2ccfb6316b88c070362dc29339" prot="public" virt="non-virtual"><scope>RTC_TypeDef</scope><name>BKP18R</name></member>
+      <member refid="group___c_m_s_i_s_1ga4ec1dd54d976989b7c9e59fb14d974fb" prot="public" virt="non-virtual"><scope>RTC_TypeDef</scope><name>BKP19R</name></member>
+      <member refid="group___c_m_s_i_s_1gaf85290529fb82acef7c9fcea3718346c" prot="public" virt="non-virtual"><scope>RTC_TypeDef</scope><name>BKP1R</name></member>
+      <member refid="group___c_m_s_i_s_1gaaa251a80daa57ad0bd7db75cb3b9cdec" prot="public" virt="non-virtual"><scope>RTC_TypeDef</scope><name>BKP2R</name></member>
+      <member refid="group___c_m_s_i_s_1ga0b1eeda834c3cfd4d2c67f242f7b2a1c" prot="public" virt="non-virtual"><scope>RTC_TypeDef</scope><name>BKP3R</name></member>
+      <member refid="group___c_m_s_i_s_1gab13e106cc2eca92d1f4022df3bfdbcd7" prot="public" virt="non-virtual"><scope>RTC_TypeDef</scope><name>BKP4R</name></member>
+      <member refid="group___c_m_s_i_s_1gab6bed862c0d0476ff4f89f7b9bf3e130" prot="public" virt="non-virtual"><scope>RTC_TypeDef</scope><name>BKP5R</name></member>
+      <member refid="group___c_m_s_i_s_1ga1d854d2d7f0452f4c90035952b92d2ba" prot="public" virt="non-virtual"><scope>RTC_TypeDef</scope><name>BKP6R</name></member>
+      <member refid="group___c_m_s_i_s_1ga2ca54ce1a8d2fa9d1ba6d5987ed5e2cf" prot="public" virt="non-virtual"><scope>RTC_TypeDef</scope><name>BKP7R</name></member>
+      <member refid="group___c_m_s_i_s_1gac1085f6aae54b353c30871fe90c59851" prot="public" virt="non-virtual"><scope>RTC_TypeDef</scope><name>BKP8R</name></member>
+      <member refid="group___c_m_s_i_s_1ga6c33564df6eaf97400e0457dde9b14ef" prot="public" virt="non-virtual"><scope>RTC_TypeDef</scope><name>BKP9R</name></member>
+      <member refid="group___c_m_s_i_s_1gab97f3e9584dda705dc10a5f4c5f6e636" prot="public" virt="non-virtual"><scope>RTC_TypeDef</scope><name>CALIBR</name></member>
+      <member refid="group___c_m_s_i_s_1ga2ce7c3842792c506635bb87a21588b58" prot="public" virt="non-virtual"><scope>RTC_TypeDef</scope><name>CALR</name></member>
+      <member refid="group___c_m_s_i_s_1gab40c89c59391aaa9d9a8ec011dd0907a" prot="public" virt="non-virtual"><scope>RTC_TypeDef</scope><name>CR</name></member>
+      <member refid="group___c_m_s_i_s_1ga3df0d8dfcd1ec958659ffe21eb64fa94" prot="public" virt="non-virtual"><scope>RTC_TypeDef</scope><name>DR</name></member>
+      <member refid="group___c_m_s_i_s_1gab3c49a96815fcbee63d95e1e74f20e75" prot="public" virt="non-virtual"><scope>RTC_TypeDef</scope><name>ISR</name></member>
+      <member refid="group___c_m_s_i_s_1gac9b4c6c5b29f3461ce3f875eea69f35b" prot="public" virt="non-virtual"><scope>RTC_TypeDef</scope><name>PRER</name></member>
+      <member refid="group___c_m_s_i_s_1ga6be3d40baea405ecaf6b38462357dac0" prot="public" virt="non-virtual"><scope>RTC_TypeDef</scope><name>RESERVED7</name></member>
+      <member refid="group___c_m_s_i_s_1ga2372c05a6c5508e0a9adada793f68b4f" prot="public" virt="non-virtual"><scope>RTC_TypeDef</scope><name>SHIFTR</name></member>
+      <member refid="group___c_m_s_i_s_1ga8a868e5e76b52ced04c536be3dee08ec" prot="public" virt="non-virtual"><scope>RTC_TypeDef</scope><name>SSR</name></member>
+      <member refid="group___c_m_s_i_s_1ga14d03244a7fda1d94b51ae9ed144ca12" prot="public" virt="non-virtual"><scope>RTC_TypeDef</scope><name>TAFCR</name></member>
+      <member refid="group___c_m_s_i_s_1ga63d179b7a36a715dce7203858d3be132" prot="public" virt="non-virtual"><scope>RTC_TypeDef</scope><name>TR</name></member>
+      <member refid="group___c_m_s_i_s_1gabeb6fb580a8fd128182aa9ba2738ac2c" prot="public" virt="non-virtual"><scope>RTC_TypeDef</scope><name>TSDR</name></member>
+      <member refid="group___c_m_s_i_s_1ga1d6c2bc4c067d6a64ef30d16a5925796" prot="public" virt="non-virtual"><scope>RTC_TypeDef</scope><name>TSSSR</name></member>
+      <member refid="group___c_m_s_i_s_1ga042059c8b4168681d6aecf30211dd7b8" prot="public" virt="non-virtual"><scope>RTC_TypeDef</scope><name>TSTR</name></member>
+      <member refid="group___c_m_s_i_s_1ga6204786b050eb135fabb15784698e86e" prot="public" virt="non-virtual"><scope>RTC_TypeDef</scope><name>WPR</name></member>
+      <member refid="group___c_m_s_i_s_1gac5b3c8be61045a304d3076d4714d29f2" prot="public" virt="non-virtual"><scope>RTC_TypeDef</scope><name>WUTR</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

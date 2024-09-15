@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="tr">
+  <compounddef id="group___s_t_m32_f4xx___system___private___defines" kind="group">
+    <compoundname>STM32F4xx_System_Private_Defines</compoundname>
+    <title>STM32F4xx_System_Private_Defines</title>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="group___s_t_m32_f4xx___system___private___defines_1ga40e1495541cbb4acbe3f1819bd87a9fe" prot="public" static="no">
+        <name>VECT_TAB_OFFSET</name>
+        <initializer>0x00</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&lt; Uncomment the following line if you need to use external SRAM or SDRAM mounted on STM324xG_EVAL/STM324x7I_EVAL/STM324x9I_EVAL boards as data memory <linebreak/>
+</para>
+<para>&lt; Uncomment the following line if you need to relocate your vector Table in Internal SRAM. Vector Table base offset field. This value must be a multiple of 0x200. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core_BlackPill/system_stm32f4xx.c" line="358" column="9" bodyfile="Core_BlackPill/system_stm32f4xx.c" bodystart="357" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___s_t_m32_f4xx___system___private___defines_1gac958257ddb2537c539cffdb3a4543067" prot="public" static="no">
+        <name>PLL_Q</name>
+        <initializer>7</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core_BlackPill/system_stm32f4xx.c" line="377" column="9" bodyfile="Core_BlackPill/system_stm32f4xx.c" bodystart="377" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

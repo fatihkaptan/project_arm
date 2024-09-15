@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="tr">
+  <compounddef id="struct_f_l_a_s_h___type_def" kind="struct" language="C++" prot="public">
+    <compoundname>FLASH_TypeDef</compoundname>
+    <includes refid="stm32f4xx_8h" local="no">stm32f4xx.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group___c_m_s_i_s_1ga9cb55206b29a8c16354747c556ab8bea" kind="variable"><name>ACR</name></member>
+      <member refid="group___c_m_s_i_s_1ga84c491be6c66b1d5b6a2efd0740b3d0c" kind="variable"><name>KEYR</name></member>
+      <member refid="group___c_m_s_i_s_1gafc4900646681dfe1ca43133d376c4423" kind="variable"><name>OPTKEYR</name></member>
+      <member refid="group___c_m_s_i_s_1gaf6aca2bbd40c0fb6df7c3aebe224a360" kind="variable"><name>SR</name></member>
+      <member refid="group___c_m_s_i_s_1gab40c89c59391aaa9d9a8ec011dd0907a" kind="variable"><name>CR</name></member>
+      <member refid="group___c_m_s_i_s_1gacfef9b6d7da4271943edc04d7dfdf595" kind="variable"><name>OPTCR</name></member>
+      <member refid="group___c_m_s_i_s_1ga1dddf235f246a1d4e7e5084cd51e2dd0" kind="variable"><name>OPTCR1</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>FLASH Registers. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Core_BlackPill/stm32f4xx.h" line="1315" column="1" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="1316" bodyend="1324"/>
+    <listofallmembers>
+      <member refid="group___c_m_s_i_s_1ga9cb55206b29a8c16354747c556ab8bea" prot="public" virt="non-virtual"><scope>FLASH_TypeDef</scope><name>ACR</name></member>
+      <member refid="group___c_m_s_i_s_1gab40c89c59391aaa9d9a8ec011dd0907a" prot="public" virt="non-virtual"><scope>FLASH_TypeDef</scope><name>CR</name></member>
+      <member refid="group___c_m_s_i_s_1ga84c491be6c66b1d5b6a2efd0740b3d0c" prot="public" virt="non-virtual"><scope>FLASH_TypeDef</scope><name>KEYR</name></member>
+      <member refid="group___c_m_s_i_s_1gacfef9b6d7da4271943edc04d7dfdf595" prot="public" virt="non-virtual"><scope>FLASH_TypeDef</scope><name>OPTCR</name></member>
+      <member refid="group___c_m_s_i_s_1ga1dddf235f246a1d4e7e5084cd51e2dd0" prot="public" virt="non-virtual"><scope>FLASH_TypeDef</scope><name>OPTCR1</name></member>
+      <member refid="group___c_m_s_i_s_1gafc4900646681dfe1ca43133d376c4423" prot="public" virt="non-virtual"><scope>FLASH_TypeDef</scope><name>OPTKEYR</name></member>
+      <member refid="group___c_m_s_i_s_1gaf6aca2bbd40c0fb6df7c3aebe224a360" prot="public" virt="non-virtual"><scope>FLASH_TypeDef</scope><name>SR</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

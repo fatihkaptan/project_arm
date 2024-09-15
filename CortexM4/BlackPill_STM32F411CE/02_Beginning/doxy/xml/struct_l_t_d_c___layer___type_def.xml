@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="tr">
+  <compounddef id="struct_l_t_d_c___layer___type_def" kind="struct" language="C++" prot="public">
+    <compoundname>LTDC_Layer_TypeDef</compoundname>
+    <includes refid="stm32f4xx_8h" local="no">stm32f4xx.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group___c_m_s_i_s_1gab40c89c59391aaa9d9a8ec011dd0907a" kind="variable"><name>CR</name></member>
+      <member refid="group___c_m_s_i_s_1ga36bded5d2b6b499385e45660f4a3c867" kind="variable"><name>WHPCR</name></member>
+      <member refid="group___c_m_s_i_s_1gaafd5aea090b8ab4f7cbaee88503cb6a1" kind="variable"><name>WVPCR</name></member>
+      <member refid="group___c_m_s_i_s_1ga7651be3d835a984e908b0abb4a633811" kind="variable"><name>CKCR</name></member>
+      <member refid="group___c_m_s_i_s_1ga30f057fd86f8f793b6ab74bbe024b9d8" kind="variable"><name>PFCR</name></member>
+      <member refid="group___c_m_s_i_s_1ga47be8b57cf19a433c0682d91a0524463" kind="variable"><name>CACR</name></member>
+      <member refid="group___c_m_s_i_s_1ga8aa219e1455869d3baf87a618586838d" kind="variable"><name>DCCR</name></member>
+      <member refid="group___c_m_s_i_s_1ga8a598358c93b94fe534a4ed8aeb05220" kind="variable"><name>BFCR</name></member>
+      <member refid="group___c_m_s_i_s_1ga8be676577db129a84a9a2689519a8502" kind="variable"><name>RESERVED0</name></member>
+      <member refid="group___c_m_s_i_s_1ga11b37b8303d2ddad1ee962c362cad796" kind="variable"><name>CFBAR</name></member>
+      <member refid="group___c_m_s_i_s_1ga1c2a59fc9bb4101881c7ddc98b938a4f" kind="variable"><name>CFBLR</name></member>
+      <member refid="group___c_m_s_i_s_1gad94a5782e5cc67b071738f8096bb4855" kind="variable"><name>CFBLNR</name></member>
+      <member refid="group___c_m_s_i_s_1ga3fbace6e037136ce066518ee2fade33d" kind="variable"><name>RESERVED1</name></member>
+      <member refid="group___c_m_s_i_s_1ga5ab25158531531e9b1cdb2bdbe66b67d" kind="variable"><name>CLUTWR</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>LCD-TFT Display layer x Controller. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Core_BlackPill/stm32f4xx.h" line="1592" column="1" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="1593" bodyend="1609"/>
+    <listofallmembers>
+      <member refid="group___c_m_s_i_s_1ga8a598358c93b94fe534a4ed8aeb05220" prot="public" virt="non-virtual"><scope>LTDC_Layer_TypeDef</scope><name>BFCR</name></member>
+      <member refid="group___c_m_s_i_s_1ga47be8b57cf19a433c0682d91a0524463" prot="public" virt="non-virtual"><scope>LTDC_Layer_TypeDef</scope><name>CACR</name></member>
+      <member refid="group___c_m_s_i_s_1ga11b37b8303d2ddad1ee962c362cad796" prot="public" virt="non-virtual"><scope>LTDC_Layer_TypeDef</scope><name>CFBAR</name></member>
+      <member refid="group___c_m_s_i_s_1gad94a5782e5cc67b071738f8096bb4855" prot="public" virt="non-virtual"><scope>LTDC_Layer_TypeDef</scope><name>CFBLNR</name></member>
+      <member refid="group___c_m_s_i_s_1ga1c2a59fc9bb4101881c7ddc98b938a4f" prot="public" virt="non-virtual"><scope>LTDC_Layer_TypeDef</scope><name>CFBLR</name></member>
+      <member refid="group___c_m_s_i_s_1ga7651be3d835a984e908b0abb4a633811" prot="public" virt="non-virtual"><scope>LTDC_Layer_TypeDef</scope><name>CKCR</name></member>
+      <member refid="group___c_m_s_i_s_1ga5ab25158531531e9b1cdb2bdbe66b67d" prot="public" virt="non-virtual"><scope>LTDC_Layer_TypeDef</scope><name>CLUTWR</name></member>
+      <member refid="group___c_m_s_i_s_1gab40c89c59391aaa9d9a8ec011dd0907a" prot="public" virt="non-virtual"><scope>LTDC_Layer_TypeDef</scope><name>CR</name></member>
+      <member refid="group___c_m_s_i_s_1ga8aa219e1455869d3baf87a618586838d" prot="public" virt="non-virtual"><scope>LTDC_Layer_TypeDef</scope><name>DCCR</name></member>
+      <member refid="group___c_m_s_i_s_1ga30f057fd86f8f793b6ab74bbe024b9d8" prot="public" virt="non-virtual"><scope>LTDC_Layer_TypeDef</scope><name>PFCR</name></member>
+      <member refid="group___c_m_s_i_s_1ga8be676577db129a84a9a2689519a8502" prot="public" virt="non-virtual"><scope>LTDC_Layer_TypeDef</scope><name>RESERVED0</name></member>
+      <member refid="group___c_m_s_i_s_1ga3fbace6e037136ce066518ee2fade33d" prot="public" virt="non-virtual"><scope>LTDC_Layer_TypeDef</scope><name>RESERVED1</name></member>
+      <member refid="group___c_m_s_i_s_1ga36bded5d2b6b499385e45660f4a3c867" prot="public" virt="non-virtual"><scope>LTDC_Layer_TypeDef</scope><name>WHPCR</name></member>
+      <member refid="group___c_m_s_i_s_1gaafd5aea090b8ab4f7cbaee88503cb6a1" prot="public" virt="non-virtual"><scope>LTDC_Layer_TypeDef</scope><name>WVPCR</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

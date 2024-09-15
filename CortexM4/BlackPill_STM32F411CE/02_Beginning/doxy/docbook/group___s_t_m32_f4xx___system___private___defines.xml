@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_group___s_t_m32_f4xx___system___private___defines" xml:lang="tr">
+<title>STM32F4xx_System_Private_Defines</title>
+<indexterm><primary>STM32F4xx_System_Private_Defines</primary></indexterm>
+<simplesect>
+    <title>Makrolar    </title>
+        <itemizedlist>
+            <listitem><para>#define <link linkend="_group___s_t_m32_f4xx___system___private___defines_1ga40e1495541cbb4acbe3f1819bd87a9fe">VECT_TAB_OFFSET</link>&#160;&#160;&#160;0x00</para>
+</listitem>
+            <listitem><para>#define <link linkend="_group___s_t_m32_f4xx___system___private___defines_1gac958257ddb2537c539cffdb3a4543067">PLL_Q</link>&#160;&#160;&#160;7</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Ayrıntılı tanımlama</title>
+</section>
+<section>
+<title>Makro Dokümantasyonu</title>
+<anchor xml:id="_group___s_t_m32_f4xx___system___private___defines_1gac958257ddb2537c539cffdb3a4543067"/><section>
+    <title>PLL_Q</title>
+<indexterm><primary>PLL_Q</primary><secondary>STM32F4xx_System_Private_Defines</secondary></indexterm>
+<indexterm><primary>STM32F4xx_System_Private_Defines</primary><secondary>PLL_Q</secondary></indexterm>
+<para><computeroutput>#define PLL_Q&#160;&#160;&#160;7</computeroutput></para></section>
+<anchor xml:id="_group___s_t_m32_f4xx___system___private___defines_1ga40e1495541cbb4acbe3f1819bd87a9fe"/><section>
+    <title>VECT_TAB_OFFSET</title>
+<indexterm><primary>VECT_TAB_OFFSET</primary><secondary>STM32F4xx_System_Private_Defines</secondary></indexterm>
+<indexterm><primary>STM32F4xx_System_Private_Defines</primary><secondary>VECT_TAB_OFFSET</secondary></indexterm>
+<para><computeroutput>#define VECT_TAB_OFFSET&#160;&#160;&#160;0x00</computeroutput></para>
+<para>&lt; Uncomment the following line if you need to use external SRAM or SDRAM mounted on STM324xG_EVAL/STM324x7I_EVAL/STM324x9I_EVAL boards as data memory <?linebreak?></para>
+
+<para>&lt; Uncomment the following line if you need to relocate your vector Table in Internal SRAM. Vector Table base offset field. This value must be a multiple of 0x200. </para>
+</section>
+</section>
+</section>

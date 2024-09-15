@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_group___s_t_m32_f4xx___system___private___variables" xml:lang="tr">
+<title>STM32F4xx_System_Private_Variables</title>
+<indexterm><primary>STM32F4xx_System_Private_Variables</primary></indexterm>
+<simplesect>
+    <title>Değişkenler    </title>
+        <itemizedlist>
+            <listitem><para>__I uint8_t <link linkend="_group___s_t_m32_f4xx___system___private___variables_1gacdc3ef54c0704c90e69a8a84fb2d970d">AHBPrescTable</link> [16] = {0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 6, 7, 8, 9}</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Ayrıntılı tanımlama</title>
+</section>
+<section>
+<title>Değişken Dokümantasyonu</title>
+<anchor xml:id="_group___s_t_m32_f4xx___system___private___variables_1gacdc3ef54c0704c90e69a8a84fb2d970d"/><section>
+    <title>AHBPrescTable</title>
+<indexterm><primary>AHBPrescTable</primary><secondary>STM32F4xx_System_Private_Variables</secondary></indexterm>
+<indexterm><primary>STM32F4xx_System_Private_Variables</primary><secondary>AHBPrescTable</secondary></indexterm>
+<para><computeroutput>__I uint8_t AHBPrescTable[16] = {0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 6, 7, 8, 9}</computeroutput></para></section>
+</section>
+</section>

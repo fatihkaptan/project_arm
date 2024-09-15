@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_annotated" xml:lang="tr">
+<title>Veri Yapıları</title>
+Kısa tanımlarıyla birlikte veri yapıları:<link linkend="_struct_a_d_c___common___type_def">ADC_Common_TypeDef</link><link linkend="_struct_a_d_c___type_def">ADC_TypeDef</link>
+<para>Analog to Digital Converter <?linebreak?> </para>
+<link linkend="_struct_c_a_n___f_i_f_o_mail_box___type_def">CAN_FIFOMailBox_TypeDef</link>
+<para>Controller Area Network FIFOMailBox </para>
+<link linkend="_struct_c_a_n___filter_register___type_def">CAN_FilterRegister_TypeDef</link>
+<para>Controller Area Network FilterRegister </para>
+<link linkend="_struct_c_a_n___tx_mail_box___type_def">CAN_TxMailBox_TypeDef</link>
+<para>Controller Area Network TxMailBox </para>
+<link linkend="_struct_c_a_n___type_def">CAN_TypeDef</link>
+<para>Controller Area Network </para>
+<link linkend="_struct_c_r_c___type_def">CRC_TypeDef</link>
+<para>CRC calculation unit </para>
+<link linkend="_struct_c_r_y_p___type_def">CRYP_TypeDef</link>
+<para>Crypto Processor </para>
+<link linkend="_struct_d_a_c___type_def">DAC_TypeDef</link>
+<para>Digital to Analog Converter </para>
+<link linkend="_struct_d_b_g_m_c_u___type_def">DBGMCU_TypeDef</link>
+<para>Debug MCU </para>
+<link linkend="_struct_d_c_m_i___type_def">DCMI_TypeDef</link>
+<para>DCMI </para>
+<link linkend="_struct_d_m_a2_d___type_def">DMA2D_TypeDef</link>
+<para>DMA2D Controller </para>
+<link linkend="_struct_d_m_a___stream___type_def">DMA_Stream_TypeDef</link>
+<para>DMA Controller </para>
+<link linkend="_struct_d_m_a___type_def">DMA_TypeDef</link><link linkend="_struct_e_t_h___type_def">ETH_TypeDef</link>
+<para>Ethernet MAC </para>
+<link linkend="_struct_e_x_t_i___type_def">EXTI_TypeDef</link>
+<para>External Interrupt/Event Controller </para>
+<link linkend="_struct_f_l_a_s_h___type_def">FLASH_TypeDef</link>
+<para>FLASH Registers </para>
+<link linkend="_struct_g_p_i_o___type_def">GPIO_TypeDef</link>
+<para>General Purpose I/O </para>
+<link linkend="_struct_h_a_s_h___d_i_g_e_s_t___type_def">HASH_DIGEST_TypeDef</link>
+<para>HASH_DIGEST </para>
+<link linkend="_struct_h_a_s_h___type_def">HASH_TypeDef</link>
+<para>HASH </para>
+<link linkend="_struct_i2_c___type_def">I2C_TypeDef</link>
+<para>Inter-integrated Circuit Interface </para>
+<link linkend="_struct_i_w_d_g___type_def">IWDG_TypeDef</link>
+<para>Independent WATCHDOG </para>
+<link linkend="_struct_l_t_d_c___layer___type_def">LTDC_Layer_TypeDef</link>
+<para>LCD-TFT Display layer x Controller </para>
+<link linkend="_struct_l_t_d_c___type_def">LTDC_TypeDef</link>
+<para>LCD-TFT Display Controller </para>
+<link linkend="_struct_p_w_r___type_def">PWR_TypeDef</link>
+<para>Power Control </para>
+<link linkend="_struct_r_c_c___type_def">RCC_TypeDef</link>
+<para>Reset and Clock Control </para>
+<link linkend="_struct_r_n_g___type_def">RNG_TypeDef</link>
+<para>RNG </para>
+<link linkend="_struct_r_t_c___type_def">RTC_TypeDef</link>
+<para>Real-Time Clock </para>
+<link linkend="_struct_s_a_i___block___type_def">SAI_Block_TypeDef</link><link linkend="_struct_s_a_i___type_def">SAI_TypeDef</link>
+<para>Serial Audio Interface </para>
+<link linkend="_struct_s_d_i_o___type_def">SDIO_TypeDef</link>
+<para>SD host Interface </para>
+<link linkend="_struct_s_p_i___type_def">SPI_TypeDef</link>
+<para>Serial Peripheral Interface </para>
+<link linkend="_struct_s_y_s_c_f_g___type_def">SYSCFG_TypeDef</link>
+<para>System configuration controller </para>
+<link linkend="_struct_t_i_m___type_def">TIM_TypeDef</link>
+<para>TIM </para>
+<link linkend="_struct_u_s_a_r_t___type_def">USART_TypeDef</link>
+<para>Universal Synchronous Asynchronous Receiver Transmitter </para>
+<link linkend="_struct_w_w_d_g___type_def">WWDG_TypeDef</link>
+<para>Window WATCHDOG </para>
+</section>

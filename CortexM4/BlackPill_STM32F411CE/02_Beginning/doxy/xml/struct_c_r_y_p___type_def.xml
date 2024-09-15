@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="tr">
+  <compounddef id="struct_c_r_y_p___type_def" kind="struct" language="C++" prot="public">
+    <compoundname>CRYP_TypeDef</compoundname>
+    <includes refid="stm32f4xx_8h" local="no">stm32f4xx.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group___c_m_s_i_s_1gab40c89c59391aaa9d9a8ec011dd0907a" kind="variable"><name>CR</name></member>
+      <member refid="group___c_m_s_i_s_1gaf6aca2bbd40c0fb6df7c3aebe224a360" kind="variable"><name>SR</name></member>
+      <member refid="group___c_m_s_i_s_1ga3df0d8dfcd1ec958659ffe21eb64fa94" kind="variable"><name>DR</name></member>
+      <member refid="group___c_m_s_i_s_1gab8ba768d1dac54a845084bd07f4ef2b9" kind="variable"><name>DOUT</name></member>
+      <member refid="group___c_m_s_i_s_1ga082219a924d748e9c6092582aec06226" kind="variable"><name>DMACR</name></member>
+      <member refid="group___c_m_s_i_s_1gadcdd7c23a99f81c21dae2e9f989632e1" kind="variable"><name>IMSCR</name></member>
+      <member refid="group___c_m_s_i_s_1gaa196fddf0ba7d6e3ce29bdb04eb38b94" kind="variable"><name>RISR</name></member>
+      <member refid="group___c_m_s_i_s_1ga524e134cec519206cb41d0545e382978" kind="variable"><name>MISR</name></member>
+      <member refid="group___c_m_s_i_s_1ga3ca109e86323625e5f56f92f999c3b05" kind="variable"><name>K0LR</name></member>
+      <member refid="group___c_m_s_i_s_1gae6d97d339f0091d4a105001ea59086ae" kind="variable"><name>K0RR</name></member>
+      <member refid="group___c_m_s_i_s_1ga948ff2e2e97978287411fe725dd70a7f" kind="variable"><name>K1LR</name></member>
+      <member refid="group___c_m_s_i_s_1ga7554383cff84540eb260a3fdf55cb934" kind="variable"><name>K1RR</name></member>
+      <member refid="group___c_m_s_i_s_1ga32210fb9ecbb0b4bd127e688f3f79802" kind="variable"><name>K2LR</name></member>
+      <member refid="group___c_m_s_i_s_1ga41a0448734e8ccbdd6fba98284815c6f" kind="variable"><name>K2RR</name></member>
+      <member refid="group___c_m_s_i_s_1ga516c328fcb53ec754384e584caf890f5" kind="variable"><name>K3LR</name></member>
+      <member refid="group___c_m_s_i_s_1ga8fe249258f1733ec155c3893375c7a21" kind="variable"><name>K3RR</name></member>
+      <member refid="group___c_m_s_i_s_1gab1efba4cdf22c525fce804375961d567" kind="variable"><name>IV0LR</name></member>
+      <member refid="group___c_m_s_i_s_1gaeb1990f7c28e815a4962db3a861937bb" kind="variable"><name>IV0RR</name></member>
+      <member refid="group___c_m_s_i_s_1gaad2f43335b25a0065f3d327364610cbd" kind="variable"><name>IV1LR</name></member>
+      <member refid="group___c_m_s_i_s_1ga38a9f05c03174023fc6ac951c04eaeff" kind="variable"><name>IV1RR</name></member>
+      <member refid="group___c_m_s_i_s_1ga39e00067c0a87ebe4b0820ec414011b0" kind="variable"><name>CSGCMCCM0R</name></member>
+      <member refid="group___c_m_s_i_s_1ga9e5051604453703d76973463cdba6ef7" kind="variable"><name>CSGCMCCM1R</name></member>
+      <member refid="group___c_m_s_i_s_1gad839981b06af83bb1d08dd3313922783" kind="variable"><name>CSGCMCCM2R</name></member>
+      <member refid="group___c_m_s_i_s_1ga146a0ff395793669bb88fbad8697fdff" kind="variable"><name>CSGCMCCM3R</name></member>
+      <member refid="group___c_m_s_i_s_1ga0701e3347dd3d6de80063b802bcf011f" kind="variable"><name>CSGCMCCM4R</name></member>
+      <member refid="group___c_m_s_i_s_1ga18e2b049f39ed894fc37ba092145a115" kind="variable"><name>CSGCMCCM5R</name></member>
+      <member refid="group___c_m_s_i_s_1ga1062d56f4ea86ece15011e9ffc0e53c3" kind="variable"><name>CSGCMCCM6R</name></member>
+      <member refid="group___c_m_s_i_s_1ga7cf7761ae30d9fa41c295c5add31b316" kind="variable"><name>CSGCMCCM7R</name></member>
+      <member refid="group___c_m_s_i_s_1ga86cedb899090e8aef940416daf0a46f3" kind="variable"><name>CSGCM0R</name></member>
+      <member refid="group___c_m_s_i_s_1ga4d92778e6e002275a9b91b834c2d2c46" kind="variable"><name>CSGCM1R</name></member>
+      <member refid="group___c_m_s_i_s_1gae3b1773a8fb146591fcbb48e32c1834a" kind="variable"><name>CSGCM2R</name></member>
+      <member refid="group___c_m_s_i_s_1ga13e161a9d71fc723979c06fe4e6e5bf5" kind="variable"><name>CSGCM3R</name></member>
+      <member refid="group___c_m_s_i_s_1ga63fc99181cf78d1f43270e79bcf787b5" kind="variable"><name>CSGCM4R</name></member>
+      <member refid="group___c_m_s_i_s_1ga470c323c7caa5d4362656cb0c8aa4528" kind="variable"><name>CSGCM5R</name></member>
+      <member refid="group___c_m_s_i_s_1ga8c2f4a1d321b61dc3b7833d209eb0ede" kind="variable"><name>CSGCM6R</name></member>
+      <member refid="group___c_m_s_i_s_1ga64151eda4e4e3370f4e264a2d9f61776" kind="variable"><name>CSGCM7R</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Crypto Processor. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Core_BlackPill/stm32f4xx.h" line="1929" column="1" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="1930" bodyend="1967"/>
+    <listofallmembers>
+      <member refid="group___c_m_s_i_s_1gab40c89c59391aaa9d9a8ec011dd0907a" prot="public" virt="non-virtual"><scope>CRYP_TypeDef</scope><name>CR</name></member>
+      <member refid="group___c_m_s_i_s_1ga86cedb899090e8aef940416daf0a46f3" prot="public" virt="non-virtual"><scope>CRYP_TypeDef</scope><name>CSGCM0R</name></member>
+      <member refid="group___c_m_s_i_s_1ga4d92778e6e002275a9b91b834c2d2c46" prot="public" virt="non-virtual"><scope>CRYP_TypeDef</scope><name>CSGCM1R</name></member>
+      <member refid="group___c_m_s_i_s_1gae3b1773a8fb146591fcbb48e32c1834a" prot="public" virt="non-virtual"><scope>CRYP_TypeDef</scope><name>CSGCM2R</name></member>
+      <member refid="group___c_m_s_i_s_1ga13e161a9d71fc723979c06fe4e6e5bf5" prot="public" virt="non-virtual"><scope>CRYP_TypeDef</scope><name>CSGCM3R</name></member>
+      <member refid="group___c_m_s_i_s_1ga63fc99181cf78d1f43270e79bcf787b5" prot="public" virt="non-virtual"><scope>CRYP_TypeDef</scope><name>CSGCM4R</name></member>
+      <member refid="group___c_m_s_i_s_1ga470c323c7caa5d4362656cb0c8aa4528" prot="public" virt="non-virtual"><scope>CRYP_TypeDef</scope><name>CSGCM5R</name></member>
+      <member refid="group___c_m_s_i_s_1ga8c2f4a1d321b61dc3b7833d209eb0ede" prot="public" virt="non-virtual"><scope>CRYP_TypeDef</scope><name>CSGCM6R</name></member>
+      <member refid="group___c_m_s_i_s_1ga64151eda4e4e3370f4e264a2d9f61776" prot="public" virt="non-virtual"><scope>CRYP_TypeDef</scope><name>CSGCM7R</name></member>
+      <member refid="group___c_m_s_i_s_1ga39e00067c0a87ebe4b0820ec414011b0" prot="public" virt="non-virtual"><scope>CRYP_TypeDef</scope><name>CSGCMCCM0R</name></member>
+      <member refid="group___c_m_s_i_s_1ga9e5051604453703d76973463cdba6ef7" prot="public" virt="non-virtual"><scope>CRYP_TypeDef</scope><name>CSGCMCCM1R</name></member>
+      <member refid="group___c_m_s_i_s_1gad839981b06af83bb1d08dd3313922783" prot="public" virt="non-virtual"><scope>CRYP_TypeDef</scope><name>CSGCMCCM2R</name></member>
+      <member refid="group___c_m_s_i_s_1ga146a0ff395793669bb88fbad8697fdff" prot="public" virt="non-virtual"><scope>CRYP_TypeDef</scope><name>CSGCMCCM3R</name></member>
+      <member refid="group___c_m_s_i_s_1ga0701e3347dd3d6de80063b802bcf011f" prot="public" virt="non-virtual"><scope>CRYP_TypeDef</scope><name>CSGCMCCM4R</name></member>
+      <member refid="group___c_m_s_i_s_1ga18e2b049f39ed894fc37ba092145a115" prot="public" virt="non-virtual"><scope>CRYP_TypeDef</scope><name>CSGCMCCM5R</name></member>
+      <member refid="group___c_m_s_i_s_1ga1062d56f4ea86ece15011e9ffc0e53c3" prot="public" virt="non-virtual"><scope>CRYP_TypeDef</scope><name>CSGCMCCM6R</name></member>
+      <member refid="group___c_m_s_i_s_1ga7cf7761ae30d9fa41c295c5add31b316" prot="public" virt="non-virtual"><scope>CRYP_TypeDef</scope><name>CSGCMCCM7R</name></member>
+      <member refid="group___c_m_s_i_s_1ga082219a924d748e9c6092582aec06226" prot="public" virt="non-virtual"><scope>CRYP_TypeDef</scope><name>DMACR</name></member>
+      <member refid="group___c_m_s_i_s_1gab8ba768d1dac54a845084bd07f4ef2b9" prot="public" virt="non-virtual"><scope>CRYP_TypeDef</scope><name>DOUT</name></member>
+      <member refid="group___c_m_s_i_s_1ga3df0d8dfcd1ec958659ffe21eb64fa94" prot="public" virt="non-virtual"><scope>CRYP_TypeDef</scope><name>DR</name></member>
+      <member refid="group___c_m_s_i_s_1gadcdd7c23a99f81c21dae2e9f989632e1" prot="public" virt="non-virtual"><scope>CRYP_TypeDef</scope><name>IMSCR</name></member>
+      <member refid="group___c_m_s_i_s_1gab1efba4cdf22c525fce804375961d567" prot="public" virt="non-virtual"><scope>CRYP_TypeDef</scope><name>IV0LR</name></member>
+      <member refid="group___c_m_s_i_s_1gaeb1990f7c28e815a4962db3a861937bb" prot="public" virt="non-virtual"><scope>CRYP_TypeDef</scope><name>IV0RR</name></member>
+      <member refid="group___c_m_s_i_s_1gaad2f43335b25a0065f3d327364610cbd" prot="public" virt="non-virtual"><scope>CRYP_TypeDef</scope><name>IV1LR</name></member>
+      <member refid="group___c_m_s_i_s_1ga38a9f05c03174023fc6ac951c04eaeff" prot="public" virt="non-virtual"><scope>CRYP_TypeDef</scope><name>IV1RR</name></member>
+      <member refid="group___c_m_s_i_s_1ga3ca109e86323625e5f56f92f999c3b05" prot="public" virt="non-virtual"><scope>CRYP_TypeDef</scope><name>K0LR</name></member>
+      <member refid="group___c_m_s_i_s_1gae6d97d339f0091d4a105001ea59086ae" prot="public" virt="non-virtual"><scope>CRYP_TypeDef</scope><name>K0RR</name></member>
+      <member refid="group___c_m_s_i_s_1ga948ff2e2e97978287411fe725dd70a7f" prot="public" virt="non-virtual"><scope>CRYP_TypeDef</scope><name>K1LR</name></member>
+      <member refid="group___c_m_s_i_s_1ga7554383cff84540eb260a3fdf55cb934" prot="public" virt="non-virtual"><scope>CRYP_TypeDef</scope><name>K1RR</name></member>
+      <member refid="group___c_m_s_i_s_1ga32210fb9ecbb0b4bd127e688f3f79802" prot="public" virt="non-virtual"><scope>CRYP_TypeDef</scope><name>K2LR</name></member>
+      <member refid="group___c_m_s_i_s_1ga41a0448734e8ccbdd6fba98284815c6f" prot="public" virt="non-virtual"><scope>CRYP_TypeDef</scope><name>K2RR</name></member>
+      <member refid="group___c_m_s_i_s_1ga516c328fcb53ec754384e584caf890f5" prot="public" virt="non-virtual"><scope>CRYP_TypeDef</scope><name>K3LR</name></member>
+      <member refid="group___c_m_s_i_s_1ga8fe249258f1733ec155c3893375c7a21" prot="public" virt="non-virtual"><scope>CRYP_TypeDef</scope><name>K3RR</name></member>
+      <member refid="group___c_m_s_i_s_1ga524e134cec519206cb41d0545e382978" prot="public" virt="non-virtual"><scope>CRYP_TypeDef</scope><name>MISR</name></member>
+      <member refid="group___c_m_s_i_s_1gaa196fddf0ba7d6e3ce29bdb04eb38b94" prot="public" virt="non-virtual"><scope>CRYP_TypeDef</scope><name>RISR</name></member>
+      <member refid="group___c_m_s_i_s_1gaf6aca2bbd40c0fb6df7c3aebe224a360" prot="public" virt="non-virtual"><scope>CRYP_TypeDef</scope><name>SR</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

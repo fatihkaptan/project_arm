@@ -1,0 +1,36 @@
+delay.pbi: \
+  D:\yeni_seyler\egitim\arsiv\ARM_KURSU_Code\en.stsw-stm32065_v1-9-0\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Project\02_Beginning\Core_BlackPill\stm32f4xx.h \
+  D:\yeni_seyler\egitim\arsiv\ARM_KURSU_Code\en.stsw-stm32065_v1-9-0\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash_ramfunc.h \
+  D:\yeni_seyler\egitim\arsiv\ARM_KURSU_Code\en.stsw-stm32065_v1-9-0\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h \
+  D:\yeni_seyler\egitim\arsiv\ARM_KURSU_Code\en.stsw-stm32065_v1-9-0\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h \
+  D:\yeni_seyler\egitim\arsiv\ARM_KURSU_Code\en.stsw-stm32065_v1-9-0\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h \
+  D:\yeni_seyler\egitim\arsiv\ARM_KURSU_Code\en.stsw-stm32065_v1-9-0\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h \
+  D:\yeni_seyler\egitim\arsiv\ARM_KURSU_Code\en.stsw-stm32065_v1-9-0\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h \
+  D:\yeni_seyler\egitim\arsiv\ARM_KURSU_Code\en.stsw-stm32065_v1-9-0\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h \
+  D:\yeni_seyler\egitim\arsiv\ARM_KURSU_Code\en.stsw-stm32065_v1-9-0\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h \
+  D:\yeni_seyler\egitim\arsiv\ARM_KURSU_Code\en.stsw-stm32065_v1-9-0\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h \
+  D:\yeni_seyler\egitim\arsiv\ARM_KURSU_Code\en.stsw-stm32065_v1-9-0\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h \
+  D:\yeni_seyler\egitim\arsiv\ARM_KURSU_Code\en.stsw-stm32065_v1-9-0\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h \
+  D:\yeni_seyler\egitim\arsiv\ARM_KURSU_Code\en.stsw-stm32065_v1-9-0\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h \
+  D:\yeni_seyler\egitim\arsiv\ARM_KURSU_Code\en.stsw-stm32065_v1-9-0\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h \
+  D:\yeni_seyler\egitim\arsiv\ARM_KURSU_Code\en.stsw-stm32065_v1-9-0\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h \
+  D:\yeni_seyler\egitim\arsiv\ARM_KURSU_Code\en.stsw-stm32065_v1-9-0\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h \
+  D:\yeni_seyler\egitim\arsiv\ARM_KURSU_Code\en.stsw-stm32065_v1-9-0\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h \
+  D:\yeni_seyler\egitim\arsiv\ARM_KURSU_Code\en.stsw-stm32065_v1-9-0\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h \
+  D:\yeni_seyler\egitim\arsiv\ARM_KURSU_Code\en.stsw-stm32065_v1-9-0\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h \
+  D:\yeni_seyler\egitim\arsiv\ARM_KURSU_Code\en.stsw-stm32065_v1-9-0\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h \
+  D:\yeni_seyler\egitim\arsiv\ARM_KURSU_Code\en.stsw-stm32065_v1-9-0\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h \
+  D:\yeni_seyler\egitim\arsiv\ARM_KURSU_Code\en.stsw-stm32065_v1-9-0\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Project\02_Beginning\Core_BlackPill\stm32f4xx_conf.h \
+  D:\yeni_seyler\egitim\arsiv\ARM_KURSU_Code\en.stsw-stm32065_v1-9-0\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Project\02_Beginning\Core_BlackPill\system_stm32f4xx.h \
+  C:\iar8509\arm\CMSIS\Core\Include\mpu_armv7.h \
+  C:\iar8509\arm\inc\c\iccarm_builtin.h \
+  C:\iar8509\arm\CMSIS\Core\Include\cmsis_iccarm.h \
+  C:\iar8509\arm\CMSIS\Core\Include\cmsis_compiler.h \
+  C:\iar8509\arm\CMSIS\Core\Include\cmsis_version.h \
+  C:\iar8509\arm\inc\c\DLib_Product.h \
+  C:\iar8509\arm\inc\c\DLib_Config_Normal.h \
+  C:\iar8509\arm\inc\c\DLib_Defaults.h C:\iar8509\arm\inc\c\yvals.h \
+  C:\iar8509\arm\inc\c\ycheck.h C:\iar8509\arm\inc\c\stdint.h \
+  C:\iar8509\arm\CMSIS\Core\Include\core_cm4.h \
+  D:\yeni_seyler\egitim\arsiv\ARM_KURSU_Code\en.stsw-stm32065_v1-9-0\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Project\02_Beginning\main.h \
+  D:\yeni_seyler\egitim\arsiv\ARM_KURSU_Code\en.stsw-stm32065_v1-9-0\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Project\03_LCD\Core_BlackPill\delay.c

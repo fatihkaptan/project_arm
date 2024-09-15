@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_struct_s_y_s_c_f_g___type_def" xml:lang="tr">
+<title>SYSCFG_TypeDef Yapı(Struct) Referans</title>
+<indexterm><primary>SYSCFG_TypeDef</primary></indexterm>
+<para>
+
+<para>System configuration controller. </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;stm32f4xx.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Veri Alanları    </title>
+        <itemizedlist>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gab36c409d0a009e3ce5a89ac55d3ff194">MEMRMP</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga2130abf1fefb63ce4c4b138fd8c9822a">PMC</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga52f7bf8003ba69d66a4e86dea6eeab65">EXTICR</link> [4]</para>
+</listitem>
+            <listitem><para>uint32_t <link linkend="_group___c_m_s_i_s_1gafaf27b66c1edc60064db3fa6e693fb59">RESERVED</link> [2]</para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga08ddbac546fa9928256654d31255c8c3">CMPCR</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Ayrıntılı tanımlama</title>
+
+<para>System configuration controller. </para>
+<para>
+Bu yapı(struct) için dokümantasyon aşağıdaki dosyadan üretilmiştir:</para>
+Core_BlackPill/<link linkend="_stm32f4xx_8h">stm32f4xx.h</link></section>
+</section>

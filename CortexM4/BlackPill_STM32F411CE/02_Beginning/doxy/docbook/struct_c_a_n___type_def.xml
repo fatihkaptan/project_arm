@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_struct_c_a_n___type_def" xml:lang="tr">
+<title>CAN_TypeDef Yapı(Struct) Referans</title>
+<indexterm><primary>CAN_TypeDef</primary></indexterm>
+<para>
+
+<para>Controller Area Network. </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;stm32f4xx.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Veri Alanları    </title>
+        <itemizedlist>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga27af4e9f888f0b7b1e8da7e002d98798">MCR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gacdd4c1b5466be103fb2bb2a225b1d3a9">MSR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga87e3001757a0cd493785f1f3337dd0e8">TSR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gaccf4141cee239380d0ad4634ee21dbf6">RF0R</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga02b589bb589df4f39e549dca4d5abb08">RF1R</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga6566f8cfbd1d8aa7e8db046aa35e77db">IER</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga2b39f943954e0e7d177b511d9074a0b7">ESR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga5c0fcd3e7b4c59ab1dd68f6bd8f74e07">BTR</link></para>
+</listitem>
+            <listitem><para>uint32_t <link linkend="_group___c_m_s_i_s_1gaae28ab86a4ae57ed057ed1ea89a6d34b">RESERVED0</link> [88]</para>
+</listitem>
+            <listitem><para><link linkend="_struct_c_a_n___tx_mail_box___type_def">CAN_TxMailBox_TypeDef</link> <link linkend="_group___c_m_s_i_s_1gae37503ab1a7bbd29846f94cdadf0a9ef">sTxMailBox</link> [3]</para>
+</listitem>
+            <listitem><para><link linkend="_struct_c_a_n___f_i_f_o_mail_box___type_def">CAN_FIFOMailBox_TypeDef</link> <link linkend="_group___c_m_s_i_s_1ga21b030b34e131f7ef6ea273416449fe4">sFIFOMailBox</link> [2]</para>
+</listitem>
+            <listitem><para>uint32_t <link linkend="_group___c_m_s_i_s_1ga4bb07a7828fbd5fe86f6a5a3545c177d">RESERVED1</link> [12]</para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga1cb734df34f6520a7204c4c70634ebba">FMR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gaaa6f4cf1f16aaa6d17ec6c410db76acf">FM1R</link></para>
+</listitem>
+            <listitem><para>uint32_t <link linkend="_group___c_m_s_i_s_1ga4c9b972a304c0e08ca27cbe57627c496">RESERVED2</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gaae0256ae42106ee7f87fc7e5bdb779d4">FS1R</link></para>
+</listitem>
+            <listitem><para>uint32_t <link linkend="_group___c_m_s_i_s_1gaf2b40c5e36a5e861490988275499e158">RESERVED3</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gaf1405e594e39e5b34f9499f680157a25">FFA1R</link></para>
+</listitem>
+            <listitem><para>uint32_t <link linkend="_group___c_m_s_i_s_1gac0018930ee9f18afda25b695b9a4ec16">RESERVED4</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gaaf76271f4ab0b3deb3ceb6e2ac0d62d0">FA1R</link></para>
+</listitem>
+            <listitem><para>uint32_t <link linkend="_group___c_m_s_i_s_1ga269f31b91d0f38a48061b76ecc346f55">RESERVED5</link> [8]</para>
+</listitem>
+            <listitem><para><link linkend="_struct_c_a_n___filter_register___type_def">CAN_FilterRegister_TypeDef</link> <link linkend="_group___c_m_s_i_s_1ga31bd74513e6e599319702ad34113bf59">sFilterRegister</link> [28]</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Ayrıntılı tanımlama</title>
+
+<para>Controller Area Network. </para>
+<para>
+Bu yapı(struct) için dokümantasyon aşağıdaki dosyadan üretilmiştir:</para>
+Core_BlackPill/<link linkend="_stm32f4xx_8h">stm32f4xx.h</link></section>
+</section>

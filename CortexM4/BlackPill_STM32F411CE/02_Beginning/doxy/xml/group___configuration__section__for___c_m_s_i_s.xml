@@ -1,0 +1,378 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="tr">
+  <compounddef id="group___configuration__section__for___c_m_s_i_s" kind="group">
+    <compoundname>Configuration_section_for_CMSIS</compoundname>
+    <title>Configuration_section_for_CMSIS</title>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="group___configuration__section__for___c_m_s_i_s_1ga666eb0caeb12ec0e281415592ae89083" prot="public" static="no" strong="no">
+        <type></type>
+        <name>IRQn</name>
+        <enumvalue id="group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083ade177d9c70c89e084093024b932a4e30" prot="public">
+          <name>NonMaskableInt_IRQn</name>
+          <initializer>= -14</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>2 Non Maskable Interrupt <linebreak/>
+ </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083a33ff1cf7098de65d61b6354fee6cd5aa" prot="public">
+          <name>MemoryManagement_IRQn</name>
+          <initializer>= -12</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>4 Cortex-M4 Memory Management Interrupt <linebreak/>
+ </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083a8693500eff174f16119e96234fee73af" prot="public">
+          <name>BusFault_IRQn</name>
+          <initializer>= -11</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>5 Cortex-M4 Bus Fault Interrupt <linebreak/>
+ </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083a6895237c9443601ac832efa635dd8bbf" prot="public">
+          <name>UsageFault_IRQn</name>
+          <initializer>= -10</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>6 Cortex-M4 Usage Fault Interrupt <linebreak/>
+ </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083a4ce820b3cc6cf3a796b41aadc0cf1237" prot="public">
+          <name>SVCall_IRQn</name>
+          <initializer>= -5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>11 Cortex-M4 SV Call Interrupt <linebreak/>
+ </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083a8e033fcef7aed98a31c60a7de206722c" prot="public">
+          <name>DebugMonitor_IRQn</name>
+          <initializer>= -4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>12 Cortex-M4 Debug Monitor Interrupt <linebreak/>
+ </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083a03c3cc89984928816d81793fc7bce4a2" prot="public">
+          <name>PendSV_IRQn</name>
+          <initializer>= -2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>14 Cortex-M4 Pend SV Interrupt <linebreak/>
+ </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083a6dbff8f8543325f3474cbae2446776e7" prot="public">
+          <name>SysTick_IRQn</name>
+          <initializer>= -1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>15 Cortex-M4 System Tick Interrupt <linebreak/>
+ </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083a971089d7566ef902dfa0c80ac3a8fd52" prot="public">
+          <name>WWDG_IRQn</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Window WatchDog Interrupt <linebreak/>
+ </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083ab0b51ffcc4dcf5661141b79c8e5bd924" prot="public">
+          <name>PVD_IRQn</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>PVD through EXTI Line detection Interrupt <linebreak/>
+ </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083ac127cca7ae48bcf93924209f04e5e5a1" prot="public">
+          <name>TAMP_STAMP_IRQn</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Tamper and TimeStamp interrupts through the EXTI line <linebreak/>
+ </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083a173ccc3f31df1f7e43de2ddeab3d1777" prot="public">
+          <name>RTC_WKUP_IRQn</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>RTC Wakeup interrupt through the EXTI line <linebreak/>
+ </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083a91b73963ce243a1d031576d49e137fab" prot="public">
+          <name>FLASH_IRQn</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>FLASH global Interrupt <linebreak/>
+ </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083a5710b22392997bac63daa5c999730f77" prot="public">
+          <name>RCC_IRQn</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>RCC global Interrupt <linebreak/>
+ </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083ab6aa6f87d26bbc6cf99b067b8d75c2f7" prot="public">
+          <name>EXTI0_IRQn</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>EXTI Line0 Interrupt <linebreak/>
+ </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083ae4badcdecdb94eb10129c4c0577c5e19" prot="public">
+          <name>EXTI1_IRQn</name>
+          <initializer>= 7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>EXTI Line1 Interrupt <linebreak/>
+ </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083a082cb3f7839069a0715fd76c7eacbbc9" prot="public">
+          <name>EXTI2_IRQn</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>EXTI Line2 Interrupt <linebreak/>
+ </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083add889c84ba5de466ced209069e05d602" prot="public">
+          <name>EXTI3_IRQn</name>
+          <initializer>= 9</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>EXTI Line3 Interrupt <linebreak/>
+ </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083ab70a40106ca4486770df5d2072d9ac0e" prot="public">
+          <name>EXTI4_IRQn</name>
+          <initializer>= 10</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>EXTI Line4 Interrupt <linebreak/>
+ </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083a9ee33e72512c4cfb301b216f4fb9d68c" prot="public">
+          <name>DMA1_Stream0_IRQn</name>
+          <initializer>= 11</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>DMA1 Stream 0 global Interrupt <linebreak/>
+ </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083aa45ca2c955060e2c2a7cbbe1d6753285" prot="public">
+          <name>DMA1_Stream1_IRQn</name>
+          <initializer>= 12</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>DMA1 Stream 1 global Interrupt <linebreak/>
+ </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083a0d9ec75e4478e70235b705d5a6b3efd8" prot="public">
+          <name>DMA1_Stream2_IRQn</name>
+          <initializer>= 13</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>DMA1 Stream 2 global Interrupt <linebreak/>
+ </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083af77770e080206a7558decf09344fb2e2" prot="public">
+          <name>DMA1_Stream3_IRQn</name>
+          <initializer>= 14</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>DMA1 Stream 3 global Interrupt <linebreak/>
+ </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083aee2aaf365c6c297a63cee41ecae2301a" prot="public">
+          <name>DMA1_Stream4_IRQn</name>
+          <initializer>= 15</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>DMA1 Stream 4 global Interrupt <linebreak/>
+ </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083ac92efa72399fe58fa615d8bf8fd64a4e" prot="public">
+          <name>DMA1_Stream5_IRQn</name>
+          <initializer>= 16</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>DMA1 Stream 5 global Interrupt <linebreak/>
+ </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083aef5e2b68f62f6f1781fab894f0b8f486" prot="public">
+          <name>DMA1_Stream6_IRQn</name>
+          <initializer>= 17</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>DMA1 Stream 6 global Interrupt <linebreak/>
+ </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group___configuration__section__for___c_m_s_i_s_1gga666eb0caeb12ec0e281415592ae89083a4d69175258ae261dd545001e810421b3" prot="public">
+          <name>ADC_IRQn</name>
+          <initializer>= 18</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>ADC1, ADC2 and ADC3 global Interrupts <linebreak/>
+ </para>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>STM32F4XX Interrupt Number Definition, according to the selected device in <ref refid="group___library__configuration__section" kindref="compound">Library_configuration_section</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core_BlackPill/stm32f4xx.h" line="189" column="1" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="190" bodyend="805"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="group___configuration__section__for___c_m_s_i_s_1ga4a0206df9604302e0741c1aa4ca1ded3" prot="public" static="no">
+        <type>enum <ref refid="group___configuration__section__for___c_m_s_i_s_1ga666eb0caeb12ec0e281415592ae89083" kindref="member">IRQn</ref></type>
+        <definition>typedef enum IRQn IRQn_Type</definition>
+        <argsstring></argsstring>
+        <name>IRQn_Type</name>
+        <briefdescription>
+<para>STM32F4XX Interrupt Number Definition, according to the selected device in <ref refid="group___library__configuration__section" kindref="compound">Library_configuration_section</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core_BlackPill/stm32f4xx.h" line="805" column="11"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="group___configuration__section__for___c_m_s_i_s_1ga45a97e4bb8b6ce7c334acc5f45ace3ba" prot="public" static="no">
+        <name>__CM4_REV</name>
+        <initializer>0x0001</initializer>
+        <briefdescription>
+<para>Configuration of the Cortex-M4 Processor and Core Peripherals. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Core revision r0p1 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core_BlackPill/stm32f4xx.h" line="179" column="9" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="179" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___configuration__section__for___c_m_s_i_s_1ga4127d1b31aaf336fab3d7329d117f448" prot="public" static="no">
+        <name>__MPU_PRESENT</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>STM32F4XX provides an MPU <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core_BlackPill/stm32f4xx.h" line="180" column="9" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___configuration__section__for___c_m_s_i_s_1gae3fe3587d5100c787e02102ce3944460" prot="public" static="no">
+        <name>__NVIC_PRIO_BITS</name>
+        <initializer>4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>STM32F4XX uses 4 Bits for the Priority Levels </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core_BlackPill/stm32f4xx.h" line="181" column="9" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="181" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___configuration__section__for___c_m_s_i_s_1gab58771b4ec03f9bdddc84770f7c95c68" prot="public" static="no">
+        <name>__Vendor_SysTickConfig</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set to 1 if different SysTick Config is used <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core_BlackPill/stm32f4xx.h" line="182" column="9" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="182" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___configuration__section__for___c_m_s_i_s_1gac1ba8a48ca926bddc88be9bfd7d42641" prot="public" static="no">
+        <name>__FPU_PRESENT</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>FPU present <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core_BlackPill/stm32f4xx.h" line="183" column="9" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="183" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

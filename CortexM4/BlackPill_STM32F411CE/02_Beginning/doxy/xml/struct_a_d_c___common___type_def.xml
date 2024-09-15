@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="tr">
+  <compounddef id="struct_a_d_c___common___type_def" kind="struct" language="C++" prot="public">
+    <compoundname>ADC_Common_TypeDef</compoundname>
+    <includes refid="stm32f4xx_8h" local="no">stm32f4xx.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group___c_m_s_i_s_1ga876dd0a8546697065f406b7543e27af2" kind="variable"><name>CSR</name></member>
+      <member refid="group___c_m_s_i_s_1ga5e1322e27c40bf91d172f9673f205c97" kind="variable"><name>CCR</name></member>
+      <member refid="group___c_m_s_i_s_1ga760f86a1a18dffffda54fc15a977979f" kind="variable"><name>CDR</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Core_BlackPill/stm32f4xx.h" line="894" column="1" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="895" bodyend="900"/>
+    <listofallmembers>
+      <member refid="group___c_m_s_i_s_1ga5e1322e27c40bf91d172f9673f205c97" prot="public" virt="non-virtual"><scope>ADC_Common_TypeDef</scope><name>CCR</name></member>
+      <member refid="group___c_m_s_i_s_1ga760f86a1a18dffffda54fc15a977979f" prot="public" virt="non-virtual"><scope>ADC_Common_TypeDef</scope><name>CDR</name></member>
+      <member refid="group___c_m_s_i_s_1ga876dd0a8546697065f406b7543e27af2" prot="public" virt="non-virtual"><scope>ADC_Common_TypeDef</scope><name>CSR</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

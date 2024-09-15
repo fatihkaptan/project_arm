@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="tr">
+  <compounddef id="struct_c_r_c___type_def" kind="struct" language="C++" prot="public">
+    <compoundname>CRC_TypeDef</compoundname>
+    <includes refid="stm32f4xx_8h" local="no">stm32f4xx.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group___c_m_s_i_s_1ga3df0d8dfcd1ec958659ffe21eb64fa94" kind="variable"><name>DR</name></member>
+      <member refid="group___c_m_s_i_s_1ga601d7b0ba761c987db359b2d7173b7e0" kind="variable"><name>IDR</name></member>
+      <member refid="group___c_m_s_i_s_1gaa7d2bd5481ee985778c410a7e5826b71" kind="variable"><name>RESERVED0</name></member>
+      <member refid="group___c_m_s_i_s_1ga8249a3955aace28d92109b391311eb30" kind="variable"><name>RESERVED1</name></member>
+      <member refid="group___c_m_s_i_s_1gab40c89c59391aaa9d9a8ec011dd0907a" kind="variable"><name>CR</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>CRC calculation unit. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Core_BlackPill/stm32f4xx.h" line="986" column="1" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="987" bodyend="993"/>
+    <listofallmembers>
+      <member refid="group___c_m_s_i_s_1gab40c89c59391aaa9d9a8ec011dd0907a" prot="public" virt="non-virtual"><scope>CRC_TypeDef</scope><name>CR</name></member>
+      <member refid="group___c_m_s_i_s_1ga3df0d8dfcd1ec958659ffe21eb64fa94" prot="public" virt="non-virtual"><scope>CRC_TypeDef</scope><name>DR</name></member>
+      <member refid="group___c_m_s_i_s_1ga601d7b0ba761c987db359b2d7173b7e0" prot="public" virt="non-virtual"><scope>CRC_TypeDef</scope><name>IDR</name></member>
+      <member refid="group___c_m_s_i_s_1gaa7d2bd5481ee985778c410a7e5826b71" prot="public" virt="non-virtual"><scope>CRC_TypeDef</scope><name>RESERVED0</name></member>
+      <member refid="group___c_m_s_i_s_1ga8249a3955aace28d92109b391311eb30" prot="public" virt="non-virtual"><scope>CRC_TypeDef</scope><name>RESERVED1</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

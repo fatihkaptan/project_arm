@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_struct_c_r_c___type_def" xml:lang="tr">
+<title>CRC_TypeDef Yapı(Struct) Referans</title>
+<indexterm><primary>CRC_TypeDef</primary></indexterm>
+<para>
+
+<para>CRC calculation unit. </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;stm32f4xx.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Veri Alanları    </title>
+        <itemizedlist>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga3df0d8dfcd1ec958659ffe21eb64fa94">DR</link></para>
+</listitem>
+            <listitem><para>__IO uint8_t <link linkend="_group___c_m_s_i_s_1ga601d7b0ba761c987db359b2d7173b7e0">IDR</link></para>
+</listitem>
+            <listitem><para>uint8_t <link linkend="_group___c_m_s_i_s_1gaa7d2bd5481ee985778c410a7e5826b71">RESERVED0</link></para>
+</listitem>
+            <listitem><para>uint16_t <link linkend="_group___c_m_s_i_s_1ga8249a3955aace28d92109b391311eb30">RESERVED1</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gab40c89c59391aaa9d9a8ec011dd0907a">CR</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Ayrıntılı tanımlama</title>
+
+<para>CRC calculation unit. </para>
+<para>
+Bu yapı(struct) için dokümantasyon aşağıdaki dosyadan üretilmiştir:</para>
+Core_BlackPill/<link linkend="_stm32f4xx_8h">stm32f4xx.h</link></section>
+</section>

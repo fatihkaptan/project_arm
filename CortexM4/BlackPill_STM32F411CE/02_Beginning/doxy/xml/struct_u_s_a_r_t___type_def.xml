@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="tr">
+  <compounddef id="struct_u_s_a_r_t___type_def" kind="struct" language="C++" prot="public">
+    <compoundname>USART_TypeDef</compoundname>
+    <includes refid="stm32f4xx_8h" local="no">stm32f4xx.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group___c_m_s_i_s_1ga44962ea5442d203bf4954035d1bfeb9d" kind="variable"><name>SR</name></member>
+      <member refid="group___c_m_s_i_s_1ga149feba01f9c4a49570c6d88619f504f" kind="variable"><name>RESERVED0</name></member>
+      <member refid="group___c_m_s_i_s_1ga0a1acc0425516ff7969709d118b96a3b" kind="variable"><name>DR</name></member>
+      <member refid="group___c_m_s_i_s_1ga8249a3955aace28d92109b391311eb30" kind="variable"><name>RESERVED1</name></member>
+      <member refid="group___c_m_s_i_s_1gaf0ba3d82d524fddbe0fb3309788e2954" kind="variable"><name>BRR</name></member>
+      <member refid="group___c_m_s_i_s_1ga5573848497a716a9947fd87487709feb" kind="variable"><name>RESERVED2</name></member>
+      <member refid="group___c_m_s_i_s_1ga61400ce239355b62aa25c95fcc18a5e1" kind="variable"><name>CR1</name></member>
+      <member refid="group___c_m_s_i_s_1ga6c3b31022e6f59b800e9f5cc2a89d54c" kind="variable"><name>RESERVED3</name></member>
+      <member refid="group___c_m_s_i_s_1ga2a3e81bd118d1bc52d24a0b0772e6a0c" kind="variable"><name>CR2</name></member>
+      <member refid="group___c_m_s_i_s_1gaa0223808025f5bf9c056185038c9d545" kind="variable"><name>RESERVED4</name></member>
+      <member refid="group___c_m_s_i_s_1ga9651ce2df8eec57b9cab2f27f6dbf3e1" kind="variable"><name>CR3</name></member>
+      <member refid="group___c_m_s_i_s_1gabd36010ac282682d1f3c641b183b1b6f" kind="variable"><name>RESERVED5</name></member>
+      <member refid="group___c_m_s_i_s_1ga26f8b74978e03c8a4c99c9395a6a524d" kind="variable"><name>GTPR</name></member>
+      <member refid="group___c_m_s_i_s_1gaab502dde158ab7da8e7823d1f8a06edb" kind="variable"><name>RESERVED6</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Universal Synchronous Asynchronous Receiver Transmitter. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Core_BlackPill/stm32f4xx.h" line="1896" column="1" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="1897" bodyend="1912"/>
+    <listofallmembers>
+      <member refid="group___c_m_s_i_s_1gaf0ba3d82d524fddbe0fb3309788e2954" prot="public" virt="non-virtual"><scope>USART_TypeDef</scope><name>BRR</name></member>
+      <member refid="group___c_m_s_i_s_1ga61400ce239355b62aa25c95fcc18a5e1" prot="public" virt="non-virtual"><scope>USART_TypeDef</scope><name>CR1</name></member>
+      <member refid="group___c_m_s_i_s_1ga2a3e81bd118d1bc52d24a0b0772e6a0c" prot="public" virt="non-virtual"><scope>USART_TypeDef</scope><name>CR2</name></member>
+      <member refid="group___c_m_s_i_s_1ga9651ce2df8eec57b9cab2f27f6dbf3e1" prot="public" virt="non-virtual"><scope>USART_TypeDef</scope><name>CR3</name></member>
+      <member refid="group___c_m_s_i_s_1ga0a1acc0425516ff7969709d118b96a3b" prot="public" virt="non-virtual"><scope>USART_TypeDef</scope><name>DR</name></member>
+      <member refid="group___c_m_s_i_s_1ga26f8b74978e03c8a4c99c9395a6a524d" prot="public" virt="non-virtual"><scope>USART_TypeDef</scope><name>GTPR</name></member>
+      <member refid="group___c_m_s_i_s_1ga149feba01f9c4a49570c6d88619f504f" prot="public" virt="non-virtual"><scope>USART_TypeDef</scope><name>RESERVED0</name></member>
+      <member refid="group___c_m_s_i_s_1ga8249a3955aace28d92109b391311eb30" prot="public" virt="non-virtual"><scope>USART_TypeDef</scope><name>RESERVED1</name></member>
+      <member refid="group___c_m_s_i_s_1ga5573848497a716a9947fd87487709feb" prot="public" virt="non-virtual"><scope>USART_TypeDef</scope><name>RESERVED2</name></member>
+      <member refid="group___c_m_s_i_s_1ga6c3b31022e6f59b800e9f5cc2a89d54c" prot="public" virt="non-virtual"><scope>USART_TypeDef</scope><name>RESERVED3</name></member>
+      <member refid="group___c_m_s_i_s_1gaa0223808025f5bf9c056185038c9d545" prot="public" virt="non-virtual"><scope>USART_TypeDef</scope><name>RESERVED4</name></member>
+      <member refid="group___c_m_s_i_s_1gabd36010ac282682d1f3c641b183b1b6f" prot="public" virt="non-virtual"><scope>USART_TypeDef</scope><name>RESERVED5</name></member>
+      <member refid="group___c_m_s_i_s_1gaab502dde158ab7da8e7823d1f8a06edb" prot="public" virt="non-virtual"><scope>USART_TypeDef</scope><name>RESERVED6</name></member>
+      <member refid="group___c_m_s_i_s_1ga44962ea5442d203bf4954035d1bfeb9d" prot="public" virt="non-virtual"><scope>USART_TypeDef</scope><name>SR</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

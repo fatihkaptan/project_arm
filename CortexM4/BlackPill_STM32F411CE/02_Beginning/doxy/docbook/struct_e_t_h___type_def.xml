@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_struct_e_t_h___type_def" xml:lang="tr">
+<title>ETH_TypeDef Yapı(Struct) Referans</title>
+<indexterm><primary>ETH_TypeDef</primary></indexterm>
+<para>
+
+<para>Ethernet MAC. </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;stm32f4xx.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Veri Alanları    </title>
+        <itemizedlist>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga20acbcac1c35f66de94c9ff0e2ddc7b0">MACCR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga8ad4e3dbde1518ecde5d979c2a89a76a">MACFFR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga121212bdb227106df681d24e5d896a4e">MACHTHR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga1d34ab8e5c2041c00ba9526b3958099d">MACHTLR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga9ea1e1c6615eb3bd70eb328dba65fc87">MACMIIAR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga87c7687c35332bf5ee86473043652146">MACMIIDR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga12f62d3d3b9ee30c20c324b146e72795">MACFCR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga92ff1fe799bb33d13efbaa1195867781">MACVLANTR</link></para>
+</listitem>
+            <listitem><para>uint32_t <link linkend="_group___c_m_s_i_s_1ga8be676577db129a84a9a2689519a8502">RESERVED0</link> [2]</para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga129dcc23d48588d5af7dd218b617933d">MACRWUFFR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gabbb2f4f89e7d8c3242365b4506e43217">MACPMTCSR</link></para>
+</listitem>
+            <listitem><para>uint32_t <link linkend="_group___c_m_s_i_s_1ga28d88d9a08aab1adbebea61c42ef901e">RESERVED1</link> [2]</para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga1173127526cca9128e409bc83c7729dc">MACSR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gac42b829c02429cb9363563f7eb9d58ed">MACIMR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gab8b4520c137846f0a128146144514419">MACA0HR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga45e8169adb601f00e411b840f9fbb5af">MACA0LR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga3a6cc81e1024f9a93ec7653d32f12dcb">MACA1HR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gaadfb486dd07e2fd02fb491733deffd9b">MACA1LR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga38f1ce04678d5141e115cfd6f7b803d1">MACA2HR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga423b12ab536a1c4fdb1ce63f645822a7">MACA2LR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gad02ff09f7ce33f093ad04b84fee2bdec">MACA3HR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga2ba9f73c7fa756305d54a8f80872c6df">MACA3LR</link></para>
+</listitem>
+            <listitem><para>uint32_t <link linkend="_group___c_m_s_i_s_1ga1cf0d9299ef58b327f4e3d03da1c1aaf">RESERVED2</link> [40]</para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gad57490cb3a07132702f96d8b5d547c89">MMCCR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gaea29ac183c979d0cb95ad3781fe9ed91">MMCRIR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga614e0b81fce7cf218a357f8a0a3de7b8">MMCTIR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga63872a3017c14a869c647123573dd002">MMCRIMR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga18e294dd2625a93ebf2aab9f2b3c4911">MMCTIMR</link></para>
+</listitem>
+            <listitem><para>uint32_t <link linkend="_group___c_m_s_i_s_1gaf6446adf612691721c62fc68aff4fe39">RESERVED3</link> [14]</para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga23970354d69354ab78165e76afd6c2f7">MMCTGFSCCR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga50c8425cf8d27268b3272ace0a224a94">MMCTGFMSCCR</link></para>
+</listitem>
+            <listitem><para>uint32_t <link linkend="_group___c_m_s_i_s_1gabca175d3acfbc2a0806452fd57ea5fc4">RESERVED4</link> [5]</para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga71d932b554a5548e5d85ed81e58c1ed0">MMCTGFCR</link></para>
+</listitem>
+            <listitem><para>uint32_t <link linkend="_group___c_m_s_i_s_1ga3c1a316c73bb5f0eae7fbe66177cbca6">RESERVED5</link> [10]</para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gaff6eeec1afa983f153ff0786c8902d43">MMCRFCECR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga65bb525a3f4d3ee131f9a7ed899d5eef">MMCRFAECR</link></para>
+</listitem>
+            <listitem><para>uint32_t <link linkend="_group___c_m_s_i_s_1ga7e9a9bba62d1d98e3058b29a892b3877">RESERVED6</link> [10]</para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga6ff264b60a3b40f40d136288e5ec5ba8">MMCRGUFCR</link></para>
+</listitem>
+            <listitem><para>uint32_t <link linkend="_group___c_m_s_i_s_1gab1b7eacec3f164ed04001e9c806f73f9">RESERVED7</link> [334]</para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gaa657aa42398bc8294976632d778b6db4">PTPTSCR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gaf34b7e8815984e272daa3f089014af4e">PTPSSIR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga1ebbda0d742e80ca3d53edfa3a95f627">PTPTSHR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga55c1058cd74dba0ed0cb8963684b9199">PTPTSLR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gae8e4ef158db1de28bfd759e40677ba4c">PTPTSHUR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga646bf44e807d10a09f980ace333d33ab">PTPTSLUR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga8f47c0f21e22b98bbc2c9f3b6342fbb8">PTPTSAR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gaf90723c7aee9c32113a2667b0a5c69f1">PTPTTHR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga28e7b0195ce457d20f585f6587fc1cb8">PTPTTLR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga2e60bc2eefc18398fb2459d1b44453e5">RESERVED8</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gadca0624d09f2c72eee9807cea80a4d0c">PTPTSSR</link></para>
+</listitem>
+            <listitem><para>uint32_t <link linkend="_group___c_m_s_i_s_1gae62fffd7d8f9f69b15edacdea4ba27f2">RESERVED9</link> [565]</para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gad1e11eb1200e64e0563e3576bf258194">DMABMR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gacf0114902a52b7ffcc343e06484b3623">DMATPDR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gaad6309afe126da26921191697d7e5c43">DMARPDR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga581ce491c035ce46db723260377c2032">DMARDLAR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga7dba9527df73350f35683140d73a5f8d">DMATDLAR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga9e7c3d04e4dcf975939eeaac246b25d0">DMASR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gaa15b972f30ee47f5df0d3ebc8866509d">DMAOMR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gadd56f3652fd065c6797411e80477a064">DMAIER</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga12eba1fc5d54aa50fdda201f7f9a84a3">DMAMFBOCR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gac6fe9e194ed9d08bf6bd28ceb80ac4b0">DMARSWTR</link></para>
+</listitem>
+            <listitem><para>uint32_t <link linkend="_group___c_m_s_i_s_1ga57d552323802fb4dd0bac95a02e814f0">RESERVED10</link> [8]</para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gab5bb348210fdd9a5538eb57abc5a5673">DMACHTDR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga9c49de2e699886d6604fd2b3d376a0e9">DMACHRDR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga900f9f888342fbdd8ee07e3ee1d4b73c">DMACHTBAR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gacf3f7ecbf774d8d505655ac7f24761fc">DMACHRBAR</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Ayrıntılı tanımlama</title>
+
+<para>Ethernet MAC. </para>
+<para>
+Bu yapı(struct) için dokümantasyon aşağıdaki dosyadan üretilmiştir:</para>
+Core_BlackPill/<link linkend="_stm32f4xx_8h">stm32f4xx.h</link></section>
+</section>

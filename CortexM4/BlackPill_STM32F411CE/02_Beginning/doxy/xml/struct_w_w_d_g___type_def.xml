@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="tr">
+  <compounddef id="struct_w_w_d_g___type_def" kind="struct" language="C++" prot="public">
+    <compoundname>WWDG_TypeDef</compoundname>
+    <includes refid="stm32f4xx_8h" local="no">stm32f4xx.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group___c_m_s_i_s_1gab40c89c59391aaa9d9a8ec011dd0907a" kind="variable"><name>CR</name></member>
+      <member refid="group___c_m_s_i_s_1gac011ddcfe531f8e16787ea851c1f3667" kind="variable"><name>CFR</name></member>
+      <member refid="group___c_m_s_i_s_1gaf6aca2bbd40c0fb6df7c3aebe224a360" kind="variable"><name>SR</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Window WATCHDOG. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Core_BlackPill/stm32f4xx.h" line="1918" column="1" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="1919" bodyend="1923"/>
+    <listofallmembers>
+      <member refid="group___c_m_s_i_s_1gac011ddcfe531f8e16787ea851c1f3667" prot="public" virt="non-virtual"><scope>WWDG_TypeDef</scope><name>CFR</name></member>
+      <member refid="group___c_m_s_i_s_1gab40c89c59391aaa9d9a8ec011dd0907a" prot="public" virt="non-virtual"><scope>WWDG_TypeDef</scope><name>CR</name></member>
+      <member refid="group___c_m_s_i_s_1gaf6aca2bbd40c0fb6df7c3aebe224a360" prot="public" virt="non-virtual"><scope>WWDG_TypeDef</scope><name>SR</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

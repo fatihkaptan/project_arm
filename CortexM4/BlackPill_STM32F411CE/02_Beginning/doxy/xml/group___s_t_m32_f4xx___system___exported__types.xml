@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="tr">
+  <compounddef id="group___s_t_m32_f4xx___system___exported__types" kind="group">
+    <compoundname>STM32F4xx_System_Exported_types</compoundname>
+    <title>STM32F4xx_System_Exported_types</title>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="group___s_t_m32_f4xx___system___exported__types_1gaa3cd3e43291e81e795d642b79b6088e6" prot="public" static="no" extern="yes" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t SystemCoreClock</definition>
+        <argsstring></argsstring>
+        <name>SystemCoreClock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>System Clock Frequency (Core Clock) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core_BlackPill/system_stm32f4xx.h" line="52" column="17" declfile="Core_BlackPill/system_stm32f4xx.h" declline="52" declcolumn="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

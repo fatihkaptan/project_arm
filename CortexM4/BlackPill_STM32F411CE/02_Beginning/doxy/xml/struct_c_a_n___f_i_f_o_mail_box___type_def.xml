@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="tr">
+  <compounddef id="struct_c_a_n___f_i_f_o_mail_box___type_def" kind="struct" language="C++" prot="public">
+    <compoundname>CAN_FIFOMailBox_TypeDef</compoundname>
+    <includes refid="stm32f4xx_8h" local="no">stm32f4xx.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group___c_m_s_i_s_1ga0acc8eb90b17bef5b9e03c7ddaacfb0b" kind="variable"><name>RIR</name></member>
+      <member refid="group___c_m_s_i_s_1ga9563d8a88d0db403b8357331bea83a2e" kind="variable"><name>RDTR</name></member>
+      <member refid="group___c_m_s_i_s_1gae1c569688eedd49219cd505b9c22121b" kind="variable"><name>RDLR</name></member>
+      <member refid="group___c_m_s_i_s_1ga7f11f42ba9d3bc5cd4a4f5ea0214608e" kind="variable"><name>RDHR</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Controller Area Network FIFOMailBox. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Core_BlackPill/stm32f4xx.h" line="919" column="1" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="920" bodyend="925"/>
+    <listofallmembers>
+      <member refid="group___c_m_s_i_s_1ga7f11f42ba9d3bc5cd4a4f5ea0214608e" prot="public" virt="non-virtual"><scope>CAN_FIFOMailBox_TypeDef</scope><name>RDHR</name></member>
+      <member refid="group___c_m_s_i_s_1gae1c569688eedd49219cd505b9c22121b" prot="public" virt="non-virtual"><scope>CAN_FIFOMailBox_TypeDef</scope><name>RDLR</name></member>
+      <member refid="group___c_m_s_i_s_1ga9563d8a88d0db403b8357331bea83a2e" prot="public" virt="non-virtual"><scope>CAN_FIFOMailBox_TypeDef</scope><name>RDTR</name></member>
+      <member refid="group___c_m_s_i_s_1ga0acc8eb90b17bef5b9e03c7ddaacfb0b" prot="public" virt="non-virtual"><scope>CAN_FIFOMailBox_TypeDef</scope><name>RIR</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

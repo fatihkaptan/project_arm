@@ -1,0 +1,448 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="tr">
+  <compounddef id="group___exported__types" kind="group">
+    <compoundname>Exported_types</compoundname>
+    <title>Exported_types</title>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="group___exported__types_1ga89136caac2e14c55151f527ac02daaff" prot="public" static="no" strong="no">
+        <type></type>
+        <name>FlagStatus</name>
+        <enumvalue id="group___exported__types_1gga89136caac2e14c55151f527ac02daaffa589b7d94a3d91d145720e2fed0eb3a05" prot="public">
+          <name>RESET</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group___exported__types_1gga89136caac2e14c55151f527ac02daaffab44c8101cc294c074709ec1b14211792" prot="public">
+          <name>SET</name>
+          <initializer>= !RESET</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core_BlackPill/stm32f4xx.h" line="851" column="1" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="851" bodyend="851"/>
+      </memberdef>
+      <memberdef kind="enum" id="group___exported__types_1gac9a7e9a35d2513ec15c3b537aaa4fba1" prot="public" static="no" strong="no">
+        <type></type>
+        <name>FunctionalState</name>
+        <enumvalue id="group___exported__types_1ggac9a7e9a35d2513ec15c3b537aaa4fba1ad3a9df141be0ccf10389b640f492b26d" prot="public">
+          <name>DISABLE</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group___exported__types_1ggac9a7e9a35d2513ec15c3b537aaa4fba1a7d46875fa3ebd2c34d2756950eda83bf" prot="public">
+          <name>ENABLE</name>
+          <initializer>= !DISABLE</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core_BlackPill/stm32f4xx.h" line="853" column="1" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="853" bodyend="853"/>
+      </memberdef>
+      <memberdef kind="enum" id="group___exported__types_1ga8333b96c67f83cba354b3407fcbb6ee8" prot="public" static="no" strong="no">
+        <type></type>
+        <name>ErrorStatus</name>
+        <enumvalue id="group___exported__types_1gga8333b96c67f83cba354b3407fcbb6ee8a2fd6f336d08340583bd620a7f5694c90" prot="public">
+          <name>ERROR</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group___exported__types_1gga8333b96c67f83cba354b3407fcbb6ee8ac7f69f7c9e5aea9b8f54cf02870e2bf8" prot="public">
+          <name>SUCCESS</name>
+          <initializer>= !ERROR</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core_BlackPill/stm32f4xx.h" line="856" column="1" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="856" bodyend="856"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="group___exported__types_1gae9b1af5c037e57a98884758875d3a7c4" prot="public" static="no">
+        <type>int32_t</type>
+        <definition>typedef int32_t s32</definition>
+        <argsstring></argsstring>
+        <name>s32</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&lt; STM32F10x Standard Peripheral Library old types (maintained for legacy purpose) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core_BlackPill/stm32f4xx.h" line="819" column="18" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="819" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group___exported__types_1gaa980e2c02ba2305e0f489d5650655425" prot="public" static="no">
+        <type>int16_t</type>
+        <definition>typedef int16_t s16</definition>
+        <argsstring></argsstring>
+        <name>s16</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core_BlackPill/stm32f4xx.h" line="820" column="17" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="820" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group___exported__types_1ga9e382f207c65ca13ab4ae98363aeda80" prot="public" static="no">
+        <type>int8_t</type>
+        <definition>typedef int8_t s8</definition>
+        <argsstring></argsstring>
+        <name>s8</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core_BlackPill/stm32f4xx.h" line="821" column="17" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="821" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group___exported__types_1gad97679599f3791409523fdb1c6156a28" prot="public" static="no">
+        <type>const int32_t</type>
+        <definition>typedef const int32_t sc32</definition>
+        <argsstring></argsstring>
+        <name>sc32</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Read Only </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core_BlackPill/stm32f4xx.h" line="823" column="23" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="823" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group___exported__types_1ga66ab742a0751bb4e7661b8e874f2ddda" prot="public" static="no">
+        <type>const int16_t</type>
+        <definition>typedef const int16_t sc16</definition>
+        <argsstring></argsstring>
+        <name>sc16</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Read Only </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core_BlackPill/stm32f4xx.h" line="824" column="23" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="824" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group___exported__types_1ga30e6c0f6718e1b6d26dc9d94ddcf9d11" prot="public" static="no">
+        <type>const int8_t</type>
+        <definition>typedef const int8_t sc8</definition>
+        <argsstring></argsstring>
+        <name>sc8</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Read Only </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core_BlackPill/stm32f4xx.h" line="825" column="22" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="825" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group___exported__types_1ga476e2cb441f8e689433350ae2eeee510" prot="public" static="no">
+        <type>__IO int32_t</type>
+        <definition>typedef __IO int32_t vs32</definition>
+        <argsstring></argsstring>
+        <name>vs32</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core_BlackPill/stm32f4xx.h" line="827" column="23" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="827" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group___exported__types_1ga19c9450d60abff7c6d3d35f31c10f83e" prot="public" static="no">
+        <type>__IO int16_t</type>
+        <definition>typedef __IO int16_t vs16</definition>
+        <argsstring></argsstring>
+        <name>vs16</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core_BlackPill/stm32f4xx.h" line="828" column="23" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="828" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group___exported__types_1ga9e5a203f00d2906af9466f68b4e72277" prot="public" static="no">
+        <type>__IO int8_t</type>
+        <definition>typedef __IO int8_t vs8</definition>
+        <argsstring></argsstring>
+        <name>vs8</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core_BlackPill/stm32f4xx.h" line="829" column="23" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="829" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group___exported__types_1gaec1d22666cf030b79051e5daa372fbc8" prot="public" static="no">
+        <type>__I int32_t</type>
+        <definition>typedef __I int32_t vsc32</definition>
+        <argsstring></argsstring>
+        <name>vsc32</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Read Only </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core_BlackPill/stm32f4xx.h" line="831" column="21" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="831" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group___exported__types_1ga369ae0177b957e5afa7c1e62312f97c3" prot="public" static="no">
+        <type>__I int16_t</type>
+        <definition>typedef __I int16_t vsc16</definition>
+        <argsstring></argsstring>
+        <name>vsc16</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Read Only </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core_BlackPill/stm32f4xx.h" line="832" column="21" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="832" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group___exported__types_1ga47463bcded079ac61d5da46aff497803" prot="public" static="no">
+        <type>__I int8_t</type>
+        <definition>typedef __I int8_t vsc8</definition>
+        <argsstring></argsstring>
+        <name>vsc8</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Read Only </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core_BlackPill/stm32f4xx.h" line="833" column="20" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="833" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group___exported__types_1gafaa62991928fb9fb18ff0db62a040aba" prot="public" static="no">
+        <type>uint32_t</type>
+        <definition>typedef uint32_t u32</definition>
+        <argsstring></argsstring>
+        <name>u32</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core_BlackPill/stm32f4xx.h" line="835" column="19" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="835" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group___exported__types_1gace9d960e74685e2cd84b36132dbbf8aa" prot="public" static="no">
+        <type>uint16_t</type>
+        <definition>typedef uint16_t u16</definition>
+        <argsstring></argsstring>
+        <name>u16</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core_BlackPill/stm32f4xx.h" line="836" column="18" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="836" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group___exported__types_1ga92c50087ca0e64fa93fc59402c55f8ca" prot="public" static="no">
+        <type>uint8_t</type>
+        <definition>typedef uint8_t u8</definition>
+        <argsstring></argsstring>
+        <name>u8</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core_BlackPill/stm32f4xx.h" line="837" column="18" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="837" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group___exported__types_1ga5b628e6a05856ff67e535fa391a57683" prot="public" static="no">
+        <type>const uint32_t</type>
+        <definition>typedef const uint32_t uc32</definition>
+        <argsstring></argsstring>
+        <name>uc32</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Read Only </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core_BlackPill/stm32f4xx.h" line="839" column="24" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="839" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group___exported__types_1gabc715ea3779494b5a4f53173a397f7cb" prot="public" static="no">
+        <type>const uint16_t</type>
+        <definition>typedef const uint16_t uc16</definition>
+        <argsstring></argsstring>
+        <name>uc16</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Read Only </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core_BlackPill/stm32f4xx.h" line="840" column="24" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="840" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group___exported__types_1gac74022c74a461f810e0d4fdc9bfea480" prot="public" static="no">
+        <type>const uint8_t</type>
+        <definition>typedef const uint8_t uc8</definition>
+        <argsstring></argsstring>
+        <name>uc8</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Read Only </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core_BlackPill/stm32f4xx.h" line="841" column="23" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="841" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group___exported__types_1ga0cd21c4793673b69ecd5fd673353a145" prot="public" static="no">
+        <type>__IO uint32_t</type>
+        <definition>typedef __IO uint32_t vu32</definition>
+        <argsstring></argsstring>
+        <name>vu32</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core_BlackPill/stm32f4xx.h" line="843" column="24" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="843" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group___exported__types_1ga93d1a6b3dcfdded10a7b15548679fe0a" prot="public" static="no">
+        <type>__IO uint16_t</type>
+        <definition>typedef __IO uint16_t vu16</definition>
+        <argsstring></argsstring>
+        <name>vu16</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core_BlackPill/stm32f4xx.h" line="844" column="23" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="844" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group___exported__types_1ga4a8fa9a2b4796540a6d65a04eb18e111" prot="public" static="no">
+        <type>__IO uint8_t</type>
+        <definition>typedef __IO uint8_t vu8</definition>
+        <argsstring></argsstring>
+        <name>vu8</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core_BlackPill/stm32f4xx.h" line="845" column="23" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="845" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group___exported__types_1ga2e08e321a35a55e72c5b3a507e76371f" prot="public" static="no">
+        <type>__I uint32_t</type>
+        <definition>typedef __I uint32_t vuc32</definition>
+        <argsstring></argsstring>
+        <name>vuc32</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Read Only </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core_BlackPill/stm32f4xx.h" line="847" column="22" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="847" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group___exported__types_1ga7f6037565f0caa27727c8b871daf0d56" prot="public" static="no">
+        <type>__I uint16_t</type>
+        <definition>typedef __I uint16_t vuc16</definition>
+        <argsstring></argsstring>
+        <name>vuc16</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Read Only </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core_BlackPill/stm32f4xx.h" line="848" column="22" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="848" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group___exported__types_1gab0ec90ac9b2c5864755998c8d37c264a" prot="public" static="no">
+        <type>__I uint8_t</type>
+        <definition>typedef __I uint8_t vuc8</definition>
+        <argsstring></argsstring>
+        <name>vuc8</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Read Only </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core_BlackPill/stm32f4xx.h" line="849" column="21" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="849" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group___exported__types_1ga39d4411201fb731279ad5a409b2b80d7" prot="public" static="no">
+        <type>enum <ref refid="group___exported__types_1ga89136caac2e14c55151f527ac02daaff" kindref="member">FlagStatus</ref></type>
+        <definition>typedef  enum FlagStatus ITStatus</definition>
+        <argsstring></argsstring>
+        <name>ITStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core_BlackPill/stm32f4xx.h" line="851" column="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="group___exported__types_1gaffaf7c3f537d7a3370b1bbdda67a2bf6" prot="public" static="no">
+        <name>IS_FUNCTIONAL_STATE</name>
+        <param><defname>STATE</defname></param>
+        <initializer>(((STATE) == <ref refid="group___exported__types_1ggac9a7e9a35d2513ec15c3b537aaa4fba1ad3a9df141be0ccf10389b640f492b26d" kindref="member">DISABLE</ref>) || ((STATE) == <ref refid="group___exported__types_1ggac9a7e9a35d2513ec15c3b537aaa4fba1a7d46875fa3ebd2c34d2756950eda83bf" kindref="member">ENABLE</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core_BlackPill/stm32f4xx.h" line="854" column="9" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="854" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

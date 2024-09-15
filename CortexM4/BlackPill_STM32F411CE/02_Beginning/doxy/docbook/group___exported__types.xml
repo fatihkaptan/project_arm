@@ -1,0 +1,307 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_group___exported__types" xml:lang="tr">
+<title>Exported_types</title>
+<indexterm><primary>Exported_types</primary></indexterm>
+<simplesect>
+    <title>Makrolar    </title>
+        <itemizedlist>
+            <listitem><para>#define <link linkend="_group___exported__types_1gaffaf7c3f537d7a3370b1bbdda67a2bf6">IS_FUNCTIONAL_STATE</link>(STATE)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Typedef&apos;ler    </title>
+        <itemizedlist>
+            <listitem><para>typedef int32_t <link linkend="_group___exported__types_1gae9b1af5c037e57a98884758875d3a7c4">s32</link></para>
+</listitem>
+            <listitem><para>typedef int16_t <link linkend="_group___exported__types_1gaa980e2c02ba2305e0f489d5650655425">s16</link></para>
+</listitem>
+            <listitem><para>typedef int8_t <link linkend="_group___exported__types_1ga9e382f207c65ca13ab4ae98363aeda80">s8</link></para>
+</listitem>
+            <listitem><para>typedef const int32_t <link linkend="_group___exported__types_1gad97679599f3791409523fdb1c6156a28">sc32</link></para>
+</listitem>
+            <listitem><para>typedef const int16_t <link linkend="_group___exported__types_1ga66ab742a0751bb4e7661b8e874f2ddda">sc16</link></para>
+</listitem>
+            <listitem><para>typedef const int8_t <link linkend="_group___exported__types_1ga30e6c0f6718e1b6d26dc9d94ddcf9d11">sc8</link></para>
+</listitem>
+            <listitem><para>typedef __IO int32_t <link linkend="_group___exported__types_1ga476e2cb441f8e689433350ae2eeee510">vs32</link></para>
+</listitem>
+            <listitem><para>typedef __IO int16_t <link linkend="_group___exported__types_1ga19c9450d60abff7c6d3d35f31c10f83e">vs16</link></para>
+</listitem>
+            <listitem><para>typedef __IO int8_t <link linkend="_group___exported__types_1ga9e5a203f00d2906af9466f68b4e72277">vs8</link></para>
+</listitem>
+            <listitem><para>typedef __I int32_t <link linkend="_group___exported__types_1gaec1d22666cf030b79051e5daa372fbc8">vsc32</link></para>
+</listitem>
+            <listitem><para>typedef __I int16_t <link linkend="_group___exported__types_1ga369ae0177b957e5afa7c1e62312f97c3">vsc16</link></para>
+</listitem>
+            <listitem><para>typedef __I int8_t <link linkend="_group___exported__types_1ga47463bcded079ac61d5da46aff497803">vsc8</link></para>
+</listitem>
+            <listitem><para>typedef uint32_t <link linkend="_group___exported__types_1gafaa62991928fb9fb18ff0db62a040aba">u32</link></para>
+</listitem>
+            <listitem><para>typedef uint16_t <link linkend="_group___exported__types_1gace9d960e74685e2cd84b36132dbbf8aa">u16</link></para>
+</listitem>
+            <listitem><para>typedef uint8_t <link linkend="_group___exported__types_1ga92c50087ca0e64fa93fc59402c55f8ca">u8</link></para>
+</listitem>
+            <listitem><para>typedef const uint32_t <link linkend="_group___exported__types_1ga5b628e6a05856ff67e535fa391a57683">uc32</link></para>
+</listitem>
+            <listitem><para>typedef const uint16_t <link linkend="_group___exported__types_1gabc715ea3779494b5a4f53173a397f7cb">uc16</link></para>
+</listitem>
+            <listitem><para>typedef const uint8_t <link linkend="_group___exported__types_1gac74022c74a461f810e0d4fdc9bfea480">uc8</link></para>
+</listitem>
+            <listitem><para>typedef __IO uint32_t <link linkend="_group___exported__types_1ga0cd21c4793673b69ecd5fd673353a145">vu32</link></para>
+</listitem>
+            <listitem><para>typedef __IO uint16_t <link linkend="_group___exported__types_1ga93d1a6b3dcfdded10a7b15548679fe0a">vu16</link></para>
+</listitem>
+            <listitem><para>typedef __IO uint8_t <link linkend="_group___exported__types_1ga4a8fa9a2b4796540a6d65a04eb18e111">vu8</link></para>
+</listitem>
+            <listitem><para>typedef __I uint32_t <link linkend="_group___exported__types_1ga2e08e321a35a55e72c5b3a507e76371f">vuc32</link></para>
+</listitem>
+            <listitem><para>typedef __I uint16_t <link linkend="_group___exported__types_1ga7f6037565f0caa27727c8b871daf0d56">vuc16</link></para>
+</listitem>
+            <listitem><para>typedef __I uint8_t <link linkend="_group___exported__types_1gab0ec90ac9b2c5864755998c8d37c264a">vuc8</link></para>
+</listitem>
+            <listitem><para>typedef enum <link linkend="_group___exported__types_1ga89136caac2e14c55151f527ac02daaff">FlagStatus</link> <link linkend="_group___exported__types_1ga39d4411201fb731279ad5a409b2b80d7">ITStatus</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Enümerasyonlar    </title>
+        <itemizedlist>
+            <listitem><para>enum <link linkend="_group___exported__types_1ga89136caac2e14c55151f527ac02daaff">FlagStatus</link> { <link linkend="_group___exported__types_1gga89136caac2e14c55151f527ac02daaffa589b7d94a3d91d145720e2fed0eb3a05">RESET</link> = 0
+, <link linkend="_group___exported__types_1gga89136caac2e14c55151f527ac02daaffab44c8101cc294c074709ec1b14211792">SET</link> = !RESET
+ }</para>
+</listitem>
+            <listitem><para>enum <link linkend="_group___exported__types_1gac9a7e9a35d2513ec15c3b537aaa4fba1">FunctionalState</link> { <link linkend="_group___exported__types_1ggac9a7e9a35d2513ec15c3b537aaa4fba1ad3a9df141be0ccf10389b640f492b26d">DISABLE</link> = 0
+, <link linkend="_group___exported__types_1ggac9a7e9a35d2513ec15c3b537aaa4fba1a7d46875fa3ebd2c34d2756950eda83bf">ENABLE</link> = !DISABLE
+ }</para>
+</listitem>
+            <listitem><para>enum <link linkend="_group___exported__types_1ga8333b96c67f83cba354b3407fcbb6ee8">ErrorStatus</link> { <link linkend="_group___exported__types_1gga8333b96c67f83cba354b3407fcbb6ee8a2fd6f336d08340583bd620a7f5694c90">ERROR</link> = 0
+, <link linkend="_group___exported__types_1gga8333b96c67f83cba354b3407fcbb6ee8ac7f69f7c9e5aea9b8f54cf02870e2bf8">SUCCESS</link> = !ERROR
+ }</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Ayrıntılı tanımlama</title>
+</section>
+<section>
+<title>Makro Dokümantasyonu</title>
+<anchor xml:id="_group___exported__types_1gaffaf7c3f537d7a3370b1bbdda67a2bf6"/><section>
+    <title>IS_FUNCTIONAL_STATE</title>
+<indexterm><primary>IS_FUNCTIONAL_STATE</primary><secondary>Exported_types</secondary></indexterm>
+<indexterm><primary>Exported_types</primary><secondary>IS_FUNCTIONAL_STATE</secondary></indexterm>
+<para><computeroutput>#define IS_FUNCTIONAL_STATE( STATE)</computeroutput></para><emphasis role="strong">Değer:</emphasis><programlisting linenumbering="unnumbered">(((STATE)&#32;==&#32;<link linkend="_group___exported__types_1ggac9a7e9a35d2513ec15c3b537aaa4fba1ad3a9df141be0ccf10389b640f492b26d">DISABLE</link>)&#32;||&#32;((STATE)&#32;==&#32;<link linkend="_group___exported__types_1ggac9a7e9a35d2513ec15c3b537aaa4fba1a7d46875fa3ebd2c34d2756950eda83bf">ENABLE</link>))
+</programlisting></section>
+</section>
+<section>
+<title>Typedef Dokümantasyonu</title>
+<anchor xml:id="_group___exported__types_1ga39d4411201fb731279ad5a409b2b80d7"/><section>
+    <title>ITStatus</title>
+<indexterm><primary>ITStatus</primary><secondary>Exported_types</secondary></indexterm>
+<indexterm><primary>Exported_types</primary><secondary>ITStatus</secondary></indexterm>
+<para><computeroutput>typedef  enum <link linkend="_group___exported__types_1ga89136caac2e14c55151f527ac02daaff">FlagStatus</link> <link linkend="_group___exported__types_1ga39d4411201fb731279ad5a409b2b80d7">ITStatus</link></computeroutput></para></section>
+<anchor xml:id="_group___exported__types_1gaa980e2c02ba2305e0f489d5650655425"/><section>
+    <title>s16</title>
+<indexterm><primary>s16</primary><secondary>Exported_types</secondary></indexterm>
+<indexterm><primary>Exported_types</primary><secondary>s16</secondary></indexterm>
+<para><computeroutput>typedef int16_t <link linkend="_group___exported__types_1gaa980e2c02ba2305e0f489d5650655425">s16</link></computeroutput></para></section>
+<anchor xml:id="_group___exported__types_1gae9b1af5c037e57a98884758875d3a7c4"/><section>
+    <title>s32</title>
+<indexterm><primary>s32</primary><secondary>Exported_types</secondary></indexterm>
+<indexterm><primary>Exported_types</primary><secondary>s32</secondary></indexterm>
+<para><computeroutput>typedef int32_t <link linkend="_group___exported__types_1gae9b1af5c037e57a98884758875d3a7c4">s32</link></computeroutput></para>
+<para>&lt; STM32F10x Standard Peripheral Library old types (maintained for legacy purpose) </para>
+</section>
+<anchor xml:id="_group___exported__types_1ga9e382f207c65ca13ab4ae98363aeda80"/><section>
+    <title>s8</title>
+<indexterm><primary>s8</primary><secondary>Exported_types</secondary></indexterm>
+<indexterm><primary>Exported_types</primary><secondary>s8</secondary></indexterm>
+<para><computeroutput>typedef int8_t <link linkend="_group___exported__types_1ga9e382f207c65ca13ab4ae98363aeda80">s8</link></computeroutput></para></section>
+<anchor xml:id="_group___exported__types_1ga66ab742a0751bb4e7661b8e874f2ddda"/><section>
+    <title>sc16</title>
+<indexterm><primary>sc16</primary><secondary>Exported_types</secondary></indexterm>
+<indexterm><primary>Exported_types</primary><secondary>sc16</secondary></indexterm>
+<para><computeroutput>typedef const int16_t <link linkend="_group___exported__types_1ga66ab742a0751bb4e7661b8e874f2ddda">sc16</link></computeroutput></para>
+<para>Read Only </para>
+</section>
+<anchor xml:id="_group___exported__types_1gad97679599f3791409523fdb1c6156a28"/><section>
+    <title>sc32</title>
+<indexterm><primary>sc32</primary><secondary>Exported_types</secondary></indexterm>
+<indexterm><primary>Exported_types</primary><secondary>sc32</secondary></indexterm>
+<para><computeroutput>typedef const int32_t <link linkend="_group___exported__types_1gad97679599f3791409523fdb1c6156a28">sc32</link></computeroutput></para>
+<para>Read Only </para>
+</section>
+<anchor xml:id="_group___exported__types_1ga30e6c0f6718e1b6d26dc9d94ddcf9d11"/><section>
+    <title>sc8</title>
+<indexterm><primary>sc8</primary><secondary>Exported_types</secondary></indexterm>
+<indexterm><primary>Exported_types</primary><secondary>sc8</secondary></indexterm>
+<para><computeroutput>typedef const int8_t <link linkend="_group___exported__types_1ga30e6c0f6718e1b6d26dc9d94ddcf9d11">sc8</link></computeroutput></para>
+<para>Read Only </para>
+</section>
+<anchor xml:id="_group___exported__types_1gace9d960e74685e2cd84b36132dbbf8aa"/><section>
+    <title>u16</title>
+<indexterm><primary>u16</primary><secondary>Exported_types</secondary></indexterm>
+<indexterm><primary>Exported_types</primary><secondary>u16</secondary></indexterm>
+<para><computeroutput>typedef uint16_t <link linkend="_group___exported__types_1gace9d960e74685e2cd84b36132dbbf8aa">u16</link></computeroutput></para></section>
+<anchor xml:id="_group___exported__types_1gafaa62991928fb9fb18ff0db62a040aba"/><section>
+    <title>u32</title>
+<indexterm><primary>u32</primary><secondary>Exported_types</secondary></indexterm>
+<indexterm><primary>Exported_types</primary><secondary>u32</secondary></indexterm>
+<para><computeroutput>typedef uint32_t <link linkend="_group___exported__types_1gafaa62991928fb9fb18ff0db62a040aba">u32</link></computeroutput></para></section>
+<anchor xml:id="_group___exported__types_1ga92c50087ca0e64fa93fc59402c55f8ca"/><section>
+    <title>u8</title>
+<indexterm><primary>u8</primary><secondary>Exported_types</secondary></indexterm>
+<indexterm><primary>Exported_types</primary><secondary>u8</secondary></indexterm>
+<para><computeroutput>typedef uint8_t <link linkend="_group___exported__types_1ga92c50087ca0e64fa93fc59402c55f8ca">u8</link></computeroutput></para></section>
+<anchor xml:id="_group___exported__types_1gabc715ea3779494b5a4f53173a397f7cb"/><section>
+    <title>uc16</title>
+<indexterm><primary>uc16</primary><secondary>Exported_types</secondary></indexterm>
+<indexterm><primary>Exported_types</primary><secondary>uc16</secondary></indexterm>
+<para><computeroutput>typedef const uint16_t <link linkend="_group___exported__types_1gabc715ea3779494b5a4f53173a397f7cb">uc16</link></computeroutput></para>
+<para>Read Only </para>
+</section>
+<anchor xml:id="_group___exported__types_1ga5b628e6a05856ff67e535fa391a57683"/><section>
+    <title>uc32</title>
+<indexterm><primary>uc32</primary><secondary>Exported_types</secondary></indexterm>
+<indexterm><primary>Exported_types</primary><secondary>uc32</secondary></indexterm>
+<para><computeroutput>typedef const uint32_t <link linkend="_group___exported__types_1ga5b628e6a05856ff67e535fa391a57683">uc32</link></computeroutput></para>
+<para>Read Only </para>
+</section>
+<anchor xml:id="_group___exported__types_1gac74022c74a461f810e0d4fdc9bfea480"/><section>
+    <title>uc8</title>
+<indexterm><primary>uc8</primary><secondary>Exported_types</secondary></indexterm>
+<indexterm><primary>Exported_types</primary><secondary>uc8</secondary></indexterm>
+<para><computeroutput>typedef const uint8_t <link linkend="_group___exported__types_1gac74022c74a461f810e0d4fdc9bfea480">uc8</link></computeroutput></para>
+<para>Read Only </para>
+</section>
+<anchor xml:id="_group___exported__types_1ga19c9450d60abff7c6d3d35f31c10f83e"/><section>
+    <title>vs16</title>
+<indexterm><primary>vs16</primary><secondary>Exported_types</secondary></indexterm>
+<indexterm><primary>Exported_types</primary><secondary>vs16</secondary></indexterm>
+<para><computeroutput>typedef __IO int16_t <link linkend="_group___exported__types_1ga19c9450d60abff7c6d3d35f31c10f83e">vs16</link></computeroutput></para></section>
+<anchor xml:id="_group___exported__types_1ga476e2cb441f8e689433350ae2eeee510"/><section>
+    <title>vs32</title>
+<indexterm><primary>vs32</primary><secondary>Exported_types</secondary></indexterm>
+<indexterm><primary>Exported_types</primary><secondary>vs32</secondary></indexterm>
+<para><computeroutput>typedef __IO int32_t <link linkend="_group___exported__types_1ga476e2cb441f8e689433350ae2eeee510">vs32</link></computeroutput></para></section>
+<anchor xml:id="_group___exported__types_1ga9e5a203f00d2906af9466f68b4e72277"/><section>
+    <title>vs8</title>
+<indexterm><primary>vs8</primary><secondary>Exported_types</secondary></indexterm>
+<indexterm><primary>Exported_types</primary><secondary>vs8</secondary></indexterm>
+<para><computeroutput>typedef __IO int8_t <link linkend="_group___exported__types_1ga9e5a203f00d2906af9466f68b4e72277">vs8</link></computeroutput></para></section>
+<anchor xml:id="_group___exported__types_1ga369ae0177b957e5afa7c1e62312f97c3"/><section>
+    <title>vsc16</title>
+<indexterm><primary>vsc16</primary><secondary>Exported_types</secondary></indexterm>
+<indexterm><primary>Exported_types</primary><secondary>vsc16</secondary></indexterm>
+<para><computeroutput>typedef __I int16_t <link linkend="_group___exported__types_1ga369ae0177b957e5afa7c1e62312f97c3">vsc16</link></computeroutput></para>
+<para>Read Only </para>
+</section>
+<anchor xml:id="_group___exported__types_1gaec1d22666cf030b79051e5daa372fbc8"/><section>
+    <title>vsc32</title>
+<indexterm><primary>vsc32</primary><secondary>Exported_types</secondary></indexterm>
+<indexterm><primary>Exported_types</primary><secondary>vsc32</secondary></indexterm>
+<para><computeroutput>typedef __I int32_t <link linkend="_group___exported__types_1gaec1d22666cf030b79051e5daa372fbc8">vsc32</link></computeroutput></para>
+<para>Read Only </para>
+</section>
+<anchor xml:id="_group___exported__types_1ga47463bcded079ac61d5da46aff497803"/><section>
+    <title>vsc8</title>
+<indexterm><primary>vsc8</primary><secondary>Exported_types</secondary></indexterm>
+<indexterm><primary>Exported_types</primary><secondary>vsc8</secondary></indexterm>
+<para><computeroutput>typedef __I int8_t <link linkend="_group___exported__types_1ga47463bcded079ac61d5da46aff497803">vsc8</link></computeroutput></para>
+<para>Read Only </para>
+</section>
+<anchor xml:id="_group___exported__types_1ga93d1a6b3dcfdded10a7b15548679fe0a"/><section>
+    <title>vu16</title>
+<indexterm><primary>vu16</primary><secondary>Exported_types</secondary></indexterm>
+<indexterm><primary>Exported_types</primary><secondary>vu16</secondary></indexterm>
+<para><computeroutput>typedef __IO uint16_t <link linkend="_group___exported__types_1ga93d1a6b3dcfdded10a7b15548679fe0a">vu16</link></computeroutput></para></section>
+<anchor xml:id="_group___exported__types_1ga0cd21c4793673b69ecd5fd673353a145"/><section>
+    <title>vu32</title>
+<indexterm><primary>vu32</primary><secondary>Exported_types</secondary></indexterm>
+<indexterm><primary>Exported_types</primary><secondary>vu32</secondary></indexterm>
+<para><computeroutput>typedef __IO uint32_t <link linkend="_group___exported__types_1ga0cd21c4793673b69ecd5fd673353a145">vu32</link></computeroutput></para></section>
+<anchor xml:id="_group___exported__types_1ga4a8fa9a2b4796540a6d65a04eb18e111"/><section>
+    <title>vu8</title>
+<indexterm><primary>vu8</primary><secondary>Exported_types</secondary></indexterm>
+<indexterm><primary>Exported_types</primary><secondary>vu8</secondary></indexterm>
+<para><computeroutput>typedef __IO uint8_t <link linkend="_group___exported__types_1ga4a8fa9a2b4796540a6d65a04eb18e111">vu8</link></computeroutput></para></section>
+<anchor xml:id="_group___exported__types_1ga7f6037565f0caa27727c8b871daf0d56"/><section>
+    <title>vuc16</title>
+<indexterm><primary>vuc16</primary><secondary>Exported_types</secondary></indexterm>
+<indexterm><primary>Exported_types</primary><secondary>vuc16</secondary></indexterm>
+<para><computeroutput>typedef __I uint16_t <link linkend="_group___exported__types_1ga7f6037565f0caa27727c8b871daf0d56">vuc16</link></computeroutput></para>
+<para>Read Only </para>
+</section>
+<anchor xml:id="_group___exported__types_1ga2e08e321a35a55e72c5b3a507e76371f"/><section>
+    <title>vuc32</title>
+<indexterm><primary>vuc32</primary><secondary>Exported_types</secondary></indexterm>
+<indexterm><primary>Exported_types</primary><secondary>vuc32</secondary></indexterm>
+<para><computeroutput>typedef __I uint32_t <link linkend="_group___exported__types_1ga2e08e321a35a55e72c5b3a507e76371f">vuc32</link></computeroutput></para>
+<para>Read Only </para>
+</section>
+<anchor xml:id="_group___exported__types_1gab0ec90ac9b2c5864755998c8d37c264a"/><section>
+    <title>vuc8</title>
+<indexterm><primary>vuc8</primary><secondary>Exported_types</secondary></indexterm>
+<indexterm><primary>Exported_types</primary><secondary>vuc8</secondary></indexterm>
+<para><computeroutput>typedef __I uint8_t <link linkend="_group___exported__types_1gab0ec90ac9b2c5864755998c8d37c264a">vuc8</link></computeroutput></para>
+<para>Read Only </para>
+</section>
+</section>
+<section>
+<title>Enümerasyon Tipi Dokümantasyonu</title>
+<anchor xml:id="_group___exported__types_1ga8333b96c67f83cba354b3407fcbb6ee8"/><section>
+    <title>ErrorStatus</title>
+<indexterm><primary>ErrorStatus</primary><secondary>Exported_types</secondary></indexterm>
+<indexterm><primary>Exported_types</primary><secondary>ErrorStatus</secondary></indexterm>
+<para><computeroutput>enum <link linkend="_group___exported__types_1ga8333b96c67f83cba354b3407fcbb6ee8">ErrorStatus</link></computeroutput></para><informaltable frame="all">
+<title>Enümeratör</title>
+    <tgroup cols="2" align="left" colsep="1" rowsep="1">
+      <colspec colname='c1'/>
+      <colspec colname='c2'/>
+<tbody>
+<row><entry><indexterm><primary>ERROR</primary><secondary>Exported_types</secondary></indexterm>
+<indexterm><primary>Exported_types</primary><secondary>ERROR</secondary></indexterm>
+<anchor xml:id="_group___exported__types_1gga8333b96c67f83cba354b3407fcbb6ee8a2fd6f336d08340583bd620a7f5694c90"/>ERROR</entry><entry></entry></row><row><entry><indexterm><primary>SUCCESS</primary><secondary>Exported_types</secondary></indexterm>
+<indexterm><primary>Exported_types</primary><secondary>SUCCESS</secondary></indexterm>
+<anchor xml:id="_group___exported__types_1gga8333b96c67f83cba354b3407fcbb6ee8ac7f69f7c9e5aea9b8f54cf02870e2bf8"/>SUCCESS</entry><entry></entry></row>    </tbody>
+    </tgroup>
+</informaltable>
+</section>
+<anchor xml:id="_group___exported__types_1ga89136caac2e14c55151f527ac02daaff"/><section>
+    <title>FlagStatus</title>
+<indexterm><primary>FlagStatus</primary><secondary>Exported_types</secondary></indexterm>
+<indexterm><primary>Exported_types</primary><secondary>FlagStatus</secondary></indexterm>
+<para><computeroutput>enum <link linkend="_group___exported__types_1ga89136caac2e14c55151f527ac02daaff">FlagStatus</link></computeroutput></para><informaltable frame="all">
+<title>Enümeratör</title>
+    <tgroup cols="2" align="left" colsep="1" rowsep="1">
+      <colspec colname='c1'/>
+      <colspec colname='c2'/>
+<tbody>
+<row><entry><indexterm><primary>RESET</primary><secondary>Exported_types</secondary></indexterm>
+<indexterm><primary>Exported_types</primary><secondary>RESET</secondary></indexterm>
+<anchor xml:id="_group___exported__types_1gga89136caac2e14c55151f527ac02daaffa589b7d94a3d91d145720e2fed0eb3a05"/>RESET</entry><entry></entry></row><row><entry><indexterm><primary>SET</primary><secondary>Exported_types</secondary></indexterm>
+<indexterm><primary>Exported_types</primary><secondary>SET</secondary></indexterm>
+<anchor xml:id="_group___exported__types_1gga89136caac2e14c55151f527ac02daaffab44c8101cc294c074709ec1b14211792"/>SET</entry><entry></entry></row>    </tbody>
+    </tgroup>
+</informaltable>
+</section>
+<anchor xml:id="_group___exported__types_1gac9a7e9a35d2513ec15c3b537aaa4fba1"/><section>
+    <title>FunctionalState</title>
+<indexterm><primary>FunctionalState</primary><secondary>Exported_types</secondary></indexterm>
+<indexterm><primary>Exported_types</primary><secondary>FunctionalState</secondary></indexterm>
+<para><computeroutput>enum <link linkend="_group___exported__types_1gac9a7e9a35d2513ec15c3b537aaa4fba1">FunctionalState</link></computeroutput></para><informaltable frame="all">
+<title>Enümeratör</title>
+    <tgroup cols="2" align="left" colsep="1" rowsep="1">
+      <colspec colname='c1'/>
+      <colspec colname='c2'/>
+<tbody>
+<row><entry><indexterm><primary>DISABLE</primary><secondary>Exported_types</secondary></indexterm>
+<indexterm><primary>Exported_types</primary><secondary>DISABLE</secondary></indexterm>
+<anchor xml:id="_group___exported__types_1ggac9a7e9a35d2513ec15c3b537aaa4fba1ad3a9df141be0ccf10389b640f492b26d"/>DISABLE</entry><entry></entry></row><row><entry><indexterm><primary>ENABLE</primary><secondary>Exported_types</secondary></indexterm>
+<indexterm><primary>Exported_types</primary><secondary>ENABLE</secondary></indexterm>
+<anchor xml:id="_group___exported__types_1ggac9a7e9a35d2513ec15c3b537aaa4fba1a7d46875fa3ebd2c34d2756950eda83bf"/>ENABLE</entry><entry></entry></row>    </tbody>
+    </tgroup>
+</informaltable>
+</section>
+</section>
+</section>

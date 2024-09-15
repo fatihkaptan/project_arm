@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_group__stm32f4xx" xml:lang="tr">
+<title>Stm32f4xx</title>
+<indexterm><primary>Stm32f4xx</primary></indexterm>
+<simplesect>
+    <title>Topics    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_group___library__configuration__section">Library_configuration_section</link></para>
+</listitem>
+            <listitem><para><link linkend="_group___configuration__section__for___c_m_s_i_s">Configuration_section_for_CMSIS</link></para>
+</listitem>
+            <listitem><para><link linkend="_group___exported__types">Exported_types</link></para>
+</listitem>
+            <listitem><para><link linkend="_group___peripheral__registers__structures">Peripheral_registers_structures</link></para>
+</listitem>
+            <listitem><para><link linkend="_group___peripheral__memory__map">Peripheral_memory_map</link></para>
+</listitem>
+            <listitem><para><link linkend="_group___peripheral__declaration">Peripheral_declaration</link></para>
+</listitem>
+            <listitem><para><link linkend="_group___exported__constants">Exported_constants</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Ayrıntılı tanımlama</title>
+</section>
+    <xi:include href="group___library__configuration__section.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="group___configuration__section__for___c_m_s_i_s.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="group___exported__types.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="group___peripheral__registers__structures.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="group___peripheral__memory__map.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="group___peripheral__declaration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="group___exported__constants.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</section>

@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_struct_a_d_c___type_def" xml:lang="tr">
+<title>ADC_TypeDef Yapı(Struct) Referans</title>
+<indexterm><primary>ADC_TypeDef</primary></indexterm>
+<para>
+
+<para>Analog to Digital Converter <?linebreak?> </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;stm32f4xx.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Veri Alanları    </title>
+        <itemizedlist>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gaf6aca2bbd40c0fb6df7c3aebe224a360">SR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gab0ec7102960640751d44e92ddac994f0">CR1</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gafdfa307571967afb1d97943e982b6586">CR2</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gaf9d6c604e365c7d9d7601bf4ef373498">SMPR1</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga6ac83fae8377c7b7fcae50fa4211b0e8">SMPR2</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga427dda1678f254bd98b1f321d7194a3b">JOFR1</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga11e65074b9f06b48c17cdfa5bea9f125">JOFR2</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga613f6b76d20c1a513976b920ecd7f4f8">JOFR3</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga2fd59854223e38158b4138ee8e913ab3">JOFR4</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga24c3512abcc90ef75cf3e9145e5dbe9b">HTR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga9f8712dfef7125c0bb39db11f2b7416b">LTR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga3302e1bcfdfbbfeb58779d0761fb377c">SQR1</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gaab440b0ad8631f5666dd32768a89cf60">SQR2</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga97e40d9928fa25a5628d6442f0aa6c0f">SQR3</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga75e0cc079831adcc051df456737d3ae4">JSQR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga22fa21352be442bd02f9c26a1013d598">JDR1</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gae9156af81694b7a85923348be45a2167">JDR2</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga3a54028253a75a470fccf841178cba46">JDR3</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga9274ceea3b2c6d5c1903d0a7abad91a1">JDR4</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga3df0d8dfcd1ec958659ffe21eb64fa94">DR</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Ayrıntılı tanımlama</title>
+
+<para>Analog to Digital Converter <?linebreak?> </para>
+<para>
+Bu yapı(struct) için dokümantasyon aşağıdaki dosyadan üretilmiştir:</para>
+Core_BlackPill/<link linkend="_stm32f4xx_8h">stm32f4xx.h</link></section>
+</section>

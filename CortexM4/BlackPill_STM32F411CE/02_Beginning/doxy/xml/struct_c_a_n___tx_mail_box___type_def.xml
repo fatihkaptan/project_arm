@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="tr">
+  <compounddef id="struct_c_a_n___tx_mail_box___type_def" kind="struct" language="C++" prot="public">
+    <compoundname>CAN_TxMailBox_TypeDef</compoundname>
+    <includes refid="stm32f4xx_8h" local="no">stm32f4xx.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group___c_m_s_i_s_1ga6921aa1c578a7d17c6e0eb33a73b6630" kind="variable"><name>TIR</name></member>
+      <member refid="group___c_m_s_i_s_1gaed87bed042dd9523ce086119a3bab0ea" kind="variable"><name>TDTR</name></member>
+      <member refid="group___c_m_s_i_s_1gaded1359e1a32512910bff534d57ade68" kind="variable"><name>TDLR</name></member>
+      <member refid="group___c_m_s_i_s_1ga90f7c1cf22683459c632d6040366eddf" kind="variable"><name>TDHR</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Controller Area Network TxMailBox. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Core_BlackPill/stm32f4xx.h" line="907" column="1" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="908" bodyend="913"/>
+    <listofallmembers>
+      <member refid="group___c_m_s_i_s_1ga90f7c1cf22683459c632d6040366eddf" prot="public" virt="non-virtual"><scope>CAN_TxMailBox_TypeDef</scope><name>TDHR</name></member>
+      <member refid="group___c_m_s_i_s_1gaded1359e1a32512910bff534d57ade68" prot="public" virt="non-virtual"><scope>CAN_TxMailBox_TypeDef</scope><name>TDLR</name></member>
+      <member refid="group___c_m_s_i_s_1gaed87bed042dd9523ce086119a3bab0ea" prot="public" virt="non-virtual"><scope>CAN_TxMailBox_TypeDef</scope><name>TDTR</name></member>
+      <member refid="group___c_m_s_i_s_1ga6921aa1c578a7d17c6e0eb33a73b6630" prot="public" virt="non-virtual"><scope>CAN_TxMailBox_TypeDef</scope><name>TIR</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

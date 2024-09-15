@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_system__stm32f4xx_8h" xml:lang="tr">
+<title>Core_BlackPill/system_stm32f4xx.h Dosya Referansı</title>
+<indexterm><primary>Core_BlackPill/system_stm32f4xx.h</primary></indexterm>
+<para>
+
+<para>CMSIS Cortex-M4 Device System Source File for STM32F4xx devices. <?linebreak?> </para>
+ 
+</para>
+<simplesect>
+    <title>Fonksiyonlar    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_group___s_t_m32_f4xx___system___exported___functions_1ga93f514700ccf00d08dbdcff7f1224eb2">SystemInit</link> (void)</para>
+
+<para>Setup the microcontroller system Initialize the Embedded Flash Interface, the PLL and update the SystemFrequency variable. </para>
+</listitem>
+            <listitem><para>void <link linkend="_group___s_t_m32_f4xx___system___exported___functions_1gae0c36a9591fe6e9c45ecb21a794f0f0f">SystemCoreClockUpdate</link> (void)</para>
+
+<para>Update SystemCoreClock variable according to Clock Register Values. The SystemCoreClock variable contains the core clock (HCLK), it can be used by the user application to setup the SysTick timer or configure other parameters. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Değişkenler    </title>
+        <itemizedlist>
+            <listitem><para>uint32_t <link linkend="_group___s_t_m32_f4xx___system___exported__types_1gaa3cd3e43291e81e795d642b79b6088e6">SystemCoreClock</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Ayrıntılı tanımlama</title>
+
+<para>CMSIS Cortex-M4 Device System Source File for STM32F4xx devices. <?linebreak?> </para>
+
+<para><formalpara><title>Yazar</title>
+
+<para>MCD Application Team </para>
+</formalpara>
+<formalpara><title>Sürüm</title>
+
+<para>V1.8.1 </para>
+</formalpara>
+<formalpara><title>Tarih</title>
+
+<para>27-January-2022 </para>
+</formalpara>
+<caution><title>Dikkat</title>
+
+<para></para>
+</caution>
+Copyright (c) 2016 STMicroelectronics. All rights reserved.</para>
+
+<para>This software is licensed under terms that can be found in the LICENSE file in the root directory of this software component. If no LICENSE file comes with this software, it is provided AS-IS. </para>
+</section>
+</section>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_struct_l_t_d_c___layer___type_def" xml:lang="tr">
+<title>LTDC_Layer_TypeDef Yapı(Struct) Referans</title>
+<indexterm><primary>LTDC_Layer_TypeDef</primary></indexterm>
+<para>
+
+<para>LCD-TFT Display layer x Controller. </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;stm32f4xx.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Veri Alanları    </title>
+        <itemizedlist>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gab40c89c59391aaa9d9a8ec011dd0907a">CR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga36bded5d2b6b499385e45660f4a3c867">WHPCR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gaafd5aea090b8ab4f7cbaee88503cb6a1">WVPCR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga7651be3d835a984e908b0abb4a633811">CKCR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga30f057fd86f8f793b6ab74bbe024b9d8">PFCR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga47be8b57cf19a433c0682d91a0524463">CACR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga8aa219e1455869d3baf87a618586838d">DCCR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga8a598358c93b94fe534a4ed8aeb05220">BFCR</link></para>
+</listitem>
+            <listitem><para>uint32_t <link linkend="_group___c_m_s_i_s_1ga8be676577db129a84a9a2689519a8502">RESERVED0</link> [2]</para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga11b37b8303d2ddad1ee962c362cad796">CFBAR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga1c2a59fc9bb4101881c7ddc98b938a4f">CFBLR</link></para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1gad94a5782e5cc67b071738f8096bb4855">CFBLNR</link></para>
+</listitem>
+            <listitem><para>uint32_t <link linkend="_group___c_m_s_i_s_1ga3fbace6e037136ce066518ee2fade33d">RESERVED1</link> [3]</para>
+</listitem>
+            <listitem><para>__IO uint32_t <link linkend="_group___c_m_s_i_s_1ga5ab25158531531e9b1cdb2bdbe66b67d">CLUTWR</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Ayrıntılı tanımlama</title>
+
+<para>LCD-TFT Display layer x Controller. </para>
+<para>
+Bu yapı(struct) için dokümantasyon aşağıdaki dosyadan üretilmiştir:</para>
+Core_BlackPill/<link linkend="_stm32f4xx_8h">stm32f4xx.h</link></section>
+</section>

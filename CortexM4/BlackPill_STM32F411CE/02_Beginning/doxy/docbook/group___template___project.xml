@@ -1,0 +1,511 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_group___template___project" xml:lang="tr">
+<title>Template_Project</title>
+<indexterm><primary>Template_Project</primary></indexterm>
+<simplesect>
+    <title>Fonksiyonlar    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_group___template___project_1ga6ad7a5e3ee69cb6db6a6b9111ba898bc">NMI_Handler</link> (void)</para>
+
+<para>This function handles NMI exception. </para>
+</listitem>
+            <listitem><para>void <link linkend="_group___template___project_1ga2bffc10d5bd4106753b7c30e86903bea">HardFault_Handler</link> (void)</para>
+
+<para>This function handles Hard Fault exception. </para>
+</listitem>
+            <listitem><para>void <link linkend="_group___template___project_1ga3150f74512510287a942624aa9b44cc5">MemManage_Handler</link> (void)</para>
+
+<para>This function handles Memory Manage exception. </para>
+</listitem>
+            <listitem><para>void <link linkend="_group___template___project_1ga850cefb17a977292ae5eb4cafa9976c3">BusFault_Handler</link> (void)</para>
+
+<para>This function handles Bus Fault exception. </para>
+</listitem>
+            <listitem><para>void <link linkend="_group___template___project_1ga1d98923de2ed6b7309b66f9ba2971647">UsageFault_Handler</link> (void)</para>
+
+<para>This function handles Usage Fault exception. </para>
+</listitem>
+            <listitem><para>void <link linkend="_group___template___project_1ga3e5ddb3df0d62f2dc357e64a3f04a6ce">SVC_Handler</link> (void)</para>
+
+<para>This function handles SVCall exception. </para>
+</listitem>
+            <listitem><para>void <link linkend="_group___template___project_1gadbdfb05858cc36fc520974df37ec3cb0">DebugMon_Handler</link> (void)</para>
+
+<para>This function handles Debug Monitor exception. </para>
+</listitem>
+            <listitem><para>void <link linkend="_group___template___project_1ga6303e1f258cbdc1f970ce579cc015623">PendSV_Handler</link> (void)</para>
+
+<para>This function handles PendSVC exception. </para>
+</listitem>
+            <listitem><para>void <link linkend="_group___template___project_1gab5e09814056d617c521549e542639b7e">SysTick_Handler</link> (void)</para>
+
+<para>This function handles SysTick Handler. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Ayrıntılı tanımlama</title>
+</section>
+<section>
+<title>Fonksiyon Dokümantasyonu</title>
+<anchor xml:id="_group___template___project_1ga850cefb17a977292ae5eb4cafa9976c3"/><section>
+    <title>BusFault_Handler()</title>
+<indexterm><primary>BusFault_Handler</primary><secondary>Template_Project</secondary></indexterm>
+<indexterm><primary>Template_Project</primary><secondary>BusFault_Handler</secondary></indexterm>
+<para><computeroutput>void BusFault_Handler (void )</computeroutput></para><para>
+
+<para>This function handles Bus Fault exception. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parametreler</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>None</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                
+                <formalpara>
+                    <title>
+Döndürdüğü değerler</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>None</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_group___template___project_1gadbdfb05858cc36fc520974df37ec3cb0"/><section>
+    <title>DebugMon_Handler()</title>
+<indexterm><primary>DebugMon_Handler</primary><secondary>Template_Project</secondary></indexterm>
+<indexterm><primary>Template_Project</primary><secondary>DebugMon_Handler</secondary></indexterm>
+<para><computeroutput>void DebugMon_Handler (void )</computeroutput></para><para>
+
+<para>This function handles Debug Monitor exception. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parametreler</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>None</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                
+                <formalpara>
+                    <title>
+Döndürdüğü değerler</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>None</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_group___template___project_1ga2bffc10d5bd4106753b7c30e86903bea"/><section>
+    <title>HardFault_Handler()</title>
+<indexterm><primary>HardFault_Handler</primary><secondary>Template_Project</secondary></indexterm>
+<indexterm><primary>Template_Project</primary><secondary>HardFault_Handler</secondary></indexterm>
+<para><computeroutput>void HardFault_Handler (void )</computeroutput></para><para>
+
+<para>This function handles Hard Fault exception. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parametreler</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>None</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                
+                <formalpara>
+                    <title>
+Döndürdüğü değerler</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>None</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_group___template___project_1ga3150f74512510287a942624aa9b44cc5"/><section>
+    <title>MemManage_Handler()</title>
+<indexterm><primary>MemManage_Handler</primary><secondary>Template_Project</secondary></indexterm>
+<indexterm><primary>Template_Project</primary><secondary>MemManage_Handler</secondary></indexterm>
+<para><computeroutput>void MemManage_Handler (void )</computeroutput></para><para>
+
+<para>This function handles Memory Manage exception. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parametreler</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>None</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                
+                <formalpara>
+                    <title>
+Döndürdüğü değerler</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>None</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_group___template___project_1ga6ad7a5e3ee69cb6db6a6b9111ba898bc"/><section>
+    <title>NMI_Handler()</title>
+<indexterm><primary>NMI_Handler</primary><secondary>Template_Project</secondary></indexterm>
+<indexterm><primary>Template_Project</primary><secondary>NMI_Handler</secondary></indexterm>
+<para><computeroutput>void NMI_Handler (void )</computeroutput></para><para>
+
+<para>This function handles NMI exception. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parametreler</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>None</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                
+                <formalpara>
+                    <title>
+Döndürdüğü değerler</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>None</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_group___template___project_1ga6303e1f258cbdc1f970ce579cc015623"/><section>
+    <title>PendSV_Handler()</title>
+<indexterm><primary>PendSV_Handler</primary><secondary>Template_Project</secondary></indexterm>
+<indexterm><primary>Template_Project</primary><secondary>PendSV_Handler</secondary></indexterm>
+<para><computeroutput>void PendSV_Handler (void )</computeroutput></para><para>
+
+<para>This function handles PendSVC exception. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parametreler</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>None</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                
+                <formalpara>
+                    <title>
+Döndürdüğü değerler</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>None</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_group___template___project_1ga3e5ddb3df0d62f2dc357e64a3f04a6ce"/><section>
+    <title>SVC_Handler()</title>
+<indexterm><primary>SVC_Handler</primary><secondary>Template_Project</secondary></indexterm>
+<indexterm><primary>Template_Project</primary><secondary>SVC_Handler</secondary></indexterm>
+<para><computeroutput>void SVC_Handler (void )</computeroutput></para><para>
+
+<para>This function handles SVCall exception. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parametreler</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>None</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                
+                <formalpara>
+                    <title>
+Döndürdüğü değerler</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>None</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_group___template___project_1gab5e09814056d617c521549e542639b7e"/><section>
+    <title>SysTick_Handler()</title>
+<indexterm><primary>SysTick_Handler</primary><secondary>Template_Project</secondary></indexterm>
+<indexterm><primary>Template_Project</primary><secondary>SysTick_Handler</secondary></indexterm>
+<para><computeroutput>void SysTick_Handler (void )</computeroutput></para><para>
+
+<para>This function handles SysTick Handler. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parametreler</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>None</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                
+                <formalpara>
+                    <title>
+Döndürdüğü değerler</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>None</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_group___template___project_1ga1d98923de2ed6b7309b66f9ba2971647"/><section>
+    <title>UsageFault_Handler()</title>
+<indexterm><primary>UsageFault_Handler</primary><secondary>Template_Project</secondary></indexterm>
+<indexterm><primary>Template_Project</primary><secondary>UsageFault_Handler</secondary></indexterm>
+<para><computeroutput>void UsageFault_Handler (void )</computeroutput></para><para>
+
+<para>This function handles Usage Fault exception. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parametreler</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>None</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                
+                <formalpara>
+                    <title>
+Döndürdüğü değerler</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>None</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+</section>
+</section>

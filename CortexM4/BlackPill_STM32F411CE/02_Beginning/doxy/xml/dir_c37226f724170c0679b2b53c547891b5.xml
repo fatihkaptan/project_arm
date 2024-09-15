@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="tr">
+  <compounddef id="dir_c37226f724170c0679b2b53c547891b5" kind="dir">
+    <compoundname>Core_BlackPill</compoundname>
+    <innerfile refid="delay_8c">delay.c</innerfile>
+    <innerfile refid="stm32f4xx_8h">stm32f4xx.h</innerfile>
+    <innerfile refid="stm32f4xx__conf_8h">stm32f4xx_conf.h</innerfile>
+    <innerfile refid="stm32f4xx__it_8c">stm32f4xx_it.c</innerfile>
+    <innerfile refid="stm32f4xx__it_8h">stm32f4xx_it.h</innerfile>
+    <innerfile refid="system__stm32f4xx_8c">system_stm32f4xx.c</innerfile>
+    <innerfile refid="system__stm32f4xx_8h">system_stm32f4xx.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Core_BlackPill/"/>
+  </compounddef>
+</doxygen>

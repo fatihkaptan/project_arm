@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_stm32f4xx__conf_8h" xml:lang="tr">
+<title>Core_BlackPill/stm32f4xx_conf.h Dosya Referansı</title>
+<indexterm><primary>Core_BlackPill/stm32f4xx_conf.h</primary></indexterm>
+<programlisting linenumbering="unnumbered">#include &quot;stm32f4xx_adc.h&quot;<?linebreak?>#include &quot;stm32f4xx_crc.h&quot;<?linebreak?>#include &quot;stm32f4xx_dbgmcu.h&quot;<?linebreak?>#include &quot;stm32f4xx_dma.h&quot;<?linebreak?>#include &quot;stm32f4xx_exti.h&quot;<?linebreak?>#include &quot;stm32f4xx_flash.h&quot;<?linebreak?>#include &quot;stm32f4xx_gpio.h&quot;<?linebreak?>#include &quot;stm32f4xx_i2c.h&quot;<?linebreak?>#include &quot;stm32f4xx_iwdg.h&quot;<?linebreak?>#include &quot;stm32f4xx_pwr.h&quot;<?linebreak?>#include &quot;stm32f4xx_rcc.h&quot;<?linebreak?>#include &quot;stm32f4xx_rtc.h&quot;<?linebreak?>#include &quot;stm32f4xx_sdio.h&quot;<?linebreak?>#include &quot;stm32f4xx_spi.h&quot;<?linebreak?>#include &quot;stm32f4xx_syscfg.h&quot;<?linebreak?>#include &quot;stm32f4xx_tim.h&quot;<?linebreak?>#include &quot;stm32f4xx_usart.h&quot;<?linebreak?>#include &quot;stm32f4xx_wwdg.h&quot;<?linebreak?>#include &quot;misc.h&quot;<?linebreak?></programlisting><simplesect>
+    <title>Makrolar    </title>
+        <itemizedlist>
+            <listitem><para>#define <link linkend="_stm32f4xx__conf_8h_1a631dea7b230e600555f979c62af1de21">assert_param</link>(expr)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Makro Dokümantasyonu</title>
+<anchor xml:id="_stm32f4xx__conf_8h_1a631dea7b230e600555f979c62af1de21"/><section>
+    <title>assert_param</title>
+<indexterm><primary>assert_param</primary><secondary>stm32f4xx_conf.h</secondary></indexterm>
+<indexterm><primary>stm32f4xx_conf.h</primary><secondary>assert_param</secondary></indexterm>
+<para><computeroutput>#define assert_param( expr)</computeroutput></para><emphasis role="strong">Değer:</emphasis><programlisting linenumbering="unnumbered">((void)0)
+</programlisting></section>
+</section>
+</section>

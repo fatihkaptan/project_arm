@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="tr">
+  <compounddef id="main_8c" kind="file" language="C++">
+    <compoundname>main.c</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">stdint.h</includes>
+    <includes refid="main_8h" local="yes">main.h</includes>
+    <incdepgraph>
+      <node id="5">
+        <label>stm32f4xx.h</label>
+        <link refid="stm32f4xx_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>system_stm32f4xx.h</label>
+        <link refid="system__stm32f4xx_8h"/>
+      </node>
+      <node id="1">
+        <label>main.c</label>
+        <link refid="main_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>main.h</label>
+        <link refid="main_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>core_cm4.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+      <node id="2">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="main_8c_1a0fdb33b6110ff218c2163783c1cd4365" prot="public" static="no" mutable="no">
+        <type>volatile int</type>
+        <definition>volatile int _Cnt</definition>
+        <argsstring></argsstring>
+        <name>_Cnt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="main.c" line="6" column="14" bodyfile="main.c" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="main_8c_1ab58c95988380de559a0dd93663d6a055" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int fatih</definition>
+        <argsstring></argsstring>
+        <name>fatih</name>
+        <initializer>=0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="main.c" line="7" column="5" bodyfile="main.c" bodystart="7" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="main_8c_1a02fd73d861ef2e4aabb38c0c9ff82947" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void init</definition>
+        <argsstring>()</argsstring>
+        <name>init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="main.c" line="10" column="6" bodyfile="main.c" bodystart="10" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="main_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>()</argsstring>
+        <name>main</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="main.c" line="17" column="5" bodyfile="main.c" bodystart="17" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="main_8c_1a81248fec65b118150a94d8cdaf2a2b8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void initClock</definition>
+        <argsstring>()</argsstring>
+        <name>initClock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="main.c" line="38" column="6" bodyfile="main.c" bodystart="38" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="main_8c_1a1778435697ce5e88277225a1ea85c2d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void initIO</definition>
+        <argsstring>()</argsstring>
+        <name>initIO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="main.c" line="42" column="6" bodyfile="main.c" bodystart="42" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="main_8c_1ab7cce8122024d7ba47bf10f434956de4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void delay_ms</definition>
+        <argsstring>(uint32_t ms)</argsstring>
+        <name>delay_ms</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>ms</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="main.c" line="62" column="6" bodyfile="main.c" bodystart="62" bodyend="71"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="main_8h" kindref="compound">main.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">volatile</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="main_8c_1a0fdb33b6110ff218c2163783c1cd4365" kindref="member">_Cnt</ref>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="main_8c_1ab58c95988380de559a0dd93663d6a055" kindref="member">fatih</ref>=0;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="main_8c_1a02fd73d861ef2e4aabb38c0c9ff82947" kindref="member">init</ref>(){</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><ref refid="main_8c_1a81248fec65b118150a94d8cdaf2a2b8c" kindref="member">initClock</ref>();</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><ref refid="main_8c_1a1778435697ce5e88277225a1ea85c2d9" kindref="member">initIO</ref>();</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="main_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" kindref="member">main</ref>()</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><ref refid="main_8c_1a02fd73d861ef2e4aabb38c0c9ff82947" kindref="member">init</ref>();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(1)<sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Set<sp/>PC13<sp/>(LED<sp/>off<sp/>-<sp/>out<sp/>3.3v---<sp/>&lt;|-<sp/><sp/>3.3v)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>++<ref refid="main_8c_1ab58c95988380de559a0dd93663d6a055" kindref="member">fatih</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="main_8c_1a0fdb33b6110ff218c2163783c1cd4365" kindref="member">_Cnt</ref>++;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//SEGGER_RTT_printf(0,<sp/>&quot;%d<sp/>Deneme\r\n&quot;,<sp/>_Cnt);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="main_8h_1a88dcc56c201f13d73e5073857af6aeb5" kindref="member">GPIOC_BSRR</ref><sp/>=<sp/>(1<sp/>&lt;&lt;<sp/><ref refid="delay_8c_1ab4553be4db9860d940f81d7447173b2f" kindref="member">LED_PIN</ref>);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//delay(8000000);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="main_8c_1ab7cce8122024d7ba47bf10f434956de4" kindref="member">delay_ms</ref>(1000);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Reset<sp/>PC13<sp/>(LED<sp/>on<sp/>-<sp/>out<sp/>0v<sp/><sp/>---<sp/>&lt;|-<sp/><sp/>3.3v)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="main_8h_1a88dcc56c201f13d73e5073857af6aeb5" kindref="member">GPIOC_BSRR</ref><sp/>=<sp/>(1<sp/>&lt;&lt;<sp/>(<ref refid="delay_8c_1ab4553be4db9860d940f81d7447173b2f" kindref="member">LED_PIN</ref><sp/>+<sp/>16));</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="main_8c_1ab7cce8122024d7ba47bf10f434956de4" kindref="member">delay_ms</ref>(1000);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//return<sp/>0;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="main_8c_1a81248fec65b118150a94d8cdaf2a2b8c" kindref="member">initClock</ref>(){</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="40"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="main_8c_1a1778435697ce5e88277225a1ea85c2d9" kindref="member">initIO</ref>(){</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>INITIALIZATION</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="main_8h_1a305184464592fe039a4e47e9d88bdcc4" kindref="member">RCC_AHB1ENR</ref><sp/>|=<sp/>(1<sp/>&lt;&lt;<sp/>2);<sp/><sp/></highlight><highlight class="comment">//<sp/>GPIOC<sp/>clock<sp/>enable<sp/>(Bit<sp/>2:<sp/>GPIOCEN)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Set<sp/>PC13<sp/>as<sp/>output</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="main_8h_1a358ff7fc1e547fed6740a6075bc45084" kindref="member">GPIOC_MODER</ref><sp/>&amp;=<sp/>~(3<sp/>&lt;&lt;<sp/>(<ref refid="delay_8c_1ab4553be4db9860d940f81d7447173b2f" kindref="member">LED_PIN</ref><sp/>*<sp/>2));<sp/><sp/></highlight><highlight class="comment">//<sp/>Clear<sp/>mode<sp/>bits<sp/>for<sp/>PC13</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="main_8h_1a358ff7fc1e547fed6740a6075bc45084" kindref="member">GPIOC_MODER</ref><sp/>|=<sp/><sp/>(1<sp/>&lt;&lt;<sp/>(<ref refid="delay_8c_1ab4553be4db9860d940f81d7447173b2f" kindref="member">LED_PIN</ref><sp/>*<sp/>2));<sp/><sp/></highlight><highlight class="comment">//<sp/>Set<sp/>mode<sp/>to<sp/>output<sp/>(01)<sp/>for<sp/>PC13</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Set<sp/>PC13<sp/>as<sp/>push-pull</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="main_8h_1a38d3fcef1b5894aecbf6b5dada26f6e8" kindref="member">GPIOC_OTYPER</ref><sp/>&amp;=<sp/>~(1<sp/>&lt;&lt;<sp/><ref refid="delay_8c_1ab4553be4db9860d940f81d7447173b2f" kindref="member">LED_PIN</ref>);<sp/><sp/></highlight><highlight class="comment">//<sp/>Select<sp/>push-pull<sp/>mode<sp/>for<sp/>PC13</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Set<sp/>PC13<sp/>speed<sp/>to<sp/>medium</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="main_8h_1ad3fe45a8267fad498bf589285cfc9474" kindref="member">GPIOC_OSPEEDR</ref><sp/>&amp;=<sp/>~(3<sp/>&lt;&lt;<sp/>(<ref refid="delay_8c_1ab4553be4db9860d940f81d7447173b2f" kindref="member">LED_PIN</ref><sp/>*<sp/>2));<sp/><sp/></highlight><highlight class="comment">//<sp/>Clear<sp/>speed<sp/>bits<sp/>for<sp/>PC13</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="main_8h_1ad3fe45a8267fad498bf589285cfc9474" kindref="member">GPIOC_OSPEEDR</ref><sp/>|=<sp/><sp/>(1<sp/>&lt;&lt;<sp/>(<ref refid="delay_8c_1ab4553be4db9860d940f81d7447173b2f" kindref="member">LED_PIN</ref><sp/>*<sp/>2));<sp/><sp/></highlight><highlight class="comment">//<sp/>Set<sp/>speed<sp/>to<sp/>medium<sp/>(01)<sp/>for<sp/>PC13</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Set<sp/>PC13<sp/>as<sp/>no<sp/>pull</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="main_8h_1abfbeaa765be118f55fdb52b72a319b08" kindref="member">GPIOC_PUPDR</ref><sp/>&amp;=<sp/>~(3<sp/>&lt;&lt;<sp/>(<ref refid="delay_8c_1ab4553be4db9860d940f81d7447173b2f" kindref="member">LED_PIN</ref><sp/>*<sp/>2));<sp/><sp/></highlight><highlight class="comment">//<sp/>Clear<sp/>pull-up/pull-down<sp/>bits<sp/>for<sp/>PC13</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="60"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="main_8c_1ab7cce8122024d7ba47bf10f434956de4" kindref="member">delay_ms</ref>(uint32_t<sp/>ms)<sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="main_8h_1a40c03741132f793b632dfa5266f9fc48" kindref="member">SYSTICK_LOAD</ref><sp/>=<sp/>48000<sp/>-<sp/>1;<sp/></highlight><highlight class="comment">//<sp/>1<sp/>ms<sp/>delay<sp/>at<sp/>16<sp/>MHz</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="main_8h_1a99fb4c496590d7d9f9759ff556b97bb5" kindref="member">SYSTICK_VAL</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="main_8h_1a7051a258beea05555621a7fa2a06701f" kindref="member">SYSTICK_CTRL</ref><sp/>=<sp/>5;<sp/></highlight><highlight class="comment">//<sp/>Enable<sp/>SysTick<sp/>timer<sp/>with<sp/>processor<sp/>clock</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(uint32_t<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>ms;<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(!(<ref refid="main_8h_1a7051a258beea05555621a7fa2a06701f" kindref="member">SYSTICK_CTRL</ref><sp/>&amp;<sp/>0x10000));<sp/></highlight><highlight class="comment">//<sp/>Wait<sp/>for<sp/>COUNTFLAG</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="main_8h_1a7051a258beea05555621a7fa2a06701f" kindref="member">SYSTICK_CTRL</ref><sp/>=<sp/>1;<sp/></highlight><highlight class="comment">//<sp/>Disable<sp/>SysTick<sp/>timer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/></highlight></codeline>
+    </programlisting>
+    <location file="main.c"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,143 @@
+\doxysection{stm32f4xx\+\_\+conf.\+h}
+\hypertarget{stm32f4xx__conf_8h_source}{}\label{stm32f4xx__conf_8h_source}\index{Core\_BlackPill/stm32f4xx\_conf.h@{Core\_BlackPill/stm32f4xx\_conf.h}}
+\mbox{\hyperlink{stm32f4xx__conf_8h}{Bu dosyanın dokümantasyonuna git.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00021\ \textcolor{comment}{/*\ Define\ to\ prevent\ recursive\ inclusion\ -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*/}}
+\DoxyCodeLine{00022\ \textcolor{preprocessor}{\#ifndef\ \_\_STM32F4xx\_CONF\_H}}
+\DoxyCodeLine{00023\ \textcolor{preprocessor}{\#define\ \_\_STM32F4xx\_CONF\_H}}
+\DoxyCodeLine{00024\ }
+\DoxyCodeLine{00025\ \textcolor{comment}{/*\ Includes\ -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*/}}
+\DoxyCodeLine{00026\ \textcolor{comment}{/*\ Uncomment\ the\ line\ below\ to\ enable\ peripheral\ header\ file\ inclusion\ */}}
+\DoxyCodeLine{00027\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_adc.h"{}}}
+\DoxyCodeLine{00028\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_crc.h"{}}}
+\DoxyCodeLine{00029\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_dbgmcu.h"{}}}
+\DoxyCodeLine{00030\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_dma.h"{}}}
+\DoxyCodeLine{00031\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_exti.h"{}}}
+\DoxyCodeLine{00032\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_flash.h"{}}}
+\DoxyCodeLine{00033\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_gpio.h"{}}}
+\DoxyCodeLine{00034\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_i2c.h"{}}}
+\DoxyCodeLine{00035\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_iwdg.h"{}}}
+\DoxyCodeLine{00036\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_pwr.h"{}}}
+\DoxyCodeLine{00037\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_rcc.h"{}}}
+\DoxyCodeLine{00038\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_rtc.h"{}}}
+\DoxyCodeLine{00039\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_sdio.h"{}}}
+\DoxyCodeLine{00040\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_spi.h"{}}}
+\DoxyCodeLine{00041\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_syscfg.h"{}}}
+\DoxyCodeLine{00042\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_tim.h"{}}}
+\DoxyCodeLine{00043\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_usart.h"{}}}
+\DoxyCodeLine{00044\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_wwdg.h"{}}}
+\DoxyCodeLine{00045\ \textcolor{preprocessor}{\#include\ "{}misc.h"{}}\ \textcolor{comment}{/*\ High\ level\ functions\ for\ NVIC\ and\ SysTick\ (add-\/on\ to\ CMSIS\ functions)\ */}}
+\DoxyCodeLine{00046\ }
+\DoxyCodeLine{00047\ \textcolor{preprocessor}{\#if\ defined(STM32F429\_439xx)\ ||\ defined(STM32F446xx)\ ||\ defined(STM32F469\_479xx)}}
+\DoxyCodeLine{00048\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_cryp.h"{}}}
+\DoxyCodeLine{00049\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_hash.h"{}}}
+\DoxyCodeLine{00050\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_rng.h"{}}}
+\DoxyCodeLine{00051\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_can.h"{}}}
+\DoxyCodeLine{00052\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_dac.h"{}}}
+\DoxyCodeLine{00053\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_dcmi.h"{}}}
+\DoxyCodeLine{00054\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_dma2d.h"{}}}
+\DoxyCodeLine{00055\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_fmc.h"{}}}
+\DoxyCodeLine{00056\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_ltdc.h"{}}}
+\DoxyCodeLine{00057\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_sai.h"{}}}
+\DoxyCodeLine{00058\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*\ STM32F429\_439xx\ ||\ STM32F446xx\ ||\ STM32F469\_479xx\ */}\textcolor{preprocessor}{}}
+\DoxyCodeLine{00059\ }
+\DoxyCodeLine{00060\ \textcolor{preprocessor}{\#if\ defined(STM32F427\_437xx)}}
+\DoxyCodeLine{00061\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_cryp.h"{}}}
+\DoxyCodeLine{00062\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_hash.h"{}}}
+\DoxyCodeLine{00063\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_rng.h"{}}}
+\DoxyCodeLine{00064\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_can.h"{}}}
+\DoxyCodeLine{00065\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_dac.h"{}}}
+\DoxyCodeLine{00066\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_dcmi.h"{}}}
+\DoxyCodeLine{00067\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_dma2d.h"{}}}
+\DoxyCodeLine{00068\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_fmc.h"{}}}
+\DoxyCodeLine{00069\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_sai.h"{}}}
+\DoxyCodeLine{00070\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*\ STM32F427\_437xx\ */}\textcolor{preprocessor}{}}
+\DoxyCodeLine{00071\ }
+\DoxyCodeLine{00072\ \textcolor{preprocessor}{\#if\ defined(STM32F40\_41xxx)}}
+\DoxyCodeLine{00073\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_cryp.h"{}}}
+\DoxyCodeLine{00074\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_hash.h"{}}}
+\DoxyCodeLine{00075\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_rng.h"{}}}
+\DoxyCodeLine{00076\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_can.h"{}}}
+\DoxyCodeLine{00077\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_dac.h"{}}}
+\DoxyCodeLine{00078\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_dcmi.h"{}}}
+\DoxyCodeLine{00079\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_fsmc.h"{}}}
+\DoxyCodeLine{00080\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*\ STM32F40\_41xxx\ */}\textcolor{preprocessor}{}}
+\DoxyCodeLine{00081\ }
+\DoxyCodeLine{00082\ \textcolor{preprocessor}{\#if\ defined(STM32F410xx)}}
+\DoxyCodeLine{00083\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_rng.h"{}}}
+\DoxyCodeLine{00084\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_dac.h"{}}}
+\DoxyCodeLine{00085\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*\ STM32F410xx\ */}\textcolor{preprocessor}{}}
+\DoxyCodeLine{00086\ }
+\DoxyCodeLine{00087\ \textcolor{preprocessor}{\#if\ defined(STM32F411xE)}}
+\DoxyCodeLine{00088\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_flash\_ramfunc.h"{}}}
+\DoxyCodeLine{00089\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*\ STM32F411xE\ */}\textcolor{preprocessor}{}}
+\DoxyCodeLine{00090\ }
+\DoxyCodeLine{00091\ \textcolor{preprocessor}{\#if\ defined(STM32F446xx)\ ||\ defined(STM32F469\_479xx)}}
+\DoxyCodeLine{00092\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_qspi.h"{}}}
+\DoxyCodeLine{00093\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*\ STM32F446xx\ ||\ STM32F469\_479xx\ */}\textcolor{preprocessor}{}}
+\DoxyCodeLine{00094\ }
+\DoxyCodeLine{00095\ \textcolor{preprocessor}{\#if\ defined(STM32F410xx)\ ||\ defined(STM32F446xx)}}
+\DoxyCodeLine{00096\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_fmpi2c.h"{}}}
+\DoxyCodeLine{00097\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*\ STM32F410xx\ ||\ STM32F446xx\ */}\textcolor{preprocessor}{}}
+\DoxyCodeLine{00098\ }
+\DoxyCodeLine{00099\ \textcolor{preprocessor}{\#if\ defined(STM32F446xx)}}
+\DoxyCodeLine{00100\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_spdifrx.h"{}}}
+\DoxyCodeLine{00101\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_cec.h"{}}}
+\DoxyCodeLine{00102\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*\ STM32F446xx\ */}\textcolor{preprocessor}{}}
+\DoxyCodeLine{00103\ }
+\DoxyCodeLine{00104\ \textcolor{preprocessor}{\#if\ defined(STM32F469\_479xx)}}
+\DoxyCodeLine{00105\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_dsi.h"{}}}
+\DoxyCodeLine{00106\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*\ STM32F469\_479xx\ */}\textcolor{preprocessor}{}}
+\DoxyCodeLine{00107\ }
+\DoxyCodeLine{00108\ \textcolor{preprocessor}{\#if\ defined(STM32F410xx)}}
+\DoxyCodeLine{00109\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_lptim.h"{}}}
+\DoxyCodeLine{00110\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*\ STM32F410xx\ */}\textcolor{preprocessor}{}}
+\DoxyCodeLine{00111\ }
+\DoxyCodeLine{00112\ \textcolor{preprocessor}{\#if\ defined(STM32F412xG)}}
+\DoxyCodeLine{00113\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_rng.h"{}}}
+\DoxyCodeLine{00114\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_can.h"{}}}
+\DoxyCodeLine{00115\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_qspi.h"{}}}
+\DoxyCodeLine{00116\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_rng.h"{}}}
+\DoxyCodeLine{00117\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_fsmc.h"{}}}
+\DoxyCodeLine{00118\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_dfsdm.h"{}}}
+\DoxyCodeLine{00119\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*\ STM32F412xG\ */}\textcolor{preprocessor}{}}
+\DoxyCodeLine{00120\ }
+\DoxyCodeLine{00121\ \textcolor{preprocessor}{\#if\ defined(STM32F413\_423xx)}}
+\DoxyCodeLine{00122\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_cryp.h"{}}}
+\DoxyCodeLine{00123\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_fmpi2c.h"{}}}
+\DoxyCodeLine{00124\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_rng.h"{}}}
+\DoxyCodeLine{00125\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_can.h"{}}}
+\DoxyCodeLine{00126\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_qspi.h"{}}}
+\DoxyCodeLine{00127\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_rng.h"{}}}
+\DoxyCodeLine{00128\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_fsmc.h"{}}}
+\DoxyCodeLine{00129\ \textcolor{preprocessor}{\#include\ "{}stm32f4xx\_dfsdm.h"{}}}
+\DoxyCodeLine{00130\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*\ STM32F413\_423xx\ */}\textcolor{preprocessor}{}}
+\DoxyCodeLine{00131\ }
+\DoxyCodeLine{00132\ \textcolor{comment}{/*\ Exported\ types\ -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*/}}
+\DoxyCodeLine{00133\ \textcolor{comment}{/*\ Exported\ constants\ -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*/}}
+\DoxyCodeLine{00134\ }
+\DoxyCodeLine{00135\ \textcolor{comment}{/*\ If\ an\ external\ clock\ source\ is\ used,\ then\ the\ value\ of\ the\ following\ define\ }}
+\DoxyCodeLine{00136\ \textcolor{comment}{\ \ \ should\ be\ set\ to\ the\ value\ of\ the\ external\ clock\ source,\ else,\ if\ no\ external\ }}
+\DoxyCodeLine{00137\ \textcolor{comment}{\ \ \ clock\ is\ used,\ keep\ this\ define\ commented\ */}}
+\DoxyCodeLine{00138\ \textcolor{comment}{/*\#define\ I2S\_EXTERNAL\_CLOCK\_VAL\ \ \ 12288000\ */}\ \textcolor{comment}{/*\ Value\ of\ the\ external\ clock\ in\ Hz\ */}}
+\DoxyCodeLine{00139\ }
+\DoxyCodeLine{00140\ }
+\DoxyCodeLine{00141\ \textcolor{comment}{/*\ Uncomment\ the\ line\ below\ to\ expanse\ the\ "{}assert\_param"{}\ macro\ in\ the\ }}
+\DoxyCodeLine{00142\ \textcolor{comment}{\ \ \ Standard\ Peripheral\ Library\ drivers\ code\ */}}
+\DoxyCodeLine{00143\ \textcolor{comment}{/*\ \#define\ USE\_FULL\_ASSERT\ \ \ \ 1\ */}}
+\DoxyCodeLine{00144\ }
+\DoxyCodeLine{00145\ \textcolor{comment}{/*\ Exported\ macro\ -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*/}}
+\DoxyCodeLine{00146\ \textcolor{preprocessor}{\#ifdef\ \ USE\_FULL\_ASSERT}}
+\DoxyCodeLine{00147\ }
+\DoxyCodeLine{00156\ \textcolor{preprocessor}{\ \ \#define\ assert\_param(expr)\ ((expr)\ ?\ (void)0\ :\ assert\_failed((uint8\_t\ *)\_\_FILE\_\_,\ \_\_LINE\_\_))}}
+\DoxyCodeLine{00157\ \textcolor{comment}{/*\ Exported\ functions\ -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/\ */}}
+\DoxyCodeLine{00158\ \ \ \textcolor{keywordtype}{void}\ assert\_failed(uint8\_t*\ file,\ uint32\_t\ line);}
+\DoxyCodeLine{00159\ \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{00160\ \textcolor{preprocessor}{\ \ \#define\ assert\_param(expr)\ ((void)0)}}
+\DoxyCodeLine{00161\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*\ USE\_FULL\_ASSERT\ */}\textcolor{preprocessor}{}}
+\DoxyCodeLine{00162\ }
+\DoxyCodeLine{00163\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*\ \_\_STM32F4xx\_CONF\_H\ */}\textcolor{preprocessor}{}}
+\DoxyCodeLine{00164\ }
+
+\end{DoxyCode}

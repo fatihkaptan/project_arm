@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="tr">
+  <compounddef id="struct_s_a_i___type_def" kind="struct" language="C++" prot="public">
+    <compoundname>SAI_TypeDef</compoundname>
+    <includes refid="stm32f4xx_8h" local="no">stm32f4xx.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group___c_m_s_i_s_1gaae092d9d07574afe1fbc79c8bf7f7c19" kind="variable"><name>GCR</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Serial Audio Interface. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Core_BlackPill/stm32f4xx.h" line="1717" column="1" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="1718" bodyend="1720"/>
+    <listofallmembers>
+      <member refid="group___c_m_s_i_s_1gaae092d9d07574afe1fbc79c8bf7f7c19" prot="public" virt="non-virtual"><scope>SAI_TypeDef</scope><name>GCR</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

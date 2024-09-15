@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="tr">
+  <compounddef id="struct_g_p_i_o___type_def" kind="struct" language="C++" prot="public">
+    <compoundname>GPIO_TypeDef</compoundname>
+    <includes refid="stm32f4xx_8h" local="no">stm32f4xx.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group___c_m_s_i_s_1ga2b671a94c63a612f81e0e9de8152d01c" kind="variable"><name>MODER</name></member>
+      <member refid="group___c_m_s_i_s_1ga9543592bda60cb5261075594bdeedac9" kind="variable"><name>OTYPER</name></member>
+      <member refid="group___c_m_s_i_s_1ga328d16cc6213783ede54e4059ffd50a3" kind="variable"><name>OSPEEDR</name></member>
+      <member refid="group___c_m_s_i_s_1gabeed38529bd7b8de082e490e5d4f1727" kind="variable"><name>PUPDR</name></member>
+      <member refid="group___c_m_s_i_s_1ga328d2fe9ef1d513c3a97d30f98f0047c" kind="variable"><name>IDR</name></member>
+      <member refid="group___c_m_s_i_s_1gabff7fffd2b5a718715a130006590c75c" kind="variable"><name>ODR</name></member>
+      <member refid="group___c_m_s_i_s_1gac25dd6b9e3d55e17589195b461c5ec80" kind="variable"><name>BSRR</name></member>
+      <member refid="group___c_m_s_i_s_1ga2612a0f4b3fbdbb6293f6dc70105e190" kind="variable"><name>LCKR</name></member>
+      <member refid="group___c_m_s_i_s_1gab67c1158c04450d19ad483dcd2192e43" kind="variable"><name>AFR</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>General Purpose I/O. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Core_BlackPill/stm32f4xx.h" line="1465" column="1" bodyfile="Core_BlackPill/stm32f4xx.h" bodystart="1466" bodyend="1476"/>
+    <listofallmembers>
+      <member refid="group___c_m_s_i_s_1gab67c1158c04450d19ad483dcd2192e43" prot="public" virt="non-virtual"><scope>GPIO_TypeDef</scope><name>AFR</name></member>
+      <member refid="group___c_m_s_i_s_1gac25dd6b9e3d55e17589195b461c5ec80" prot="public" virt="non-virtual"><scope>GPIO_TypeDef</scope><name>BSRR</name></member>
+      <member refid="group___c_m_s_i_s_1ga328d2fe9ef1d513c3a97d30f98f0047c" prot="public" virt="non-virtual"><scope>GPIO_TypeDef</scope><name>IDR</name></member>
+      <member refid="group___c_m_s_i_s_1ga2612a0f4b3fbdbb6293f6dc70105e190" prot="public" virt="non-virtual"><scope>GPIO_TypeDef</scope><name>LCKR</name></member>
+      <member refid="group___c_m_s_i_s_1ga2b671a94c63a612f81e0e9de8152d01c" prot="public" virt="non-virtual"><scope>GPIO_TypeDef</scope><name>MODER</name></member>
+      <member refid="group___c_m_s_i_s_1gabff7fffd2b5a718715a130006590c75c" prot="public" virt="non-virtual"><scope>GPIO_TypeDef</scope><name>ODR</name></member>
+      <member refid="group___c_m_s_i_s_1ga328d16cc6213783ede54e4059ffd50a3" prot="public" virt="non-virtual"><scope>GPIO_TypeDef</scope><name>OSPEEDR</name></member>
+      <member refid="group___c_m_s_i_s_1ga9543592bda60cb5261075594bdeedac9" prot="public" virt="non-virtual"><scope>GPIO_TypeDef</scope><name>OTYPER</name></member>
+      <member refid="group___c_m_s_i_s_1gabeed38529bd7b8de082e490e5d4f1727" prot="public" virt="non-virtual"><scope>GPIO_TypeDef</scope><name>PUPDR</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
