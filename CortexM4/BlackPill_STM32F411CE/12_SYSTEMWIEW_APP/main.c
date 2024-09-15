@@ -1,19 +1,33 @@
-//******************
-// Project: 12_SYSTEMWIEW_APP
-//
-// DESCRIPTION:
-//  Included Seeger Systemview and RTT modules into Timer applications - Input Capture Unit(10 us precise) project.
-//
-// CREATED: 08.03.2025, by Fatih Kaptan
-//
-// FILE: main.c
-// EWDIR: C:\iar\ewarm-8.50.9
-//
-//******************
+/**
+ * @file main.c
+ * @brief SystemView Real-time Analysis Application for STM32F411CE
+ * @author Fatih Kaptan
+ * @date 08.03.2025
+ * @version 1.0
+ * 
+ * @details This application demonstrates SEGGER SystemView integration for real-time 
+ *          task analysis on STM32F411CE. Features include:
+ *          - Real-time task monitoring and analysis
+ *          - Timer3 Input Capture with 10Âµs precision (100MHzÃ·1000)
+ *          - OLED display integration for visual feedback
+ *          - Task scheduling analysis and performance metrics
+ *          - RTT communication for data logging
+ * 
+ * @note Requires SEGGER J-Link for SystemView functionality
+ * @note Timer3 configured for 10Âµs Input Capture precision (100MHzÃ·1000=100kHz)
+ * @warning Ensure proper SystemView configuration before use
+ */
 
 #include "main.h"
 
-//makro tanimla
+/**
+ * @def EXEC_TASK(p)
+ * @brief Macro for SystemView task execution tracking
+ * @param p Task function pointer
+ * 
+ * This macro wraps task execution with SystemView markers for
+ * real-time analysis and timeline visualization.
+ */
 #define EXEC_TASK(p)    SEGGER_SYSVIEW_OnTaskStartExec((U32)p);   \
                         p();                                      \
                         SEGGER_SYSVIEW_OnTaskStopReady((U32)p, 0);
@@ -22,6 +36,19 @@
     
 void SYSVIEW_AddTask(void* pTask, const char* sName, U32 Prio);
 
+/**
+ * @brief Main application entry point for SystemView analysis
+ * @return int Return status (never reached in embedded application)
+ * 
+ * @details Initializes SystemView modules and enters the main task loop.
+ *          The application continuously executes two main tasks:
+ *          - Task_LED: Controls LED state with SystemView monitoring
+ *          - Task_Print: Updates OLED display with Timer3 capture data
+ * 
+ * @note Timer3 provides 10Âµs precision for Input Capture timing measurements
+ * @see init_SeggerModules() for SystemView initialization
+ * @see EXEC_TASK() macro for task execution tracking
+ */
 int main()
 {   
     int Cnt=0;
@@ -135,7 +162,7 @@ void Task_Print(void){
 
 void init_OLED(void){
     OLED_Rotate(0);
-    printf("ABCÇDEFGÐHIÝJKLMNOÖPRSÞTUÜVYZ");
+    printf("ABCï¿½DEFGï¿½HIï¿½JKLMNOï¿½PRSï¿½TUï¿½VYZ");
     SEGGER_SYSVIEW_Print("basladi");
     SEGGER_SYSVIEW_MarkStart(0x01);
     DelayMs(500);
