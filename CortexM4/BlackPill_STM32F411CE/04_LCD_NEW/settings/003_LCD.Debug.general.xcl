@@ -1,0 +1,15 @@
+"C:\iar8509\arm\bin\armproc.dll" 
+
+"C:\iar8509\arm\bin\armjlink2.dll" 
+
+"D:\yeni_seyler\egitim\arsiv\ARM_KURSU_Code\en.stsw-stm32065_v1-9-0\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Project\03_LCD\Debug\Exe\003_LCD.out" 
+
+--plugin="C:\iar8509\arm\bin\armbat.dll" 
+
+--device_macro="C:\iar8509\arm\config\debugger\ST\STM32F4xx.dmac" 
+
+--flash_loader="C:\iar8509\arm\config\flashloader\ST\FlashSTM32F411xE.board" 
+
+
+
+
