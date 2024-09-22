@@ -2,7 +2,7 @@
 // Project: 07_UART_BUTTON
 //
 // DESCRIPTION:
-//  Simple button exercise with debouncing
+//  Simple button exercise with counting semaphore
 //
 // CREATED: 22.09.2024, by Fatih Kaptan
 //
@@ -100,31 +100,37 @@ void Task_Button()
   BTN_UP,
   */
     
-    if (g_Buttons[BTN_ONBOARD]){ //for yield , wait semaphore
+      if (g_Buttons[BTN_ONBOARD]){ //for yield , wait semaphore
         //process
         UART_printf(curr_UART, "\n*BTN_ONBOARD cnt* = %d\n", ++count);
-        g_Buttons[BTN_ONBOARD] = 0; //release semaphore
-    }
-    
-        if (g_Buttons[BTN_SET]){ //for yield , wait semaphore
+        --g_Buttons[BTN_ONBOARD]; //release semaphore
+      }
+      
+      if (g_Buttons[BTN_SET]){ //for yield , wait semaphore
         //process
         UART_printf(curr_UART, "\n*BTN_SET cnt* = %d\n", ++count);
-        g_Buttons[BTN_SET] = 0; //release semaphore
-    }
-    
-        if (g_Buttons[BTN_DOWN]){ //for yield , wait semaphore
+        --g_Buttons[BTN_SET]; //release semaphore
+      }
+      
+      if (g_Buttons[BTN_DOWN]){ //for yield , wait semaphore
         //process
         UART_printf(curr_UART, "\n*BTN_DOWN cnt* = %d\n", ++count);
-        g_Buttons[BTN_DOWN] = 0; //release semaphore
-    }
-    
-        if (g_Buttons[BTN_UP]){ //for yield , wait semaphore
+        --g_Buttons[BTN_DOWN]; //release semaphore
+      }
+      
+      if (g_Buttons[BTN_UP]){ //for yield , wait semaphore
         //process
         UART_printf(curr_UART, "\n*BTN_UP cnt* = %d\n", ++count);
-        g_Buttons[BTN_UP] = 0; //release semaphore
-    }
-  
-  
+        --g_Buttons[BTN_UP]; //release semaphore
+      }
+      
+#ifdef BTN_LONG_PRESS
+      if (g_ButtonsL[BTN_SET]){//check long press semaphore
+        UART_printf(curr_UART, "\n*BTN_SET_LONG cnt* = %d\n", ++count);
+        g_ButtonsL[BTN_SET] = 0; //release binary semaphore
+      }
+#endif
+      
 }
 
 
@@ -139,6 +145,10 @@ int main()
   
   printf("\fsayi=%d, ch=%c", 159, UART_1);
   UART_printf(curr_UART, "Hello, val=%d\n", 2983);
+  //Binary semaphore not succesfull for waitings, apply counting semaphore
+  UART_puts(curr_UART, "\n\nWaiting..");
+  //DelayMs(10000);
+  UART_puts(curr_UART, "Finished.\n");
   
   while (1) {
         Task_LED(); 
