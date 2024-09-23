@@ -1,0 +1,2 @@
+project 05 	->  	 17 sec latency @90 min  ->  %0,31 error
+project 07_2 	-> 	-11 sec latency @90 min  -> -%0,20 error

@@ -2,9 +2,9 @@
 // Project: 07_UART_BUTTON
 //
 // DESCRIPTION:
-//  Simple button exercise with counting semaphore
+//  Simple button exercise with counting semaphore /additionaly edge control
 //
-// CREATED: 22.09.2024, by Fatih Kaptan
+// CREATED: 23.09.2024, by Fatih Kaptan
 //
 // FILE: main.c
 // EWDIR: C:\iar\ewarm-9.60.2
@@ -91,47 +91,60 @@ void Task_Print(void)
 
 void Task_Button()
 {
+  static int count = 0;
+  int i;
   
-  static int count=0 ;
   /*
   BTN_ONBOARD,
   BTN_SET,
   BTN_DOWN,
   BTN_UP,
   */
-    
-      if (g_Buttons[BTN_ONBOARD]){ //for yield , wait semaphore
-        //process
-        UART_printf(curr_UART, "\n*BTN_ONBOARD cnt* = %d\n", ++count);
-        --g_Buttons[BTN_ONBOARD]; //release semaphore
-      }
-      
-      if (g_Buttons[BTN_SET]){ //for yield , wait semaphore
-        //process
-        UART_printf(curr_UART, "\n*BTN_SET cnt* = %d\n", ++count);
-        --g_Buttons[BTN_SET]; //release semaphore
-      }
-      
-      if (g_Buttons[BTN_DOWN]){ //for yield , wait semaphore
-        //process
-        UART_printf(curr_UART, "\n*BTN_DOWN cnt* = %d\n", ++count);
-        --g_Buttons[BTN_DOWN]; //release semaphore
-      }
-      
-      if (g_Buttons[BTN_UP]){ //for yield , wait semaphore
-        //process
-        UART_printf(curr_UART, "\n*BTN_UP cnt* = %d\n", ++count);
-        --g_Buttons[BTN_UP]; //release semaphore
-      }
-      
+  
 #ifdef BTN_LONG_PRESS
-      if (g_ButtonsL[BTN_SET]){//check long press semaphore
+  // Long press handling 
+  for (i = 0; i < N_BUTTONS; i++) {
+    if (g_ButtonsL[i]) { // Long press semaphore check
+      switch (i) {
+      case BTN_SET:
         UART_printf(curr_UART, "\n*BTN_SET_LONG cnt* = %d\n", ++count);
-        g_ButtonsL[BTN_SET] = 0; //release binary semaphore
+        break;
+        // other Long press buttons can be added 
+      default:
+        break;
       }
+      g_ButtonsL[i] = 0;  // release long press semaphore
+    }
+  }
 #endif
-      
+  
+  // Short press handling 
+  for (i = 0; i < N_BUTTONS; i++) {
+    if (g_Buttons[i] > 0) { // short press sempahore check
+        switch (i) {
+        case BTN_ONBOARD:
+          UART_printf(curr_UART, "\n*BTN_ONBOARD cnt* = %d\n", ++count);
+          break;
+        case BTN_SET:
+          UART_printf(curr_UART, "\n*BTN_SET cnt* = %d\n", ++count);
+          break;
+        case BTN_DOWN:
+          UART_printf(curr_UART, "\n*BTN_DOWN cnt* = %d\n", ++count);
+          break;
+        case BTN_UP:
+          UART_printf(curr_UART, "\n*BTN_UP cnt* = %d\n", ++count);
+          break;
+        default:
+          break;
+        }
+        --g_Buttons[i]; // short press semaphore release
+    }
+  }
 }
+
+
+
+
 
 
 int main()
