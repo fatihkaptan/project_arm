@@ -1,0 +1,24 @@
+Name	Value	Access	
+CR1	0x00000081	ReadWrite	
+CR2	0x00000000	ReadWrite	
+SMCR	0x00000000	ReadWrite	
+DIER	0x00000000	ReadWrite	
+SR	0x0000001f	ReadWrite	
+EGR	WWWWWWWW	WriteOnly	
+CCMR1_Output	0x00000000	ReadWrite	
+CCMR1_Input	0x00000000	ReadWrite	
+CCMR2_Output	0x00000068	ReadWrite	
+CCMR2_Input	0x00000068	ReadWrite	
+CCER	0x00000100	ReadWrite	
+CNT	0x0000003a	ReadWrite	
+PSC	0x0000270f	ReadWrite	
+ARR	0x00000063	ReadWrite	
+CCR1	0x00000000	ReadWrite	
+CCR2	0x00000000	ReadWrite	
+CCR3	0x00000059	ReadWrite	
+     CCR3_H	0x0000	ReadWrite	
+     CCR3_L	0x0059	ReadWrite	
+CCR4	0x00000000	ReadWrite	
+DCR	0x00000000	ReadWrite	
+DMAR	0x00000081	ReadWrite	
+OR	0x00000000	ReadWrite	
