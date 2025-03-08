@@ -28,19 +28,8 @@ int main()
 void init(void)
 {
     Sys_IoInit();
-    Sys_TickInit();
-
-    
-    //SEGGER_SYSVIEW_Conf();
-    SEGGER_SYSVIEW_Init(SystemCoreClock, SystemCoreClock, 0, 0);
-    SEGGER_SYSVIEW_Start();
-    SEGGER_SYSVIEW_SendSysDesc("I#15=SysTick");
-    SEGGER_SYSVIEW_SendSysDesc("SystemName=Project14");
-    SEGGER_SYSVIEW_SendSysDesc("Device=STM32F411");
-    SEGGER_SYSVIEW_SendSysDesc("CoreFrequency=100000000");
-    SEGGER_SYSVIEW_NameMarker(1, "delay_Demo");
-    SEGGER_SYSVIEW_NameMarker(2, "task_print");
-    SEGGER_SYSVIEW_NameMarker(3, "task_led");
+    //Sys_TickInit();
+    init_SeggerModules();
     Sys_ConsoleInit();    
     init_Timers();
     PWM_Init(100,50); //100*100us = 10ms period, 5ms OnTime capture denemek icin
@@ -50,6 +39,63 @@ void init(void)
     IO_Init(IOP_LED, IO_MODE_OUTPUT);
     
 }
+#define SCS     ((SCS_REGS*)0xE000ED00)
+#define SYSTICK ((SYSTICK_REGS*)0xE000E010)
+typedef struct {
+  volatile unsigned int CSR;
+  volatile unsigned int RVR;
+  volatile unsigned int CVR;
+  volatile unsigned int CALIB;
+} SYSTICK_REGS;
+
+typedef struct {
+  volatile unsigned int CPUID;       // CPUID Base Register
+  volatile unsigned int ICSR;        // Interrupt Control and State Register
+  volatile unsigned int VTOR;        // Vector Table Offset Register
+  volatile unsigned int AIRCR;       // Application Interrupt and Reset Control Register
+  volatile unsigned int SCR;         // System Control Register
+  volatile unsigned int CCR;         // Configuration and Control Register
+  volatile unsigned int SHPR1;       // System Handler Priority Register 1
+  volatile unsigned int SHPR2;       // System Handler Priority Register 2
+  volatile unsigned int SHPR3;       // System Handler Priority Register 3
+  volatile unsigned int SHCSR;       // System Handler Control and State Register
+  volatile unsigned int CFSR;        // Configurable Fault Status Register
+  volatile unsigned int HFSR;        // HardFault Status Register
+  volatile unsigned int DFSR;        // Debug Fault Status Register
+  volatile unsigned int MMFAR;       // MemManage Fault Address Register
+  volatile unsigned int BFAR;        // BusFault Address Register
+  volatile unsigned int AFSR;        // Auxiliary Fault Status Register
+  volatile unsigned int aDummy0[4];  // 0x40-0x4C Reserved
+  volatile unsigned int aDummy1[4];  // 0x50-0x5C Reserved
+  volatile unsigned int aDummy2[4];  // 0x60-0x6C Reserved
+  volatile unsigned int aDummy3[4];  // 0x70-0x7C Reserved
+  volatile unsigned int aDummy4[2];  // 0x80-0x87 - - - Reserved.
+  volatile unsigned int CPACR;       // Coprocessor Access Control Register
+} SCS_REGS;
+
+void init_SeggerModules(void)
+{
+    U32 v;
+    v = SCS->SHPR3;
+    v |= (0xFFuL << 24);   // Lowest prio for SysTick so SystemView does not get interrupted by Systick
+    SCS->SHPR3 = v;
+    SYSTICK->RVR = (SystemCoreClock / 1000) - 1;     // set reload
+    SYSTICK->CVR = 0x00;      // set counter
+    SYSTICK->CSR = 0x07;      // enable systick
+    //SEGGER_SYSVIEW_Conf();
+    SEGGER_SYSVIEW_Init(SystemCoreClock, SystemCoreClock, 0, 0);
+    SEGGER_SYSVIEW_Start();           /* Starts SystemView recording*/
+    SEGGER_SYSVIEW_OnIdle();          /* Tells SystemView that System is currently in "Idle"*/
+    SEGGER_SYSVIEW_SendSysDesc("I#15=SysTick");
+    SEGGER_SYSVIEW_SendSysDesc("SystemName=Project14");
+    SEGGER_SYSVIEW_SendSysDesc("Device=STM32F411");
+    SEGGER_SYSVIEW_SendSysDesc("CoreFrequency=100000000");
+    SEGGER_SYSVIEW_NameMarker(1, "delay_Demo");
+    SEGGER_SYSVIEW_NameMarker(2, "task_print");
+    SEGGER_SYSVIEW_NameMarker(3, "task_led");
+    
+}
+
 
 void init_Timers(void)
 {
@@ -74,7 +120,7 @@ void init_Timers(void)
 
 
 void Task_Print(void){
-    SEGGER_SYSVIEW_MarkStart(0x02);
+    SEGGER_SYSVIEW_RecordVoid(34);  //SEGGER_SYSVIEW_MarkStart(0x02);
     static unsigned long count;
     FNT_t font;
     int row, col;
@@ -117,7 +163,7 @@ void Task_Print(void){
     OLED_SetFont(font);
     OLED_SetCursor(row, col);  
 #endif
-    SEGGER_SYSVIEW_MarkStop(0x02);
+    SEGGER_SYSVIEW_RecordEndCall(34);//SEGGER_SYSVIEW_MarkStop(0x02);
 }
 
 void init_OLED(void){
@@ -149,7 +195,7 @@ void init_OLED(void){
 }
 
 void Task_LED(void){
-    SEGGER_SYSVIEW_MarkStart(0x03);
+    SEGGER_SYSVIEW_RecordVoid(33);//SEGGER_SYSVIEW_MarkStart(0x03);
     static enum {
         I_LED_ON,
         S_LED_ON,
@@ -187,7 +233,7 @@ void Task_LED(void){
             state = I_LED_ON;
         break;
     }
-    SEGGER_SYSVIEW_MarkStop(0x03);
+    SEGGER_SYSVIEW_RecordEndCall(33);//SEGGER_SYSVIEW_MarkStop(0x03);
 }
 
 

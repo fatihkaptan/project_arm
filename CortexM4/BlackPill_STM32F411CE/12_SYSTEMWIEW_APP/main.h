@@ -18,5 +18,6 @@ void Task_Print(void);
 void init_OLED(void);
 void Task_LED(void);
 void init_Timers(void);
+void init_SeggerModules(void);
 
 #endif /*_MAIN_H*/

@@ -36,9 +36,10 @@ void Sys_TickInit(void)
 
 void Sys_ClockTick(void)
 {
-  static int count;
-  ++_TmTick;
-  
+    SEGGER_SYSVIEW_RecordEnterISR();
+    static int count;
+    ++_TmTick;
+    SEGGER_SYSVIEW_RecordExitISR();
 }
 
 clock_t clock(void)
