@@ -88,3 +88,7 @@ EWARM/settings
 *.browse
 *.xcl
 # End of https://www.toptal.com/developers/gitignore/api/iar_ewarm,c
+/CortexM4/BlackPill_STM32F411CE/09_TIMER1/.metadata/.plugins/org.eclipse.core.runtime/.settings/*.prefs
+/CortexM4/BlackPill_STM32F411CE/09_TIMER1/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes
+/CortexM4/BlackPill_STM32F411CE/09_TIMER1/.metadata
+/CortexM4/BlackPill_STM32F411CE/08_SPI_OLED/.metadata

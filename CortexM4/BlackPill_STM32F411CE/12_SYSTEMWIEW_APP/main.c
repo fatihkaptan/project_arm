@@ -53,12 +53,14 @@ void init(void)
 
 void init_SeggerModules(void)
 {
+    
     SEGGER_SYSVIEW_Conf();
     SYSVIEW_AddTask((void *)Task_LED, "Task_LED", 10);
     SYSVIEW_AddTask((void *)Task_Print, "Task_Print", 10);
     //SEGGER_SYSVIEW_Init(SystemCoreClock, SystemCoreClock, 0, 0);
     //SEGGER_SYSVIEW_Start();           /* Starts SystemView recording*/
-    //SEGGER_SYSVIEW_OnIdle();          /* Tells SystemView that System is currently in "Idle"*/
+    //SEGGER_SYSVIEW_OnIdle();          /* Tells SystemView that System is currently in "Idle"*/ 
+    
 }
 
 

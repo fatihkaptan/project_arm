@@ -151,10 +151,13 @@ volatile unsigned long g_T1Count = 0;
 void TIM1_UP_TIM10_IRQHandler(void)
 {
   //ortak bir irq handler oldugu icin handler ici kontrol ekliyoruz. 
-  if(TIM_GetITStatus(TimerTable[TIMER_1],TIM_IT_Update) == SET)
-     g_T1Count++;
+    if(TIM_GetITStatus(TimerTable[TIMER_1],TIM_IT_Update) == SET){
+        SEGGER_SYSVIEW_RecordEnterTimer(1);
+        g_T1Count++;
+        SEGGER_SYSVIEW_RecordExitTimer();
+        TIM_ClearITPendingBit(TimerTable[TIMER_1],TIM_IT_Update);//update flag clear
+    }
   
-  TIM_ClearITPendingBit(TimerTable[TIMER_1],TIM_IT_Update);//update flag clear
     
 }
 
@@ -164,9 +167,10 @@ void TIM2_IRQHandler(void)
 {
 
     if(TIM_GetITStatus(TimerTable[TIMER_2],TIM_IT_Update) == SET){
+        SEGGER_SYSVIEW_RecordEnterTimer(2);
         g_T2Count++;
+        SEGGER_SYSVIEW_RecordExitTimer();
         TIM_ClearITPendingBit(TimerTable[TIMER_2],TIM_IT_Update);//update flag clear
-
     }
 
     
@@ -182,7 +186,9 @@ void TIM3_IRQHandler(void)
     static uint8_t edge_flag = 0; // 0 = Yükselen, 1 = Düsen
     // Overflow Interrupt (Timer tasmasi)
     if (TIM_GetITStatus(TimerTable[TIMER_3], TIM_IT_Update) == SET){
+        SEGGER_SYSVIEW_RecordEnterTimer(3);
         g_T3Count++;
+        SEGGER_SYSVIEW_RecordExitTimer();
         TIM_ClearITPendingBit(TimerTable[TIMER_3], TIM_IT_Update);
     }
     // Kanal 2 - Periyot Ölçümü (Düsen Kenar)
@@ -223,10 +229,12 @@ void TIM3_IRQHandler(void)
 volatile unsigned long g_T4Count = 0;
 void TIM4_IRQHandler(void)
 {
-        if(TIM_GetITStatus(TimerTable[TIMER_4],TIM_IT_Update) == SET)
+    if(TIM_GetITStatus(TimerTable[TIMER_4],TIM_IT_Update) == SET){
+        SEGGER_SYSVIEW_RecordEnterTimer(4);
         g_T4Count++;
-    
-    TIM_ClearITPendingBit(TimerTable[TIMER_4],TIM_IT_Update);//update flag clear
+        SEGGER_SYSVIEW_RecordExitTimer();
+        TIM_ClearITPendingBit(TimerTable[TIMER_4],TIM_IT_Update);//update flag clear
+    }
 }
 
 //////////////TIM5 interrupt routine
@@ -235,8 +243,10 @@ unsigned long debug_int=0;
 void TIM5_IRQHandler(void)
 {
     if(TIM_GetITStatus(TimerTable[TIMER_5],TIM_IT_Update) == SET){
+        SEGGER_SYSVIEW_RecordEnterTimer(5);
         g_T5Count++;
         SEGGER_SYSVIEW_Print("1s tick");
+        SEGGER_SYSVIEW_RecordExitTimer();
     }
     TIM_ClearITPendingBit(TimerTable[TIMER_5],TIM_IT_Update);//update flag clear
     

@@ -105,9 +105,9 @@ void SEGGER_SYSVIEW_Conf(void) {
     }
   }
 #endif
-  SEGGER_SYSVIEW_Init(SYSVIEW_TIMESTAMP_FREQ, SYSVIEW_CPU_FREQ, 
-                      &_NoOSAPI, _cbSendSystemDesc);
+  SEGGER_SYSVIEW_Init(SYSVIEW_TIMESTAMP_FREQ, SYSVIEW_CPU_FREQ,&_NoOSAPI, _cbSendSystemDesc);
   SEGGER_SYSVIEW_SetRAMBase(SYSVIEW_RAM_BASE);
+
 }
 
 
