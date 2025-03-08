@@ -28,7 +28,7 @@ int main()
 void init(void)
 {
     Sys_IoInit();
-    //Sys_TickInit();
+    Sys_TickInit();
     init_SeggerModules();
     Sys_ConsoleInit();    
     init_Timers();
@@ -39,49 +39,10 @@ void init(void)
     IO_Init(IOP_LED, IO_MODE_OUTPUT);
     
 }
-#define SCS     ((SCS_REGS*)0xE000ED00)
-#define SYSTICK ((SYSTICK_REGS*)0xE000E010)
-typedef struct {
-  volatile unsigned int CSR;
-  volatile unsigned int RVR;
-  volatile unsigned int CVR;
-  volatile unsigned int CALIB;
-} SYSTICK_REGS;
 
-typedef struct {
-  volatile unsigned int CPUID;       // CPUID Base Register
-  volatile unsigned int ICSR;        // Interrupt Control and State Register
-  volatile unsigned int VTOR;        // Vector Table Offset Register
-  volatile unsigned int AIRCR;       // Application Interrupt and Reset Control Register
-  volatile unsigned int SCR;         // System Control Register
-  volatile unsigned int CCR;         // Configuration and Control Register
-  volatile unsigned int SHPR1;       // System Handler Priority Register 1
-  volatile unsigned int SHPR2;       // System Handler Priority Register 2
-  volatile unsigned int SHPR3;       // System Handler Priority Register 3
-  volatile unsigned int SHCSR;       // System Handler Control and State Register
-  volatile unsigned int CFSR;        // Configurable Fault Status Register
-  volatile unsigned int HFSR;        // HardFault Status Register
-  volatile unsigned int DFSR;        // Debug Fault Status Register
-  volatile unsigned int MMFAR;       // MemManage Fault Address Register
-  volatile unsigned int BFAR;        // BusFault Address Register
-  volatile unsigned int AFSR;        // Auxiliary Fault Status Register
-  volatile unsigned int aDummy0[4];  // 0x40-0x4C Reserved
-  volatile unsigned int aDummy1[4];  // 0x50-0x5C Reserved
-  volatile unsigned int aDummy2[4];  // 0x60-0x6C Reserved
-  volatile unsigned int aDummy3[4];  // 0x70-0x7C Reserved
-  volatile unsigned int aDummy4[2];  // 0x80-0x87 - - - Reserved.
-  volatile unsigned int CPACR;       // Coprocessor Access Control Register
-} SCS_REGS;
 
 void init_SeggerModules(void)
 {
-    U32 v;
-    v = SCS->SHPR3;
-    v |= (0xFFuL << 24);   // Lowest prio for SysTick so SystemView does not get interrupted by Systick
-    SCS->SHPR3 = v;
-    SYSTICK->RVR = (SystemCoreClock / 1000) - 1;     // set reload
-    SYSTICK->CVR = 0x00;      // set counter
-    SYSTICK->CSR = 0x07;      // enable systick
     //SEGGER_SYSVIEW_Conf();
     SEGGER_SYSVIEW_Init(SystemCoreClock, SystemCoreClock, 0, 0);
     SEGGER_SYSVIEW_Start();           /* Starts SystemView recording*/
