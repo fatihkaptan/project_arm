@@ -2246,6 +2246,9 @@
                 <file>
                     <name>$PROJ_DIR$\Drivers\SysView_RTT\SEGGER\SEGGER_SYSVIEW.c</name>
                 </file>
+                <file>
+                    <name>$PROJ_DIR$\Drivers\SysView_RTT\SEGGER\SEGGER_SYSVIEW_Conf._NoOS.c</name>
+                </file>
             </group>
         </group>
     </group>

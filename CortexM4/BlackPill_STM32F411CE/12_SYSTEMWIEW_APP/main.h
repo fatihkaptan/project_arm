@@ -19,5 +19,6 @@ void init_OLED(void);
 void Task_LED(void);
 void init_Timers(void);
 void init_SeggerModules(void);
+void SYSVIEW_AddTask(void* pTask, const char* sName, U32 Prio);
 
 #endif /*_MAIN_H*/

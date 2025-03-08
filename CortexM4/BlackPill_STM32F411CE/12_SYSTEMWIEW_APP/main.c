@@ -13,15 +13,25 @@
 
 #include "main.h"
 
+//makro tanimla
+#define EXEC_TASK(p)    SEGGER_SYSVIEW_OnTaskStartExec((U32)p);   \
+                        p();                                      \
+                        SEGGER_SYSVIEW_OnTaskStopReady((U32)p, 0);
+                        
+                        
+    
+void SYSVIEW_AddTask(void* pTask, const char* sName, U32 Prio);
 
 int main()
-{
-    
+{   
+    int Cnt=0;
+    init_SeggerModules();
     init();// Working time configurations
-    
-    while (1) {       
-        Task_LED();   
-        Task_Print();
+    while (1) {   
+        Cnt = 1000;
+        EXEC_TASK(Task_LED);//Task_LED();   
+        EXEC_TASK(Task_Print);//Task_Print();
+        while(--Cnt);  // Delay
     }
 } 
 
@@ -29,7 +39,7 @@ void init(void)
 {
     Sys_IoInit();
     Sys_TickInit();
-    init_SeggerModules();
+    
     Sys_ConsoleInit();    
     init_Timers();
     PWM_Init(100,50); //100*100us = 10ms period, 5ms OnTime capture denemek icin
@@ -43,18 +53,12 @@ void init(void)
 
 void init_SeggerModules(void)
 {
-    //SEGGER_SYSVIEW_Conf();
-    SEGGER_SYSVIEW_Init(SystemCoreClock, SystemCoreClock, 0, 0);
-    SEGGER_SYSVIEW_Start();           /* Starts SystemView recording*/
-    SEGGER_SYSVIEW_OnIdle();          /* Tells SystemView that System is currently in "Idle"*/
-    SEGGER_SYSVIEW_SendSysDesc("I#15=SysTick");
-    SEGGER_SYSVIEW_SendSysDesc("SystemName=Project14");
-    SEGGER_SYSVIEW_SendSysDesc("Device=STM32F411");
-    SEGGER_SYSVIEW_SendSysDesc("CoreFrequency=100000000");
-    SEGGER_SYSVIEW_NameMarker(1, "delay_Demo");
-    SEGGER_SYSVIEW_NameMarker(2, "task_print");
-    SEGGER_SYSVIEW_NameMarker(3, "task_led");
-    
+    SEGGER_SYSVIEW_Conf();
+    SYSVIEW_AddTask((void *)Task_LED, "Task_LED", 10);
+    SYSVIEW_AddTask((void *)Task_Print, "Task_Print", 10);
+    //SEGGER_SYSVIEW_Init(SystemCoreClock, SystemCoreClock, 0, 0);
+    //SEGGER_SYSVIEW_Start();           /* Starts SystemView recording*/
+    //SEGGER_SYSVIEW_OnIdle();          /* Tells SystemView that System is currently in "Idle"*/
 }
 
 
@@ -81,7 +85,7 @@ void init_Timers(void)
 
 
 void Task_Print(void){
-    SEGGER_SYSVIEW_RecordVoid(34);  //SEGGER_SYSVIEW_MarkStart(0x02);
+    //SEGGER_SYSVIEW_RecordVoid(34);  //SEGGER_SYSVIEW_MarkStart(0x02);
     static unsigned long count;
     FNT_t font;
     int row, col;
@@ -124,7 +128,7 @@ void Task_Print(void){
     OLED_SetFont(font);
     OLED_SetCursor(row, col);  
 #endif
-    SEGGER_SYSVIEW_RecordEndCall(34);//SEGGER_SYSVIEW_MarkStop(0x02);
+    //SEGGER_SYSVIEW_RecordEndCall(34);//SEGGER_SYSVIEW_MarkStop(0x02);
 }
 
 void init_OLED(void){
@@ -156,11 +160,10 @@ void init_OLED(void){
 }
 
 void Task_LED(void){
-    SEGGER_SYSVIEW_RecordVoid(33);//SEGGER_SYSVIEW_MarkStart(0x03);
+    //SEGGER_SYSVIEW_RecordVoid(33);//SEGGER_SYSVIEW_MarkStart(0x03);
     static enum {
-        I_LED_ON,
-        S_LED_ON,
-        
+        I_LED_ON=0,
+        S_LED_ON,        
         I_LED_OFF,
         S_LED_OFF
     } state = I_LED_ON;
@@ -171,30 +174,35 @@ void Task_LED(void){
     
     switch (state) {
     case I_LED_ON:
+        SEGGER_SYSVIEW_RecordVoid(50 + I_LED_ON);
         IO_Write(IOP_LED, 0);     // LED on
         
         t0 = t1;     
         state = S_LED_ON;
-        //break;
-        
+        SEGGER_SYSVIEW_RecordEndCall(50 + I_LED_ON);
+        //break;        
     case S_LED_ON:
+        SEGGER_SYSVIEW_RecordVoid(50 + S_LED_ON);
         if (t1 - t0 >= CLOCKS_PER_SEC / 10) /*100ms ON*/
             state = I_LED_OFF;
-        break;
-        
+        SEGGER_SYSVIEW_RecordEndCall(50 + S_LED_ON);
+        break;        
     case I_LED_OFF:
+        SEGGER_SYSVIEW_RecordVoid(50 + I_LED_OFF);
         IO_Write(IOP_LED, 1);     // LED off
         
         t0 = t1;    
         state = S_LED_OFF;
-        //break;
-        
+        SEGGER_SYSVIEW_RecordEndCall(50 + I_LED_OFF);
+        //break;        
     case S_LED_OFF:
+        SEGGER_SYSVIEW_RecordVoid(50 + S_LED_OFF);
         if (t1 - t0 >= 9 * CLOCKS_PER_SEC / 10) /*900ms OFF*/
             state = I_LED_ON;
-        break;
+        SEGGER_SYSVIEW_RecordEndCall(50 + S_LED_OFF);
+        break;        
     }
-    SEGGER_SYSVIEW_RecordEndCall(33);//SEGGER_SYSVIEW_MarkStop(0x03);
+    //SEGGER_SYSVIEW_RecordEndCall(33);//SEGGER_SYSVIEW_MarkStop(0x03);
 }
 
 
