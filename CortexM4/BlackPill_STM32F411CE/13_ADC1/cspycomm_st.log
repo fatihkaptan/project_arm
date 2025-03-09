@@ -1,0 +1,1135 @@
+mar 9/13:19:52.697 DEBUG2 : 		STLinkOpen
+mar 9/13:19:52.709 DEBUG2 : 		Reset
+mar 9/13:19:52.716 DEBUG2 : 		ReadTarget32 Address=0xE0042008 AP=0 Count=4 Data=0x00001800
+mar 9/13:19:52.717 DEBUG2 : 		ReadTarget32 Address=0xE0042004 AP=0 Count=4 Data=0x00000027
+mar 9/13:19:52.717 DEBUG2 : 		Stop
+mar 9/13:19:52.718 DEBUG2 : 		ReadTarget32 Address=0xE000ED00 AP=0 Count=4 Data=0x410FC241
+mar 9/13:19:52.719 DEBUG2 : 		ReadTarget32 Address=0xE00FF000 AP=0 Count=4 Data=0xFFF0F003
+mar 9/13:19:52.719 DEBUG2 : 		ReadTarget32 Address=0xE00FF004 AP=0 Count=4 Data=0xFFF02003
+mar 9/13:19:52.720 DEBUG2 : 		ReadTarget32 Address=0xE00FF008 AP=0 Count=4 Data=0xFFF03003
+mar 9/13:19:52.720 DEBUG2 : 		ReadTarget32 Address=0xE00FF00C AP=0 Count=4 Data=0xFFF01003
+mar 9/13:19:52.720 DEBUG2 : 		ReadTarget32 Address=0xE00FF010 AP=0 Count=4 Data=0xFFF41003
+mar 9/13:19:52.721 DEBUG2 : 		ReadTarget32 Address=0xE00FF014 AP=0 Count=4 Data=0xFFF42003
+mar 9/13:19:52.721 DEBUG2 : 		ReadTarget32 Address=0xE00FF018 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:52.722 DEBUG2 : 		ReadTarget32 Address=0xE00FFFD0 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:52.722 DEBUG2 : 		ReadTarget32 Address=0xE00FFFD4 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:52.722 DEBUG2 : 		ReadTarget32 Address=0xE00FFFD8 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:52.722 DEBUG2 : 		ReadTarget32 Address=0xE00FFFDC AP=0 Count=4 Data=0x00000000
+mar 9/13:19:52.723 DEBUG2 : 		ReadTarget32 Address=0xE00FFFE0 AP=0 Count=4 Data=0x00000011
+mar 9/13:19:52.723 DEBUG2 : 		ReadTarget32 Address=0xE00FFFE4 AP=0 Count=4 Data=0x00000004
+mar 9/13:19:52.724 DEBUG2 : 		ReadTarget32 Address=0xE00FFFE8 AP=0 Count=4 Data=0x0000000A
+mar 9/13:19:52.724 DEBUG2 : 		ReadTarget32 Address=0xE00FFFEC AP=0 Count=4 Data=0x00000000
+mar 9/13:19:52.724 DEBUG2 : 		ReadTarget32 Address=0xE00FFFF0 AP=0 Count=4 Data=0x0000000D
+mar 9/13:19:52.725 DEBUG2 : 		ReadTarget32 Address=0xE00FFFF4 AP=0 Count=4 Data=0x00000010
+mar 9/13:19:52.725 DEBUG2 : 		ReadTarget32 Address=0xE00FFFF8 AP=0 Count=4 Data=0x00000005
+mar 9/13:19:52.726 DEBUG2 : 		ReadTarget32 Address=0xE00FFFFC AP=0 Count=4 Data=0x000000B1
+mar 9/13:19:52.726 DEBUG2 : 		ReadTarget32 Address=0xE000EFD0 AP=0 Count=4 Data=0x00000004
+mar 9/13:19:52.726 DEBUG2 : 		ReadTarget32 Address=0xE000EFD4 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:52.727 DEBUG2 : 		ReadTarget32 Address=0xE000EFD8 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:52.727 DEBUG2 : 		ReadTarget32 Address=0xE000EFDC AP=0 Count=4 Data=0x00000000
+mar 9/13:19:52.728 DEBUG2 : 		ReadTarget32 Address=0xE000EFE0 AP=0 Count=4 Data=0x0000000C
+mar 9/13:19:52.728 DEBUG2 : 		ReadTarget32 Address=0xE000EFE4 AP=0 Count=4 Data=0x000000B0
+mar 9/13:19:52.729 DEBUG2 : 		ReadTarget32 Address=0xE000EFE8 AP=0 Count=4 Data=0x0000000B
+mar 9/13:19:52.729 DEBUG2 : 		ReadTarget32 Address=0xE000EFEC AP=0 Count=4 Data=0x00000000
+mar 9/13:19:52.730 DEBUG2 : 		ReadTarget32 Address=0xE000EFF0 AP=0 Count=4 Data=0x0000000D
+mar 9/13:19:52.730 DEBUG2 : 		ReadTarget32 Address=0xE000EFF4 AP=0 Count=4 Data=0x000000E0
+mar 9/13:19:52.730 DEBUG2 : 		ReadTarget32 Address=0xE000EFF8 AP=0 Count=4 Data=0x00000005
+mar 9/13:19:52.731 DEBUG2 : 		ReadTarget32 Address=0xE000EFFC AP=0 Count=4 Data=0x000000B1
+mar 9/13:19:52.731 DEBUG2 : 		ReadTarget32 Address=0xE0001FD0 AP=0 Count=4 Data=0xC5A1242F
+mar 9/13:19:52.731 DEBUG2 : 		ReadTarget32 Address=0xE0001FD4 AP=0 Count=4 Data=0xC5A1242F
+mar 9/13:19:52.732 DEBUG2 : 		ReadTarget32 Address=0xE0001FD8 AP=0 Count=4 Data=0xC5A1242F
+mar 9/13:19:52.732 DEBUG2 : 		ReadTarget32 Address=0xE0001FDC AP=0 Count=4 Data=0xC5A1242F
+mar 9/13:19:52.732 DEBUG2 : 		ReadTarget32 Address=0xE0001FE0 AP=0 Count=4 Data=0xC5A1242F
+mar 9/13:19:52.733 DEBUG2 : 		ReadTarget32 Address=0xE0001FE4 AP=0 Count=4 Data=0xC5A1242F
+mar 9/13:19:52.733 DEBUG2 : 		ReadTarget32 Address=0xE0001FE8 AP=0 Count=4 Data=0xC5A1242F
+mar 9/13:19:52.733 DEBUG2 : 		ReadTarget32 Address=0xE0001FEC AP=0 Count=4 Data=0xC5A1242F
+mar 9/13:19:52.734 DEBUG2 : 		ReadTarget32 Address=0xE0001FF0 AP=0 Count=4 Data=0xC5A1242F
+mar 9/13:19:52.734 DEBUG2 : 		ReadTarget32 Address=0xE0001FF4 AP=0 Count=4 Data=0xC5A1242F
+mar 9/13:19:52.735 DEBUG2 : 		ReadTarget32 Address=0xE0001FF8 AP=0 Count=4 Data=0xC5A1242F
+mar 9/13:19:52.735 DEBUG2 : 		ReadTarget32 Address=0xE0001FFC AP=0 Count=4 Data=0xC5A1242F
+mar 9/13:19:52.736 DEBUG2 : 		ReadTarget32 Address=0xE0002FD0 AP=0 Count=4 Data=0x00000004
+mar 9/13:19:52.736 DEBUG2 : 		ReadTarget32 Address=0xE0002FD4 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:52.737 DEBUG2 : 		ReadTarget32 Address=0xE0002FD8 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:52.737 DEBUG2 : 		ReadTarget32 Address=0xE0002FDC AP=0 Count=4 Data=0x00000000
+mar 9/13:19:52.737 DEBUG2 : 		ReadTarget32 Address=0xE0002FE0 AP=0 Count=4 Data=0x00000003
+mar 9/13:19:52.738 DEBUG2 : 		ReadTarget32 Address=0xE0002FE4 AP=0 Count=4 Data=0x000000B0
+mar 9/13:19:52.738 DEBUG2 : 		ReadTarget32 Address=0xE0002FE8 AP=0 Count=4 Data=0x0000002B
+mar 9/13:19:52.738 DEBUG2 : 		ReadTarget32 Address=0xE0002FEC AP=0 Count=4 Data=0x00000000
+mar 9/13:19:52.739 DEBUG2 : 		ReadTarget32 Address=0xE0002FF0 AP=0 Count=4 Data=0x0000000D
+mar 9/13:19:52.739 DEBUG2 : 		ReadTarget32 Address=0xE0002FF4 AP=0 Count=4 Data=0x000000E0
+mar 9/13:19:52.739 DEBUG2 : 		ReadTarget32 Address=0xE0002FF8 AP=0 Count=4 Data=0x00000005
+mar 9/13:19:52.740 DEBUG2 : 		ReadTarget32 Address=0xE0002FFC AP=0 Count=4 Data=0x000000B1
+mar 9/13:19:52.740 DEBUG2 : 		ReadTarget32 Address=0xE0000FD0 AP=0 Count=4 Data=0x00000001
+mar 9/13:19:52.740 DEBUG2 : 		ReadTarget32 Address=0xE0000FD4 AP=0 Count=4 Data=0x00000001
+mar 9/13:19:52.741 DEBUG2 : 		ReadTarget32 Address=0xE0000FD8 AP=0 Count=4 Data=0x00000001
+mar 9/13:19:52.741 DEBUG2 : 		ReadTarget32 Address=0xE0000FDC AP=0 Count=4 Data=0x00000001
+mar 9/13:19:52.742 DEBUG2 : 		ReadTarget32 Address=0xE0000FE0 AP=0 Count=4 Data=0x00000001
+mar 9/13:19:52.743 DEBUG2 : 		ReadTarget32 Address=0xE0000FE4 AP=0 Count=4 Data=0x00000001
+mar 9/13:19:52.743 DEBUG2 : 		ReadTarget32 Address=0xE0000FE8 AP=0 Count=4 Data=0x00000001
+mar 9/13:19:52.743 DEBUG2 : 		ReadTarget32 Address=0xE0000FEC AP=0 Count=4 Data=0x00000001
+mar 9/13:19:52.743 DEBUG2 : 		ReadTarget32 Address=0xE0000FF0 AP=0 Count=4 Data=0x00000001
+mar 9/13:19:52.744 DEBUG2 : 		ReadTarget32 Address=0xE0000FF4 AP=0 Count=4 Data=0x00000001
+mar 9/13:19:52.744 DEBUG2 : 		ReadTarget32 Address=0xE0000FF8 AP=0 Count=4 Data=0x00000001
+mar 9/13:19:52.744 DEBUG2 : 		ReadTarget32 Address=0xE0000FFC AP=0 Count=4 Data=0x00000001
+mar 9/13:19:52.745 DEBUG2 : 		ReadTarget32 Address=0xE0040FD0 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:52.745 DEBUG2 : 		ReadTarget32 Address=0xE0040FD4 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:52.746 DEBUG2 : 		ReadTarget32 Address=0xE0040FD8 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:52.746 DEBUG2 : 		ReadTarget32 Address=0xE0040FDC AP=0 Count=4 Data=0x00000000
+mar 9/13:19:52.747 DEBUG2 : 		ReadTarget32 Address=0xE0040FE0 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:52.747 DEBUG2 : 		ReadTarget32 Address=0xE0040FE4 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:52.747 DEBUG2 : 		ReadTarget32 Address=0xE0040FE8 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:52.748 DEBUG2 : 		ReadTarget32 Address=0xE0040FEC AP=0 Count=4 Data=0x00000000
+mar 9/13:19:52.749 DEBUG2 : 		ReadTarget32 Address=0xE0040FF0 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:52.749 DEBUG2 : 		ReadTarget32 Address=0xE0040FF4 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:52.749 DEBUG2 : 		ReadTarget32 Address=0xE0040FF8 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:52.751 DEBUG2 : 		ReadTarget32 Address=0xE0040FFC AP=0 Count=4 Data=0x00000000
+mar 9/13:19:52.751 DEBUG2 : 		ReadTarget32 Address=0xE0041FD0 AP=0 Count=4 Data=0x00000004
+mar 9/13:19:52.751 DEBUG2 : 		ReadTarget32 Address=0xE0041FD4 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:52.752 DEBUG2 : 		ReadTarget32 Address=0xE0041FD8 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:52.752 DEBUG2 : 		ReadTarget32 Address=0xE0041FDC AP=0 Count=4 Data=0x00000000
+mar 9/13:19:52.753 DEBUG2 : 		ReadTarget32 Address=0xE0041FE0 AP=0 Count=4 Data=0x00000025
+mar 9/13:19:52.754 DEBUG2 : 		ReadTarget32 Address=0xE0041FE4 AP=0 Count=4 Data=0x000000B9
+mar 9/13:19:52.754 DEBUG2 : 		ReadTarget32 Address=0xE0041FE8 AP=0 Count=4 Data=0x0000000B
+mar 9/13:19:52.755 DEBUG2 : 		ReadTarget32 Address=0xE0041FEC AP=0 Count=4 Data=0x00000000
+mar 9/13:19:52.755 DEBUG2 : 		ReadTarget32 Address=0xE0041FF0 AP=0 Count=4 Data=0x0000000D
+mar 9/13:19:52.756 DEBUG2 : 		ReadTarget32 Address=0xE0041FF4 AP=0 Count=4 Data=0x00000090
+mar 9/13:19:52.756 DEBUG2 : 		ReadTarget32 Address=0xE0041FF8 AP=0 Count=4 Data=0x00000005
+mar 9/13:19:52.756 DEBUG2 : 		ReadTarget32 Address=0xE0041FFC AP=0 Count=4 Data=0x000000B1
+mar 9/13:19:52.758 DEBUG2 : 		ReadTarget32 Address=0xE0001004 AP=0 Count=4 Data=0xC5A1242F
+mar 9/13:19:52.777 DEBUG2 : 		ReadTarget32 Address=0xE0042008 AP=0 Count=4 Data=0x00001800
+mar 9/13:19:52.777 DEBUG2 : 		ReadTarget32 Address=0x40023C14 AP=0 Count=4 Data=0x0FFFAAED
+mar 9/13:19:52.779 DEBUG2 : 		ReadTarget32 Address=0x4002380C AP=0 Count=4 Data=0x00000000
+mar 9/13:19:52.780 DEBUG2 : 		ReadTarget32 Address=0x40023808 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:52.781 DEBUG2 : 		ReadTarget32 Address=0x40023800 AP=0 Count=4 Data=0x00007583
+mar 9/13:19:52.781 DEBUG2 : 		WriteTarget32 Address=0x4002380C AP=0 Count=4 Data=0x00000000
+mar 9/13:19:52.781 DEBUG2 : 		WriteTarget32 Address=0x40023808 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:52.782 DEBUG2 : 		WriteTarget32 Address=0x40023800 AP=0 Count=4 Data=0x00010083
+mar 9/13:19:52.783 DEBUG2 : 		ReadTarget32 Address=0x40023C14 AP=0 Count=4 Data=0x0FFFAAED
+mar 9/13:19:52.825 DEBUG2 : 		WriteTarget32 Address=0x20000000 AP=0 Count=32 Data=0x20020000 ...
+mar 9/13:19:52.826 DEBUG2 : 		WriteTarget32 Address=0x20000040 AP=0 Count=960 Data=0x4C1EB51C ...
+mar 9/13:19:52.844 DEBUG2 : 		ReadTarget32 Address=0x20000000 AP=0 Count=4 Data=0x20020000
+mar 9/13:19:52.845 DEBUG2 : 		ReadTarget32 Address=0x20000004 AP=0 Count=4 Data=0x20000395
+mar 9/13:19:52.845 DEBUG2 : 		ReadReg Index=0x0F
+mar 9/13:19:52.852 DEBUG2 : 		STLinkWriteReg Index=0x0F Data=0x20000394
+mar 9/13:19:52.852 DEBUG2 : 		ReadReg Index=0x11
+mar 9/13:19:52.859 DEBUG2 : 		ReadReg Index=0x12
+mar 9/13:19:52.859 DEBUG2 : 		ReadReg Index=0x14
+mar 9/13:19:52.860 DEBUG2 : 		STLinkWriteReg Index=0x11 Data=0x20020000
+mar 9/13:19:52.861 DEBUG2 : 		ReadReg Index=0x00
+mar 9/13:19:52.868 DEBUG2 : 		ReadReg Index=0x01
+mar 9/13:19:52.868 DEBUG2 : 		ReadReg Index=0x02
+mar 9/13:19:52.868 DEBUG2 : 		ReadReg Index=0x03
+mar 9/13:19:52.868 DEBUG2 : 		ReadReg Index=0x04
+mar 9/13:19:52.868 DEBUG2 : 		ReadReg Index=0x05
+mar 9/13:19:52.868 DEBUG2 : 		ReadReg Index=0x06
+mar 9/13:19:52.868 DEBUG2 : 		ReadReg Index=0x07
+mar 9/13:19:52.868 DEBUG2 : 		ReadReg Index=0x08
+mar 9/13:19:52.868 DEBUG2 : 		ReadReg Index=0x09
+mar 9/13:19:52.868 DEBUG2 : 		ReadReg Index=0x0A
+mar 9/13:19:52.868 DEBUG2 : 		ReadReg Index=0x0B
+mar 9/13:19:52.868 DEBUG2 : 		ReadReg Index=0x0C
+mar 9/13:19:52.868 DEBUG2 : 		ReadReg Index=0x11
+mar 9/13:19:52.868 DEBUG2 : 		ReadReg Index=0x12
+mar 9/13:19:52.868 DEBUG2 : 		ReadReg Index=0x0E
+mar 9/13:19:52.868 DEBUG2 : 		ReadReg Index=0x0F
+mar 9/13:19:52.868 DEBUG2 : 		ReadReg Index=0x10
+mar 9/13:19:52.868 DEBUG2 : 		ReadReg Index=0x14
+mar 9/13:19:52.868 DEBUG2 : 		STLinkWriteReg Index=0x10 Data=0x01000000
+mar 9/13:19:52.870 DEBUG2 : 		ReadTarget32 Address=0xE000EDFC AP=0 Count=4 Data=0x00000000
+mar 9/13:19:52.870 DEBUG2 : 		WriteTarget32 Address=0xE000EDFC AP=0 Count=4 Data=0x01000000
+mar 9/13:19:52.870 DEBUG2 : 		ReadTarget32 Address=0xE0001004 AP=0 Count=4 Data=0xC5A1242F
+mar 9/13:19:52.871 DEBUG2 : 		ReadTarget32 Address=0xE0001004 AP=0 Count=4 Data=0xC5A1242F
+mar 9/13:19:52.873 DEBUG2 : 		ReadReg Index=0x0F
+mar 9/13:19:52.880 DEBUG2 : 		WriteTarget32 Address=0x2001EF98 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:52.880 DEBUG2 : 		WriteTarget32 Address=0x2001EF84 AP=0 Count=20 Data=0x08000000 ...
+mar 9/13:19:52.882 DEBUG2 : 		STLinkWriteReg Index=0x0F Data=0x20000394
+mar 9/13:19:52.883 DEBUG2 : 		ReadReg Index=0x00
+mar 9/13:19:52.889 DEBUG2 : 		ReadReg Index=0x01
+mar 9/13:19:52.889 DEBUG2 : 		ReadReg Index=0x02
+mar 9/13:19:52.889 DEBUG2 : 		ReadReg Index=0x03
+mar 9/13:19:52.889 DEBUG2 : 		ReadReg Index=0x04
+mar 9/13:19:52.890 DEBUG2 : 		ReadReg Index=0x05
+mar 9/13:19:52.890 DEBUG2 : 		ReadReg Index=0x06
+mar 9/13:19:52.890 DEBUG2 : 		ReadReg Index=0x07
+mar 9/13:19:52.890 DEBUG2 : 		ReadReg Index=0x08
+mar 9/13:19:52.890 DEBUG2 : 		ReadReg Index=0x09
+mar 9/13:19:52.890 DEBUG2 : 		ReadReg Index=0x0A
+mar 9/13:19:52.890 DEBUG2 : 		ReadReg Index=0x0B
+mar 9/13:19:52.890 DEBUG2 : 		ReadReg Index=0x0C
+mar 9/13:19:52.890 DEBUG2 : 		ReadReg Index=0x11
+mar 9/13:19:52.890 DEBUG2 : 		ReadReg Index=0x12
+mar 9/13:19:52.890 DEBUG2 : 		ReadReg Index=0x0E
+mar 9/13:19:52.890 DEBUG2 : 		ReadReg Index=0x0F
+mar 9/13:19:52.890 DEBUG2 : 		ReadReg Index=0x10
+mar 9/13:19:52.890 DEBUG2 : 		ReadReg Index=0x14
+mar 9/13:19:52.890 DEBUG2 : 		STLinkWriteReg Index=0x10 Data=0x01000000
+mar 9/13:19:52.891 DEBUG2 : 		ReadTarget16 Address=0x200000C0 AP=0 Count=2 Data=0xE7FE
+mar 9/13:19:52.892 DEBUG2 : 		SetCodeBreak Address=0x200000C0
+mar 9/13:19:52.894 DEBUG2 : 		STLinkIsCpuHalted - Stopped
+mar 9/13:19:52.896 DEBUG2 : 		ReadReg Index=0x0F
+mar 9/13:19:52.904 DEBUG2 : 		ReadTarget16 Address=0x20000394 AP=0 Count=2 Data=0xF7FF
+mar 9/13:19:52.905 DEBUG2 : 		ReadTarget32 Address=0xE000EDFC AP=0 Count=4 Data=0x01000000
+mar 9/13:19:52.905 DEBUG2 : 		WriteTarget32 Address=0xE000EDFC AP=0 Count=4 Data=0x01000000
+mar 9/13:19:52.906 DEBUG2 : 		ReadTarget32 Address=0xE0002000 AP=0 Count=4 Data=0x00000261
+mar 9/13:19:52.907 DEBUG2 : 		ReadTarget32 Address=0xE0002000 AP=0 Count=4 Data=0x00000261
+mar 9/13:19:52.907 DEBUG2 : 		ReadTarget32 Address=0xE0001000 AP=0 Count=4 Data=0x400013FF
+mar 9/13:19:52.908 DEBUG2 : 		ReadTarget32 Address=0xE000EDFC AP=0 Count=4 Data=0x01000000
+mar 9/13:19:52.908 DEBUG2 : 		WriteTarget32 Address=0xE000EDFC AP=0 Count=4 Data=0x01000000
+mar 9/13:19:52.908 DEBUG2 : 		WriteTarget32 Address=0xE0001028 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:52.909 DEBUG2 : 		WriteTarget32 Address=0xE0001038 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:52.909 DEBUG2 : 		WriteTarget32 Address=0xE0001048 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:52.909 DEBUG2 : 		WriteTarget32 Address=0xE0001058 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:52.909 DEBUG2 : 		Go >
+mar 9/13:19:52.913 DEBUG2 : 		Go <
+mar 9/13:19:52.920 DEBUG2 : 		STLinkIsCpuHalted - Stopped
+mar 9/13:19:52.921 DEBUG2 : 		ReadTarget32 Address=0xE000EDFC AP=0 Count=4 Data=0x01000000
+mar 9/13:19:52.921 DEBUG2 : 		WriteTarget32 Address=0xE000EDFC AP=0 Count=4 Data=0x01000000
+mar 9/13:19:52.921 DEBUG2 : 		WriteTarget32 Address=0xE0001028 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:52.922 DEBUG2 : 		WriteTarget32 Address=0xE0001038 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:52.922 DEBUG2 : 		WriteTarget32 Address=0xE0001048 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:52.922 DEBUG2 : 		WriteTarget32 Address=0xE0001058 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:52.922 DEBUG2 : 		ReadReg Index=0x0F
+mar 9/13:19:52.930 DEBUG2 : 		ReadTarget16 Address=0x200000C0 AP=0 Count=2 Data=0xE7FE
+mar 9/13:19:52.931 DEBUG2 : 		ReadTarget32 Address=0x2001EF84 AP=0 Count=20 Data=0x08000000 ...
+mar 9/13:19:52.932 DEBUG2 : 		WriteTarget32 Address=0x20000400 AP=0 Count=16 Data=0x08000000 ...
+mar 9/13:19:52.933 DEBUG2 : 		WriteTarget32 Address=0x2001EF84 AP=0 Count=20 Data=0x00000000 ...
+mar 9/13:19:52.934 DEBUG2 : 		STLinkWriteReg Index=0x0F Data=0x200003A4
+mar 9/13:19:52.934 DEBUG2 : 		ReadReg Index=0x00
+mar 9/13:19:52.942 DEBUG2 : 		ReadReg Index=0x01
+mar 9/13:19:52.942 DEBUG2 : 		ReadReg Index=0x02
+mar 9/13:19:52.942 DEBUG2 : 		ReadReg Index=0x03
+mar 9/13:19:52.942 DEBUG2 : 		ReadReg Index=0x04
+mar 9/13:19:52.942 DEBUG2 : 		ReadReg Index=0x05
+mar 9/13:19:52.942 DEBUG2 : 		ReadReg Index=0x06
+mar 9/13:19:52.942 DEBUG2 : 		ReadReg Index=0x07
+mar 9/13:19:52.942 DEBUG2 : 		ReadReg Index=0x08
+mar 9/13:19:52.942 DEBUG2 : 		ReadReg Index=0x09
+mar 9/13:19:52.942 DEBUG2 : 		ReadReg Index=0x0A
+mar 9/13:19:52.942 DEBUG2 : 		ReadReg Index=0x0B
+mar 9/13:19:52.942 DEBUG2 : 		ReadReg Index=0x0C
+mar 9/13:19:52.942 DEBUG2 : 		ReadReg Index=0x11
+mar 9/13:19:52.942 DEBUG2 : 		ReadReg Index=0x12
+mar 9/13:19:52.942 DEBUG2 : 		ReadReg Index=0x0E
+mar 9/13:19:52.942 DEBUG2 : 		ReadReg Index=0x0F
+mar 9/13:19:52.942 DEBUG2 : 		ReadReg Index=0x10
+mar 9/13:19:52.942 DEBUG2 : 		ReadReg Index=0x14
+mar 9/13:19:52.943 DEBUG2 : 		STLinkWriteReg Index=0x10 Data=0x41000000
+mar 9/13:19:52.943 DEBUG2 : 		ReadReg Index=0x0F
+mar 9/13:19:52.951 DEBUG2 : 		ReadTarget16 Address=0x200003A4 AP=0 Count=2 Data=0xF7FF
+mar 9/13:19:52.953 DEBUG2 : 		ReadTarget32 Address=0xE000EDFC AP=0 Count=4 Data=0x01000000
+mar 9/13:19:52.953 DEBUG2 : 		WriteTarget32 Address=0xE000EDFC AP=0 Count=4 Data=0x01000000
+mar 9/13:19:52.954 DEBUG2 : 		WriteTarget32 Address=0xE0001028 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:52.955 DEBUG2 : 		WriteTarget32 Address=0xE0001038 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:52.955 DEBUG2 : 		WriteTarget32 Address=0xE0001048 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:52.956 DEBUG2 : 		WriteTarget32 Address=0xE0001058 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:52.956 DEBUG2 : 		Go >
+mar 9/13:19:52.961 DEBUG2 : 		Go <
+mar 9/13:19:52.962 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:52.978 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:52.994 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:53.010 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:53.026 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:53.042 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:53.057 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:53.073 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:53.088 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:53.103 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:53.119 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:53.135 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:53.150 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:53.166 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:53.181 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:53.197 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:53.212 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:53.227 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:53.243 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:53.258 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:53.274 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:53.290 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:53.305 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:53.320 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:53.336 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:53.352 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:53.367 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:53.383 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:53.398 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:53.413 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:53.430 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:53.445 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:53.466 DEBUG2 : 		STLinkIsCpuHalted - Stopped
+mar 9/13:19:53.467 DEBUG2 : 		ReadTarget32 Address=0xE000EDFC AP=0 Count=4 Data=0x01000000
+mar 9/13:19:53.467 DEBUG2 : 		WriteTarget32 Address=0xE000EDFC AP=0 Count=4 Data=0x01000000
+mar 9/13:19:53.467 DEBUG2 : 		WriteTarget32 Address=0xE0001028 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:53.467 DEBUG2 : 		WriteTarget32 Address=0xE0001038 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:53.468 DEBUG2 : 		WriteTarget32 Address=0xE0001048 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:53.468 DEBUG2 : 		WriteTarget32 Address=0xE0001058 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:53.469 DEBUG2 : 		ReadReg Index=0x0F
+mar 9/13:19:53.476 DEBUG2 : 		ReadTarget16 Address=0x200000C0 AP=0 Count=2 Data=0xE7FE
+mar 9/13:19:53.478 DEBUG2 : 		ReadTarget32 Address=0x2001EF84 AP=0 Count=20 Data=0x00000000 ...
+mar 9/13:19:53.478 DEBUG2 : 		WriteTarget32 Address=0x20000400 AP=0 Count=30656 Data=0x20003078 ...
+mar 9/13:19:53.822 DEBUG2 : 		WriteTarget32 Address=0x2001EF84 AP=0 Count=20 Data=0x08000000 ...
+mar 9/13:19:53.823 DEBUG2 : 		STLinkWriteReg Index=0x0F Data=0x2000039C
+mar 9/13:19:53.824 DEBUG2 : 		ReadReg Index=0x00
+mar 9/13:19:53.832 DEBUG2 : 		ReadReg Index=0x01
+mar 9/13:19:53.832 DEBUG2 : 		ReadReg Index=0x02
+mar 9/13:19:53.832 DEBUG2 : 		ReadReg Index=0x03
+mar 9/13:19:53.832 DEBUG2 : 		ReadReg Index=0x04
+mar 9/13:19:53.832 DEBUG2 : 		ReadReg Index=0x05
+mar 9/13:19:53.832 DEBUG2 : 		ReadReg Index=0x06
+mar 9/13:19:53.832 DEBUG2 : 		ReadReg Index=0x07
+mar 9/13:19:53.832 DEBUG2 : 		ReadReg Index=0x08
+mar 9/13:19:53.832 DEBUG2 : 		ReadReg Index=0x09
+mar 9/13:19:53.832 DEBUG2 : 		ReadReg Index=0x0A
+mar 9/13:19:53.832 DEBUG2 : 		ReadReg Index=0x0B
+mar 9/13:19:53.832 DEBUG2 : 		ReadReg Index=0x0C
+mar 9/13:19:53.832 DEBUG2 : 		ReadReg Index=0x11
+mar 9/13:19:53.832 DEBUG2 : 		ReadReg Index=0x12
+mar 9/13:19:53.832 DEBUG2 : 		ReadReg Index=0x0E
+mar 9/13:19:53.832 DEBUG2 : 		ReadReg Index=0x0F
+mar 9/13:19:53.832 DEBUG2 : 		ReadReg Index=0x10
+mar 9/13:19:53.832 DEBUG2 : 		ReadReg Index=0x14
+mar 9/13:19:53.833 DEBUG2 : 		STLinkWriteReg Index=0x10 Data=0x61000000
+mar 9/13:19:53.834 DEBUG2 : 		ReadReg Index=0x0F
+mar 9/13:19:53.843 DEBUG2 : 		ReadTarget16 Address=0x2000039C AP=0 Count=2 Data=0xF7FF
+mar 9/13:19:53.846 DEBUG2 : 		ReadTarget32 Address=0xE000EDFC AP=0 Count=4 Data=0x01000000
+mar 9/13:19:53.846 DEBUG2 : 		WriteTarget32 Address=0xE000EDFC AP=0 Count=4 Data=0x01000000
+mar 9/13:19:53.847 DEBUG2 : 		WriteTarget32 Address=0xE0001028 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:53.849 DEBUG2 : 		WriteTarget32 Address=0xE0001038 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:53.851 DEBUG2 : 		WriteTarget32 Address=0xE0001048 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:53.851 DEBUG2 : 		WriteTarget32 Address=0xE0001058 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:53.851 DEBUG2 : 		Go >
+mar 9/13:19:53.856 DEBUG2 : 		Go <
+mar 9/13:19:53.868 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:53.883 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:53.899 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:53.914 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:53.930 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:53.946 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:53.962 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:53.979 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:53.993 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:54.008 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:54.024 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:54.039 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:54.056 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:54.070 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:54.091 DEBUG2 : 		STLinkIsCpuHalted - Stopped
+mar 9/13:19:54.091 DEBUG2 : 		ReadTarget32 Address=0xE000EDFC AP=0 Count=4 Data=0x01000000
+mar 9/13:19:54.091 DEBUG2 : 		WriteTarget32 Address=0xE000EDFC AP=0 Count=4 Data=0x01000000
+mar 9/13:19:54.092 DEBUG2 : 		WriteTarget32 Address=0xE0001028 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:54.092 DEBUG2 : 		WriteTarget32 Address=0xE0001038 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:54.092 DEBUG2 : 		WriteTarget32 Address=0xE0001048 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:54.093 DEBUG2 : 		WriteTarget32 Address=0xE0001058 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:54.094 DEBUG2 : 		ReadReg Index=0x0F
+mar 9/13:19:54.101 DEBUG2 : 		ReadTarget16 Address=0x200000C0 AP=0 Count=2 Data=0xE7FE
+mar 9/13:19:54.103 DEBUG2 : 		ReadTarget32 Address=0x2001EF84 AP=0 Count=20 Data=0x08000000 ...
+mar 9/13:19:54.103 DEBUG2 : 		STLinkWriteReg Index=0x0F Data=0x200003AC
+mar 9/13:19:54.104 DEBUG2 : 		ReadReg Index=0x00
+mar 9/13:19:54.111 DEBUG2 : 		ReadReg Index=0x01
+mar 9/13:19:54.111 DEBUG2 : 		ReadReg Index=0x02
+mar 9/13:19:54.111 DEBUG2 : 		ReadReg Index=0x03
+mar 9/13:19:54.111 DEBUG2 : 		ReadReg Index=0x04
+mar 9/13:19:54.111 DEBUG2 : 		ReadReg Index=0x05
+mar 9/13:19:54.111 DEBUG2 : 		ReadReg Index=0x06
+mar 9/13:19:54.111 DEBUG2 : 		ReadReg Index=0x07
+mar 9/13:19:54.111 DEBUG2 : 		ReadReg Index=0x08
+mar 9/13:19:54.111 DEBUG2 : 		ReadReg Index=0x09
+mar 9/13:19:54.111 DEBUG2 : 		ReadReg Index=0x0A
+mar 9/13:19:54.111 DEBUG2 : 		ReadReg Index=0x0B
+mar 9/13:19:54.111 DEBUG2 : 		ReadReg Index=0x0C
+mar 9/13:19:54.111 DEBUG2 : 		ReadReg Index=0x11
+mar 9/13:19:54.111 DEBUG2 : 		ReadReg Index=0x12
+mar 9/13:19:54.111 DEBUG2 : 		ReadReg Index=0x0E
+mar 9/13:19:54.111 DEBUG2 : 		ReadReg Index=0x0F
+mar 9/13:19:54.111 DEBUG2 : 		ReadReg Index=0x10
+mar 9/13:19:54.111 DEBUG2 : 		ReadReg Index=0x14
+mar 9/13:19:54.111 DEBUG2 : 		STLinkWriteReg Index=0x10 Data=0x41000000
+mar 9/13:19:54.112 DEBUG2 : 		ReadReg Index=0x0F
+mar 9/13:19:54.120 DEBUG2 : 		ReadTarget16 Address=0x200003AC AP=0 Count=2 Data=0xF7FF
+mar 9/13:19:54.121 DEBUG2 : 		ReadTarget32 Address=0xE000EDFC AP=0 Count=4 Data=0x01000000
+mar 9/13:19:54.121 DEBUG2 : 		WriteTarget32 Address=0xE000EDFC AP=0 Count=4 Data=0x01000000
+mar 9/13:19:54.121 DEBUG2 : 		WriteTarget32 Address=0xE0001028 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:54.122 DEBUG2 : 		WriteTarget32 Address=0xE0001038 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:54.122 DEBUG2 : 		WriteTarget32 Address=0xE0001048 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:54.123 DEBUG2 : 		WriteTarget32 Address=0xE0001058 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:54.123 DEBUG2 : 		Go >
+mar 9/13:19:54.128 DEBUG2 : 		Go <
+mar 9/13:19:54.135 DEBUG2 : 		STLinkIsCpuHalted - Stopped
+mar 9/13:19:54.136 DEBUG2 : 		ReadTarget32 Address=0xE000EDFC AP=0 Count=4 Data=0x01000000
+mar 9/13:19:54.136 DEBUG2 : 		WriteTarget32 Address=0xE000EDFC AP=0 Count=4 Data=0x01000000
+mar 9/13:19:54.136 DEBUG2 : 		WriteTarget32 Address=0xE0001028 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:54.138 DEBUG2 : 		WriteTarget32 Address=0xE0001038 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:54.138 DEBUG2 : 		WriteTarget32 Address=0xE0001048 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:54.139 DEBUG2 : 		WriteTarget32 Address=0xE0001058 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:54.139 DEBUG2 : 		ReadReg Index=0x0F
+mar 9/13:19:54.146 DEBUG2 : 		ReadTarget16 Address=0x200000C0 AP=0 Count=2 Data=0xE7FE
+mar 9/13:19:54.147 DEBUG2 : 		ReadTarget32 Address=0x2001EF84 AP=0 Count=20 Data=0x08000000 ...
+mar 9/13:19:54.149 DEBUG2 : 		ReadReg Index=0x0E
+mar 9/13:19:54.149 DEBUG2 : 		ReadReg Index=0x00
+mar 9/13:19:54.149 DEBUG2 : 		ReadReg Index=0x01
+mar 9/13:19:54.149 DEBUG2 : 		ReadReg Index=0x02
+mar 9/13:19:54.149 DEBUG2 : 		ReadReg Index=0x03
+mar 9/13:19:54.149 DEBUG2 : 		ReadReg Index=0x04
+mar 9/13:19:54.149 DEBUG2 : 		ReadReg Index=0x05
+mar 9/13:19:54.150 DEBUG2 : 		ReadReg Index=0x06
+mar 9/13:19:54.150 DEBUG2 : 		ReadReg Index=0x07
+mar 9/13:19:54.150 DEBUG2 : 		ReadReg Index=0x08
+mar 9/13:19:54.150 DEBUG2 : 		ReadReg Index=0x09
+mar 9/13:19:54.150 DEBUG2 : 		ReadReg Index=0x0A
+mar 9/13:19:54.150 DEBUG2 : 		ReadReg Index=0x0B
+mar 9/13:19:54.150 DEBUG2 : 		ReadReg Index=0x0C
+mar 9/13:19:54.150 DEBUG2 : 		ReadReg Index=0x11
+mar 9/13:19:54.150 DEBUG2 : 		ReadReg Index=0x12
+mar 9/13:19:54.150 DEBUG2 : 		ReadReg Index=0x0E
+mar 9/13:19:54.150 DEBUG2 : 		ReadReg Index=0x0F
+mar 9/13:19:54.150 DEBUG2 : 		ReadReg Index=0x10
+mar 9/13:19:54.150 DEBUG2 : 		ReadReg Index=0x14
+mar 9/13:19:54.151 DEBUG2 : 		ReadTarget32 Address=0xE0001004 AP=0 Count=4 Data=0xC64FA6B7
+mar 9/13:19:54.191 DEBUG2 : 		ClearCodeBreak Address=0x200000C0
+mar 9/13:19:54.193 DEBUG2 : 		ReadTarget32 Address=0x40023C14 AP=0 Count=4 Data=0x0FFFAAED
+mar 9/13:19:54.193 DEBUG2 : 		WriteTarget32 Address=0x40023800 AP=0 Count=4 Data=0x00007583
+mar 9/13:19:54.193 DEBUG2 : 		WriteTarget32 Address=0x40023808 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:54.193 DEBUG2 : 		WriteTarget32 Address=0x4002380C AP=0 Count=4 Data=0x00000000
+mar 9/13:19:54.194 DEBUG2 : 		ReadTarget32 Address=0xE0042000 AP=0 Count=4 Data=0x10006431
+mar 9/13:19:54.195 DEBUG2 : 		ReadTarget8 Address=0x1FFF76DE AP=0 Count=1 Data=0xD0
+mar 9/13:19:54.195 DEBUG2 : 		STLinkWriteReg Index=0x0F Data=0x1FFF279C
+mar 9/13:19:54.196 DEBUG2 : 		SetCodeBreak Address=0x1FFF279E
+mar 9/13:19:54.196 DEBUG2 : 		Go >
+mar 9/13:19:54.200 DEBUG2 : 		Go <
+mar 9/13:19:54.201 DEBUG2 : 		STLinkIsCpuHalted - Stopped
+mar 9/13:19:54.201 DEBUG2 : 		ClearCodeBreak Address=0x1FFF279E
+mar 9/13:19:54.236 DEBUG2 : 		Reset
+mar 9/13:19:54.245 DEBUG2 : 		ReadTarget32 Address=0xE0042008 AP=0 Count=4 Data=0x00001800
+mar 9/13:19:54.245 DEBUG2 : 		ReadTarget32 Address=0xE0042004 AP=0 Count=4 Data=0x00000027
+mar 9/13:19:54.411 DEBUG2 : 		ReadTarget32 Address=0x08000000 AP=0 Count=4 Data=0x20003078
+mar 9/13:19:54.411 DEBUG2 : 		ReadTarget32 Address=0x08000004 AP=0 Count=4 Data=0x08007601
+mar 9/13:19:54.411 DEBUG2 : 		ReadReg Index=0x0F
+mar 9/13:19:54.418 DEBUG2 : 		STLinkWriteReg Index=0x0F Data=0x08007600
+mar 9/13:19:54.419 DEBUG2 : 		ReadReg Index=0x11
+mar 9/13:19:54.426 DEBUG2 : 		ReadReg Index=0x12
+mar 9/13:19:54.426 DEBUG2 : 		ReadReg Index=0x14
+mar 9/13:19:54.427 DEBUG2 : 		STLinkWriteReg Index=0x11 Data=0x20003078
+mar 9/13:19:54.427 DEBUG2 : 		ReadReg Index=0x00
+mar 9/13:19:54.435 DEBUG2 : 		ReadReg Index=0x01
+mar 9/13:19:54.435 DEBUG2 : 		ReadReg Index=0x02
+mar 9/13:19:54.435 DEBUG2 : 		ReadReg Index=0x03
+mar 9/13:19:54.435 DEBUG2 : 		ReadReg Index=0x04
+mar 9/13:19:54.435 DEBUG2 : 		ReadReg Index=0x05
+mar 9/13:19:54.435 DEBUG2 : 		ReadReg Index=0x06
+mar 9/13:19:54.435 DEBUG2 : 		ReadReg Index=0x07
+mar 9/13:19:54.435 DEBUG2 : 		ReadReg Index=0x08
+mar 9/13:19:54.435 DEBUG2 : 		ReadReg Index=0x09
+mar 9/13:19:54.435 DEBUG2 : 		ReadReg Index=0x0A
+mar 9/13:19:54.435 DEBUG2 : 		ReadReg Index=0x0B
+mar 9/13:19:54.435 DEBUG2 : 		ReadReg Index=0x0C
+mar 9/13:19:54.435 DEBUG2 : 		ReadReg Index=0x11
+mar 9/13:19:54.435 DEBUG2 : 		ReadReg Index=0x12
+mar 9/13:19:54.435 DEBUG2 : 		ReadReg Index=0x0E
+mar 9/13:19:54.435 DEBUG2 : 		ReadReg Index=0x0F
+mar 9/13:19:54.435 DEBUG2 : 		ReadReg Index=0x10
+mar 9/13:19:54.435 DEBUG2 : 		ReadReg Index=0x14
+mar 9/13:19:54.436 DEBUG2 : 		STLinkWriteReg Index=0x10 Data=0x01000000
+mar 9/13:19:54.438 DEBUG2 : 		ReadTarget32 Address=0xE000EDFC AP=0 Count=4 Data=0x00000000
+mar 9/13:19:54.438 DEBUG2 : 		WriteTarget32 Address=0xE000EDFC AP=0 Count=4 Data=0x01000000
+mar 9/13:19:54.439 DEBUG2 : 		ReadTarget32 Address=0xE0001004 AP=0 Count=4 Data=0xC64FA6B8
+mar 9/13:19:54.439 DEBUG2 : 		ReadTarget32 Address=0xE0001004 AP=0 Count=4 Data=0xC64FA6B8
+mar 9/13:19:54.439 DEBUG2 : 		ReadReg Index=0x0F
+mar 9/13:19:54.447 DEBUG2 : 		ReadTarget16 Address=0x08006CE0 AP=0 Count=2 Data=0xB538
+mar 9/13:19:54.447 DEBUG2 : 		SetCodeBreak Address=0x08006CE0
+mar 9/13:19:54.449 DEBUG2 : 		STLinkIsCpuHalted - Stopped
+mar 9/13:19:54.471 DEBUG2 : 		ReadTarget32 Address=0x08000184 AP=0 Count=4 Data=0x08007741
+mar 9/13:19:54.472 DEBUG2 : 		ReadTarget32 Address=0x08000088 AP=0 Count=4 Data=0x080076C5
+mar 9/13:19:54.472 DEBUG2 : 		ReadTarget32 Address=0x08000048 AP=0 Count=4 Data=0x08007685
+mar 9/13:19:54.472 DEBUG2 : 		ReadTarget32 Address=0x08000058 AP=0 Count=4 Data=0x08007695
+mar 9/13:19:54.472 DEBUG2 : 		ReadTarget32 Address=0x0800005C AP=0 Count=4 Data=0x08007699
+mar 9/13:19:54.474 DEBUG2 : 		ReadTarget32 Address=0x08000060 AP=0 Count=4 Data=0x0800769D
+mar 9/13:19:54.474 DEBUG2 : 		ReadTarget32 Address=0x08000064 AP=0 Count=4 Data=0x080076A1
+mar 9/13:19:54.474 DEBUG2 : 		ReadTarget32 Address=0x08000068 AP=0 Count=4 Data=0x080076A5
+mar 9/13:19:54.475 DEBUG2 : 		ReadTarget32 Address=0x0800009C AP=0 Count=4 Data=0x080076C9
+mar 9/13:19:54.475 DEBUG2 : 		ReadTarget32 Address=0x080000E0 AP=0 Count=4 Data=0x080076F9
+mar 9/13:19:54.475 DEBUG2 : 		ReadTarget32 Address=0x08000050 AP=0 Count=4 Data=0x0800768D
+mar 9/13:19:54.476 DEBUG2 : 		ReadTarget32 Address=0x080000BC AP=0 Count=4 Data=0x080076D9
+mar 9/13:19:54.476 DEBUG2 : 		ReadTarget32 Address=0x080000C0 AP=0 Count=4 Data=0x080076DD
+mar 9/13:19:54.477 DEBUG2 : 		ReadTarget32 Address=0x080000C4 AP=0 Count=4 Data=0x080076E1
+mar 9/13:19:54.478 DEBUG2 : 		ReadTarget32 Address=0x080000C8 AP=0 Count=4 Data=0x080076E5
+mar 9/13:19:54.478 DEBUG2 : 		ReadTarget32 Address=0x08000160 AP=0 Count=4 Data=0x08007739
+mar 9/13:19:54.480 DEBUG2 : 		ReadTarget32 Address=0x08000164 AP=0 Count=4 Data=0x0800773D
+mar 9/13:19:54.480 DEBUG2 : 		ReadTarget32 Address=0x080000CC AP=0 Count=4 Data=0x080076E9
+mar 9/13:19:54.481 DEBUG2 : 		ReadTarget32 Address=0x080000D0 AP=0 Count=4 Data=0x080076ED
+mar 9/13:19:54.481 DEBUG2 : 		ReadTarget32 Address=0x0800010C AP=0 Count=4 Data=0x0800770D
+mar 9/13:19:54.481 DEBUG2 : 		ReadTarget32 Address=0x08000190 AP=0 Count=4 Data=0x08007745
+mar 9/13:19:54.481 DEBUG2 : 		ReadTarget32 Address=0x080000E8 AP=0 Count=4 Data=0x08007701
+mar 9/13:19:54.482 DEBUG2 : 		ReadTarget32 Address=0x0800014C AP=0 Count=4 Data=0x08007725
+mar 9/13:19:54.482 DEBUG2 : 		ReadTarget32 Address=0x08000044 AP=0 Count=4 Data=0x08007681
+mar 9/13:19:54.483 DEBUG2 : 		ReadTarget32 Address=0x08000054 AP=0 Count=4 Data=0x08007691
+mar 9/13:19:54.483 DEBUG2 : 		ReadTarget32 Address=0x0800004C AP=0 Count=4 Data=0x08007689
+mar 9/13:19:54.483 DEBUG2 : 		ReadTarget32 Address=0x080000E4 AP=0 Count=4 Data=0x080076FD
+mar 9/13:19:54.484 DEBUG2 : 		ReadTarget32 Address=0x08000104 AP=0 Count=4 Data=0x08007709
+mar 9/13:19:54.484 DEBUG2 : 		ReadTarget32 Address=0x080000A0 AP=0 Count=4 Data=0x080076CD
+mar 9/13:19:54.485 DEBUG2 : 		ReadTarget32 Address=0x080000A4 AP=0 Count=4 Data=0x08006795
+mar 9/13:19:54.485 DEBUG2 : 		ReadTarget32 Address=0x080000A8 AP=0 Count=4 Data=0x080076D1
+mar 9/13:19:54.486 DEBUG2 : 		ReadTarget32 Address=0x080000AC AP=0 Count=4 Data=0x080076D5
+mar 9/13:19:54.486 DEBUG2 : 		ReadTarget32 Address=0x080000A4 AP=0 Count=4 Data=0x08006795
+mar 9/13:19:54.486 DEBUG2 : 		ReadTarget32 Address=0x080000A8 AP=0 Count=4 Data=0x080076D1
+mar 9/13:19:54.487 DEBUG2 : 		ReadTarget32 Address=0x080000B0 AP=0 Count=4 Data=0x080067C1
+mar 9/13:19:54.487 DEBUG2 : 		ReadTarget32 Address=0x080000B4 AP=0 Count=4 Data=0x080067ED
+mar 9/13:19:54.488 DEBUG2 : 		ReadTarget32 Address=0x08000160 AP=0 Count=4 Data=0x08007739
+mar 9/13:19:54.488 DEBUG2 : 		ReadTarget32 Address=0x08000164 AP=0 Count=4 Data=0x0800773D
+mar 9/13:19:54.488 DEBUG2 : 		ReadTarget32 Address=0x080000C4 AP=0 Count=4 Data=0x080076E1
+mar 9/13:19:54.489 DEBUG2 : 		ReadTarget32 Address=0x080000C8 AP=0 Count=4 Data=0x080076E5
+mar 9/13:19:54.489 DEBUG2 : 		ReadTarget32 Address=0x080000BC AP=0 Count=4 Data=0x080076D9
+mar 9/13:19:54.490 DEBUG2 : 		ReadTarget32 Address=0x080000C0 AP=0 Count=4 Data=0x080076DD
+mar 9/13:19:54.490 DEBUG2 : 		ReadTarget32 Address=0x080000CC AP=0 Count=4 Data=0x080076E9
+mar 9/13:19:54.491 DEBUG2 : 		ReadTarget32 Address=0x080000D0 AP=0 Count=4 Data=0x080076ED
+mar 9/13:19:54.491 DEBUG2 : 		ReadTarget32 Address=0x0800010C AP=0 Count=4 Data=0x0800770D
+mar 9/13:19:54.491 DEBUG2 : 		ReadTarget32 Address=0x08000184 AP=0 Count=4 Data=0x08007741
+mar 9/13:19:54.492 DEBUG2 : 		ReadTarget32 Address=0x08000184 AP=0 Count=4 Data=0x08007741
+mar 9/13:19:54.492 DEBUG2 : 		ReadTarget32 Address=0x08000008 AP=0 Count=4 Data=0x08007555
+mar 9/13:19:54.493 DEBUG2 : 		ReadTarget32 Address=0x0800000C AP=0 Count=4 Data=0x08007557
+mar 9/13:19:54.493 DEBUG2 : 		ReadTarget32 Address=0x08000010 AP=0 Count=4 Data=0x08007559
+mar 9/13:19:54.494 DEBUG2 : 		ReadTarget32 Address=0x08000014 AP=0 Count=4 Data=0x0800755B
+mar 9/13:19:54.494 DEBUG2 : 		ReadTarget32 Address=0x08000018 AP=0 Count=4 Data=0x0800755D
+mar 9/13:19:54.494 DEBUG2 : 		ReadTarget32 Address=0x0800002C AP=0 Count=4 Data=0x0800755F
+mar 9/13:19:54.495 DEBUG2 : 		ReadTarget32 Address=0x08000030 AP=0 Count=4 Data=0x08007561
+mar 9/13:19:54.495 DEBUG2 : 		ReadTarget32 Address=0x08000038 AP=0 Count=4 Data=0x08007563
+mar 9/13:19:54.496 DEBUG2 : 		ReadTarget32 Address=0x0800003C AP=0 Count=4 Data=0x08007565
+mar 9/13:19:54.516 DEBUG2 : 		ReadTarget16 Address=0x08007600 AP=0 Count=2 Data=0x4801
+mar 9/13:19:54.517 DEBUG2 : 		ReadTarget32 Address=0xE000EDFC AP=0 Count=4 Data=0x01000000
+mar 9/13:19:54.517 DEBUG2 : 		WriteTarget32 Address=0xE000EDFC AP=0 Count=4 Data=0x01000000
+mar 9/13:19:54.518 DEBUG2 : 		WriteTarget32 Address=0xE0001028 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:54.518 DEBUG2 : 		WriteTarget32 Address=0xE0001038 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:54.518 DEBUG2 : 		WriteTarget32 Address=0xE0001048 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:54.519 DEBUG2 : 		WriteTarget32 Address=0xE0001058 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:54.519 DEBUG2 : 		Go >
+mar 9/13:19:54.523 DEBUG2 : 		Go <
+mar 9/13:19:54.537 DEBUG2 : 		STLinkIsCpuHalted - Stopped
+mar 9/13:19:54.538 DEBUG2 : 		ReadTarget32 Address=0xE000EDFC AP=0 Count=4 Data=0x01000000
+mar 9/13:19:54.538 DEBUG2 : 		WriteTarget32 Address=0xE000EDFC AP=0 Count=4 Data=0x01000000
+mar 9/13:19:54.538 DEBUG2 : 		WriteTarget32 Address=0xE0001028 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:54.539 DEBUG2 : 		WriteTarget32 Address=0xE0001038 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:54.539 DEBUG2 : 		WriteTarget32 Address=0xE0001048 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:54.539 DEBUG2 : 		WriteTarget32 Address=0xE0001058 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:54.540 DEBUG2 : 		ReadReg Index=0x0F
+mar 9/13:19:54.547 DEBUG2 : 		ReadTarget16 Address=0x08006CE0 AP=0 Count=2 Data=0xB538
+mar 9/13:19:54.548 DEBUG2 : 		ClearCodeBreak Address=0x08006CE0
+mar 9/13:19:54.548 DEBUG2 : 		ReadReg Index=0x0E
+mar 9/13:19:54.548 DEBUG2 : 		ReadReg Index=0x00
+mar 9/13:19:54.548 DEBUG2 : 		ReadReg Index=0x01
+mar 9/13:19:54.548 DEBUG2 : 		ReadReg Index=0x02
+mar 9/13:19:54.548 DEBUG2 : 		ReadReg Index=0x03
+mar 9/13:19:54.548 DEBUG2 : 		ReadReg Index=0x04
+mar 9/13:19:54.548 DEBUG2 : 		ReadReg Index=0x05
+mar 9/13:19:54.548 DEBUG2 : 		ReadReg Index=0x06
+mar 9/13:19:54.548 DEBUG2 : 		ReadReg Index=0x07
+mar 9/13:19:54.548 DEBUG2 : 		ReadReg Index=0x08
+mar 9/13:19:54.548 DEBUG2 : 		ReadReg Index=0x09
+mar 9/13:19:54.548 DEBUG2 : 		ReadReg Index=0x0A
+mar 9/13:19:54.548 DEBUG2 : 		ReadReg Index=0x0B
+mar 9/13:19:54.548 DEBUG2 : 		ReadReg Index=0x0C
+mar 9/13:19:54.548 DEBUG2 : 		ReadReg Index=0x11
+mar 9/13:19:54.548 DEBUG2 : 		ReadReg Index=0x12
+mar 9/13:19:54.548 DEBUG2 : 		ReadReg Index=0x0E
+mar 9/13:19:54.548 DEBUG2 : 		ReadReg Index=0x0F
+mar 9/13:19:54.548 DEBUG2 : 		ReadReg Index=0x10
+mar 9/13:19:54.548 DEBUG2 : 		ReadReg Index=0x14
+mar 9/13:19:54.549 DEBUG2 : 		ReadTarget32 Address=0xE0001004 AP=0 Count=4 Data=0xC64FCE1C
+mar 9/13:19:56.923 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:57.356 DEBUG2 : 		ReadTarget16 Address=0x08006CE0 AP=0 Count=2 Data=0xB538
+mar 9/13:19:57.358 DEBUG2 : 		ReadTarget32 Address=0xE000EDFC AP=0 Count=4 Data=0x01000000
+mar 9/13:19:57.358 DEBUG2 : 		WriteTarget32 Address=0xE000EDFC AP=0 Count=4 Data=0x01000000
+mar 9/13:19:57.359 DEBUG2 : 		WriteTarget32 Address=0xE0001028 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:57.359 DEBUG2 : 		WriteTarget32 Address=0xE0001038 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:57.360 DEBUG2 : 		WriteTarget32 Address=0xE0001048 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:57.360 DEBUG2 : 		WriteTarget32 Address=0xE0001058 AP=0 Count=4 Data=0x00000000
+mar 9/13:19:57.361 DEBUG2 : 		Go >
+mar 9/13:19:57.363 DEBUG2 : 		Go <
+mar 9/13:19:57.376 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:57.392 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:57.408 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:57.423 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:57.439 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:57.454 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:57.470 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:57.486 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:57.502 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:57.519 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:57.522 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x0000009F
+mar 9/13:19:57.534 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:57.550 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:57.566 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:57.581 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:57.598 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:57.613 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:57.628 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:57.643 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:57.660 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:57.674 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:57.680 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x0000013D
+mar 9/13:19:57.690 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:57.706 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:57.722 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:57.738 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:57.753 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:57.769 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:57.785 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:57.801 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:57.815 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:57.830 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:57.838 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x000001DB
+mar 9/13:19:57.845 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:57.860 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:57.876 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:57.891 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:57.907 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:57.923 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:57.938 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:57.954 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:57.969 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:57.985 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:57.992 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00000275
+mar 9/13:19:58.000 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.016 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.031 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.047 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.063 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.078 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.094 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.111 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.126 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.140 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.145 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x0000030C
+mar 9/13:19:58.155 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.170 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.186 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.202 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.216 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.232 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.248 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.263 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.279 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.294 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.301 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x000003A9
+mar 9/13:19:58.310 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.325 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.340 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.356 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.372 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.387 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.403 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.419 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.434 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.450 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.458 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00000446
+mar 9/13:19:58.466 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.481 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.497 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.512 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.527 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.542 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.558 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.574 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.589 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.604 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.609 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x000004DE
+mar 9/13:19:58.620 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.636 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.651 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.667 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.682 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.699 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.713 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.728 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.744 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.759 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.763 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00000578
+mar 9/13:19:58.775 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.792 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.806 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.821 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.837 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.853 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.868 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.883 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.899 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.915 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.921 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00000616
+mar 9/13:19:58.930 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.946 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.961 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.976 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:58.993 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:59.008 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:59.024 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:59.039 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:59.055 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:59.070 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:59.072 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x000006AD
+mar 9/13:19:59.086 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:59.102 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:59.117 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:59.133 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:59.149 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:59.164 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:59.180 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:59.195 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:59.211 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:59.227 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:59.232 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x0000074D
+mar 9/13:19:59.242 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:59.258 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:59.273 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:59.288 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:59.304 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:59.320 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:59.336 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:59.351 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:59.391 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x000007EC
+mar 9/13:19:59.556 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00000891
+mar 9/13:19:59.556 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:59.707 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00000928
+mar 9/13:19:59.758 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:19:59.857 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x000009BE
+mar 9/13:19:59.961 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:00.010 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00000A58
+mar 9/13:20:00.163 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:00.166 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00000AF4
+mar 9/13:20:00.321 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00000B8F
+mar 9/13:20:00.366 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:00.479 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00000C2D
+mar 9/13:20:00.583 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:00.634 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00000CC8
+mar 9/13:20:00.785 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:00.789 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00000D63
+mar 9/13:20:00.946 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00000DFF
+mar 9/13:20:00.987 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:01.099 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00000E9A
+mar 9/13:20:01.191 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:01.263 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00000F3D
+mar 9/13:20:01.394 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:01.417 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00000FD7
+mar 9/13:20:01.578 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00001078
+mar 9/13:20:01.598 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:01.731 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00001112
+mar 9/13:20:01.801 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:01.888 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x000011AE
+mar 9/13:20:02.003 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:02.043 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x0000124A
+mar 9/13:20:02.206 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x000012ED
+mar 9/13:20:02.220 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:02.356 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00001383
+mar 9/13:20:02.423 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:02.512 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x0000141E
+mar 9/13:20:02.625 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:02.659 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x000014B2
+mar 9/13:20:02.815 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x0000154E
+mar 9/13:20:02.827 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:02.973 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x000015EB
+mar 9/13:20:03.030 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:03.130 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00001689
+mar 9/13:20:03.232 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:03.283 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00001722
+mar 9/13:20:03.435 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:03.445 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x000017C4
+mar 9/13:20:03.595 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x0000185B
+mar 9/13:20:03.636 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:03.750 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x000018F6
+mar 9/13:20:03.852 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:03.902 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x0000198D
+mar 9/13:20:04.053 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:04.058 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00001A29
+mar 9/13:20:04.213 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00001AC5
+mar 9/13:20:04.254 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:04.368 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00001B60
+mar 9/13:20:04.469 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:04.518 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00001BF7
+mar 9/13:20:04.672 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:04.676 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00001C94
+mar 9/13:20:04.829 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00001D2E
+mar 9/13:20:04.887 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:04.985 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00001DC9
+mar 9/13:20:05.089 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:05.151 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00001E70
+mar 9/13:20:05.295 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00001F00
+mar 9/13:20:05.305 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:05.450 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00001F9B
+mar 9/13:20:05.509 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:05.607 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00002039
+mar 9/13:20:05.713 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:05.764 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x000020D5
+mar 9/13:20:05.917 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x0000216F
+mar 9/13:20:05.929 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:06.073 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x0000220B
+mar 9/13:20:06.145 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:06.227 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x000022A3
+mar 9/13:20:06.347 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:06.384 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00002342
+mar 9/13:20:06.540 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x000023DE
+mar 9/13:20:06.552 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:06.696 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00002479
+mar 9/13:20:06.755 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:06.853 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00002517
+mar 9/13:20:06.960 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:07.011 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x000025B5
+mar 9/13:20:07.164 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:07.169 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00002653
+mar 9/13:20:07.339 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x000026FE
+mar 9/13:20:07.367 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:07.495 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x0000279A
+mar 9/13:20:07.570 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:07.652 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00002836
+mar 9/13:20:07.771 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:07.807 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x000028D1
+mar 9/13:20:07.964 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x0000296E
+mar 9/13:20:07.975 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:08.119 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00002A0A
+mar 9/13:20:08.177 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:08.276 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00002AA7
+mar 9/13:20:08.381 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:08.560 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00002BC2
+mar 9/13:20:08.600 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:08.802 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:09.008 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:09.062 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00002DB9
+mar 9/13:20:09.230 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:09.450 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:09.451 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00002F3E
+mar 9/13:20:09.623 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00002FEA
+mar 9/13:20:09.664 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:09.764 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00003077
+mar 9/13:20:09.949 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:10.041 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x0000318D
+mar 9/13:20:10.164 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:10.209 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00003232
+mar 9/13:20:10.374 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:10.589 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:10.594 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x000033B5
+mar 9/13:20:10.752 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00003453
+mar 9/13:20:10.795 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:10.999 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x0000354C
+mar 9/13:20:11.013 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:11.189 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00003609
+mar 9/13:20:11.226 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:11.337 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x0000369E
+mar 9/13:20:11.427 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:11.495 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x0000373B
+mar 9/13:20:11.629 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:11.653 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x000037D9
+mar 9/13:20:11.805 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00003872
+mar 9/13:20:11.831 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:11.958 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x0000390B
+mar 9/13:20:12.033 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:12.113 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x000039A6
+mar 9/13:20:12.249 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:12.270 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00003A43
+mar 9/13:20:12.425 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00003ADE
+mar 9/13:20:12.452 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:12.581 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00003B7A
+mar 9/13:20:12.656 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:12.738 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00003C18
+mar 9/13:20:12.857 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:12.895 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00003CB4
+mar 9/13:20:13.051 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00003D50
+mar 9/13:20:13.059 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:13.206 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00003DEB
+mar 9/13:20:13.260 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:13.359 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00003E84
+mar 9/13:20:13.463 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:13.514 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00003F1F
+mar 9/13:20:13.665 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:13.667 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00003FB9
+mar 9/13:20:13.825 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00004057
+mar 9/13:20:13.867 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:13.979 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x000040F0
+mar 9/13:20:14.068 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:14.138 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x0000418F
+mar 9/13:20:14.270 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:14.289 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00004226
+mar 9/13:20:14.446 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x000042C4
+mar 9/13:20:14.486 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:14.599 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x0000435D
+mar 9/13:20:14.689 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:14.758 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x000043FB
+mar 9/13:20:14.892 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:14.912 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00004496
+mar 9/13:20:15.068 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00004532
+mar 9/13:20:15.095 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:15.223 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x000045CC
+mar 9/13:20:15.296 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:15.379 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00004668
+mar 9/13:20:15.500 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:15.551 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00004714
+mar 9/13:20:15.695 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x000047A5
+mar 9/13:20:15.708 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:15.854 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00004843
+mar 9/13:20:15.909 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:16.013 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x000048E4
+mar 9/13:20:16.112 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:16.169 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00004980
+mar 9/13:20:16.315 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:16.327 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00004A1E
+mar 9/13:20:16.477 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00004AB3
+mar 9/13:20:16.519 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:16.633 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00004B4F
+mar 9/13:20:16.721 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:16.790 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00004BED
+mar 9/13:20:16.922 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:16.943 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00004C86
+mar 9/13:20:17.101 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00004D24
+mar 9/13:20:17.124 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:17.257 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00004DC0
+mar 9/13:20:17.326 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:17.423 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00004E66
+mar 9/13:20:17.527 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:17.565 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00004EF4
+mar 9/13:20:17.721 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00004F90
+mar 9/13:20:17.729 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:17.876 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x0000502B
+mar 9/13:20:17.930 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:18.028 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x000050C4
+mar 9/13:20:18.132 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:18.188 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00005164
+mar 9/13:20:18.340 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x000051FC
+mar 9/13:20:18.347 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:18.493 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00005294
+mar 9/13:20:18.549 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:18.648 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00005330
+mar 9/13:20:18.765 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:18.799 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x000053C8
+mar 9/13:20:18.956 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00005463
+mar 9/13:20:18.966 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:19.110 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x000054FE
+mar 9/13:20:19.168 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:19.267 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x0000559B
+mar 9/13:20:19.369 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:19.425 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00005638
+mar 9/13:20:19.572 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:19.577 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x000056D1
+mar 9/13:20:19.735 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00005770
+mar 9/13:20:19.777 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:19.891 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x0000580C
+mar 9/13:20:19.983 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:20.055 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x000058B0
+mar 9/13:20:20.187 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:20.213 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x0000594D
+mar 9/13:20:20.365 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x000059E6
+mar 9/13:20:20.389 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:20.522 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00005A83
+mar 9/13:20:20.591 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:20.676 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00005B1D
+mar 9/13:20:20.796 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:20.840 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00005BC1
+mar 9/13:20:20.991 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00005C58
+mar 9/13:20:20.999 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:21.143 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00005CF0
+mar 9/13:20:21.200 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:21.300 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00005D8D
+mar 9/13:20:21.402 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:21.459 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00005E2C
+mar 9/13:20:21.618 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:21.625 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00005ED3
+mar 9/13:20:21.793 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00005F7B
+mar 9/13:20:21.820 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:21.922 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00005FFB
+mar 9/13:20:22.026 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:22.078 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00006098
+mar 9/13:20:22.227 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:22.232 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00006131
+mar 9/13:20:22.390 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x000061D0
+mar 9/13:20:22.429 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:22.546 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x0000626B
+mar 9/13:20:22.632 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:22.698 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00006304
+mar 9/13:20:22.835 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:22.855 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x000063A1
+mar 9/13:20:23.009 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x0000643A
+mar 9/13:20:23.049 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:23.160 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x000064D2
+mar 9/13:20:23.250 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:23.317 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x0000656F
+mar 9/13:20:23.452 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:23.471 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00006609
+mar 9/13:20:23.626 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x000066A5
+mar 9/13:20:23.654 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:23.782 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00006740
+mar 9/13:20:23.857 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:23.938 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x000067DD
+mar 9/13:20:24.059 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:24.092 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00006877
+mar 9/13:20:24.251 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00006916
+mar 9/13:20:24.261 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:24.406 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x000069B1
+mar 9/13:20:24.466 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:24.565 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00006A50
+mar 9/13:20:24.668 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:24.720 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00006AEB
+mar 9/13:20:24.870 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:24.872 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00006B84
+mar 9/13:20:25.030 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00006C21
+mar 9/13:20:25.070 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:25.190 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00006CC2
+mar 9/13:20:25.275 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:25.342 DEBUG2 : 		ReadTarget32 Address=0x20001040 AP=0 Count=4 Data=0x00006D59
+mar 9/13:20:25.478 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:25.629 DEBUG2 : 		ReadTarget16 Address=0x00000000 AP=0 Count=2 Data=0x3078
+mar 9/13:20:25.630 DEBUG2 : 		ReadTarget16 Address=0x00000002 AP=0 Count=2 Data=0x2000
+mar 9/13:20:25.631 DEBUG2 : 		ReadTarget16 Address=0x00000004 AP=0 Count=2 Data=0x7601
+mar 9/13:20:25.631 DEBUG2 : 		ReadTarget16 Address=0x00000006 AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.632 DEBUG2 : 		ReadTarget16 Address=0x00000008 AP=0 Count=2 Data=0x7555
+mar 9/13:20:25.632 DEBUG2 : 		ReadTarget16 Address=0x0000000A AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.633 DEBUG2 : 		ReadTarget16 Address=0x0000000C AP=0 Count=2 Data=0x7557
+mar 9/13:20:25.634 DEBUG2 : 		ReadTarget16 Address=0x0000000E AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.634 DEBUG2 : 		ReadTarget16 Address=0x00000010 AP=0 Count=2 Data=0x7559
+mar 9/13:20:25.635 DEBUG2 : 		ReadTarget16 Address=0x00000012 AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.635 DEBUG2 : 		ReadTarget16 Address=0x00000014 AP=0 Count=2 Data=0x755B
+mar 9/13:20:25.637 DEBUG2 : 		ReadTarget16 Address=0x00000016 AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.637 DEBUG2 : 		ReadTarget16 Address=0x00000018 AP=0 Count=2 Data=0x755D
+mar 9/13:20:25.638 DEBUG2 : 		ReadTarget16 Address=0x0000001A AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.638 DEBUG2 : 		ReadTarget16 Address=0x0000001C AP=0 Count=2 Data=0x0000
+mar 9/13:20:25.639 DEBUG2 : 		ReadTarget16 Address=0x0000001E AP=0 Count=2 Data=0x0000
+mar 9/13:20:25.640 DEBUG2 : 		ReadTarget16 Address=0x00000020 AP=0 Count=2 Data=0x0000
+mar 9/13:20:25.640 DEBUG2 : 		ReadTarget16 Address=0x00000022 AP=0 Count=2 Data=0x0000
+mar 9/13:20:25.641 DEBUG2 : 		ReadTarget16 Address=0x00000024 AP=0 Count=2 Data=0x0000
+mar 9/13:20:25.642 DEBUG2 : 		ReadTarget16 Address=0x00000026 AP=0 Count=2 Data=0x0000
+mar 9/13:20:25.642 DEBUG2 : 		ReadTarget16 Address=0x00000028 AP=0 Count=2 Data=0x0000
+mar 9/13:20:25.642 DEBUG2 : 		ReadTarget16 Address=0x0000002A AP=0 Count=2 Data=0x0000
+mar 9/13:20:25.643 DEBUG2 : 		ReadTarget16 Address=0x0000002C AP=0 Count=2 Data=0x755F
+mar 9/13:20:25.644 DEBUG2 : 		ReadTarget16 Address=0x0000002E AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.645 DEBUG2 : 		ReadTarget16 Address=0x00000030 AP=0 Count=2 Data=0x7561
+mar 9/13:20:25.645 DEBUG2 : 		ReadTarget16 Address=0x00000032 AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.646 DEBUG2 : 		ReadTarget16 Address=0x00000034 AP=0 Count=2 Data=0x0000
+mar 9/13:20:25.647 DEBUG2 : 		ReadTarget16 Address=0x00000036 AP=0 Count=2 Data=0x0000
+mar 9/13:20:25.647 DEBUG2 : 		ReadTarget16 Address=0x00000038 AP=0 Count=2 Data=0x7563
+mar 9/13:20:25.648 DEBUG2 : 		ReadTarget16 Address=0x0000003A AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.648 DEBUG2 : 		ReadTarget16 Address=0x0000003C AP=0 Count=2 Data=0x7565
+mar 9/13:20:25.648 DEBUG2 : 		ReadTarget16 Address=0x0000003E AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.649 DEBUG2 : 		ReadTarget16 Address=0x00000040 AP=0 Count=2 Data=0x767D
+mar 9/13:20:25.650 DEBUG2 : 		ReadTarget16 Address=0x00000042 AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.650 DEBUG2 : 		ReadTarget16 Address=0x00000044 AP=0 Count=2 Data=0x7681
+mar 9/13:20:25.651 DEBUG2 : 		ReadTarget16 Address=0x00000046 AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.652 DEBUG2 : 		ReadTarget16 Address=0x00000048 AP=0 Count=2 Data=0x7685
+mar 9/13:20:25.652 DEBUG2 : 		ReadTarget16 Address=0x0000004A AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.652 DEBUG2 : 		ReadTarget16 Address=0x0000004C AP=0 Count=2 Data=0x7689
+mar 9/13:20:25.654 DEBUG2 : 		ReadTarget16 Address=0x0000004E AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.655 DEBUG2 : 		ReadTarget16 Address=0x00000050 AP=0 Count=2 Data=0x768D
+mar 9/13:20:25.655 DEBUG2 : 		ReadTarget16 Address=0x00000052 AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.656 DEBUG2 : 		ReadTarget16 Address=0x00000054 AP=0 Count=2 Data=0x7691
+mar 9/13:20:25.656 DEBUG2 : 		ReadTarget16 Address=0x00000056 AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.657 DEBUG2 : 		ReadTarget16 Address=0x00000058 AP=0 Count=2 Data=0x7695
+mar 9/13:20:25.658 DEBUG2 : 		ReadTarget16 Address=0x0000005A AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.658 DEBUG2 : 		ReadTarget16 Address=0x0000005C AP=0 Count=2 Data=0x7699
+mar 9/13:20:25.659 DEBUG2 : 		ReadTarget16 Address=0x0000005E AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.659 DEBUG2 : 		ReadTarget16 Address=0x00000060 AP=0 Count=2 Data=0x769D
+mar 9/13:20:25.660 DEBUG2 : 		ReadTarget16 Address=0x00000062 AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.661 DEBUG2 : 		ReadTarget16 Address=0x00000064 AP=0 Count=2 Data=0x76A1
+mar 9/13:20:25.661 DEBUG2 : 		ReadTarget16 Address=0x00000066 AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.662 DEBUG2 : 		ReadTarget16 Address=0x00000068 AP=0 Count=2 Data=0x76A5
+mar 9/13:20:25.663 DEBUG2 : 		ReadTarget16 Address=0x0000006A AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.663 DEBUG2 : 		ReadTarget16 Address=0x0000006C AP=0 Count=2 Data=0x76A9
+mar 9/13:20:25.663 DEBUG2 : 		ReadTarget16 Address=0x0000006E AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.663 DEBUG2 : 		ReadTarget16 Address=0x00000070 AP=0 Count=2 Data=0x76AD
+mar 9/13:20:25.664 DEBUG2 : 		ReadTarget16 Address=0x00000072 AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.665 DEBUG2 : 		ReadTarget16 Address=0x00000074 AP=0 Count=2 Data=0x76B1
+mar 9/13:20:25.665 DEBUG2 : 		ReadTarget16 Address=0x00000076 AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.666 DEBUG2 : 		ReadTarget16 Address=0x00000078 AP=0 Count=2 Data=0x76B5
+mar 9/13:20:25.666 DEBUG2 : 		ReadTarget16 Address=0x0000007A AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.667 DEBUG2 : 		ReadTarget16 Address=0x0000007C AP=0 Count=2 Data=0x76B9
+mar 9/13:20:25.669 DEBUG2 : 		ReadTarget16 Address=0x0000007E AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.669 DEBUG2 : 		ReadTarget16 Address=0x00000080 AP=0 Count=2 Data=0x76BD
+mar 9/13:20:25.669 DEBUG2 : 		ReadTarget16 Address=0x00000082 AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.670 DEBUG2 : 		ReadTarget16 Address=0x00000084 AP=0 Count=2 Data=0x76C1
+mar 9/13:20:25.671 DEBUG2 : 		ReadTarget16 Address=0x00000086 AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.671 DEBUG2 : 		ReadTarget16 Address=0x00000088 AP=0 Count=2 Data=0x76C5
+mar 9/13:20:25.672 DEBUG2 : 		ReadTarget16 Address=0x0000008A AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.672 DEBUG2 : 		ReadTarget16 Address=0x0000008C AP=0 Count=2 Data=0x0000
+mar 9/13:20:25.673 DEBUG2 : 		ReadTarget16 Address=0x0000008E AP=0 Count=2 Data=0x0000
+mar 9/13:20:25.673 DEBUG2 : 		ReadTarget16 Address=0x00000090 AP=0 Count=2 Data=0x0000
+mar 9/13:20:25.675 DEBUG2 : 		ReadTarget16 Address=0x00000092 AP=0 Count=2 Data=0x0000
+mar 9/13:20:25.675 DEBUG2 : 		ReadTarget16 Address=0x00000094 AP=0 Count=2 Data=0x0000
+mar 9/13:20:25.676 DEBUG2 : 		ReadTarget16 Address=0x00000096 AP=0 Count=2 Data=0x0000
+mar 9/13:20:25.677 DEBUG2 : 		ReadTarget16 Address=0x00000098 AP=0 Count=2 Data=0x0000
+mar 9/13:20:25.677 DEBUG2 : 		ReadTarget16 Address=0x0000009A AP=0 Count=2 Data=0x0000
+mar 9/13:20:25.678 DEBUG2 : 		ReadTarget16 Address=0x0000009C AP=0 Count=2 Data=0x76C9
+mar 9/13:20:25.679 DEBUG2 : 		ReadTarget16 Address=0x0000009E AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.679 DEBUG2 : 		ReadTarget16 Address=0x000000A0 AP=0 Count=2 Data=0x76CD
+mar 9/13:20:25.680 DEBUG2 : 		ReadTarget16 Address=0x000000A2 AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.680 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:25.681 DEBUG2 : 		ReadTarget16 Address=0x000000A4 AP=0 Count=2 Data=0x6795
+mar 9/13:20:25.681 DEBUG2 : 		ReadTarget16 Address=0x000000A6 AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.682 DEBUG2 : 		ReadTarget16 Address=0x000000A8 AP=0 Count=2 Data=0x76D1
+mar 9/13:20:25.682 DEBUG2 : 		ReadTarget16 Address=0x000000AA AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.682 DEBUG2 : 		ReadTarget16 Address=0x000000AC AP=0 Count=2 Data=0x76D5
+mar 9/13:20:25.684 DEBUG2 : 		ReadTarget16 Address=0x000000AE AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.684 DEBUG2 : 		ReadTarget16 Address=0x000000B0 AP=0 Count=2 Data=0x67C1
+mar 9/13:20:25.685 DEBUG2 : 		ReadTarget16 Address=0x000000B2 AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.685 DEBUG2 : 		ReadTarget16 Address=0x000000B4 AP=0 Count=2 Data=0x67ED
+mar 9/13:20:25.686 DEBUG2 : 		ReadTarget16 Address=0x000000B6 AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.686 DEBUG2 : 		ReadTarget16 Address=0x000000B8 AP=0 Count=2 Data=0x68C1
+mar 9/13:20:25.687 DEBUG2 : 		ReadTarget16 Address=0x000000BA AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.687 DEBUG2 : 		ReadTarget16 Address=0x000000BC AP=0 Count=2 Data=0x76D9
+mar 9/13:20:25.688 DEBUG2 : 		ReadTarget16 Address=0x000000BE AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.688 DEBUG2 : 		ReadTarget16 Address=0x000000C0 AP=0 Count=2 Data=0x76DD
+mar 9/13:20:25.690 DEBUG2 : 		ReadTarget16 Address=0x000000C2 AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.690 DEBUG2 : 		ReadTarget16 Address=0x000000C4 AP=0 Count=2 Data=0x76E1
+mar 9/13:20:25.691 DEBUG2 : 		ReadTarget16 Address=0x000000C6 AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.692 DEBUG2 : 		ReadTarget16 Address=0x000000C8 AP=0 Count=2 Data=0x76E5
+mar 9/13:20:25.692 DEBUG2 : 		ReadTarget16 Address=0x000000CA AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.693 DEBUG2 : 		ReadTarget16 Address=0x000000CC AP=0 Count=2 Data=0x76E9
+mar 9/13:20:25.694 DEBUG2 : 		ReadTarget16 Address=0x000000CE AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.694 DEBUG2 : 		ReadTarget16 Address=0x000000D0 AP=0 Count=2 Data=0x76ED
+mar 9/13:20:25.695 DEBUG2 : 		ReadTarget16 Address=0x000000D2 AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.696 DEBUG2 : 		ReadTarget16 Address=0x000000D4 AP=0 Count=2 Data=0x76F1
+mar 9/13:20:25.696 DEBUG2 : 		ReadTarget16 Address=0x000000D6 AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.699 DEBUG2 : 		ReadTarget16 Address=0x000000D8 AP=0 Count=2 Data=0x76F5
+mar 9/13:20:25.699 DEBUG2 : 		ReadTarget16 Address=0x000000DA AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.700 DEBUG2 : 		ReadTarget16 Address=0x000000DC AP=0 Count=2 Data=0x0000
+mar 9/13:20:25.700 DEBUG2 : 		ReadTarget16 Address=0x000000DE AP=0 Count=2 Data=0x0000
+mar 9/13:20:25.701 DEBUG2 : 		ReadTarget16 Address=0x000000E0 AP=0 Count=2 Data=0x76F9
+mar 9/13:20:25.701 DEBUG2 : 		ReadTarget16 Address=0x000000E2 AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.702 DEBUG2 : 		ReadTarget16 Address=0x000000E4 AP=0 Count=2 Data=0x76FD
+mar 9/13:20:25.702 DEBUG2 : 		ReadTarget16 Address=0x000000E6 AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.704 DEBUG2 : 		ReadTarget16 Address=0x000000E8 AP=0 Count=2 Data=0x7701
+mar 9/13:20:25.705 DEBUG2 : 		ReadTarget16 Address=0x000000EA AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.705 DEBUG2 : 		ReadTarget16 Address=0x000000EC AP=0 Count=2 Data=0x0000
+mar 9/13:20:25.706 DEBUG2 : 		ReadTarget16 Address=0x000000EE AP=0 Count=2 Data=0x0000
+mar 9/13:20:25.707 DEBUG2 : 		ReadTarget16 Address=0x000000F0 AP=0 Count=2 Data=0x0000
+mar 9/13:20:25.707 DEBUG2 : 		ReadTarget16 Address=0x000000F2 AP=0 Count=2 Data=0x0000
+mar 9/13:20:25.708 DEBUG2 : 		ReadTarget16 Address=0x000000F4 AP=0 Count=2 Data=0x0000
+mar 9/13:20:25.709 DEBUG2 : 		ReadTarget16 Address=0x000000F6 AP=0 Count=2 Data=0x0000
+mar 9/13:20:25.709 DEBUG2 : 		ReadTarget16 Address=0x000000F8 AP=0 Count=2 Data=0x0000
+mar 9/13:20:25.710 DEBUG2 : 		ReadTarget16 Address=0x000000FA AP=0 Count=2 Data=0x0000
+mar 9/13:20:25.710 DEBUG2 : 		ReadTarget16 Address=0x000000FC AP=0 Count=2 Data=0x7705
+mar 9/13:20:25.711 DEBUG2 : 		ReadTarget16 Address=0x000000FE AP=0 Count=2 Data=0x0800
+mar 9/13:20:25.882 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:26.088 DEBUG2 : 		STLinkIsCpuHalted - Running
+mar 9/13:20:26.088 DEBUG2 : 		Stop
+mar 9/13:20:26.090 DEBUG2 : 		STLinkIsCpuHalted - Stopped
+mar 9/13:20:26.091 DEBUG2 : 		ReadTarget32 Address=0xE000EDFC AP=0 Count=4 Data=0x01000000
+mar 9/13:20:26.091 DEBUG2 : 		WriteTarget32 Address=0xE000EDFC AP=0 Count=4 Data=0x01000000
+mar 9/13:20:26.092 DEBUG2 : 		WriteTarget32 Address=0xE0001028 AP=0 Count=4 Data=0x00000000
+mar 9/13:20:26.092 DEBUG2 : 		WriteTarget32 Address=0xE0001038 AP=0 Count=4 Data=0x00000000
+mar 9/13:20:26.093 DEBUG2 : 		WriteTarget32 Address=0xE0001048 AP=0 Count=4 Data=0x00000000
+mar 9/13:20:26.093 DEBUG2 : 		WriteTarget32 Address=0xE0001058 AP=0 Count=4 Data=0x00000000
+mar 9/13:20:26.094 DEBUG2 : 		ReadReg Index=0x0F
+mar 9/13:20:26.101 DEBUG2 : 		ReadTarget16 Address=0x0800597A AP=0 Count=2 Data=0x2800
+mar 9/13:20:26.101 DEBUG2 : 		ReadReg Index=0x0E
+mar 9/13:20:26.101 DEBUG2 : 		ReadReg Index=0x00
+mar 9/13:20:26.101 DEBUG2 : 		ReadReg Index=0x01
+mar 9/13:20:26.101 DEBUG2 : 		ReadReg Index=0x02
+mar 9/13:20:26.101 DEBUG2 : 		ReadReg Index=0x03
+mar 9/13:20:26.101 DEBUG2 : 		ReadReg Index=0x04
+mar 9/13:20:26.101 DEBUG2 : 		ReadReg Index=0x05
+mar 9/13:20:26.101 DEBUG2 : 		ReadReg Index=0x06
+mar 9/13:20:26.101 DEBUG2 : 		ReadReg Index=0x07
+mar 9/13:20:26.101 DEBUG2 : 		ReadReg Index=0x08
+mar 9/13:20:26.101 DEBUG2 : 		ReadReg Index=0x09
+mar 9/13:20:26.101 DEBUG2 : 		ReadReg Index=0x0A
+mar 9/13:20:26.101 DEBUG2 : 		ReadReg Index=0x0B
+mar 9/13:20:26.101 DEBUG2 : 		ReadReg Index=0x0C
+mar 9/13:20:26.101 DEBUG2 : 		ReadReg Index=0x11
+mar 9/13:20:26.101 DEBUG2 : 		ReadReg Index=0x12
+mar 9/13:20:26.101 DEBUG2 : 		ReadReg Index=0x0E
+mar 9/13:20:26.101 DEBUG2 : 		ReadReg Index=0x0F
+mar 9/13:20:26.101 DEBUG2 : 		ReadReg Index=0x10
+mar 9/13:20:26.101 DEBUG2 : 		ReadReg Index=0x14
+mar 9/13:20:26.102 DEBUG2 : 		ReadTarget32 Address=0xE0001004 AP=0 Count=4 Data=0x719E364D
+mar 9/13:20:26.691 DEBUG2 : 		Shutdown
