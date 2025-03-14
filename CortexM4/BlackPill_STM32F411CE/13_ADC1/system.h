@@ -35,6 +35,7 @@ void __delay(unsigned long ncy);
   
 void Sys_IoInit(void);
 void Sys_TickInit(void);
+void Sys_ConsoleInit(void);
 
 #ifdef __cplusplus
 }

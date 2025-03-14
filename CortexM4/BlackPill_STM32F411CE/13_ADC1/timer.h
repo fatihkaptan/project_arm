@@ -23,7 +23,8 @@ void Timer_Init(int tmNo, unsigned prescale, unsigned period, unsigned repeat);
 void Timer_Start(int tmNo, int bStart);
 void Timer_Reset(int tmNo);
 void TimerIntConfig(int tmNo, int priority);
-void PWM_Init(uint32_t period, uint32_t duty);
+int PWM_Init(uint32_t period, uint32_t duty);
+void PWM_Duty(uint32_t duty);
 
 void Capture_Init(void);
 

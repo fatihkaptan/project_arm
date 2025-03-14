@@ -24,8 +24,17 @@ void init(void);
 void Task_Print(void);
 void init_OLED(void);
 void Task_LED(void);
+void Task_ADC(void);
 void init_Timers(void);
 void init_SeggerModules(void);
 void SYSVIEW_AddTask(void* pTask, const char* sName, U32 Prio);
+
+
+uint16_t result;
+float result_V;
+float period_pwm;
+float v_Ref;
+float cpu_Temp;
+
 
 #endif /*_MAIN_H*/

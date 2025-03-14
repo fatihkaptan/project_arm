@@ -72,7 +72,7 @@ void TimerIntConfig(int tmNo, int priority)//timer kesme konfigurasyon yonetimi
   NVIC_EnableIRQ(TimIrqTab[tmNo]);    
 }
 
-void PWM_Init(uint32_t period, uint32_t duty)
+int PWM_Init(uint32_t period, uint32_t duty)
 {
   // 1) Çýkýþ kanalýnýn I/O ayarlarý
   IO_Init(IOP_PWM, IO_MODE_ALTERNATE);
@@ -97,6 +97,7 @@ void PWM_Init(uint32_t period, uint32_t duty)
   
   // 4) Timer'ý çalýþtýrýyoruz (PWM çalýþmaya baþlýyor)
   Timer_Start(TIMER_2, 1);
+  return period;
 }
 
 
@@ -144,6 +145,9 @@ void Capture_Init(void)
     Timer_Start(TIMER_3,ENABLE);
 }
 
+void PWM_Duty(uint32_t duty){
+    TIM_SetCompare3(TIM2,duty);
+}
 
 
 //////////////TIM1 interrupt routine

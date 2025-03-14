@@ -1,0 +1,155 @@
+T8D3C 000:000.548   SEGGER J-Link V8.12c Log File
+T8D3C 000:000.679   DLL Compiled: Jan 22 2025 12:55:59
+T8D3C 000:000.684   Logging started @ 2025-03-11 00:31
+T8D3C 000:000.688   Process: C:\Users\90553\.eclipse\com.renesas.platform_1435879475\DebugComp\RA\e2-server-gdb.exe
+T8D3C 000:000.699 - 0.692ms 
+T8D3C 000:000.714 JLINK_GetDLLVersion()
+T8D3C 000:000.720 - 0.006ms returns 81203
+T8D3C 000:002.992 JLINK_OpenEx(...)
+T8D3C 000:011.460   Firmware: J-Link OB-S124 compiled Sep 26 2024 19:38:01
+T8D3C 000:012.898   Firmware: J-Link OB-S124 compiled Sep 26 2024 19:38:01
+T8D3C 000:038.233   Hardware: V1.00
+T8D3C 000:038.277   S/N: 831820548
+T8D3C 000:038.290   OEM: SEGGER
+T8D3C 000:038.303   Feature(s): None
+T8D3C 000:039.963   Bootloader: 2019 Oct 15
+T8D3C 000:041.234   USB speed mode: Full speed (12 MBit/s)
+T8D3C 000:042.015   TELNET listener socket opened on port 19021
+T8D3C 000:042.183   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T8D3C 000:042.365   WEBSRV Webserver running on local port 19080
+T8D3C 000:042.470   Looking for J-Link GUI Server exe at: C:\Users\90553\.eclipse\com.renesas.platform_1435879475\DebugComp\RA\ARM\Segger_v8.12.3\JLinkGUIServer.exe
+T8D3C 000:042.545   Looking for J-Link GUI Server exe at: C:\Program Files\SEGGER\JLink\JLinkGUIServer.exe
+T8D3C 000:042.574   Forking J-Link GUI Server: C:\Program Files\SEGGER\JLink\JLinkGUIServer.exe
+T8D3C 000:067.261   J-Link GUI Server info: "J-Link GUI server V7.52 "
+T8D3C 000:067.609   J-Link GUI Server: Connection breakdown.
+T8D3C 000:067.687 - 64.689ms returns "O.K."
+T8D3C 000:067.827 JLINK_ExecCommand("ProjectFile=D:\kod\git\project_arm\CortexM23\R7FA2L1AB\Doc\EK-RA2A1 Example Projets\ek_ra2l1\_quickstart\quickstart_ek_ra2l1_ep\e2studio/quickstart_ek_ra2l1_ep Debug (1).jlink", ...). 
+T8D3C 000:091.356 - 23.530ms returns 0x00
+T8D3C 000:091.714 JLINK_ExecCommand("device=R7FA0E105", ...). 
+T8D3C 000:093.215   Flash bank @ 0x00000000: SFL: Parsing sectorization info from ELF file
+T8D3C 000:093.229     FlashDevice.SectorInfo[0]: .SectorSize = 0x00000800, .SectorStartAddr = 0x00000000
+T8D3C 000:093.273   Flash bank @ 0x40100000: SFL: Parsing sectorization info from ELF file
+T8D3C 000:093.280     FlashDevice.SectorInfo[0]: .SectorSize = 0x00000100, .SectorStartAddr = 0x00000000
+T8D3C 000:093.286   FlashBank @0x40100000: Sectorization info from SFL ELF file ignored because sectorization override from DLL / XML file is active.
+T8D3C 000:093.299   Device "R7FA0E105" selected.
+T8D3C 000:093.570 - 1.846ms returns 0x00
+T8D3C 000:093.606 JLINK_ExecCommand("SetCPUConnectIDCODE = FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF", ...). 
+T8D3C 000:093.615 - 0.002ms returns 0x00
+T8D3C 000:093.622 JLINK_TIF_GetAvailable(...)
+T8D3C 000:093.992 - 0.369ms 
+T8D3C 000:094.006 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T8D3C 000:095.450 - 1.443ms returns 0x00
+T8D3C 000:095.466 JLINK_SetSpeed(4000)
+T8D3C 000:095.628 - 0.163ms 
+T8D3C 000:095.642 JLINK_SetEndian(ARM_ENDIAN_LITTLE)
+T8D3C 000:095.646 - 0.004ms returns 0
+T8D3C 000:095.651 JLINK_SetInitRegsOnReset(OFF)
+T8D3C 000:095.655 - 0.004ms returns 1
+T8D3C 000:095.661 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T8D3C 000:095.665 - 0.004ms returns JLINKARM_RESET_TYPE_NORMAL
+T8D3C 000:095.671 JLINK_ExecCommand("EnableFlashBPs", ...). 
+T8D3C 000:095.677 - 0.000ms returns 0x00
+T8D3C 000:095.682 JLINK_ExecCommand("SetAllowFlashCache = 0", ...). 
+T8D3C 000:095.688 - 0.000ms returns 0x01
+T8D3C 000:095.694 JLINK_ExecCommand("SetRestartOnClose = 0", ...). 
+T8D3C 000:095.700 - 0.001ms returns 0x01
+T8D3C 000:095.708 JLINK_EnableSoftBPs(ON)
+T8D3C 000:095.712 - 0.007ms 
+T8D3C 000:095.718 JLINK_Connect()
+T8D3C 000:096.066   InitTarget() start
+T8D3C 000:096.080    J-Link Script File: Executing InitTarget()
+T8D3C 000:096.093   Identifying target device...
+T8D3C 000:096.099   SWD selected. Executing JTAG -> SWD switching sequence...
+T8D3C 000:096.918   Initializing DAP...
+T8D3C 000:099.657   DAP initialized successfully.
+T8D3C 000:102.802   Low power mode detected. Waking device from low power mode.
+T8D3C 000:109.551   InitTarget() end - Took 13.4ms
+T8D3C 000:110.814   Found SW-DP with ID 0x5BA02477
+T8D3C 000:115.658   DPIDR: 0x5BA02477
+T8D3C 000:115.690   CoreSight SoC-400 or earlier
+T8D3C 000:115.696   Scanning AP map to find all available APs
+T8D3C 000:118.012   AP[2]: Stopped AP scan as end of AP map has been reached
+T8D3C 000:118.053   AP[0]: AHB-AP (IDR: 0x74770001, ADDR: 0x00000000)
+T8D3C 000:118.059   AP[1]: APB-AP (IDR: 0x44770002, ADDR: 0x01000000)
+T8D3C 000:118.065   Iterating through AP map to find AHB-AP to use
+T8D3C 000:119.915   AP[0]: Core found
+T8D3C 000:119.931   AP[0]: AHB-AP ROM base: 0x4001A000
+T8D3C 000:120.871   CPUID register: 0x411CD200. Implementer code: 0x41 (ARM)
+T8D3C 000:120.881   Feature set: Baseline
+T8D3C 000:121.900   Cache: No cache
+T8D3C 000:121.908   Found Cortex-M23 r1p0, Little endian.
+T8D3C 000:122.734   -- Max. mem block: 0x00001B00
+T8D3C 000:124.491   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T8D3C 000:125.402   CPU_ReadMem(4 bytes @ 0xE0002000)
+T8D3C 000:126.063   FPUnit: 4 code (BP) slots and 0 literal slots
+T8D3C 000:126.075   CPU_ReadMem(4 bytes @ 0xE000EDFC)
+T8D3C 000:126.800   CPU_ReadMem(4 bytes @ 0xE0001000)
+T8D3C 000:127.526   CPU_ReadMem(4 bytes @ 0xE0001000)
+T8D3C 000:128.283   CPU_ReadMem(4 bytes @ 0xE0001028)
+T8D3C 000:129.053   CPU_ReadMem(4 bytes @ 0xE0001038)
+T8D3C 000:129.983   CPU_WriteMem(4 bytes @ 0xE0001000)
+T8D3C 000:130.900   CPU_ReadMem(4 bytes @ 0xE000ED88)
+T8D3C 000:131.779   CPU_WriteMem(4 bytes @ 0xE000ED88)
+T8D3C 000:132.649   CPU_ReadMem(4 bytes @ 0xE000ED88)
+T8D3C 000:133.335   CPU_WriteMem(4 bytes @ 0xE000ED88)
+T8D3C 000:134.017   CPU_ReadMem(4 bytes @ 0xE000EFB8)
+T8D3C 000:134.757   Security extension: not implemented
+T8D3C 000:134.775   CoreSight components:
+T8D3C 000:134.781   ROMTbl[0] @ 4001A000
+T8D3C 000:134.787   CPU_ReadMem(64 bytes @ 0x4001A000)
+T8D3C 000:136.155   CPU_ReadMem(32 bytes @ 0xE000EFE0)
+T8D3C 000:137.242   CPU_ReadMem(4 bytes @ 0xE000EFBC)
+T8D3C 000:137.998   CPU_ReadMem(4 bytes @ 0xE000EFCC)
+T8D3C 000:138.784   [0][0]: E000E000 CID B105900D PID 000BBD20 DEVARCH 47702A04 DEVTYPE 00 Cortex-M23
+T8D3C 000:138.792   CPU_ReadMem(32 bytes @ 0xE0001FE0)
+T8D3C 000:139.895   CPU_ReadMem(4 bytes @ 0xE0001FBC)
+T8D3C 000:140.686   CPU_ReadMem(4 bytes @ 0xE0001FCC)
+T8D3C 000:141.409   [0][1]: E0001000 CID B105900D PID 000BBD20 DEVARCH 47701A02 DEVTYPE 00 DWT
+T8D3C 000:141.422   CPU_ReadMem(32 bytes @ 0xE0002FE0)
+T8D3C 000:142.456   CPU_ReadMem(4 bytes @ 0xE0002FBC)
+T8D3C 000:143.265   CPU_ReadMem(4 bytes @ 0xE0002FCC)
+T8D3C 000:144.128   [0][2]: E0002000 CID B105900D PID 000BBD20 DEVARCH 47701A03 DEVTYPE 00 FPB
+T8D3C 000:144.145   CPU_ReadMem(32 bytes @ 0x40019FE0)
+T8D3C 000:145.167   CPU_ReadMem(4 bytes @ 0x40019FBC)
+T8D3C 000:145.848   CPU_ReadMem(4 bytes @ 0x40019FCC)
+T8D3C 000:146.710   [0][3]: 40019000 CID B105900D PID 000BBD20 DEVARCH 47710A31 DEVTYPE 31 MTB
+T8D3C 000:146.767 - 51.047ms returns 0x00
+T8D3C 000:146.786 JLINK_Halt()
+T8D3C 000:151.910 - 5.123ms returns 0x00
+T8D3C 000:151.927 JLINK_IsHalted()
+T8D3C 000:151.938 - 0.010ms returns TRUE
+T8D3C 000:151.944 JLINK_ResetPullsRESET(ON)
+T8D3C 000:151.949 - 0.004ms 
+T8D3C 000:151.954 JLINK_Reset()
+T8D3C 000:151.974   JLINK_GetResetTypeDesc
+T8D3C 000:151.979   - 0.004ms 
+T8D3C 000:151.986   Reset type: NORMAL (https://wiki.segger.com/J-Link_Reset_Strategies)
+T8D3C 000:151.995   CPU_WriteMem(4 bytes @ 0xE000EDF0)
+T8D3C 000:152.754   CPU_ReadMem(4 bytes @ 0xE000ED44)
+T8D3C 000:153.466   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T8D3C 000:154.197   Reset: Halt core after reset via DEMCR.VC_CORERESET.
+T8D3C 000:155.307   Reset: Reset device via AIRCR.SYSRESETREQ.
+T8D3C 000:155.316   CPU_WriteMem(4 bytes @ 0xE000ED0C)
+T8D3C 000:211.259   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T8D3C 000:212.214   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T8D3C 000:213.189   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T8D3C 000:220.266   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T8D3C 000:226.231   CPU_ReadMem(4 bytes @ 0xE000EE08)
+T8D3C 000:226.986   CPU_WriteMem(4 bytes @ 0xE0002000)
+T8D3C 000:227.818   CPU_ReadMem(4 bytes @ 0xE000EDFC)
+T8D3C 000:228.684   CPU_ReadMem(4 bytes @ 0xE0001000)
+T8D3C 000:229.444   CPU_WriteMem(4 bytes @ 0xE0001000)
+T8D3C 000:230.190   CPU_ReadMem(4 bytes @ 0xE000EE08)
+T8D3C 000:230.967 - 79.012ms 
+T8D3C 000:231.058 JLINK_ReadMem(0x01011080, 0x10 Bytes, ...)
+T8D3C 000:231.075   CPU_ReadMem(16 bytes @ 0x01011080)
+T8D3C 000:231.899   Data:  07 05 FF FF FF FF 25 11 0F FF FF FF FF FF FF FF
+T8D3C 000:231.907 - 0.850ms returns 0
+T8D3C 002:777.336 JLINK_Close()
+T8D3C 002:777.916   OnDisconnectTarget() start
+T8D3C 002:777.926    J-Link Script File: Executing OnDisconnectTarget()
+T8D3C 002:777.934   Restoring low power mode settings.
+T8D3C 002:781.736   OnDisconnectTarget() end - Took 3.79ms
+T8D3C 002:788.624 - 11.286ms
+T8D3C 002:788.640   
+T8D3C 002:788.644   Closed

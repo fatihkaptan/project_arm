@@ -2,9 +2,9 @@
 // Project: 13_ADC1
 //
 // DESCRIPTION:
-//  ADC Sampling Application - 1. without DMA 
+//  ADC Sampling Application - 1. without DMA control pwm period with adc
 //
-// CREATED: 09.03.2025, by Fatih Kaptan
+// CREATED: 15.03.2025, by Fatih Kaptan
 //
 // FILE: main.c
 // EWDIR: C:\iar\ewarm-8.50.9
@@ -14,9 +14,9 @@
 #include "main.h"
 
 
-int result;
+
 int main()
-{   
+{       
     int Cnt=0;
     init_SeggerModules();
     init();// Working time configurations
@@ -24,7 +24,7 @@ int main()
         Cnt = 1000;
         EXEC_TASK(Task_LED);//Task_LED();   
         EXEC_TASK(Task_Print);//Task_Print();
-        result = ADC_Convert(1); //ch 1 -> ADC1_1
+        EXEC_TASK(Task_ADC);
         while(--Cnt);  // Delay
     }
 } 
@@ -35,7 +35,7 @@ void init(void)
     Sys_TickInit();    
     Sys_ConsoleInit();    
     init_Timers();
-    PWM_Init(100,50); //100*100us = 10ms period, 5ms OnTime capture denemek icin
+    period_pwm = PWM_Init(100,50); //100*100us = 10ms period, 5ms OnTime capture denemek icin
     Capture_Init();
     init_OLED();
     IO_Write(IOP_LED, 1);
@@ -45,6 +45,31 @@ void init(void)
     
 }
 
+uint32_t new_period;
+void Task_ADC(void){
+    
+    int periode_min=100;
+    int periode_max=1000;
+    /* reading pin voltage*/
+    result = ADC_Convert(1); //ch 1 -> ADC1_1
+    result_V = (result *3.3) / 4095.0;
+    
+    /* adjusting pwm period with adc(pot)*/
+//    uint32_t duty;
+//    duty = (uint32_t)(((float)result* period_pwm) /4095.0) ;
+//    PWM_Duty(duty);
+    
+    /* adjusting pwm freq with adc(pot)*/    
+    new_period = (uint32_t)(periode_min + ((periode_max - periode_min) * (float)result / 4095.0));  
+    TIM_SetAutoreload(TIM2, new_period);//PWM_Init(new_freq,50);
+    PWM_Duty(new_period/2);
+
+     /*reading adc reference channel(17) and cpu temp channel*/
+    v_Ref = (ADC_Convert(17) *3.3) / 4095.0 ;
+//    float v_temp = ((float)ADC_Convert(16) *3.3) / 4095.0 ;
+//    cpu_Temp = (float)( ( (v_temp - 0.76)/0.0025 ) + 25.0 ) ;
+
+}
 
 void init_SeggerModules(void)
 {
@@ -52,6 +77,7 @@ void init_SeggerModules(void)
     SEGGER_SYSVIEW_Conf();
     SYSVIEW_AddTask((void *)Task_LED, "Task_LED", 10);
     SYSVIEW_AddTask((void *)Task_Print, "Task_Print", 10);
+    SYSVIEW_AddTask((void *)Task_ADC, "Task_ADC", 10);
     //SEGGER_SYSVIEW_Init(SystemCoreClock, SystemCoreClock, 0, 0);
     //SEGGER_SYSVIEW_Start();           /* Starts SystemView recording*/
     //SEGGER_SYSVIEW_OnIdle();          /* Tells SystemView that System is currently in "Idle"*/ 
@@ -101,7 +127,9 @@ void Task_Print(void){
     OLED_SetCursor(4, 0);
     printf("1s Count: %5u\n", g_T5Count%1000);
     OLED_SetCursor(5, 0);
-    printf("adc result: %5u\n", result);
+    printf("vRef:%.2fV \n", v_Ref);
+    OLED_SetCursor(6, 0);
+    printf("A1 V: %.2f\n", result_V);
     OLED_SetFont(font);
     OLED_SetCursor(row, col);
 #else
