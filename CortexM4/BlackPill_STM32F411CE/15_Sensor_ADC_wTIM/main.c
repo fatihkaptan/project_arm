@@ -4,7 +4,7 @@
 // DESCRIPTION:
 //  ADC Sampling Application - 4.  periodic adc sampling with PWM Edge & interrupts. without DMA
 //
-// CREATED: 16.03.2025, by Fatih Kaptan
+// CREATED: 17.03.2025, by Fatih Kaptan
 //
 // FILE: main.c
 // EWDIR: C:\iar\ewarm-8.50.9
@@ -22,7 +22,7 @@ int main()
     while (1) {   
         Cnt = 1000;
         EXEC_TASK(Task_LED);//Task_LED();   
-        EXEC_TASK(Task_Print);//Task_Print();
+//        EXEC_TASK(Task_Print);//Task_Print();
         EXEC_TASK(Task_Sensor);
         while(--Cnt);  // Delay
     }
@@ -40,6 +40,9 @@ void init(void)
     init_OLED();   
 }
 
+#define N_SAMPLES 25
+int sensor_adc_mean;
+int sensor_adc_mean_raw;
 int sensor_adc; //measuremnt result raw
 static unsigned long count_sample;
 void Task_Sensor(void)
@@ -50,18 +53,21 @@ void Task_Sensor(void)
         S_WORK
     }state = S_INIT;
     
-    static int yt[128]; //table array of y
+    static int y0; //table array of y
     static int x,y;
+    static int  ns;
+    static long total=0;
     
     switch(state){
     case S_INIT:
         SEGGER_SYSVIEW_RecordVoid(60 + S_INIT);
-        PWM_Init(1000,250); //(period,ontime) as 100us/per -> 
+        PWM_Init(20,5); //(period,ontime) as 100us/per -> 
         IADC_IoInit(IOP_AIN1);
         IADC_Init(1,DISABLE,DISABLE);// nConv=1, contMode=DIS, scanMode=DIS) 
         IADC_Channel(1,1);
         IADC_IntConfig();
         IADC_Start();
+        OLED_SetFont(FNT_SMALL);
         state= S_WAIT;
         SEGGER_SYSVIEW_Print("Sensor read initialized with read every 100ms rising edge external trigger(T2_CC3)");
         SEGGER_SYSVIEW_RecordEndCall(60 + S_INIT);
@@ -77,7 +83,30 @@ void Task_Sensor(void)
     case S_WORK:
         SEGGER_SYSVIEW_RecordVoid(60 + S_WORK);
         sensor_adc = IADC_Result();
-        count_sample++;
+        //        count_sample++;
+        
+        
+        total += sensor_adc;
+        if(++ns>=N_SAMPLES){
+            ns=0;
+            y=total/N_SAMPLES/64;
+            sensor_adc_mean_raw=total/N_SAMPLES;
+            sensor_adc_mean=y;
+            total=0;
+            
+            OLED_SetCursor(0, 0);
+            printf("V_in: %.2fV\n", ((float)sensor_adc_mean_raw/4095.0)*3.3);
+            
+            if(x==0)
+                OLED_ClearDisplay();  
+            else
+                OLED_Line(x-1 , 63-y0, x, 63-y, SET_PIXEL);
+            
+            if(++x == 128)
+                x=0;
+            
+            y0 = y;
+        }
         g_bEOC=0;
         state=S_WAIT;
         SEGGER_SYSVIEW_RecordEndCall(60 + S_WORK);
@@ -91,7 +120,7 @@ void init_SeggerModules(void)
 {
     SEGGER_SYSVIEW_Conf();
     SYSVIEW_AddTask((void *)Task_LED, "Task_LED", 10);
-    SYSVIEW_AddTask((void *)Task_Print, "Task_Print", 10);
+//    SYSVIEW_AddTask((void *)Task_Print, "Task_Print", 10);
     SYSVIEW_AddTask((void *)Task_Sensor, "Task_Sensor", 10);
 }
 
