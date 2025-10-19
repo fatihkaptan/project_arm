@@ -22,9 +22,12 @@
 
 # Libraries
 *.lib
-*.a
+#*.a
 *.la
 *.lo
+# Debug klasörlerindeki .a dosyalarını dahil et
+!Debug/**/*.a
+!**/Debug/**/*.a
 
 # Shared objects (inc. Windows DLLs)
 *.dll
