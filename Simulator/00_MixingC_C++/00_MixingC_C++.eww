@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+    <project>
+        <path>$WS_DIR$\00_C_library.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\00_CPP_library.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\00_MixingC_C++.ewp</path>
+    </project>
+    <batchBuild />
+</workspace>

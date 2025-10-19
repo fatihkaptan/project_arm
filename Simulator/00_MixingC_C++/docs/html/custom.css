@@ -1,0 +1,29 @@
+/* Custom CSS for Doxygen documentation */
+
+/* Limit image sizes in documentation */
+.contents img {
+    max-width: 800px;
+    max-height: 600px;
+    width: auto;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 10px 0;
+}
+
+/* For smaller screens, make images responsive */
+@media (max-width: 1024px) {
+    .contents img {
+        max-width: 100%;
+        max-height: 400px;
+    }
+}
+
+/* For mobile screens */
+@media (max-width: 768px) {
+    .contents img {
+        max-width: 100%;
+        max-height: 300px;
+    }
+}

@@ -1,0 +1,28 @@
+#Generating source browse information for project 00_MixingC_C++
+
+
+#Abbreviations
+cc = C$:\iar8509\common\bin\SourceIndexer.exe
+ll = C$:\iar8509\common\bin\PbdLink.exe
+bd = C$:\iar8509\common\bin\makeBrowseData.exe
+
+
+
+#Rules
+rule index
+  depfile = $out.dep
+  command = $cc -out=$out -f $in
+rule link
+  command = $ll -M $out $in
+rule browsedata
+  command = $bd $in -output  $out
+
+
+
+#Build steps
+build main.pbi : index main.xcl
+build test.pbi : index test.xcl
+build 00_MixingC_C++.pbd : link main.pbi test.pbi
+build 00_MixingC_C++.pbw : browsedata 00_MixingC_C++.pbd
+
+
