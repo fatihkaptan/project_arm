@@ -38,6 +38,7 @@ void init(void)
     //period_pwm = PWM_Init(100,50); //100*100us = 10ms period, 5ms OnTime capture denemek icin
     Capture_Init();
     init_OLED();   
+    IO_Init(IOP_LED, IO_MODE_OUTPUT);
 }
 
 #define N_SAMPLES 25

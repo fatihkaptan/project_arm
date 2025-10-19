@@ -1,0 +1,7 @@
+50        I_LED_ON 
+51        S_LED_ON 
+52        I_LED_OFF
+53        S_LED_OFF
+60	  S_INIT
+61	  S_WAIT
+62	  S_WORK
