@@ -61,7 +61,18 @@ project_arm/
 4. **Segger Sysview Tools and Advanced:** Try `15_Sensor_ADC_wTIM` and `12_SYSTEMVIEW_APP`
 5. **Mixed Programming C/C++:** Study `Simulator/00_MixingC_C++`
 
-## 📄 License
+## � Project Documentation
+
+### 📋 Available Project READMEs
+
+| Project | Description | Location |
+|---------|-------------|----------|
+| **[C/C++ Mixed Programming](./Simulator/00_MixingC_C++/README.md)** | Examples for using C and C++ languages together | `Simulator/00_MixingC_C++/` |
+| **[STM32 External C++ Library Integration](./CortexM4/BlackPill_STM32F411CE/16_Cpp_Library_Integration/README.md)** | C++ library integration in STM32 embedded development | `CortexM4/BlackPill_STM32F411CE/16_Cpp_Library_Integration/` |
+| **[SystemView Application](./CortexM4/BlackPill_STM32F411CE/12_SYSTEMWIEW_APP/README.md)** | Real-time task analysis using SEGGER SystemView | `CortexM4/BlackPill_STM32F411CE/12_SYSTEMWIEW_APP/` |
+| **[TIMER2 PWM Application](./CortexM4/BlackPill_STM32F411CE/10_TIMER2/README.md)** | PWM generation and interrupt handling | `CortexM4/BlackPill_STM32F411CE/10_TIMER2/` |
+
+## �📄 License
 
 This project is available for educational and development purposes.
 
